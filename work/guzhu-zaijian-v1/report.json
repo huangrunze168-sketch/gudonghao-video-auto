@@ -21,7 +21,7 @@
       "clip_us": 19649252,
       "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\songs\\再也不见.wav",
       "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\jypack\\再也不见.jypack",
-      "jypack_bytes": 28604353,
+      "jypack_bytes": 28604260,
       "pruned_assets": 35,
       "repaired_media": [
         {
@@ -54,7 +54,330 @@
         "max_segment_end_us": 35084102
       },
       "lyric_cues": 0,
-      "status": "built"
+      "status": "rendered",
+      "music_gain_processing": "原素材增益与段增益去重",
+      "audio_handover": {
+        "intro_fade_out_us": 600000,
+        "main_fade_in_us": 250000
+      },
+      "tts_processing": "官方原始音频 + 官方段速率",
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 6,
+        "animation": "vimo://7602473145622072595",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": {
+          "segments": 22,
+          "replaced": 18,
+          "lines": 48,
+          "align": "ordered",
+          "spans": [
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              36
+            ],
+            [
+              36,
+              37
+            ],
+            [
+              37,
+              38
+            ],
+            [
+              38,
+              39
+            ],
+            [
+              39,
+              40
+            ],
+            [
+              40,
+              41
+            ],
+            [
+              41,
+              44
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              46
+            ],
+            [
+              46,
+              47
+            ]
+          ],
+          "split_created": 25,
+          "word_samples": [
+            {
+              "text": "没说完的那句喜欢",
+              "gaps_ms": [
+                93,
+                94,
+                93,
+                20,
+                20,
+                20,
+                20
+              ]
+            },
+            {
+              "text": "和没还你的那把伞都还停在那个雨天从此",
+              "gaps_ms": [
+                100,
+                100,
+                100,
+                200,
+                140,
+                100,
+                260
+              ]
+            }
+          ],
+          "mean_similarity": 0.367,
+          "mean_cost": 0.699
+        },
+        "recognized": [
+          {
+            "start_us": 9933333,
+            "duration_us": 3466667,
+            "text": "啊原来再见不是下次再见"
+          },
+          {
+            "start_us": 13400000,
+            "duration_us": 3733333,
+            "text": "把没说完的话往下咽"
+          },
+          {
+            "start_us": 17133333,
+            "duration_us": 2966667,
+            "text": "故作洒脱说句该听见"
+          },
+          {
+            "start_us": 20100000,
+            "duration_us": 3433333,
+            "text": "怕你回头我就不敢看"
+          },
+          {
+            "start_us": 23533333,
+            "duration_us": 3400000,
+            "text": "原来再见而是再也不见"
+          },
+          {
+            "start_us": 26933333,
+            "duration_us": 2700000,
+            "text": "那借给你的那把"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "transition": {
+        "name": "叠化",
+        "resource": "6724845717472416269",
+        "seg_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+      },
+      "video_effect": {
+        "name": "富士影片",
+        "resource": "7631600978600480036",
+        "seg_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "coverage_us": [
+          9966666,
+          19666667
+        ],
+        "引用已验证": true
+      },
+      "intro_gain": {
+        "segments": 5,
+        "db": 8.0
+      },
+      "lint": {
+        "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\再也不见-official-lint.json",
+        "passed": false,
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 2078,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "keys": [
+          "domain",
+          "draft_json_file",
+          "draft_ref",
+          "draft_root",
+          "execution_policy",
+          "facts",
+          "input",
+          "issues",
+          "schema_version",
+          "status",
+          "verdicts"
+        ],
+        "issues": [
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "5822137A-7E07-461a-9414-EE776533E773",
+              "segment_id": "54B1878D-F483-4536-BD39-D17DCD1D13F7",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "3F652071-CA90-42ce-87F5-A4667C9D166A",
+              "segment_id": "D2DADA47-385A-41ab-9C2B-0DC9D42956B5",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 1.2322406768798828,
+                "left": 0.5828000009059906,
+                "top": -0.23322033882141113,
+                "width": 0.42100000381469727
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "6D729F8A-D0C3-4710-9FB7-1184AB64E198",
+              "segment_id": "550BC6EF-A0CA-4224-84DC-4B1CE301847C",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 1.2322406768798828,
+                "left": 0.5828000009059906,
+                "top": -0.23322033882141113,
+                "width": 0.42100000381469727
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "7046E47B-3069-4139-AED1-D4BAF226C6F7",
+              "segment_id": "D6D36EBA-2916-4032-9B8D-BF241FE68FED",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "09E3D258-5879-404D-9BEF-C83830B7A8EE",
+              "segment_id": "B1225DB3-5FCC-469D-B07B-08A283DC7CE5",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "8E9D1358-9D7C-4063-B8E4-BD7089C71595",
+              "segment_id": "DCAFE30C-4869-4D23-BE6C-CB526CA02C01",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          }
+        ]
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\render\\再也不见\\render.mp4",
+        "duration": 29.633333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "d36b32febc59ef3a6d76cf5f392d9d751797bca14a1ae98075354f4b148a25e4",
+        "size": 7511415,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
+      },
+      "render_seconds": 158.3
     }
   },
   "order": [
@@ -74,8 +397,8 @@
   },
   "totals": {
     "count": 1,
-    "rendered": 0,
-    "built": 1,
+    "rendered": 1,
+    "built": 0,
     "failed": 0
   }
 }

@@ -1973,18 +1973,18 @@ def install_lyrics_via_cli(project, root, folder, timeline, settings, cues=None,
             timeout=int(settings.get("animation_timeout", 900)))
         _mirror_draft(folder)
 
-        # **默认保留官方重建的文本，不做任何改写**。官方重建出的段与它自己的时间段
-        # 天然对齐（只是分句比歌词细）。实测三条改写路线全部失败：
-        #   1. 先写歌词再套模板 → 被重建覆盖，出重复字（"我我不再"）；
-        #   2. 套完按整句往段里填 → 只有部分段被覆盖，其余碎片与原句重叠；
-        #   3. 套完按字符分配 / 差分纠错 → 字数对但错位，且重建段里存在
-        #      content 结构异常的段（读出来是 JSON 串），纠错不可靠。
-        # 因此纠错改为**显式开关**（media.correct_official_lyrics），默认关闭。
-        if settings.get("correct_official_lyrics") and (cues or ordered):
-            lyric_text = "".join(str(cue.get("text") or "") for cue in (cues or []))
-            if not lyric_text and ordered:
-                lyric_text = "".join(str(line) for line in (ordered.get("lines") or []))
-            text_report = correct_official_lyrics(project, root, folder, lyric_text)
+        # **套完模板后必须写入用户歌词**（这是必需步骤，不是可选优化）。
+        #
+        # 顺序很关键：官方套模板时会重新识别并重建歌词文本段，所以必须**先套模板、
+        # 后写文本**；反过来写会被重建覆盖（实测出现"我我不再""在在"这类重复字）。
+        # 曾把这一步误改成"显式开关、默认关闭"，结果草稿里只剩官方识别段、
+        # 用户歌词根本没进片（实测成片没有歌词）——**不要再次关掉它**。
+        #
+        # 对齐方式：`overwrite_lyric_text` 按 cues（有时间）或 ordered（纯文本按顺序）
+        # 把歌词整句填进对应段，保留官方时间轴；填不进去的段保留官方文本。
+        if cues or ordered:
+            text_report = overwrite_lyric_text(project, root, folder, cues,
+                                               known_ids=(), ordered=ordered)
         return {"engine": "official", "lyric_segments": len(lyric_xml),
                 "animation": resource, "music_segment": music_segment,
                 "language": language, "text_override": text_report,

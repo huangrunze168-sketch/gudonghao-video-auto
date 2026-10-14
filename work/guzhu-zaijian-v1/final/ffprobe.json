@@ -30,11 +30,11 @@
       "time_base": "1/15360",
       "start_pts": 0,
       "start_time": "0.000000",
-      "duration_ts": 539136,
-      "duration": "35.100000",
-      "bit_rate": "1309395",
+      "duration_ts": 455168,
+      "duration": "29.633333",
+      "bit_rate": "2416705",
       "bits_per_raw_sample": "8",
-      "nb_frames": "1053",
+      "nb_frames": "889",
       "extradata_size": 40,
       "disposition": {
         "default": 1,
@@ -58,7 +58,7 @@
         "multilayer": 0
       },
       "tags": {
-        "creation_time": "2026-10-14T13:45:42.000000Z",
+        "creation_time": "2026-10-14T13:53:44.000000Z",
         "language": "und",
         "handler_name": "VideoHandler"
       }
@@ -84,10 +84,10 @@
       "time_base": "1/44100",
       "start_pts": 0,
       "start_time": "0.000000",
-      "duration_ts": 1548263,
-      "duration": "35.108005",
-      "bit_rate": "163978",
-      "nb_frames": "1513",
+      "duration_ts": 1307653,
+      "duration": "29.651995",
+      "bit_rate": "194521",
+      "nb_frames": "1278",
       "extradata_size": 5,
       "disposition": {
         "default": 1,
@@ -111,7 +111,7 @@
         "multilayer": 0
       },
       "tags": {
-        "creation_time": "2026-10-14T13:45:42.000000Z",
+        "creation_time": "2026-10-14T13:53:44.000000Z",
         "language": "und",
         "handler_name": "SoundHandler"
       }
@@ -125,15 +125,15 @@
     "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
     "format_long_name": "QuickTime / MOV",
     "start_time": "0.000000",
-    "duration": "35.108005",
-    "size": "6485695",
-    "bit_rate": "1477884",
+    "duration": "29.651995",
+    "size": "9691777",
+    "bit_rate": "2614806",
     "probe_score": 100,
     "tags": {
       "major_brand": "isom",
       "minor_version": "512",
       "compatible_brands": "isomiso2avc1mp41",
-      "creation_time": "2026-10-14T13:45:42.000000Z",
+      "creation_time": "2026-10-14T13:53:44.000000Z",
       "Hw": "0",
       "bitrate": "6000000",
       "maxrate": "15000000",
