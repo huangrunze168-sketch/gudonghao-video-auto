@@ -1,0 +1,6 @@
+{"stage":"start","at":1791984210079,"args":["material","search","--type","sticker","--prompt","狗 失落 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\20f68812f27948458a113a99a33a6cf9","pid":60900}
+{"stage":"policy","at":1791984210080,"rules":9}
+{"stage":"policy-network","at":1791984210080,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791984210083,"vmId":"draftediting-1791984210079"}
+{"stage":"create-process:done","at":1791984210115,"processId":61684,"success":true}
+{"stage":"worker-ready","at":1791984210704}

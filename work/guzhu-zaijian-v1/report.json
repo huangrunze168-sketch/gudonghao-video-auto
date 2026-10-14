@@ -1,0 +1,81 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "再也不见": {
+      "name": "再也不见",
+      "safe_name": "再也不见",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\input\\再也不见.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\input\\再也不见.txt",
+      "chorus_at": 12,
+      "source_duration_us": 193000000,
+      "start_us": 56000000,
+      "start_pick": "chorus-asr-cache+target30s",
+      "audio_layout": "chorus",
+      "native_audio": false,
+      "main_gain_db": 3.0,
+      "intro_gain_db": -8.0,
+      "main_fade_in_us": 250000,
+      "main_fade_out_us": 1200000,
+      "window_us": 19649252,
+      "clip_us": 19649252,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\songs\\再也不见.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\jypack\\再也不见.jypack",
+      "jypack_bytes": 28604353,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 9950769,
+        "delta_us": 3517436,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 19649252,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 29600021,
+        "max_segment_end_us": 35084102
+      },
+      "lyric_cues": 0,
+      "status": "built"
+    }
+  },
+  "order": [
+    "再也不见"
+  ],
+  "intro": {
+    "lines": [
+      "最遗憾的不是分开 是那句喜欢没说完",
+      "伞还留着 人却再也不见",
+      "我把再见当成逗点 你把它画成了句点",
+      "雨停之后 有些话就再也没人听了",
+      "听懂的人 评论区留个句号"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 9950769
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 0,
+    "built": 1,
+    "failed": 0
+  }
+}

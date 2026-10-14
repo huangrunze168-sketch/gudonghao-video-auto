@@ -1,0 +1,6 @@
+{"stage":"start","at":1791984214721,"args":["material","search","--type","sticker","--prompt","猫 淋雨 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\89b45f2917d8416da08e479a146ea344","pid":53428}
+{"stage":"policy","at":1791984214721,"rules":9}
+{"stage":"policy-network","at":1791984214722,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791984214725,"vmId":"draftediting-1791984214721"}
+{"stage":"create-process:done","at":1791984214758,"processId":62192,"success":true}
+{"stage":"worker-ready","at":1791984215348}

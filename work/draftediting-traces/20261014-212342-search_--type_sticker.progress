@@ -1,0 +1,6 @@
+{"stage":"start","at":1791984219379,"args":["material","search","--type","sticker","--prompt","猫咪 安静 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\4a2be09d8e314879b499a200c8e01371","pid":53628}
+{"stage":"policy","at":1791984219380,"rules":9}
+{"stage":"policy-network","at":1791984219380,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791984219384,"vmId":"draftediting-1791984219379"}
+{"stage":"create-process:done","at":1791984219416,"processId":41732,"success":true}
+{"stage":"worker-ready","at":1791984220021}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791984248766,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","F115244E-ED22-409a-91DC-4FBFD7627BAF","--text","最遗憾的不是分开 是那句喜欢没说完","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":57752}
+{"stage":"policy","at":1791984248767,"rules":8}
+{"stage":"policy-network","at":1791984248767,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791984248771,"vmId":"draftediting-1791984248767"}
+{"stage":"create-process:done","at":1791984248805,"processId":60520,"success":true}
+{"stage":"worker-ready","at":1791984249371}

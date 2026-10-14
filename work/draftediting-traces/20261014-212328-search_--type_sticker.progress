@@ -1,0 +1,6 @@
+{"stage":"start","at":1791984203956,"args":["material","search","--type","sticker","--prompt","猫 哭 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\2704fe7cfbe347eb8f4299a4986e6c93","pid":43596}
+{"stage":"policy","at":1791984203957,"rules":9}
+{"stage":"policy-network","at":1791984203957,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791984203962,"vmId":"draftediting-1791984203957"}
+{"stage":"create-process:done","at":1791984203995,"processId":54064,"success":true}
+{"stage":"worker-ready","at":1791984204630}

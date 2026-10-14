@@ -1,0 +1,6 @@
+{"stage":"start","at":1791984224005,"args":["material","search","--type","sticker","--prompt","猫 撑伞 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\1a781fbb8b8e48879128559c334939f6","pid":31108}
+{"stage":"policy","at":1791984224006,"rules":9}
+{"stage":"policy-network","at":1791984224006,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791984224009,"vmId":"draftediting-1791984224005"}
+{"stage":"create-process:done","at":1791984224042,"processId":49904,"success":true}
+{"stage":"worker-ready","at":1791984224644}
