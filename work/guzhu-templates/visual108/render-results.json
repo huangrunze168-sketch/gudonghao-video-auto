@@ -12,5 +12,1445 @@
       "f2.png"
     ],
     "font_matched": true
+  },
+  "7407448729785093414": {
+    "title": "黑胶唱片机",
+    "template_font": "7265596846465094199",
+    "draft_fonts": {
+      "7265596846465094199": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7265596846465094199/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7410706783687265545": {
+    "title": "多彩粗体",
+    "template_font": "7203638485670957629",
+    "draft_fonts": {
+      "7203638485670957629": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7203638485670957629/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7411168473918754084": {
+    "title": "轻松律动",
+    "template_font": "7068207165277737502",
+    "draft_fonts": {
+      "7068207165277737502": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7068207165277737502/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7411170280497745206": {
+    "title": "音乐播放器",
+    "template_font": "7265596643066516029",
+    "draft_fonts": {
+      "7265596643066516029": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7265596643066516029/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7411202083610758436": {
+    "title": "文艺抒情歌",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7086699209738424840": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086699209738424840/font.ttf",
+      "7311913734081876506": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7311913734081876506/font.ttf",
+      "7315024815268565541": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7315024815268565541/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7411204052312214795": {
+    "title": "黄白大字",
+    "template_font": "7078971008769593887",
+    "draft_fonts": {
+      "7078971008769593887": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7078971008769593887/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7412650573402623295": {
+    "title": "晃动瞬移",
+    "template_font": "7203638485670957629",
+    "draft_fonts": {
+      "7203638485670957629": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7203638485670957629/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7412653296470543628": {
+    "title": "复古鱼眼",
+    "template_font": "7312719426845938203",
+    "draft_fonts": {
+      "7312719426845938203": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312719426845938203/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7413393075579407652": {
+    "title": "极简小清新",
+    "template_font": "6740438140432945675",
+    "draft_fonts": {
+      "6740438140432945675": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740438140432945675/font.ttf",
+      "7312719981911740954": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312719981911740954/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7413395931036437796": {
+    "title": "国风大字",
+    "template_font": "6740438140432945675",
+    "draft_fonts": {
+      "6740438140432945675": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740438140432945675/font.ttf",
+      "6807742980271641102": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807742980271641102/font.otf",
+      "7045187409960505886": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7045187409960505886/font.ttf",
+      "7037018943218782757": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7037018943218782757/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7413413547289464100": {
+    "title": "雨雾氛围感",
+    "template_font": "7340606325656654345",
+    "draft_fonts": {
+      "7340606325656654345": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7340606325656654345/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7414104429437209919": {
+    "title": "长句Emoji",
+    "template_font": "7203638485670957629",
+    "draft_fonts": {
+      "7203638485670957629": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7203638485670957629/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7431852391374392615": {
+    "title": "抒情手写",
+    "template_font": "7391765873716892199",
+    "draft_fonts": {
+      "7391765873716892199": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7391765873716892199/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7431852704038784275": {
+    "title": "节奏摇滚",
+    "template_font": "7340606328080962074",
+    "draft_fonts": {
+      "7315024815268565541": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7315024815268565541/font.lock",
+      "7340606328080962074": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7340606328080962074/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7433833535565319450": {
+    "title": "多彩手写",
+    "template_font": "7290445091401896507",
+    "draft_fonts": {
+      "7290445091401896507": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290445091401896507/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7438521957072538934": {
+    "title": "雨滴倒影",
+    "template_font": "7265611310132367931",
+    "draft_fonts": {
+      "7265611310132367931": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7265611310132367931/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7439359966768614719": {
+    "title": "粉白恋歌",
+    "template_font": "7203665054338650685",
+    "draft_fonts": {
+      "7203665054338650685": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7203665054338650685/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7442251324349074729": {
+    "title": "悬浮播放器",
+    "template_font": "7316818766493389339",
+    "draft_fonts": {
+      "7316818766493389339": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7316818766493389339/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7447456469634534697": {
+    "title": "文艺画报",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7130447431891685895": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7130447431891685895/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7447858214126751039": {
+    "title": "港风放映",
+    "template_font": "7410326723322974746",
+    "draft_fonts": {
+      "7410326723322974746": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7410326723322974746/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7462349347921890571": {
+    "title": "喜庆大字",
+    "template_font": "7390218575979483659",
+    "draft_fonts": {
+      "7203652961522684473": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7203652961522684473/font.ttf",
+      "7390218575979483659": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7390218575979483659/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7462349503803231507": {
+    "title": "抖动拼贴",
+    "template_font": "6740435892441190919",
+    "draft_fonts": {
+      "6740435892441190919": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740435892441190919/font.ttf",
+      "7423616268952932902": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7423616268952932902/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7473103002757303564": {
+    "title": "多彩拼贴",
+    "template_font": "7290457161887388219",
+    "draft_fonts": {
+      "7290457161887388219": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290457161887388219/font.otf",
+      "7290455877864133157": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290455877864133157/font.otf",
+      "7290457477873668666": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290457477873668666/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7475610479151303947": {
+    "title": "情绪快闪",
+    "template_font": "6740438140432945675",
+    "draft_fonts": {
+      "6740438140432945675": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740438140432945675/font.ttf",
+      "7265610469350576699": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7265610469350576699/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7478538192770190603": {
+    "title": "文艺诗",
+    "template_font": "7312720421177004571",
+    "draft_fonts": {
+      "7290457267030200869": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290457267030200869/font.lock",
+      "7312720421177004571": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312720421177004571/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7480461814459845924": {
+    "title": "春日序曲",
+    "template_font": "7203638484752405047",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 116,   \"timedOut\": false,   \"durationMs\": 8919,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261014-153712-lyric"
+  },
+  "7498638721093225740": {
+    "title": "简约黑体",
+    "template_font": "6740439840254333443",
+    "draft_fonts": {
+      "6740439840254333443": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740439840254333443/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7503429563515505961": {
+    "title": "文字拆分",
+    "template_font": "7068531367386026526",
+    "draft_fonts": {
+      "7068531367386026526": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7068531367386026526/font.ttf",
+      "7504259888143404338": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7504259888143404338/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7509473198715489575": {
+    "title": "透明情绪",
+    "template_font": "7340606323236540937",
+    "draft_fonts": {
+      "7340606323236540937": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7340606323236540937/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7513861835175546166": {
+    "title": "文艺宋体",
+    "template_font": "7514983489737936169",
+    "draft_fonts": {
+      "7514983489737936169": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7514983489737936169/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7514969284230024487": {
+    "title": "温情笔迹",
+    "template_font": "7504995715811167498",
+    "draft_fonts": {
+      "7504995715811167498": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7504995715811167498/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7515052716222205220": {
+    "title": "粉白甜歌",
+    "template_font": "7290445254241555005",
+    "draft_fonts": {
+      "7290445254241555005": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290445254241555005/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7516463273789639973": {
+    "title": "歌词骰子",
+    "template_font": "6807743072185618952",
+    "draft_fonts": {
+      "6807743072185618952": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743072185618952/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7516762528697863478": {
+    "title": "笔画模糊",
+    "template_font": "6740513279296147982",
+    "draft_fonts": {
+      "6740513279296147982": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740513279296147982/font.ttf",
+      "7130447431891685895": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7130447431891685895/font.ttf",
+      "7290456177559736889": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290456177559736889/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7525351506078403859": {
+    "title": "质感宋体",
+    "template_font": "7423616268764189193",
+    "draft_fonts": {
+      "7423616268764189193": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7423616268764189193/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7530902253683707187": {
+    "title": "弧形播放器",
+    "template_font": "7504569031081430335",
+    "draft_fonts": {
+      "7504569031081430335": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7504569031081430335/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7537261659082050825": {
+    "title": "粉色手写",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7312719708283736627": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312719708283736627/font.ttf",
+      "7025886295524119053": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7025886295524119053/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7542824190144023847": {
+    "title": "粉红三行滚动",
+    "template_font": "7035888265290846756",
+    "draft_fonts": {
+      "6914965725543141896": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6914965725543141896/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7547980936109903155": {
+    "title": "胖圆手写",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7545008910319537434": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7545008910319537434/font.ttf",
+      "7330160852353421825": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7330160852353421825/font.ttf",
+      "7290457267030200869": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290457267030200869/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7548651294404234505": {
+    "title": "KTV复古字幕",
+    "template_font": "7290455103704666679",
+    "draft_fonts": {
+      "7290455103704666679": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290455103704666679/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7549168126147988763": {
+    "title": "书法大字",
+    "template_font": "7130640290813055524",
+    "draft_fonts": {
+      "7130640290813055524": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7130640290813055524/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7580242106778766655": {
+    "title": "拾光碎句",
+    "template_font": "7290455967735484987",
+    "draft_fonts": {
+      "7025886295524119053": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7025886295524119053/font.lock",
+      "7290455967735484987": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290455967735484987/font.otf",
+      "6740435494053614093": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740435494053614093/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7580985695724965170": {
+    "title": "梦幻回忆",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7025886295524119053": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7025886295524119053/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7580992226042383625": {
+    "title": "甜蜜旅行",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7451897289527792178": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7451897289527792178/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7580995030433778990": {
+    "title": "红白书法",
+    "template_font": "7577697393093709119",
+    "draft_fonts": {
+      "7037018943218782757": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7037018943218782757/font.otf",
+      "7577697393093709119": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7577697393093709119/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7581443056113650963": {
+    "title": "烟花抒情",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7410326723805319706": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7410326723805319706/font.lock",
+      "7497171321915183625": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7497171321915183625/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7585099315136318739": {
+    "title": "声浪炸场",
+    "template_font": "7504947269670685961",
+    "draft_fonts": {
+      "7504947269670685961": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7504947269670685961/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7589549528966057252": {
+    "title": "文艺慢调",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7410326723322974746": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7410326723322974746/font.lock",
+      "7497171321915183625": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7497171321915183625/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7591420714515844395": {
+    "title": "浪漫氛围",
+    "template_font": "7068531367386026526",
+    "draft_fonts": {
+      "7068531367386026526": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7068531367386026526/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7598427438628097322": {
+    "title": "粉红兔子滚动",
+    "template_font": "7451897289527792178",
+    "draft_fonts": {
+      "7451897289527792178": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7451897289527792178/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": true
+  },
+  "7602473145622072595": {
+    "title": "文艺复古",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7216598368791827002": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7216598368791827002/font.ttf",
+      "7543923548134362394": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7543923548134362394/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7603235197269609791": {
+    "title": "发光手写",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7391765873716892199": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7391765873716892199/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7613690434883177747": {
+    "title": "日系文艺",
+    "template_font": null,
+    "draft_fonts": {
+      "6894206029785993736": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6894206029785993736/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7614039109971086655": {
+    "title": "金陵说唱",
+    "template_font": "7330160852353421825",
+    "draft_fonts": {
+      "7086699209738424840": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086699209738424840/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7615519823954595091": {
+    "title": "温柔予你",
+    "template_font": null,
+    "draft_fonts": {
+      "7391765873716892199": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7391765873716892199/font.ttf",
+      "7086429206543864350": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086429206543864350/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7616645005112790314": {
+    "title": "简约手写",
+    "template_font": null,
+    "draft_fonts": {
+      "7081925028773630471": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7081925028773630471/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7620654557600828691": {
+    "title": "青衫落笔",
+    "template_font": null,
+    "draft_fonts": {
+      "7605063287373352234": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7605063287373352234/font.ttf",
+      "7086699209738424840": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086699209738424840/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7620733062875221291": {
+    "title": "轻光叙情",
+    "template_font": null,
+    "draft_fonts": {
+      "7410326723322974746": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7410326723322974746/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7626692393407974719": {
+    "title": "抒情散文诗",
+    "template_font": null,
+    "draft_fonts": {
+      "7444913491762221577": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7444913491762221577/font.lock",
+      "7340606328869491227": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7340606328869491227/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7628454436758752518": {
+    "title": "字落光影",
+    "template_font": null,
+    "draft_fonts": {
+      "7497898575926399498": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7497898575926399498/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7631823253421460742": {
+    "title": "星芒微光",
+    "template_font": null,
+    "draft_fonts": {
+      "7494187329054052901": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7494187329054052901/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7631833609044774180": {
+    "title": "红白写流年",
+    "template_font": null,
+    "draft_fonts": {
+      "7037018943218782757": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7037018943218782757/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7631834739585961270": {
+    "title": "蓝白心事",
+    "template_font": null,
+    "draft_fonts": {
+      "7086429206543864350": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086429206543864350/font.ttf",
+      "7265611544820453948": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7265611544820453948/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7631927667536776484": {
+    "title": "大雨倾盆",
+    "template_font": null,
+    "draft_fonts": {
+      "6807742980271641102": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807742980271641102/font.otf",
+      "7086429206543864350": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086429206543864350/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7633340127388962090": {
+    "title": "清叙",
+    "template_font": "7599942186251111699",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 31851,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch apply failed: {\\\\\\\"lyr"
+  },
+  "7633781433735204139": {
+    "title": "紫色抒情",
+    "template_font": null,
+    "draft_fonts": {
+      "7086429206543864350": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086429206543864350/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637027911270239524": {
+    "title": "浪漫气泡",
+    "template_font": null,
+    "draft_fonts": {
+      "7025886295524119053": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7025886295524119053/font.lock",
+      "6807742980271641102": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807742980271641102/font.otf",
+      "7130447431891685895": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7130447431891685895/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637028238631505171": {
+    "title": "柔粉流光",
+    "template_font": null,
+    "draft_fonts": {
+      "7086429206543864350": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086429206543864350/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637032676444196115": {
+    "title": "有点甜",
+    "template_font": null,
+    "draft_fonts": {
+      "6740513279296147982": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740513279296147982/font.ttf",
+      "7599957079037725994": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7599957079037725994/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637035316930448682": {
+    "title": "清梦浮生",
+    "template_font": null,
+    "draft_fonts": {
+      "7627031484402109706": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7627031484402109706/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637081808634400019": {
+    "title": "蓝色发光",
+    "template_font": null,
+    "draft_fonts": {
+      "7315024815268565541": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7315024815268565541/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637096744421051654": {
+    "title": "蓝白律动",
+    "template_font": null,
+    "draft_fonts": {
+      "7494187329054052901": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7494187329054052901/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637097392927542534": {
+    "title": "粉笺心语",
+    "template_font": null,
+    "draft_fonts": {
+      "7619252000764595462": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7619252000764595462/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637808513418366244": {
+    "title": "印刷叙事",
+    "template_font": null,
+    "draft_fonts": {
+      "7514983489737936169": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7514983489737936169/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7637808596293602566": {
+    "title": "温柔小情歌",
+    "template_font": null,
+    "draft_fonts": {
+      "7615929005279038762": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7615929005279038762/font.ttf",
+      "7549125585331653926": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7549125585331653926/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7639218786591182134": {
+    "title": "夏日手写",
+    "template_font": null,
+    "draft_fonts": {
+      "7391765873716892199": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7391765873716892199/font.ttf",
+      "6740513279296147982": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740513279296147982/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7642559939294104842": {
+    "title": "绿色简约",
+    "template_font": null,
+    "draft_fonts": {
+      "7068531367386026526": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7068531367386026526/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7642561205797702938": {
+    "title": "粉白故事",
+    "template_font": null,
+    "draft_fonts": {
+      "6807742980271641102": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807742980271641102/font.otf",
+      "7509758784680545573": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7509758784680545573/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7642587895278210355": {
+    "title": "错落叠影",
+    "template_font": null,
+    "draft_fonts": {
+      "7130644288047682085": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7130644288047682085/font.ttf",
+      "7068531367386026526": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7068531367386026526/font.ttf",
+      "6807743192671195655": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743192671195655/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7642592971375807753": {
+    "title": "粉黄可爱",
+    "template_font": null,
+    "draft_fonts": {
+      "7203664981080937021": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7203664981080937021/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7642652941349883146": {
+    "title": "星闪发光",
+    "template_font": null,
+    "draft_fonts": {
+      "6807743192671195655": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743192671195655/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7643710841346379018": {
+    "title": "抒情序曲",
+    "template_font": null,
+    "draft_fonts": {
+      "7410326723805319706": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7410326723805319706/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7643810724996730138": {
+    "title": "橙意圆满",
+    "template_font": null,
+    "draft_fonts": {
+      "7545008910319537434": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7545008910319537434/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644860580343434550": {
+    "title": "续写情怀",
+    "template_font": null,
+    "draft_fonts": {
+      "7598455877712104740": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7598455877712104740/font.ttf",
+      "7086699209738424840": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086699209738424840/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644866510250331428": {
+    "title": "浮光映白",
+    "template_font": null,
+    "draft_fonts": {
+      "7499001991096439347": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7499001991096439347/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644898988323261750": {
+    "title": "热血对决",
+    "template_font": null,
+    "draft_fonts": {
+      "7312718751328113162": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312718751328113162/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644900125197765942": {
+    "title": "淡蓝抒情",
+    "template_font": null,
+    "draft_fonts": {
+      "7290457267030200869": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290457267030200869/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644900167077924115": {
+    "title": "粉白爱心",
+    "template_font": null,
+    "draft_fonts": {
+      "7208056673317950011": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7208056673317950011/font.ttf",
+      "7580283921200385286": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7580283921200385286/font.ttf",
+      "7086429206543864350": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086429206543864350/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644900203459267894": {
+    "title": "渐变浅绿",
+    "template_font": null,
+    "draft_fonts": {
+      "6740513279296147982": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740513279296147982/font.ttf",
+      "7315024815268565541": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7315024815268565541/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7644924626480516395": {
+    "title": "碎光入梦",
+    "template_font": null,
+    "draft_fonts": {
+      "7501667885752831286": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7501667885752831286/font.ttf",
+      "6807743192671195655": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743192671195655/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7646312997060758826": {
+    "title": "樱花飘落",
+    "template_font": null,
+    "draft_fonts": {
+      "7086699209738424840": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7086699209738424840/font.ttf",
+      "7615929005279038762": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7615929005279038762/font.ttf",
+      "7312720421177004571": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312720421177004571/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7647790362131565878": {
+    "title": "紫恋情缘",
+    "template_font": null,
+    "draft_fonts": {
+      "6807743192671195655": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743192671195655/font.otf",
+      "7312720141865718282": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7312720141865718282/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7659338667684547903": {
+    "title": "岛屿叙事",
+    "template_font": null,
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 116,   \"timedOut\": false,   \"durationMs\": 6401,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261014-155902-lyric"
+  },
+  "7660406603153214761": {
+    "title": "雨落映像",
+    "template_font": null,
+    "draft_fonts": {
+      "6807742980271641102": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807742980271641102/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7660406730429320511": {
+    "title": "错落微光",
+    "template_font": null,
+    "draft_fonts": {
+      "6807743192671195655": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743192671195655/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7664496745895841065": {
+    "title": "细碎星光",
+    "template_font": null,
+    "draft_fonts": {
+      "7514983489737936169": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7514983489737936169/font.ttf",
+      "6740438140432945675": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6740438140432945675/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7665196151640984873": {
+    "title": "浅绿雾光",
+    "template_font": null,
+    "draft_fonts": {
+      "7444913491762221577": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7444913491762221577/font.lock"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7674925591522462995": {
+    "title": "随写留痕",
+    "template_font": null,
+    "draft_fonts": {
+      "7551722547104976166": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7551722547104976166/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7674926686625975595": {
+    "title": "唯美星光",
+    "template_font": null,
+    "draft_fonts": {
+      "6807743192671195655": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/6807743192671195655/font.otf",
+      "7315024815268565541": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7315024815268565541/font.lock",
+      "7244518590332801592": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7244518590332801592/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7681134759530990910": {
+    "title": "emoji律动",
+    "template_font": null,
+    "draft_fonts": {
+      "7504947269670685961": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7504947269670685961/font.ttf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
+  },
+  "7681201587280252175": {
+    "title": "花好月圆",
+    "template_font": null,
+    "draft_fonts": {
+      "7663090140952169770": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7663090140952169770/font.ttf",
+      "7290444545689391653": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/lyra-cli/material-cache/font/7290444545689391653/font.otf"
+    },
+    "status": "ok",
+    "frames": [
+      "f0.png",
+      "f1.png",
+      "f2.png"
+    ],
+    "font_matched": false
   }
 }
