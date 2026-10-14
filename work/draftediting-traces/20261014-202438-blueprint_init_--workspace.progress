@@ -1,0 +1,6 @@
+{"stage":"start","at":1791980677053,"args":["draft","blueprint","init","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\guzhu-trans-5f1f40e1"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp","pid":11520}
+{"stage":"policy","at":1791980677054,"rules":9}
+{"stage":"policy-network","at":1791980677054,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791980677058,"vmId":"draftediting-1791980677053"}
+{"stage":"create-process:done","at":1791980677088,"processId":48292,"success":true}
+{"stage":"worker-ready","at":1791980677633}

@@ -7,7 +7,7 @@
     "transition": "dissolve",
     "transition_ms": 500,
     "loudness_normalize": "off",
-    "intro_volume_db": 6,
+    "intro_volume_db": 8,
     "intro_fade_out_ms": 600,
     "stickers": "auto"
   },
@@ -42,6 +42,7 @@
       "file": "C:/Users/Administrator/Documents/剪映/work/guzhu-bilianren-v1/input/比恋人多点恨.wav",
       "lyrics": "C:/Users/Administrator/Documents/剪映/work/guzhu-bilianren-v1/input/比恋人多点恨.txt",
       "audio_layout": "chorus",
+      "main_gain_db": 1.5,
       "target_seconds": 30,
       "intro_tail_ms": 400,
       "main_fade_out_ms": 1200

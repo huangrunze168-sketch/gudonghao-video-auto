@@ -13,3 +13,8 @@
 {"stage":"create-process:begin","at":1791884960058,"vmId":"draftediting-1791884960053"}
 {"stage":"create-process:done","at":1791884960078,"processId":9332,"success":true}
 {"stage":"worker-ready","at":1791884960573}
+{"stage":"start","at":1791980825482,"args":["draft","algo","loudness-normalize","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\help-probe","pid":34980}
+{"stage":"policy","at":1791980825483,"rules":8}
+{"stage":"create-process:begin","at":1791980825486,"vmId":"draftediting-1791980825483"}
+{"stage":"create-process:done","at":1791980825517,"processId":57464,"success":true}
+{"stage":"worker-ready","at":1791980826080}

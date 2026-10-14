@@ -32,7 +32,7 @@
       "start_time": "0.000000",
       "duration_ts": 455168,
       "duration": "29.633333",
-      "bit_rate": "1178868",
+      "bit_rate": "1218926",
       "bits_per_raw_sample": "8",
       "nb_frames": "889",
       "extradata_size": 40,
@@ -58,7 +58,7 @@
         "multilayer": 0
       },
       "tags": {
-        "creation_time": "2026-10-14T09:55:39.000000Z",
+        "creation_time": "2026-10-14T12:29:34.000000Z",
         "language": "und",
         "handler_name": "VideoHandler"
       }
@@ -86,7 +86,7 @@
       "start_time": "0.000000",
       "duration_ts": 1307653,
       "duration": "29.651995",
-      "bit_rate": "192925",
+      "bit_rate": "193330",
       "nb_frames": "1278",
       "extradata_size": 5,
       "disposition": {
@@ -111,7 +111,7 @@
         "multilayer": 0
       },
       "tags": {
-        "creation_time": "2026-10-14T09:55:39.000000Z",
+        "creation_time": "2026-10-14T12:29:34.000000Z",
         "language": "und",
         "handler_name": "SoundHandler"
       }
@@ -126,14 +126,14 @@
     "format_long_name": "QuickTime / MOV",
     "start_time": "0.000000",
     "duration": "29.651995",
-    "size": "5101612",
-    "bit_rate": "1376396",
+    "size": "5250980",
+    "bit_rate": "1416695",
     "probe_score": 100,
     "tags": {
       "major_brand": "isom",
       "minor_version": "512",
       "compatible_brands": "isomiso2avc1mp41",
-      "creation_time": "2026-10-14T09:55:39.000000Z",
+      "creation_time": "2026-10-14T12:29:34.000000Z",
       "Hw": "0",
       "bitrate": "6000000",
       "maxrate": "15000000",

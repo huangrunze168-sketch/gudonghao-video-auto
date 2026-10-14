@@ -13,7 +13,7 @@
       "start_pick": "chorus-asr-cache+target30s",
       "audio_layout": "chorus",
       "native_audio": false,
-      "main_gain_db": 3.0,
+      "main_gain_db": 1.5,
       "intro_gain_db": -8.0,
       "main_fade_in_us": 250000,
       "main_fade_out_us": 1200000,
@@ -21,7 +21,7 @@
       "clip_us": 17821542,
       "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\songs\\比恋人多点恨.wav",
       "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\jypack\\比恋人多点恨.jypack",
-      "jypack_bytes": 28178746,
+      "jypack_bytes": 28153941,
       "pruned_assets": 35,
       "repaired_media": [
         {
@@ -86,12 +86,12 @@
           },
           {
             "start_us": 22800000,
-            "duration_us": 3100000,
+            "duration_us": 3133333,
             "text": "一扇门总有拎着我最爱的回来"
           },
           {
-            "start_us": 25900000,
-            "duration_us": 3700000,
+            "start_us": 25933333,
+            "duration_us": 3666667,
             "text": "你问我们这到底算爱还是算债"
           }
         ],
@@ -114,12 +114,12 @@
       },
       "intro_gain": {
         "segments": 5,
-        "db": 6.0
+        "db": 8.0
       },
       "lint": {
         "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\比恋人多点恨-official-lint.json",
         "passed": false,
-        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1658,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1630,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
         "keys": [
           "domain",
           "draft_json_file",
@@ -248,11 +248,11 @@
         "duration": 29.633333,
         "width": 1280,
         "height": 720,
-        "sha256": "14c2cb1da172f55b4365c63753bcdda27843c882daa4baade046e82b2b88416d",
-        "size": 5146164,
+        "sha256": "d7ea4bdd464cfd7d07ef7d8db9a6ec408447ff434c73450571c1e51882753e1b",
+        "size": 5297095,
         "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
       },
-      "render_seconds": 146.4
+      "render_seconds": 147.3
     }
   },
   "order": [

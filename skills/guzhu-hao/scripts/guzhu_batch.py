@@ -2165,12 +2165,13 @@ def render_one(batch, project, entry, out_dir, cleanup=False, index=1, crypto=No
             entry["video_effect"] = effected
             log("  画面特效：%s（%s）" % (effected["name"], effected["resource"]))
 
-    # 口播 +3dB（官方 draft audio volume）：口播和背景是**两条独立通道**。
-    # 垫乐 -8dB 只保证不盖人声，口播自身还要抬 +3dB 才听得清——两件事不能合并成一次调音量。
+    # 口播 +8dB（官方 draft audio volume）：口播和背景是**两条独立通道**。
+    # 垫乐 -8dB 只保证不盖人声，口播自身还要抬起来才听得清——两件事不能合并成一次调音量。
+    # 用户指定口播用 +8dB（+3/+6 实测偏闷）。
     intro_gain = (batch.get("media") or {}).get("intro_volume_db")
     if intro_gain is None:
         tts_mode = str((((batch.get("intro") or {}).get("tts")) or {}).get("mode") or "official")
-        intro_gain = 3.0 if tts_mode == "official" else None
+        intro_gain = 8.0 if tts_mode == "official" else None
     if intro_gain not in (None, False, "off"):
         boosted = apply_intro_gain(project, root, folder, db=float(intro_gain))
         if boosted:
