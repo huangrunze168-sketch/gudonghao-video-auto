@@ -21,7 +21,7 @@
       "clip_us": 19649252,
       "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\songs\\再也不见.wav",
       "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\jypack\\再也不见.jypack",
-      "jypack_bytes": 28604260,
+      "jypack_bytes": 28604310,
       "pruned_assets": 35,
       "repaired_media": [
         {
@@ -69,7 +69,8 @@
         "language": "zh",
         "text_override": {
           "segments": 22,
-          "replaced": 18,
+          "replaced": 16,
+          "cleared": 1,
           "lines": 48,
           "align": "ordered",
           "spans": [
@@ -99,6 +100,10 @@
             ],
             [
               12,
+              12
+            ],
+            [
+              12,
               13
             ],
             [
@@ -107,10 +112,6 @@
             ],
             [
               13,
-              14
-            ],
-            [
-              14,
               14
             ],
             [
@@ -119,22 +120,22 @@
             ],
             [
               15,
-              36
+              15
             ],
             [
-              36,
-              37
+              15,
+              15
             ],
             [
-              37,
+              15,
+              16
+            ],
+            [
+              16,
               38
             ],
             [
               38,
-              39
-            ],
-            [
-              39,
               40
             ],
             [
@@ -162,7 +163,7 @@
               47
             ]
           ],
-          "split_created": 25,
+          "split_created": 27,
           "word_samples": [
             {
               "text": "没说完的那句喜欢",
@@ -189,8 +190,8 @@
               ]
             }
           ],
-          "mean_similarity": 0.367,
-          "mean_cost": 0.699
+          "mean_similarity": 0.391,
+          "mean_cost": 0.716
         },
         "recognized": [
           {
@@ -248,7 +249,7 @@
       "lint": {
         "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\再也不见-official-lint.json",
         "passed": false,
-        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 2078,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1828,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
         "keys": [
           "domain",
           "draft_json_file",
@@ -266,14 +267,14 @@
           {
             "evidence": {
               "bbox": {
-                "height": 0.666796863079071,
-                "left": -0.0013000145554542542,
-                "top": 0.047651566565036774,
-                "width": 0.19099999964237213
+                "height": 1.2322406768798828,
+                "left": 0.5828000009059906,
+                "top": -0.23322033882141113,
+                "width": 0.42100000381469727
               },
               "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "5822137A-7E07-461a-9414-EE776533E773",
-              "segment_id": "54B1878D-F483-4536-BD39-D17DCD1D13F7",
+              "material_id": "132C43BC-4562-40e4-8E79-E957A2976E58",
+              "segment_id": "E26F1401-A252-4a6b-9830-85C5E005CFB3",
               "segment_type": "text"
             },
             "message": "visual segment bbox must remain inside canvas bounds",
@@ -289,8 +290,25 @@
                 "width": 0.19099999964237213
               },
               "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "3F652071-CA90-42ce-87F5-A4667C9D166A",
-              "segment_id": "D2DADA47-385A-41ab-9C2B-0DC9D42956B5",
+              "material_id": "50D33D89-5D28-4594-B4BB-E062958C4E36",
+              "segment_id": "C7989D62-4172-4ee2-97C8-71ADA6F138C4",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "E8B6EF48-22FB-448d-8056-CA895630C16E",
+              "segment_id": "A880FA5D-00E7-4d90-978F-E92D51BE0403",
               "segment_type": "text"
             },
             "message": "visual segment bbox must remain inside canvas bounds",
@@ -306,25 +324,8 @@
                 "width": 0.42100000381469727
               },
               "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "6D729F8A-D0C3-4710-9FB7-1184AB64E198",
-              "segment_id": "550BC6EF-A0CA-4224-84DC-4B1CE301847C",
-              "segment_type": "text"
-            },
-            "message": "visual segment bbox must remain inside canvas bounds",
-            "rule_id": "result.draft-bbox-bounds.v1",
-            "severity": "error"
-          },
-          {
-            "evidence": {
-              "bbox": {
-                "height": 1.2322406768798828,
-                "left": 0.5828000009059906,
-                "top": -0.23322033882141113,
-                "width": 0.42100000381469727
-              },
-              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "7046E47B-3069-4139-AED1-D4BAF226C6F7",
-              "segment_id": "D6D36EBA-2916-4032-9B8D-BF241FE68FED",
+              "material_id": "B228E0B5-149F-4a2b-81E1-526CCA070B6E",
+              "segment_id": "1F7151FE-75FD-47a2-9C30-90BF14A92597",
               "segment_type": "text"
             },
             "message": "visual segment bbox must remain inside canvas bounds",
@@ -340,8 +341,8 @@
                 "width": 0.19099999964237213
               },
               "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "09E3D258-5879-404D-9BEF-C83830B7A8EE",
-              "segment_id": "B1225DB3-5FCC-469D-B07B-08A283DC7CE5",
+              "material_id": "3BDCA84E-6881-493E-9A87-479F94547CCC",
+              "segment_id": "348A335D-7427-43EB-97BF-226C573887AF",
               "segment_type": "text"
             },
             "message": "visual segment bbox must remain inside canvas bounds",
@@ -357,8 +358,8 @@
                 "width": 0.19099999964237213
               },
               "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "8E9D1358-9D7C-4063-B8E4-BD7089C71595",
-              "segment_id": "DCAFE30C-4869-4D23-BE6C-CB526CA02C01",
+              "material_id": "0D7E961B-BFD9-45E6-9B78-12E2A8CE03D6",
+              "segment_id": "F90149EA-2818-4EF4-A0A3-1B4B0A3849EA",
               "segment_type": "text"
             },
             "message": "visual segment bbox must remain inside canvas bounds",
@@ -373,11 +374,11 @@
         "duration": 29.633333,
         "width": 1280,
         "height": 720,
-        "sha256": "d36b32febc59ef3a6d76cf5f392d9d751797bca14a1ae98075354f4b148a25e4",
-        "size": 7511415,
+        "sha256": "8194509ed7a9386569d5fd68c82f58393c0e02890c1a4105d240065eebfef9b4",
+        "size": 7748715,
         "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
       },
-      "render_seconds": 158.3
+      "render_seconds": 156.6
     }
   },
   "order": [

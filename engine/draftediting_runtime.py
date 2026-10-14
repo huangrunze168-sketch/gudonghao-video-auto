@@ -68,6 +68,33 @@ def _powershell_json(script, values=None, timeout=30):
     return json.loads(completed.stdout.lstrip("\ufeff").strip())
 
 
+def _parse_lyra_stdout(payload):
+    """从 lyra-cli 的 stdout 里解析 JSON，容忍前面夹带的日志行。
+
+    剪映的 EffectSDK 有时会在真正的 JSON 之前打印 WARNING 行，例如：
+        ## 2026-10-14 22:29:26 [tid,AMGGpuProgramAssetManager.cpp,331] WARNING ## ...
+        {"err_code":0,"err_msg":"success","result":{...}}
+    原来的实现直接 ``json.loads(整段)``，遇到这种前缀就抛 JSONDecodeError，
+    于是被当成 {"output": 原文}，最终 require(err_code==0) 判定失败——
+    **命令其实成功了却被报成失败**（实测 sticker translate / audio volume 都踩过）。
+    这里从第一个 '{' 开始尝试解析，取第一段能解析成 dict 的 JSON。
+    """
+    if not payload:
+        return None
+    text = payload.lstrip("\ufeff")
+    decoder = json.JSONDecoder()
+    start = text.find("{")
+    while start != -1:
+        try:
+            parsed, _end = decoder.raw_decode(text[start:])
+            if isinstance(parsed, dict):
+                return parsed
+        except json.JSONDecodeError:
+            pass
+        start = text.find("{", start + 1)
+    return None
+
+
 def _win32_process_list():
     """用 Toolhelp32 枚举进程，不依赖可能被禁用的 WMI/CIM。"""
     import ctypes
@@ -372,9 +399,8 @@ def run_lyra(args, cwd, timeout=600, read_write_paths=(), read_only_paths=(),
                             ensure_ascii=False, indent=2)[:1500]
         raise RuntimeError("lyra-cli 调用失败: " + detail + ("\n完整证据: " + str(trace) if trace else ""))
     payload = result.get("stdout", "").strip()
-    try:
-        parsed = json.loads(payload)
-    except json.JSONDecodeError:
+    parsed = _parse_lyra_stdout(payload)
+    if parsed is None:
         parsed = {"output": payload}
     require(parsed.get("err_code") == 0, "lyra-cli 返回错误: " + json.dumps(parsed, ensure_ascii=False)[:800])
     return {"command": list(args), "result": parsed, "stdout": result.get("stdout", ""),

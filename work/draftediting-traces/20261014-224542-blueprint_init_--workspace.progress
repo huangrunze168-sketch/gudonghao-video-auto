@@ -1,0 +1,6 @@
+{"stage":"start","at":1791989140344,"args":["draft","blueprint","init","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\guzhu-effect-25235e41"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp","pid":54704}
+{"stage":"policy","at":1791989140345,"rules":9}
+{"stage":"policy-network","at":1791989140345,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791989140349,"vmId":"draftediting-1791989140345"}
+{"stage":"create-process:done","at":1791989140381,"processId":55708,"success":true}
+{"stage":"worker-ready","at":1791989140976}

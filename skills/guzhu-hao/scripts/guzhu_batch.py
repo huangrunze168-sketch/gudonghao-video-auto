@@ -502,6 +502,16 @@ def build_one(batch, package, tts, song_spec, out_dir, project, crypto):
     songs_dir = out_dir / "songs"
     songs_dir.mkdir(parents=True, exist_ok=True)
     song_wav = songs_dir / (safe + ".wav")
+    # **防止把源文件删掉**：如果调用方把源 wav 放在 out_dir/songs/ 下且同名，
+    # 下面那句 unlink() 会先删掉源，紧接着 ffmpeg 报"没有那个文件"。
+    # 实测踩过：素材放在 <out>/songs/ 时整条流程失败，且源文件被删除。
+    # 这里检测到冲突就换用备用名，保住源文件。
+    try:
+        if source.resolve() == song_wav.resolve():
+            song_wav = songs_dir / ("guzhu-" + safe + ".wav")
+            log("  源文件与输出同名，改用 %s 以免覆盖源" % song_wav.name)
+    except OSError:
+        pass
     if song_wav.exists():
         song_wav.unlink()
     main_gain = float(song_spec.get("main_gain_db", 3.0 if layout == "chorus" else 0.0))
@@ -1620,6 +1630,7 @@ def overwrite_lyric_text(project, root, folder, cues, known_ids=(), ordered=None
         return created
 
     replaced = 0
+    cleared = 0
     split_created = 0
     samples = []
     if ordered:
@@ -1632,6 +1643,16 @@ def overwrite_lyric_text(project, root, folder, cues, known_ids=(), ordered=None
         for (low, high), (track, (start, duration), segment, node) in zip(plans, rows):
             group = lines[low:high]
             if not group:
+                # 官方识别多出来的碎片段（没有歌词行与之对应）。
+                # **不要无条件清空**：实测无条件清空会把本该有歌词的段也清掉，
+                # 成片出现"整段无歌词 + 残留大字"。
+                # 只在"该段文本确实被其它段包含"这种典型碎片特征下才清空。
+                leftover = str(_recognized_text(node) or "").strip()
+                others = "".join(str(_recognized_text(n) or "")
+                                 for _s, _d, _seg, n in rows if _seg is not segment)
+                if leftover and leftover in others:
+                    retitle(node, "")
+                    cleared += 1
                 continue
             scores.append(_similarity(_recognized_text(node), "".join(group)))
             if len(group) == 1:
@@ -1647,7 +1668,7 @@ def overwrite_lyric_text(project, root, folder, cues, known_ids=(), ordered=None
                                 zip((node.get("words") or {}).get("start_time") or [],
                                     ((node.get("words") or {}).get("start_time") or [])[1:])][:8],
                 })
-        report = {"segments": len(rows), "replaced": replaced, "lines": len(lines),
+        report = {"segments": len(rows), "replaced": replaced, "cleared": cleared, "lines": len(lines),
                   "align": "ordered", "spans": [[low, high] for low, high in plans],
                   "split_created": split_created, "word_samples": samples,
                   "mean_similarity": round(sum(scores) / len(scores), 3) if scores else 0.0,

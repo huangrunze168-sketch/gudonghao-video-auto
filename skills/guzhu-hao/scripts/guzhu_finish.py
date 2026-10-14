@@ -53,7 +53,7 @@ LYRIC_TARGET = 0.90         # 歌词目标占宽
 SEGMENT_EFFECT = ('7581434656197741849', '梦幻漏光')
 GLOBAL_EFFECTS = [
     ('7685029541189913880', '光斑流动'),
-    ('7496779956968955155', '细雨'),
+    ('7496779956345654552', '细雨'),
 ]
 INTENSITY = 0.10
 ADJUST = {'saturation': 8, 'color-temperature': 6, 'shadow': 5, 'contrast': 4}
