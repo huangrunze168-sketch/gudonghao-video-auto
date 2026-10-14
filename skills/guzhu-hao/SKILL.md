@@ -170,6 +170,26 @@ description: 使用剪映官方联网 CLI 制作批量股东号音乐短视频�
   **另一个坑**：渲染副本草稿必须对齐 JYPACK 的 `timeline.id`，否则原生渲染直接报
   `没有找到同一 timeline id 的已导入草稿`。
 
+  ### `animation add` 报 "multiple lyrics recognize tasks" 的根因与解法（重要）
+
+  **不是 CLI 的限制，是草稿里累积了多组任务记录**：
+
+  ```
+  config.lyrics_taskinfo     反复识别/套模板会累积（实测累积到 11 组）
+  config.subtitle_taskinfo   同样累积（实测 3 组，其中两组的 id 完全相同）
+  ```
+
+  只有当这两者都只剩 **1 组**时，`draft lyrics animation add`（作用于整组已识别歌词，
+  最接近 GUI 的"应用到全部歌词"）才可用；否则报
+  `patch apply failed: multiple lyrics recognize tasks found`。
+
+  **清理规则**：只保留 `materials.texts[*].recognize_task_id` 实际引用的那一组，
+  并按任务 `id` 去重。清理脚本：`work/guzhu-test/clean_task_groups.py`。
+
+  实测清理后 `animation add` 立即成功；且 **`add` 与 `update` 两条通道的渲染结果视觉一致**
+  （同一手写体、同一位置、同一发光效果），说明本 skill 用 `update` 的流程没有引入偏差。
+  因此**换模板前后都该检查任务组数量**，避免草稿越用越脏。
+
   ### 模板重建质量分级（102 个逐个套用实测）
 
   对全部模板在干净草稿上套用后比对重建文本，**相似度上限 0.849**，且**所有模板重建出的文本完全相同**。
