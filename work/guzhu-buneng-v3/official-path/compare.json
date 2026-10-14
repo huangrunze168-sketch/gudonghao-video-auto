@@ -1,0 +1,28 @@
+{
+  "template": "7413413547289464100",
+  "add_segments": 6,
+  "official": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v3\\official-path\\render.mp4",
+  "mine": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v3\\font-lock\\render.mp4",
+  "psnr": [
+    {
+      "t": 9.5,
+      "psnr": ""
+    },
+    {
+      "t": 12.5,
+      "psnr": ""
+    },
+    {
+      "t": 16.0,
+      "psnr": ""
+    },
+    {
+      "t": 20.0,
+      "psnr": ""
+    },
+    {
+      "t": 26.0,
+      "psnr": ""
+    }
+  ]
+}

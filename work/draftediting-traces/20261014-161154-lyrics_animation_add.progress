@@ -1,0 +1,6 @@
+{"stage":"start","at":1791965512011,"args":["draft","lyrics","animation","add","--ref","local://guzhu-official-path","--resource","vimo://7413413547289464100","--cover-old"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":56316}
+{"stage":"policy","at":1791965512012,"rules":8}
+{"stage":"policy-network","at":1791965512012,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791965512016,"vmId":"draftediting-1791965512012"}
+{"stage":"create-process:done","at":1791965512047,"processId":56152,"success":true}
+{"stage":"worker-ready","at":1791965512602}
