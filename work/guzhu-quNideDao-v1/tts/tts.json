@@ -1,0 +1,48 @@
+{
+  "speaker": "ICL_zh_female_xinmanbo",
+  "lines": [
+    {
+      "text": "有些告别 连一句再见都来不及说",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-01.mp3",
+      "source_duration_us": 2544000,
+      "duration_us": 1956923
+    },
+    {
+      "text": "他把没说完的话 一页一页藏进你梦里",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-02.mp3",
+      "source_duration_us": 3168000,
+      "duration_us": 2436923
+    },
+    {
+      "text": "船靠不了岸的时候 钥匙就攥在自己手里",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-03.mp3",
+      "source_duration_us": 3168000,
+      "duration_us": 2436923
+    },
+    {
+      "text": "岛上没有白天 只有一扇没关的窗",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-04.mp3",
+      "source_duration_us": 2424000,
+      "duration_us": 1864615
+    },
+    {
+      "text": "听懂的人 评论区留个句号",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-05.mp3",
+      "source_duration_us": 2088000,
+      "duration_us": 1606154
+    }
+  ],
+  "files": [
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-01.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-02.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-03.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-04.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\tts\\official\\official-line-05.mp3"
+  ],
+  "pipeline": "official-raw-native-v1",
+  "duration_us": 10301538,
+  "mode": "official",
+  "voice": "ICL_zh_female_xinmanbo",
+  "speed": 1.3,
+  "text_key": "[\"有些告别 连一句再见都来不及说\", \"他把没说完的话 一页一页藏进你梦里\", \"船靠不了岸的时候 钥匙就攥在自己手里\", \"岛上没有白天 只有一扇没关的窗\", \"听懂的人 评论区留个句号\"]"
+}

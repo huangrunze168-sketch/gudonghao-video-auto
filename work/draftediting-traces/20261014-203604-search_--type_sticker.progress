@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981361339,"args":["material","search","--type","sticker","--prompt","猫 想念 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\7a24407fa4d54a65945617cff3311aa3","pid":50032}
+{"stage":"policy","at":1791981361340,"rules":9}
+{"stage":"policy-network","at":1791981361340,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981361344,"vmId":"draftediting-1791981361340"}
+{"stage":"create-process:done","at":1791981361374,"processId":49176,"success":true}
+{"stage":"worker-ready","at":1791981361933}

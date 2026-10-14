@@ -24,8 +24,18 @@ BASE_SCALE = 1.6747
 BASE_CHARS = 19
 TARGET_RATIO = 0.94      # 目标：字幕宽度占画布 94%，留一点边距
 
-PRODUCED = ROOT / 'work/guzhu-bilianren-v1/locate/jypack/比恋人多点恨.jypack'
-OUT = ROOT / 'work/guzhu-bilianren-v1/final'
+def find_produced_jypack():
+    """找最近 build 产出的 JYPACK（渲染时草稿的 timeline.id 必须与它一致）。"""
+    packs = list((ROOT / 'work').glob('guzhu-*/locate/jypack/*.jypack'))
+    if not packs:
+        packs = list((ROOT / 'work').glob('guzhu-*/**/*.jypack'))
+    if not packs:
+        raise SystemExit('找不到 build 产出的 JYPACK')
+    return max(packs, key=lambda p: p.stat().st_mtime_ns)
+
+
+PRODUCED = find_produced_jypack()
+OUT = PRODUCED.parents[2] / 'final'
 
 
 def subtitle_segments(timeline):

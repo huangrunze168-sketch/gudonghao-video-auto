@@ -1,0 +1,36 @@
+{
+  "id": "E3B1399E-2B95-4BD2-B600-59629940E212",
+  "keyframe_list": [
+    {
+      "id": "DB8F28A8-1813-4876-BF38-4BB5FEE604DB",
+      "left_control": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "right_control": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "values": [
+        0.22
+      ]
+    },
+    {
+      "id": "BCC750F6-428B-47A0-853C-EAA5189CCB99",
+      "left_control": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "right_control": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "time_offset": 2500000,
+      "values": [
+        0.22
+      ]
+    }
+  ],
+  "material_id": "",
+  "property_type": "KFTypeScaleX"
+}

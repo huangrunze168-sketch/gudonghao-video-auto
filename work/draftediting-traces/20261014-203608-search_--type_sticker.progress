@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981365957,"args":["material","search","--type","sticker","--prompt","狗 温柔 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\bca68d3e896d4523bac26845a9eb5bc0","pid":31488}
+{"stage":"policy","at":1791981365958,"rules":9}
+{"stage":"policy-network","at":1791981365958,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981365962,"vmId":"draftediting-1791981365958"}
+{"stage":"create-process:done","at":1791981365992,"processId":49940,"success":true}
+{"stage":"worker-ready","at":1791981366554}

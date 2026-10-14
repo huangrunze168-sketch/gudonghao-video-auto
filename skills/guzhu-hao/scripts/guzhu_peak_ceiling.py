@@ -20,13 +20,27 @@ import jypack_render
 import lyra_cli
 from guzhu_timeline import Editor, range_of
 
-TARGET_LOUDNESS = -11.0    # 接近片头实测响度，尽量不改变听感
-CEILING = -0.2             # 真峰值上限 dBTP
+TARGET_LOUDNESS = -12.0    # 片头口播目标响度；比 -11 低 1dB 以压住峰值
+CEILING = -0.5             # 真峰值上限 dBTP（留余量给 AAC 过冲）
+# 实测：本机 11.5.0.14471 的 --true-peak-ceiling 未真正生效
+# （设 -0.2 / -0.5 后峰值仍 +0.01 ~ +0.02dB），
+# 所以靠降低 --target-loudness 来获得实际余量，效果可复现。
+
+# 可选：python guzhu_peak_ceiling.py <项目目录名>
+# 不传时取最近 build 的项目；传了就不会误伤别的项目
+PROJECT_ARG = sys.argv[1] if len(sys.argv) > 1 else None
 
 
 def find_produced_jypack():
     """找 build 阶段产出的 JYPACK（渲染时草稿的 timeline.id 必须与它一致）。"""
-    packs = list((ROOT / 'work').glob('guzhu-*/locate/jypack/*.jypack'))
+    if PROJECT_ARG:
+        packs = list((ROOT / 'work' / PROJECT_ARG).glob('locate/jypack/*.jypack'))
+        if not packs:
+            packs = list((ROOT / 'work' / PROJECT_ARG).glob('**/*.jypack'))
+    else:
+        packs = []
+    if not packs:
+        packs = list((ROOT / 'work').glob('guzhu-*/locate/jypack/*.jypack'))
     if not packs:
         packs = list((ROOT / 'work').glob('guzhu-*/**/*.jypack'))
     if not packs:

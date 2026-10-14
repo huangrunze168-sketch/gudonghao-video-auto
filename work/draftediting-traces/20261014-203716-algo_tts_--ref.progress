@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981430829,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","280EAF16-0D36-44f2-97F9-C8C8517D2EDC","--text","岛上没有白天 只有一扇没关的窗","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":44328}
+{"stage":"policy","at":1791981430829,"rules":8}
+{"stage":"policy-network","at":1791981430829,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981430833,"vmId":"draftediting-1791981430829"}
+{"stage":"create-process:done","at":1791981430864,"processId":59664,"success":true}
+{"stage":"worker-ready","at":1791981431417}

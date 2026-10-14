@@ -1,0 +1,50 @@
+{
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "out": "C:/Users/Administrator/Documents/剪映/work/guzhu-quNideDao-v1",
+  "media": {
+    "background": "C:/Users/Administrator/Documents/剪映/work/guzhu-quNideDao-v1/input/background.png",
+    "effect": "film",
+    "transition": "dissolve",
+    "transition_ms": 500,
+    "loudness_normalize": "off",
+    "intro_volume_db": 8,
+    "intro_fade_out_ms": 600,
+    "stickers": "auto"
+  },
+  "intro": {
+    "lines": [
+      "有些告别 连一句再见都来不及说",
+      "他把没说完的话 一页一页藏进你梦里",
+      "船靠不了岸的时候 钥匙就攥在自己手里",
+      "岛上没有白天 只有一扇没关的窗",
+      "听懂的人 评论区留个句号"
+    ],
+    "tts": {
+      "mode": "official",
+      "speed": 1.3,
+      "speaker": "ICL_zh_female_xinmanbo"
+    }
+  },
+  "lyrics": {
+    "engine": "official",
+    "animation": "7603235197269609791"
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "bitrate": 6000000,
+    "timeout": 1800
+  },
+  "songs": [
+    {
+      "name": "去你的岛",
+      "file": "C:/Users/Administrator/Documents/剪映/work/guzhu-quNideDao-v1/input/去你的岛.wav",
+      "lyrics": "C:/Users/Administrator/Documents/剪映/work/guzhu-quNideDao-v1/input/去你的岛.txt",
+      "audio_layout": "chorus",
+      "target_seconds": 30,
+      "intro_tail_ms": 400,
+      "main_fade_out_ms": 1200
+    }
+  ]
+}

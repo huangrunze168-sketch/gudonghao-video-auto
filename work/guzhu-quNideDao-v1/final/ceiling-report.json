@@ -1,0 +1,28 @@
+{
+  "target_loudness": -12.0,
+  "ceiling": -0.5,
+  "voice_segments": 5,
+  "applied": 5,
+  "detail": [
+    {
+      "segment": "A37F062D",
+      "result": "{}"
+    },
+    {
+      "segment": "B7B69AB8",
+      "result": "{}"
+    },
+    {
+      "segment": "A31A14CC",
+      "result": "{}"
+    },
+    {
+      "segment": "B8D14971",
+      "result": "{}"
+    },
+    {
+      "segment": "478493DE",
+      "result": "{}"
+    }
+  ]
+}

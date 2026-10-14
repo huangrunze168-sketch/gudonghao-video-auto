@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981405780,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","F115244E-ED22-409a-91DC-4FBFD7627BAF","--text","有些告别 连一句再见都来不及说","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":3112}
+{"stage":"policy","at":1791981405781,"rules":8}
+{"stage":"policy-network","at":1791981405781,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981405784,"vmId":"draftediting-1791981405780"}
+{"stage":"create-process:done","at":1791981405814,"processId":63960,"success":true}
+{"stage":"worker-ready","at":1791981406355}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981421602,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","D558DFE7-27EE-4818-87C1-2C1B18F66F6C","--text","船靠不了岸的时候 钥匙就攥在自己手里","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":39988}
+{"stage":"policy","at":1791981421603,"rules":8}
+{"stage":"policy-network","at":1791981421603,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981421607,"vmId":"draftediting-1791981421603"}
+{"stage":"create-process:done","at":1791981421637,"processId":3556,"success":true}
+{"stage":"worker-ready","at":1791981422168}

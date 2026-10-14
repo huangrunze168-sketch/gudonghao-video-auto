@@ -1,0 +1,285 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "去你的岛": {
+      "name": "去你的岛",
+      "safe_name": "去你的岛",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\input\\去你的岛.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\input\\去你的岛.txt",
+      "chorus_at": 10,
+      "source_duration_us": 218000000,
+      "start_us": 54000000,
+      "start_pick": "chorus-asr-small+target30s",
+      "audio_layout": "chorus",
+      "native_audio": false,
+      "main_gain_db": 3.0,
+      "intro_gain_db": -8.0,
+      "main_fade_in_us": 250000,
+      "main_fade_out_us": 1200000,
+      "window_us": 19298481,
+      "clip_us": 19298481,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\songs\\去你的岛.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\jypack\\去你的岛.jypack",
+      "jypack_bytes": 28325706,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 10301538,
+        "delta_us": 3868205,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 19298481,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 29600019,
+        "max_segment_end_us": 35434871
+      },
+      "lyric_cues": 0,
+      "status": "rendered",
+      "music_gain_processing": "原素材增益与段增益去重",
+      "audio_handover": {
+        "intro_fade_out_us": 600000,
+        "main_fade_in_us": 250000
+      },
+      "tts_processing": "官方原始音频 + 官方段速率",
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 6,
+        "animation": "vimo://7603235197269609791",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": null,
+        "recognized": [
+          {
+            "start_us": 10466666,
+            "duration_us": 3400000,
+            "text": "如果这座道是你留的一道光"
+          },
+          {
+            "start_us": 13866666,
+            "duration_us": 3333334,
+            "text": "能不能再听一听听你轻声讲"
+          },
+          {
+            "start_us": 17200000,
+            "duration_us": 2866666,
+            "text": "就算是告别是舍不得放"
+          },
+          {
+            "start_us": 20066666,
+            "duration_us": 3766667,
+            "text": "跟着你的脚印去旧梦中央"
+          },
+          {
+            "start_us": 23966666,
+            "duration_us": 3366667,
+            "text": "道外一望无际是故乡的方向"
+          },
+          {
+            "start_us": 27333333,
+            "duration_us": 2300000,
+            "text": "梦里一望无际我该去"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "transition": {
+        "name": "叠化",
+        "resource": "6724845717472416269",
+        "seg_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+      },
+      "video_effect": {
+        "name": "富士影片",
+        "resource": "7631600978600480036",
+        "seg_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "coverage_us": [
+          10333333,
+          19300000
+        ],
+        "引用已验证": true
+      },
+      "intro_gain": {
+        "segments": 5,
+        "db": 8.0
+      },
+      "lint": {
+        "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\去你的岛-official-lint.json",
+        "passed": false,
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1720,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "keys": [
+          "domain",
+          "draft_json_file",
+          "draft_ref",
+          "draft_root",
+          "execution_policy",
+          "facts",
+          "input",
+          "issues",
+          "schema_version",
+          "status",
+          "verdicts"
+        ],
+        "issues": [
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.049095869994631336,
+                "left": -0.025555995467808512,
+                "top": 0.7258023834740219,
+                "width": 1.0511119909356168
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26",
+              "segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 1956923,
+              "time_overlap_us": 1956923,
+              "time_start_us": 0
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 4393846,
+              "time_overlap_us": 2436923,
+              "time_start_us": 1956923
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 6830769,
+              "time_overlap_us": 2436923,
+              "time_start_us": 4393846
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 8695384,
+              "time_overlap_us": 1864615,
+              "time_start_us": 6830769
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 10301538,
+              "time_overlap_us": 1606154,
+              "time_start_us": 8695384
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          }
+        ]
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-quNideDao-v1\\render\\去你的岛\\render.mp4",
+        "duration": 29.633333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "65f02f7f758f5f937e55cfba40f3ed4f29265d128747bf0fa38b5fe25642a0d7",
+        "size": 6619639,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
+      },
+      "render_seconds": 150.4
+    }
+  },
+  "order": [
+    "去你的岛"
+  ],
+  "intro": {
+    "lines": [
+      "有些告别 连一句再见都来不及说",
+      "他把没说完的话 一页一页藏进你梦里",
+      "船靠不了岸的时候 钥匙就攥在自己手里",
+      "岛上没有白天 只有一扇没关的窗",
+      "听懂的人 评论区留个句号"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 10301538
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

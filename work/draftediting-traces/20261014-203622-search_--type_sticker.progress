@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981379769,"args":["material","search","--type","sticker","--prompt","猫 治愈 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\34dfb5530d6040328e184e82aa7eb50c","pid":52468}
+{"stage":"policy","at":1791981379769,"rules":9}
+{"stage":"policy-network","at":1791981379769,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981379773,"vmId":"draftediting-1791981379769"}
+{"stage":"create-process:done","at":1791981379802,"processId":64296,"success":true}
+{"stage":"worker-ready","at":1791981380362}

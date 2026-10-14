@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981375179,"args":["material","search","--type","sticker","--prompt","小猫 睡觉 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\e89a3a60c07e46b19481b51b7cc460bb","pid":63416}
+{"stage":"policy","at":1791981375180,"rules":9}
+{"stage":"policy-network","at":1791981375180,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981375183,"vmId":"draftediting-1791981375180"}
+{"stage":"create-process:done","at":1791981375213,"processId":56028,"success":true}
+{"stage":"worker-ready","at":1791981375771}

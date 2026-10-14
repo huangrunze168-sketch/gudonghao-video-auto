@@ -1,0 +1,6 @@
+{"stage":"start","at":1791981370556,"args":["material","search","--type","sticker","--prompt","猫猫 抱抱 表情包","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\f68381b53fac4c3ba2b0763780954e54","pid":51592}
+{"stage":"policy","at":1791981370557,"rules":9}
+{"stage":"policy-network","at":1791981370557,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791981370561,"vmId":"draftediting-1791981370557"}
+{"stage":"create-process:done","at":1791981370594,"processId":57224,"success":true}
+{"stage":"worker-ready","at":1791981371162}
