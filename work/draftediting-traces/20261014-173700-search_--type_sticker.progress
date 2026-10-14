@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970617687,"args":["material","search","--type","sticker","--prompt","猫 傲娇 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\9e5d34f4dad24c358a5c2635f5c67c9a","pid":64004}
+{"stage":"policy","at":1791970617688,"rules":9}
+{"stage":"policy-network","at":1791970617688,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970617692,"vmId":"draftediting-1791970617688"}
+{"stage":"create-process:done","at":1791970617722,"processId":39244,"success":true}
+{"stage":"worker-ready","at":1791970618292}

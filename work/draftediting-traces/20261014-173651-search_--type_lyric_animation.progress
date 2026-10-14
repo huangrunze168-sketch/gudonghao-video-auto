@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970609031,"args":["material","search","--type","lyric_animation","--prompt","摇滚 力量 歌词","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\495e0703caa5473caf4f67b7d3de8e93","pid":21160}
+{"stage":"policy","at":1791970609032,"rules":9}
+{"stage":"policy-network","at":1791970609032,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970609035,"vmId":"draftediting-1791970609031"}
+{"stage":"create-process:done","at":1791970609066,"processId":59200,"success":true}
+{"stage":"worker-ready","at":1791970609648}

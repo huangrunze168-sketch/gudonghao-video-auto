@@ -1,0 +1,279 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "比恋人多点恨": {
+      "name": "比恋人多点恨",
+      "safe_name": "比恋人多点恨",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\input\\比恋人多点恨.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\input\\比恋人多点恨.txt",
+      "chorus_at": 8,
+      "source_duration_us": 183680000,
+      "start_us": 41120000,
+      "start_pick": "chorus-asr-cache+target30s",
+      "audio_layout": "chorus",
+      "native_audio": false,
+      "main_gain_db": 3.0,
+      "intro_gain_db": -8.0,
+      "main_fade_in_us": 250000,
+      "main_fade_out_us": 1200000,
+      "window_us": 17821542,
+      "clip_us": 17821542,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\songs\\比恋人多点恨.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\jypack\\比恋人多点恨.jypack",
+      "jypack_bytes": 28178746,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 11778461,
+        "delta_us": 5345128,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 17821542,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 29600003,
+        "max_segment_end_us": 36911794
+      },
+      "lyric_cues": 0,
+      "status": "rendered",
+      "music_gain_processing": "原素材增益与段增益去重",
+      "audio_handover": {
+        "intro_fade_out_us": 600000,
+        "main_fade_in_us": 250000
+      },
+      "tts_processing": "官方原始音频 + 官方段速率",
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 5,
+        "animation": "vimo://7585099315136318739",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": null,
+        "recognized": [
+          {
+            "start_us": 11800000,
+            "duration_us": 3300000,
+            "text": "我们比恋人多点恨比超人多点爱"
+          },
+          {
+            "start_us": 15100000,
+            "duration_us": 3433333,
+            "text": "走不近也分不开谁也不放过谁"
+          },
+          {
+            "start_us": 18533333,
+            "duration_us": 4266667,
+            "text": "吵到天亮又抱在一块说散散不开"
+          },
+          {
+            "start_us": 22800000,
+            "duration_us": 3100000,
+            "text": "一扇门总有拎着我最爱的回来"
+          },
+          {
+            "start_us": 25900000,
+            "duration_us": 3700000,
+            "text": "你问我们这到底算爱还是算债"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "transition": {
+        "name": "叠化",
+        "resource": "6724845717472416269",
+        "seg_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+      },
+      "video_effect": {
+        "name": "富士影片",
+        "resource": "7631600978600480036",
+        "seg_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "coverage_us": [
+          11800000,
+          17833333
+        ],
+        "引用已验证": true
+      },
+      "intro_gain": {
+        "segments": 5,
+        "db": 6.0
+      },
+      "lint": {
+        "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\比恋人多点恨-official-lint.json",
+        "passed": false,
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1658,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "keys": [
+          "domain",
+          "draft_json_file",
+          "draft_ref",
+          "draft_root",
+          "execution_policy",
+          "facts",
+          "input",
+          "issues",
+          "schema_version",
+          "status",
+          "verdicts"
+        ],
+        "issues": [
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.049095869994631336,
+                "left": -0.056727972987797526,
+                "top": 0.7258023834740219,
+                "width": 1.1134559459755948
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "F66AB2D0-8799-4a20-93D0-AA8524654C94",
+              "segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.049095869994631336,
+                "left": -0.13207074737897184,
+                "top": 0.7258023834740219,
+                "width": 1.2641414947579435
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26",
+              "segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 2363077,
+              "time_overlap_us": 2363077,
+              "time_start_us": 0
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 4947692,
+              "time_overlap_us": 2584615,
+              "time_start_us": 2363077
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 7975384,
+              "time_overlap_us": 3027692,
+              "time_start_us": 4947692
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 10172307,
+              "time_overlap_us": 2196923,
+              "time_start_us": 7975384
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          }
+        ]
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\render\\比恋人多点恨\\render.mp4",
+        "duration": 29.633333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "14c2cb1da172f55b4365c63753bcdda27843c882daa4baade046e82b2b88416d",
+        "size": 5146164,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
+      },
+      "render_seconds": 146.4
+    }
+  },
+  "order": [
+    "比恋人多点恨"
+  ],
+  "intro": {
+    "lines": [
+      "拉黑了十七次 第十八次还是我先低头",
+      "恨的时候想全删了 爱的时候又怕手机丢了",
+      "我们不是不合适 是太合适了 合适到谁也走不了",
+      "吵完架还给你留门 这大概就是命",
+      "听懂的人 评论区留个句号"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 11778461
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

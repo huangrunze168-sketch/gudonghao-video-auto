@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970759628,"args":["material","search","--type","effect","--prompt","港风 怀旧 电影感","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\ee3e519cf09d457381cc32cf6dd0040e","pid":2992}
+{"stage":"policy","at":1791970759629,"rules":9}
+{"stage":"policy-network","at":1791970759630,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970759633,"vmId":"draftediting-1791970759629"}
+{"stage":"create-process:done","at":1791970759665,"processId":63784,"success":true}
+{"stage":"worker-ready","at":1791970760239}

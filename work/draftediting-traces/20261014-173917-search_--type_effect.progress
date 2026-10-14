@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970754984,"args":["material","search","--type","effect","--prompt","复古 胶片 情绪","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\28d9c1b819b64d97ab6e4151256fd8eb","pid":61720}
+{"stage":"policy","at":1791970754985,"rules":9}
+{"stage":"policy-network","at":1791970754985,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970754989,"vmId":"draftediting-1791970754985"}
+{"stage":"create-process:done","at":1791970755022,"processId":63392,"success":true}
+{"stage":"worker-ready","at":1791970755579}

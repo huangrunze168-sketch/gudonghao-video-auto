@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970773371,"args":["material","search","--type","filter","--prompt","情绪 冷暖 对比","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\e99f66278c0c4d468005abb07c9d669a","pid":62168}
+{"stage":"policy","at":1791970773371,"rules":9}
+{"stage":"policy-network","at":1791970773372,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970773375,"vmId":"draftediting-1791970773371"}
+{"stage":"create-process:done","at":1791970773406,"processId":56644,"success":true}
+{"stage":"worker-ready","at":1791970773989}

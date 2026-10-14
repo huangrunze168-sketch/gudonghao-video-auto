@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970807005,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","83E2C964-6C6B-4a5a-8C3E-B85597765742","--text","恨的时候想全删了 爱的时候又怕手机丢了","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":63328}
+{"stage":"policy","at":1791970807006,"rules":8}
+{"stage":"policy-network","at":1791970807006,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970807010,"vmId":"draftediting-1791970807006"}
+{"stage":"create-process:done","at":1791970807042,"processId":712,"success":true}
+{"stage":"worker-ready","at":1791970807573}

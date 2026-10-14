@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970613119,"args":["material","search","--type","lyric_animation","--prompt","夜色 纠缠 情感","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\1bfcd59937e84b00891e7611d04afca6","pid":10524}
+{"stage":"policy","at":1791970613120,"rules":9}
+{"stage":"policy-network","at":1791970613120,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970613124,"vmId":"draftediting-1791970613120"}
+{"stage":"create-process:done","at":1791970613155,"processId":63300,"success":true}
+{"stage":"worker-ready","at":1791970613728}

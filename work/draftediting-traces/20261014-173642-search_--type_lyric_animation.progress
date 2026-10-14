@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970599917,"args":["material","search","--type","lyric_animation","--prompt","情绪 拉扯 浓烈","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\b8db14ca1c1146be9bcc50a64be3bc4f","pid":61680}
+{"stage":"policy","at":1791970599918,"rules":9}
+{"stage":"policy-network","at":1791970599918,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970599922,"vmId":"draftediting-1791970599918"}
+{"stage":"create-process:done","at":1791970599955,"processId":63136,"success":true}
+{"stage":"worker-ready","at":1791970600543}

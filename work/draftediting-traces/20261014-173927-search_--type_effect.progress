@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970764213,"args":["material","search","--type","effect","--prompt","雨夜 光斑 氛围","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\e1d8d619c76e40bc8d7c90aba88dcf21","pid":61528}
+{"stage":"policy","at":1791970764213,"rules":9}
+{"stage":"policy-network","at":1791970764214,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970764217,"vmId":"draftediting-1791970764213"}
+{"stage":"create-process:done","at":1791970764247,"processId":49288,"success":true}
+{"stage":"worker-ready","at":1791970764832}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970622240,"args":["material","search","--type","sticker","--prompt","狗 委屈 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\e38187e515d74d79adc833bbfc452ae1","pid":59596}
+{"stage":"policy","at":1791970622240,"rules":9}
+{"stage":"policy-network","at":1791970622241,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970622244,"vmId":"draftediting-1791970622240"}
+{"stage":"create-process:done","at":1791970622275,"processId":28844,"success":true}
+{"stage":"worker-ready","at":1791970622849}

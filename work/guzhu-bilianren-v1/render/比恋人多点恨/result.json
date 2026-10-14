@@ -1,0 +1,38 @@
+{
+  "schema": "jianying-jypack-native-render/v1",
+  "status": "rendered",
+  "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\jypack\\比恋人多点恨.jypack",
+  "source_sha256": "4377ce976aed78e03e72291ea17b7c40ee8c8998ac506e1292038073590231e8",
+  "timeline_id": "B4EA32B1-80E4-48B9-9E0F-5BE0B0E4A8DA",
+  "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "imported_draft_written": false,
+  "runtime_profile": "jy14-headless-windows-11.5.0.14471",
+  "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\render\\比恋人多点恨\\render.mp4",
+  "output_sha256": "14c2cb1da172f55b4365c63753bcdda27843c882daa4baade046e82b2b88416d",
+  "output_size": 5146164,
+  "width": 1280,
+  "height": 720,
+  "video_codec": "h264",
+  "video_duration": 29.633333,
+  "audio_codec": "aac",
+  "audio_duration": 29.651995,
+  "toolchain": {
+    "compiler": "clang version 23.1.1 (https://github.com/llvm/llvm-project 6dfe1677ab8dffbc6ec13d53a1e0215d75147689)",
+    "clang_cl": "C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+    "vcvars64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat",
+    "command": [
+      "C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+      "/nologo",
+      "/std:c++17",
+      "/EHsc",
+      "/MD",
+      "/O2",
+      "/D_CRT_SECURE_NO_WARNINGS",
+      "/utf-8",
+      "C:\\Users\\Administrator\\Documents\\剪映\\engine\\native_export_windows.cpp",
+      "/Fe:C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\render\\比恋人多点恨\\native-export-helper.exe"
+    ]
+  },
+  "runtime_token_used": false,
+  "renderer": "Jianying native ExportService"
+}

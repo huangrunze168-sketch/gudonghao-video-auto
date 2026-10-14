@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970768782,"args":["material","search","--type","filter","--prompt","复古 暖调 电影","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\9ca2f5fd5a8743219370d0b16cea0ebd","pid":48516}
+{"stage":"policy","at":1791970768783,"rules":9}
+{"stage":"policy-network","at":1791970768783,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970768786,"vmId":"draftediting-1791970768783"}
+{"stage":"create-process:done","at":1791970768816,"processId":29508,"success":true}
+{"stage":"worker-ready","at":1791970769380}

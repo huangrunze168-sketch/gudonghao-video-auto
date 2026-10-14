@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970635932,"args":["material","search","--type","sticker","--prompt","猫 叹气 无奈 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\2b004633d3f54b5aa158378034a17b59","pid":64480}
+{"stage":"policy","at":1791970635933,"rules":9}
+{"stage":"policy-network","at":1791970635933,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970635937,"vmId":"draftediting-1791970635933"}
+{"stage":"create-process:done","at":1791970635968,"processId":56684,"success":true}
+{"stage":"worker-ready","at":1791970636527}

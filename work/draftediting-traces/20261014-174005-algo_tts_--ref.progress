@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970798815,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","F115244E-ED22-409a-91DC-4FBFD7627BAF","--text","拉黑了十七次 第十八次还是我先低头","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":64032}
+{"stage":"policy","at":1791970798816,"rules":8}
+{"stage":"policy-network","at":1791970798817,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970798820,"vmId":"draftediting-1791970798816"}
+{"stage":"create-process:done","at":1791970798850,"processId":63360,"success":true}
+{"stage":"worker-ready","at":1791970799375}

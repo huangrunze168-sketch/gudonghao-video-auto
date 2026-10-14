@@ -1,0 +1,48 @@
+{
+  "speaker": "ICL_zh_female_xinmanbo",
+  "lines": [
+    {
+      "text": "拉黑了十七次 第十八次还是我先低头",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-01.mp3",
+      "source_duration_us": 3072000,
+      "duration_us": 2363077
+    },
+    {
+      "text": "恨的时候想全删了 爱的时候又怕手机丢了",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-02.mp3",
+      "source_duration_us": 3360000,
+      "duration_us": 2584615
+    },
+    {
+      "text": "我们不是不合适 是太合适了 合适到谁也走不了",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-03.mp3",
+      "source_duration_us": 3936000,
+      "duration_us": 3027692
+    },
+    {
+      "text": "吵完架还给你留门 这大概就是命",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-04.mp3",
+      "source_duration_us": 2856000,
+      "duration_us": 2196923
+    },
+    {
+      "text": "听懂的人 评论区留个句号",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-05.mp3",
+      "source_duration_us": 2088000,
+      "duration_us": 1606154
+    }
+  ],
+  "files": [
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-01.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-02.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-03.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-04.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-bilianren-v1\\tts\\official\\official-line-05.mp3"
+  ],
+  "pipeline": "official-raw-native-v1",
+  "duration_us": 11778461,
+  "mode": "official",
+  "voice": "ICL_zh_female_xinmanbo",
+  "speed": 1.3,
+  "text_key": "[\"拉黑了十七次 第十八次还是我先低头\", \"恨的时候想全删了 爱的时候又怕手机丢了\", \"我们不是不合适 是太合适了 合适到谁也走不了\", \"吵完架还给你留门 这大概就是命\", \"听懂的人 评论区留个句号\"]"
+}

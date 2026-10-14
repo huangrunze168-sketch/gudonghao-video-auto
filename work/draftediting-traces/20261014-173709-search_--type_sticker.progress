@@ -1,0 +1,6 @@
+{"stage":"start","at":1791970626796,"args":["material","search","--type","sticker","--prompt","汤姆 杰瑞 打架 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\55474c6c0cd04cb592e59bed80f578fe","pid":61780}
+{"stage":"policy","at":1791970626796,"rules":9}
+{"stage":"policy-network","at":1791970626796,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791970626800,"vmId":"draftediting-1791970626796"}
+{"stage":"create-process:done","at":1791970626831,"processId":52828,"success":true}
+{"stage":"worker-ready","at":1791970627392}
