@@ -1,3 +1,9 @@
+# 剪映生成的工程包与解包产物不入库（体积大且可由流程重新生成）
+*.jypack
+*.jypack.*
+*.zip
+/work/**/locate/
+
 # Runtime and audit artifacts remain local.
 # 注意：/work/ 下的脚本、文档与索引要入库（完整推送），
 # 其中的媒体与大体积中间产物由下面的全局规则排除。
