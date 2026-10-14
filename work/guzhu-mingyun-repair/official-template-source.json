@@ -1,0 +1,225 @@
+{
+  "search_status": "官方返回成功",
+  "matches": [
+    {
+      "category_ids": [
+        11878
+      ],
+      "cover_url": {
+        "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/f04e6819d0e7446588a32dda43e2cc3b~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=z%2FViTEOakmY43%2FZkl%2FnLOTbpE%2F8%3D",
+        "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/f04e6819d0e7446588a32dda43e2cc3b~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=Fln2cDJyXnMmurVJDbLjbRzEsg4%3D"
+      },
+      "download_urls": [
+        "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owBmCIfAECoFxHIC1gaI50EANFHZDAAo8fXAkD?x-expires=1823430822&x-signature=m7X5IrKSpPeRbugv%2FYHQZhlht2k%3D"
+      ],
+      "effect_id": "7413413547289464100",
+      "effect_type": 215,
+      "is_business": false,
+      "is_vip": true,
+      "md5": "6f359d52cd76ddfa258686e17a7a273d",
+      "mode_requirements": [],
+      "resource_id": "7413413547289464100",
+      "sdk_model": [],
+      "source": 1,
+      "title": "雨雾氛围感"
+    }
+  ],
+  "evidence_workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\093b95d97dc642548cdf05dc0a07d727",
+  "result": {
+    "command": [
+      "material",
+      "search",
+      "--type",
+      "lyric_animation",
+      "--prompt",
+      "雨雾氛围感",
+      "--limit",
+      "10"
+    ],
+    "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\093b95d97dc642548cdf05dc0a07d727",
+    "status": "官方返回成功",
+    "envelope": {
+      "command": [
+        "material",
+        "search",
+        "--type",
+        "lyric_animation",
+        "--prompt",
+        "雨雾氛围感",
+        "--limit",
+        "10"
+      ],
+      "result": {
+        "err_code": 0,
+        "err_msg": "success",
+        "result": {
+          "customized_items": [],
+          "items": [
+            {
+              "category_ids": [
+                11878
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/f04e6819d0e7446588a32dda43e2cc3b~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=z%2FViTEOakmY43%2FZkl%2FnLOTbpE%2F8%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/f04e6819d0e7446588a32dda43e2cc3b~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=Fln2cDJyXnMmurVJDbLjbRzEsg4%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owBmCIfAECoFxHIC1gaI50EANFHZDAAo8fXAkD?x-expires=1823430822&x-signature=m7X5IrKSpPeRbugv%2FYHQZhlht2k%3D"
+              ],
+              "effect_id": "7413413547289464100",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "6f359d52cd76ddfa258686e17a7a273d",
+              "mode_requirements": [],
+              "resource_id": "7413413547289464100",
+              "sdk_model": [],
+              "source": 1,
+              "title": "雨雾氛围感"
+            },
+            {
+              "category_ids": [
+                11878
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fe68fb81839b463d9969096ca02bdb3e~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=UjDz1vaKXBbGZX0kh1Amkx0b2YY%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fe68fb81839b463d9969096ca02bdb3e~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=XdgbZ0OItsd3pCiaYzcvMZ9cbPY%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owOOECZ4GBChz8AoAHi1AG0ADeZgKC2fABvMxi?x-expires=1823430822&x-signature=SHTRPYNPwDg93JMb8zPraoAUc4o%3D"
+              ],
+              "effect_id": "7631927667536776484",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "a9fde02857c806505fa01d373d0ab7d4",
+              "mode_requirements": [],
+              "resource_id": "7631927667536776484",
+              "sdk_model": [],
+              "source": 1,
+              "title": "大雨倾盆"
+            },
+            {
+              "category_ids": [
+                11878
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/731390dacbfa424b89d7045fd871f4e6~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=G%2B0bsLrYfM7oT%2By%2Fqk1KU%2F3PnC0%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/731390dacbfa424b89d7045fd871f4e6~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=zF8F%2FzyIHtB8RN8DmPAqnt9t11Y%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/oYfO0ubC4HDgbAaEEnFfxIAfBwA5AAE8J5AGSF?x-expires=1823430822&x-signature=p5VJlzLJDP8d3loQJApN3ZJWrAI%3D"
+              ],
+              "effect_id": "7438521957072538934",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "951e53aba3b9c4e711b969593bd3de7a",
+              "mode_requirements": [],
+              "resource_id": "7438521957072538934",
+              "sdk_model": [],
+              "source": 1,
+              "title": "雨滴倒影"
+            },
+            {
+              "category_ids": [
+                5913892
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/a63a5a38b9784fb28e50714075cb1ee5~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=ZRMOWiRXDcXuFmZdsImJZ5SBXUg%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/a63a5a38b9784fb28e50714075cb1ee5~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=KgCaulkyM11MmfIJKxAVffVHVZo%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owWqCF7AE7vFFAaCAgxEB0fANr2uDAA78fsAgN?x-expires=1823430822&x-signature=sZaBrw8z6wGG%2BDEApY9ZcntUMNs%3D"
+              ],
+              "effect_id": "7639630044603763994",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "a9fde02857c806505fa01d373d0ab7d4",
+              "mode_requirements": [],
+              "resource_id": "7639630044603763994",
+              "sdk_model": [],
+              "source": 1,
+              "title": "大雨倾盆"
+            },
+            {
+              "category_ids": [
+                11878
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/12ead3782311401889a607c889512590~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=U6s%2FNbOCOXPq6Cv%2FY2NdLYdxl98%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/12ead3782311401889a607c889512590~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=HLjK9Cej2ZPJYhx62Omc1%2BnF41A%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/ocbwsDLn8IGqfsALL8AAefIKlOAe21JCIAXVqI?x-expires=1823430822&x-signature=kvwrYH7TbyzPFh4l%2FL7VJhfYwfY%3D"
+              ],
+              "effect_id": "7591420714515844395",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "1a5679120e5f1a4e8db7f06d83f05378",
+              "mode_requirements": [],
+              "resource_id": "7591420714515844395",
+              "sdk_model": [],
+              "source": 1,
+              "title": "浪漫氛围"
+            },
+            {
+              "category_ids": [
+                11878
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fa0871a3ac744d2badb23461a20f3716~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=68NHeDFDCFrzScTzZZSaYg1zx3s%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fa0871a3ac744d2badb23461a20f3716~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=HjYky4mFbPABDwUouB%2FVNamuxUM%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/oUAdcHOXDADNf84DFOFAGAbT4Ef5TABEEVAi4f?x-expires=1823430822&x-signature=UrNfL%2BEPNk5utImmb%2BfhZoQ3Fsk%3D"
+              ],
+              "effect_id": "7637035316930448682",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "123f33d03f75a1d3dda42ab7e4749f1e",
+              "mode_requirements": [],
+              "resource_id": "7637035316930448682",
+              "sdk_model": [],
+              "source": 1,
+              "title": "清梦浮生"
+            },
+            {
+              "category_ids": [
+                11878
+              ],
+              "cover_url": {
+                "small_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/77bb8268847f44418762849f34b48849~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=FZvljfUFrhI%2FaR3m637BTCF68Ho%3D",
+                "static_img_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/77bb8268847f44418762849f34b48849~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=FwfvqxHVhz2hDrmVB6K6Rh7DgGo%3D"
+              },
+              "download_urls": [
+                "https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/oUaeji1BgLAChQQiPA1GAAC3EWQtHKATDejBZC?x-expires=1823430822&x-signature=%2FT%2FmScEq%2FCNVtz2p0Ggxg8AuvrA%3D"
+              ],
+              "effect_id": "7660406603153214761",
+              "effect_type": 215,
+              "is_business": false,
+              "is_vip": true,
+              "md5": "65637496d4a87d026894ddecb9ed1d9a",
+              "mode_requirements": [],
+              "resource_id": "7660406603153214761",
+              "sdk_model": [],
+              "source": 1,
+              "title": "雨落映像"
+            }
+          ],
+          "keyword": "雨雾氛围感",
+          "limit": 10,
+          "type": "lyric_animation"
+        }
+      },
+      "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"customized_items\":[],\"items\":[{\"category_ids\":[11878],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/f04e6819d0e7446588a32dda43e2cc3b~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=z%2FViTEOakmY43%2FZkl%2FnLOTbpE%2F8%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/f04e6819d0e7446588a32dda43e2cc3b~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=Fln2cDJyXnMmurVJDbLjbRzEsg4%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owBmCIfAECoFxHIC1gaI50EANFHZDAAo8fXAkD?x-expires=1823430822&x-signature=m7X5IrKSpPeRbugv%2FYHQZhlht2k%3D\"],\"effect_id\":\"7413413547289464100\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"6f359d52cd76ddfa258686e17a7a273d\",\"mode_requirements\":[],\"resource_id\":\"7413413547289464100\",\"sdk_model\":[],\"source\":1,\"title\":\"雨雾氛围感\"},{\"category_ids\":[11878],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fe68fb81839b463d9969096ca02bdb3e~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=UjDz1vaKXBbGZX0kh1Amkx0b2YY%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fe68fb81839b463d9969096ca02bdb3e~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=XdgbZ0OItsd3pCiaYzcvMZ9cbPY%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owOOECZ4GBChz8AoAHi1AG0ADeZgKC2fABvMxi?x-expires=1823430822&x-signature=SHTRPYNPwDg93JMb8zPraoAUc4o%3D\"],\"effect_id\":\"7631927667536776484\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"a9fde02857c806505fa01d373d0ab7d4\",\"mode_requirements\":[],\"resource_id\":\"7631927667536776484\",\"sdk_model\":[],\"source\":1,\"title\":\"大雨倾盆\"},{\"category_ids\":[11878],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/731390dacbfa424b89d7045fd871f4e6~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=G%2B0bsLrYfM7oT%2By%2Fqk1KU%2F3PnC0%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/731390dacbfa424b89d7045fd871f4e6~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=zF8F%2FzyIHtB8RN8DmPAqnt9t11Y%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/oYfO0ubC4HDgbAaEEnFfxIAfBwA5AAE8J5AGSF?x-expires=1823430822&x-signature=p5VJlzLJDP8d3loQJApN3ZJWrAI%3D\"],\"effect_id\":\"7438521957072538934\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"951e53aba3b9c4e711b969593bd3de7a\",\"mode_requirements\":[],\"resource_id\":\"7438521957072538934\",\"sdk_model\":[],\"source\":1,\"title\":\"雨滴倒影\"},{\"category_ids\":[5913892],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/a63a5a38b9784fb28e50714075cb1ee5~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=ZRMOWiRXDcXuFmZdsImJZ5SBXUg%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/a63a5a38b9784fb28e50714075cb1ee5~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=KgCaulkyM11MmfIJKxAVffVHVZo%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/owWqCF7AE7vFFAaCAgxEB0fANr2uDAA78fsAgN?x-expires=1823430822&x-signature=sZaBrw8z6wGG%2BDEApY9ZcntUMNs%3D\"],\"effect_id\":\"7639630044603763994\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"a9fde02857c806505fa01d373d0ab7d4\",\"mode_requirements\":[],\"resource_id\":\"7639630044603763994\",\"sdk_model\":[],\"source\":1,\"title\":\"大雨倾盆\"},{\"category_ids\":[11878],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/12ead3782311401889a607c889512590~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=U6s%2FNbOCOXPq6Cv%2FY2NdLYdxl98%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/12ead3782311401889a607c889512590~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=HLjK9Cej2ZPJYhx62Omc1%2BnF41A%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/ocbwsDLn8IGqfsALL8AAefIKlOAe21JCIAXVqI?x-expires=1823430822&x-signature=kvwrYH7TbyzPFh4l%2FL7VJhfYwfY%3D\"],\"effect_id\":\"7591420714515844395\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"1a5679120e5f1a4e8db7f06d83f05378\",\"mode_requirements\":[],\"resource_id\":\"7591420714515844395\",\"sdk_model\":[],\"source\":1,\"title\":\"浪漫氛围\"},{\"category_ids\":[11878],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fa0871a3ac744d2badb23461a20f3716~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=68NHeDFDCFrzScTzZZSaYg1zx3s%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/fa0871a3ac744d2badb23461a20f3716~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=HjYky4mFbPABDwUouB%2FVNamuxUM%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/oUAdcHOXDADNf84DFOFAGAbT4Ef5TABEEVAi4f?x-expires=1823430822&x-signature=UrNfL%2BEPNk5utImmb%2BfhZoQ3Fsk%3D\"],\"effect_id\":\"7637035316930448682\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"123f33d03f75a1d3dda42ab7e4749f1e\",\"mode_requirements\":[],\"resource_id\":\"7637035316930448682\",\"sdk_model\":[],\"source\":1,\"title\":\"清梦浮生\"},{\"category_ids\":[11878],\"cover_url\":{\"small_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/77bb8268847f44418762849f34b48849~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1823430822&x-signature=FZvljfUFrhI%2FaR3m637BTCF68Ho%3D\",\"static_img_url\":\"https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/77bb8268847f44418762849f34b48849~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1823430822&x-signature=FwfvqxHVhz2hDrmVB6K6Rh7DgGo%3D\"},\"download_urls\":[\"https://lf26-faceu-file-sign.bytecdn.com/tos-cn-v-436d67/oUaeji1BgLAChQQiPA1GAAC3EWQtHKATDejBZC?x-expires=1823430822&x-signature=%2FT%2FmScEq%2FCNVtz2p0Ggxg8AuvrA%3D\"],\"effect_id\":\"7660406603153214761\",\"effect_type\":215,\"is_business\":false,\"is_vip\":true,\"md5\":\"65637496d4a87d026894ddecb9ed1d9a\",\"mode_requirements\":[],\"resource_id\":\"7660406603153214761\",\"sdk_model\":[],\"source\":1,\"title\":\"雨落映像\"}],\"keyword\":\"雨雾氛围感\",\"limit\":10,\"type\":\"lyric_animation\"}}\r\n",
+      "stderr": "",
+      "host_pid": 42840,
+      "duration_ms": 3781
+    },
+    "files": []
+  }
+}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887433275,"args":["material","search","--type","lyric_animation","--prompt","有一些瞬间 我在命运之外》闹钟响在 七点零三群里","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\5c486bf832554347aa31cc7d8db6953e","pid":41172}
+{"stage":"policy","at":1791887433276,"rules":9}
+{"stage":"policy-network","at":1791887433276,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887433278,"vmId":"draftediting-1791887433275"}
+{"stage":"create-process:done","at":1791887433296,"processId":1952,"success":true}
+{"stage":"worker-ready","at":1791887433777}

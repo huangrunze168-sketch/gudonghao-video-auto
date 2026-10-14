@@ -1,0 +1,5 @@
+{"stage":"start","at":1791794724514,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261012-164450\\resource-search","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"逐字歌词\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261012-164450\\resource-search","pid":53656}
+{"stage":"policy","at":1791794724515,"rules":8}
+{"stage":"create-process:begin","at":1791794724518,"vmId":"draftediting-1791794724514"}
+{"stage":"create-process:done","at":1791794724810,"processId":55032,"success":true}
+{"stage":"worker-ready","at":1791794725367}

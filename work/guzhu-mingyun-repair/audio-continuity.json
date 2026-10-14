@@ -1,0 +1,71 @@
+{
+  "segments": [
+    {
+      "text": "有没有下班到家",
+      "start_us": 0,
+      "duration_us": 1100000,
+      "source_duration_us": 1416000,
+      "source_start_us": 0,
+      "source_range_complete": true,
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "frame_rounding_error_us": 10769.230769230751,
+      "raw_file_identical": true,
+      "gap_from_previous_us": 0
+    },
+    {
+      "text": "却在楼下多站几分钟",
+      "start_us": 1100000,
+      "duration_us": 1400000,
+      "source_duration_us": 1824000,
+      "source_start_us": 0,
+      "source_range_complete": true,
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "frame_rounding_error_us": -3076.9230769230053,
+      "raw_file_identical": true,
+      "gap_from_previous_us": 0
+    },
+    {
+      "text": "不是不想回家",
+      "start_us": 2500000,
+      "duration_us": 1066666,
+      "source_duration_us": 1368000,
+      "source_start_us": 0,
+      "source_range_complete": true,
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "frame_rounding_error_us": 14358.307692307746,
+      "raw_file_identical": true,
+      "gap_from_previous_us": 0
+    },
+    {
+      "text": "只是想把自己还给自己",
+      "start_us": 3566666,
+      "duration_us": 1500000,
+      "source_duration_us": 1944000,
+      "source_start_us": 0,
+      "source_range_complete": true,
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "frame_rounding_error_us": 4615.384615384741,
+      "raw_file_identical": true,
+      "gap_from_previous_us": 0
+    },
+    {
+      "text": "懂这首歌的评论区留个句号",
+      "start_us": 5066666,
+      "duration_us": 1866667,
+      "source_duration_us": 2424000,
+      "source_start_us": 0,
+      "source_range_complete": true,
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "frame_rounding_error_us": 2051.615384615492,
+      "raw_file_identical": true,
+      "gap_from_previous_us": 0
+    }
+  ],
+  "检查结论": "五段原始文件保持不变，源范围完整，目标无空洞或重叠，取整误差小于一帧",
+  "听感结论": "技术检查不替代真实试听，不宣称已完成主观听感验收"
+}

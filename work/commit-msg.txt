@@ -1,0 +1,8 @@
+接入官方 lyra-cli：歌词链路闭环、152 条命令封装、代码审查修复
+
+- engine/lyra_cli.py：官方 CLI 封装（auth 分步登录、歌词识别/动效、通用转发、高频域 typed）
+- engine/lyra_commands.py + lyra_commands.json：由官方 --help 逐条枚举驱动，152 条命令全部装成可调用函数
+- engine/headless_pipeline.py：新增 official 歌词引擎（识别→动效→复核→镜像→渲染）
+- engine/draftediting_runtime.py：run_lyra 支持 extra_env，不再改写宿主进程环境
+- 依据代码审查修复：整组语义 + leftover 复核、零落地即失败、报告字段补全、options 白名单校验、XML 元素级解析
+- docs/LYRA-CLI.md、docs/LYRA-CLI-MATRIX.md；tests 170 项通过

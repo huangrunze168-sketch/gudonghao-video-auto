@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887384305,"args":["material","search","--type","lyric_animation","--prompt","金戈铁马身披麒麟甲 琵琶秋色下 漠北共飒飒","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\bfdbf64fd0da4e0eacc1fe3b6481fa42","pid":1876}
+{"stage":"policy","at":1791887384305,"rules":9}
+{"stage":"policy-network","at":1791887384305,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887384309,"vmId":"draftediting-1791887384305"}
+{"stage":"create-process:done","at":1791887384327,"processId":44696,"success":true}
+{"stage":"worker-ready","at":1791887384800}

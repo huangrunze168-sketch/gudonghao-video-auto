@@ -1,0 +1,974 @@
+{
+  "7407447070992370970": {
+    "segments": 32,
+    "chars": 96,
+    "bad_json": 0,
+    "overlaps": 12,
+    "dup_pairs": 0,
+    "similarity": 0.6901,
+    "joined_head": "突然突然某天某天我不再需要答案答案你爱没你爱没爱过都不必在身旁在身旁那些没说完就再没说完把困在门外的自己领回身边突然突然某天某天我不再需要我",
+    "title": "白色镂空",
+    "status": "ok"
+  },
+  "7407448729785093414": {
+    "segments": 16,
+    "chars": 172,
+    "bad_json": 0,
+    "overlaps": 6,
+    "dup_pairs": 0,
+    "similarity": 0.4939,
+    "joined_head": "你爱没爱过都不必在身旁把困在门外的自己领回身边突然某天我不再需要答案突然某天我不再需要答案那些没说完就再没说完你爱没爱过都不必在身旁承认有些",
+    "title": "黑胶唱片机",
+    "status": "ok"
+  },
+  "7410706783687265545": {
+    "segments": 44,
+    "chars": 104,
+    "bad_json": 0,
+    "overlaps": 6,
+    "dup_pairs": 0,
+    "similarity": 0.6592,
+    "joined_head": "突然某突然某天我天我不再需要答案答案答案你爱没爱过都没爱过都不必不必在身旁那些那些没说完没说完就再就再没说完没说完没说完把困在门外的自己领回",
+    "title": "多彩粗体",
+    "status": "ok"
+  },
+  "7411168473918754084": {
+    "title": "轻松律动",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 16451,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7411170280497745206": {
+    "segments": 11,
+    "chars": 117,
+    "bad_json": 0,
+    "overlaps": 4,
+    "dup_pairs": 0,
+    "similarity": 0.625,
+    "joined_head": "你爱没爱过都不必在身旁突然某天我不再需要答案那些没说完就再没说完你爱没爱过都不必在身旁把困在门外的自己领回身边突然某天我不再需要答案那些没说",
+    "title": "音乐播放器",
+    "status": "ok"
+  },
+  "7411202083610758436": {
+    "title": "文艺抒情歌",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 32238,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7411204052312214795": {
+    "segments": 18,
+    "chars": 73,
+    "bad_json": 0,
+    "overlaps": 4,
+    "dup_pairs": 0,
+    "similarity": 0.7973,
+    "joined_head": "突然突然某天我不再某天我不再需要答案答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只",
+    "title": "黄白大字",
+    "status": "ok"
+  },
+  "7412650573402623295": {
+    "segments": 25,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "晃动瞬移",
+    "status": "ok"
+  },
+  "7412653296470543628": {
+    "title": "复古鱼眼",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 13915,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7413393075579407652": {
+    "segments": 27,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "极简小清新",
+    "status": "ok"
+  },
+  "7413395931036437796": {
+    "segments": 31,
+    "chars": 70,
+    "bad_json": 0,
+    "overlaps": 4,
+    "dup_pairs": 1,
+    "similarity": 0.8138,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回回身边身边突然某天我不再需要答案承认有些人只配配一段一段",
+    "title": "国风大字",
+    "status": "ok"
+  },
+  "7413413547289464100": {
+    "segments": 6,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "雨雾氛围感",
+    "status": "ok"
+  },
+  "7414104429437209919": {
+    "segments": 32,
+    "chars": 105,
+    "bad_json": 0,
+    "overlaps": 3,
+    "dup_pairs": 1,
+    "similarity": 0.6556,
+    "joined_head": "突然突然某天我不再天我不再需要答案你爱你爱没没爱过没爱过都不必在在身旁那些没说完就再没说完就再没说完就再没说完把困在门外的自己门外的自己门外",
+    "title": "长句Emoji",
+    "status": "ok"
+  },
+  "7431852391374392615": {
+    "segments": 6,
+    "chars": 76,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7815,
+    "joined_head": "\"突然某天我不再需要答案\"\"你爱没爱过都不必在身旁\"\"那些没说完就再没说完\"\"把困在门外的自己领回身边\"\"突然某天我不再需要答案\"\"承认有些",
+    "title": "抒情手写",
+    "status": "ok"
+  },
+  "7431852704038784275": {
+    "segments": 26,
+    "chars": 70,
+    "bad_json": 0,
+    "overlaps": 4,
+    "dup_pairs": 0,
+    "similarity": 0.8138,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困把困在门外的自己领回自己领回身边突然某天我不再需要答案承认有些人只一段配",
+    "title": "节奏摇滚",
+    "status": "ok"
+  },
+  "7433833535565319450": {
+    "title": "多彩手写",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 35352,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7438521957072538934": {
+    "title": "雨滴倒影",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 70171,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7439359966768614719": {
+    "segments": 25,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "粉白恋歌",
+    "status": "ok"
+  },
+  "7442251324349074729": {
+    "segments": 26,
+    "chars": 66,
+    "bad_json": 0,
+    "overlaps": 1,
+    "dup_pairs": 0,
+    "similarity": 0.8369,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配只配一段",
+    "title": "悬浮播放器",
+    "status": "ok"
+  },
+  "7447456469634534697": {
+    "segments": 29,
+    "chars": 76,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7815,
+    "joined_head": "（突然某天我不再需要答案）/你爱没爱过都不必在身旁//那些没说完就再没说完/（把困在门外的自己领回身边）（突然某天我不再需要答案）（承认有些",
+    "title": "文艺画报",
+    "status": "ok"
+  },
+  "7447858214126751039": {
+    "title": "港风放映",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 16931,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7462349347921890571": {
+    "segments": 28,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "喜庆大字",
+    "status": "ok"
+  },
+  "7462349503803231507": {
+    "title": "抖动拼贴",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 21039,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7473103002757303564": {
+    "title": "多彩拼贴",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 23426,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7475610479151303947": {
+    "segments": 23,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "情绪快闪",
+    "status": "ok"
+  },
+  "7478538192770190603": {
+    "title": "文艺诗",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 18493,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7480461814459845924": {
+    "segments": 25,
+    "chars": 69,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8194,
+    "joined_head": "突然某天我不再需要[答案]你爱没爱过都不必在身旁那些没说完就再没说完把困*在门外的自己领回[身边]突然某天我不再需要答案承认有些人只配一段",
+    "title": "春日序曲",
+    "status": "ok"
+  },
+  "7498638721093225740": {
+    "title": "简约黑体",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 51902,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7503429563515505961": {
+    "segments": 13,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "文字拆分",
+    "status": "ok"
+  },
+  "7509473198715489575": {
+    "segments": 16,
+    "chars": 68,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8252,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些°/没说完就再没说完把困°/在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "透明情绪",
+    "status": "ok"
+  },
+  "7513861835175546166": {
+    "segments": 21,
+    "chars": 67,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.831,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没/说完就再，没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段*",
+    "title": "文艺宋体",
+    "status": "ok"
+  },
+  "7514969284230024487": {
+    "segments": 23,
+    "chars": 65,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8429,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些、没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "温情笔迹",
+    "status": "ok"
+  },
+  "7515052716222205220": {
+    "title": "粉白甜歌",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 12340,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7516463273789639973": {
+    "segments": 22,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "歌词骰子",
+    "status": "ok"
+  },
+  "7516762528697863478": {
+    "title": "笔画模糊",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 20929,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7525351506078403859": {
+    "title": "质感宋体",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 13578,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7530902253683707187": {
+    "segments": 10,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "弧形播放器",
+    "status": "ok"
+  },
+  "7537261659082050825": {
+    "title": "粉色手写",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 14896,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7542824190144023847": {
+    "segments": 31,
+    "chars": 123,
+    "bad_json": 0,
+    "overlaps": 14,
+    "dup_pairs": 0,
+    "similarity": 0.5758,
+    "joined_head": "不再需要突然某天我答案不再需要你爱没爱过答案都不必你爱没爱过在身旁那些没说完都不必在身旁就再没说完把困在门外的那些没说完就再没说完自己领回把",
+    "title": "粉红三行滚动",
+    "status": "ok"
+  },
+  "7547980936109903155": {
+    "segments": 22,
+    "chars": 76,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7815,
+    "joined_head": "突然某*天我/不再需要*答案/你爱没*爱过/都不必在身旁那些没说完就再没说完把困在门外的自己领回*身边/突然某*天我/不再需要*答案/承认有",
+    "title": "胖圆手写",
+    "status": "ok"
+  },
+  "7548651294404234505": {
+    "segments": 12,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "KTV复古字幕",
+    "status": "ok"
+  },
+  "7549168126147988763": {
+    "segments": 54,
+    "chars": 128,
+    "bad_json": 0,
+    "overlaps": 27,
+    "dup_pairs": 0,
+    "similarity": 0.5813,
+    "joined_head": "突然某突然某天我天我不再不再需要需要答案答案你爱没你爱没爱过都爱过都不必在不必在身旁身旁那些那些没说完没说完就再就再没说完没说完把困在把困在",
+    "title": "书法大字",
+    "status": "ok"
+  },
+  "7580242106778766655": {
+    "title": "拾光碎句",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 24810,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7580985695724965170": {
+    "segments": 12,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "梦幻回忆",
+    "status": "ok"
+  },
+  "7580992226042383625": {
+    "segments": 30,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "甜蜜旅行",
+    "status": "ok"
+  },
+  "7580995030433778990": {
+    "segments": 23,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "红白书法",
+    "status": "ok"
+  },
+  "7581443056113650963": {
+    "title": "烟花抒情",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 30188,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch ap"
+  },
+  "7585099315136318739": {
+    "segments": 30,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "声浪炸场",
+    "status": "ok"
+  },
+  "7589549528966057252": {
+    "segments": 23,
+    "chars": 75,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7867,
+    "joined_head": "突然某天”我不再需要答案”“你爱没爱过都不必“在身旁“那些没说完就再没说完把困在门外”的自己领回”身边/突然某天我不再/需要答案/承认有些人",
+    "title": "文艺慢调",
+    "status": "ok"
+  },
+  "7591420714515844395": {
+    "segments": 40,
+    "chars": 94,
+    "bad_json": 0,
+    "overlaps": 14,
+    "dup_pairs": 0,
+    "similarity": 0.6982,
+    "joined_head": "突然某突然某天我天我不再不再需要需要答案答案答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回自己领回身边身边身边突然某突然",
+    "title": "浪漫氛围",
+    "status": "ok"
+  },
+  "7598427438628097322": {
+    "segments": 31,
+    "chars": 123,
+    "bad_json": 0,
+    "overlaps": 14,
+    "dup_pairs": 0,
+    "similarity": 0.5758,
+    "joined_head": "不再需要突然某天我答案不再需要你爱没爱过答案都不必你爱没爱过在身旁那些没说完都不必在身旁就再没说完把困在门外的那些没说完就再没说完自己领回把",
+    "title": "粉红兔子滚动",
+    "status": "ok"
+  },
+  "7602473145622072595": {
+    "segments": 19,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "文艺复古",
+    "status": "ok"
+  },
+  "7603235197269609791": {
+    "segments": 12,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "发光手写",
+    "status": "ok"
+  },
+  "7613690434883177747": {
+    "segments": 28,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "日系文艺",
+    "status": "ok"
+  },
+  "7614039109971086655": {
+    "segments": 27,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "金陵说唱",
+    "status": "ok"
+  },
+  "7615519823954595091": {
+    "segments": 22,
+    "chars": 76,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7815,
+    "joined_head": "突然某天<我不>再需要答案你爱没爱<过都>不必在身旁那些没说完就<再没说完>把困在门外的<自己领回身边>突然某天<我不>再需要答案承认有些<",
+    "title": "温柔予你",
+    "status": "ok"
+  },
+  "7616645005112790314": {
+    "title": "简约手写",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 3778,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7620654557600828691": {
+    "segments": 23,
+    "chars": 78,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7712,
+    "joined_head": "'突然某'天我不再需要'答案'你爱没爱过都不必在身旁'那些没'说完就再没'说完''把困'在门外的自己'领回'身边突然某天我不再需要答案'承认",
+    "title": "青衫落笔",
+    "status": "ok"
+  },
+  "7620733062875221291": {
+    "segments": 18,
+    "chars": 87,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.2346,
+    "joined_head": "“突然某天我”“不再需要答案”“你爱没爱过都”“不必在身旁”“那些没说完就”“再没说完“把困在门外”“的自己领回”“身边”“突然某天我不再”",
+    "title": "轻光叙情",
+    "status": "ok"
+  },
+  "7626692393407974719": {
+    "title": "抒情散文诗",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 3870,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7628454436758752518": {
+    "segments": 31,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "字落光影",
+    "status": "ok"
+  },
+  "7631823253421460742": {
+    "title": "星芒微光",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 4062,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7631833609044774180": {
+    "segments": 31,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "红白写流年",
+    "status": "ok"
+  },
+  "7631834739585961270": {
+    "title": "蓝白心事",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 4669,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7631927667536776484": {
+    "segments": 37,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "大雨倾盆",
+    "status": "ok"
+  },
+  "7633340127388962090": {
+    "segments": 17,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "清叙",
+    "status": "ok"
+  },
+  "7633781433735204139": {
+    "segments": 34,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "紫色抒情",
+    "status": "ok"
+  },
+  "7637027911270239524": {
+    "segments": 24,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "浪漫气泡",
+    "status": "ok"
+  },
+  "7637028238631505171": {
+    "segments": 28,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "柔粉流光",
+    "status": "ok"
+  },
+  "7637032676444196115": {
+    "segments": 27,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "有点甜",
+    "status": "ok"
+  },
+  "7637035316930448682": {
+    "segments": 19,
+    "chars": 81,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.2436,
+    "joined_head": "/突然某，天我不再需要/答案，/你爱，没爱过/都不必在、/身旁，那些/没说完，就再没说完把困在门外、的自己领、回身边、突然某天我不再需要答案",
+    "title": "清梦浮生",
+    "status": "ok"
+  },
+  "7637081808634400019": {
+    "segments": 13,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "蓝色发光",
+    "status": "ok"
+  },
+  "7637096744421051654": {
+    "segments": 32,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 7,
+    "dup_pairs": 0,
+    "similarity": 0.7914,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁些那没说完就再没完说把困在门外的自己领回身边然突某天我不再要需答案承认有些人只一配段",
+    "title": "蓝白律动",
+    "status": "ok"
+  },
+  "7637097392927542534": {
+    "segments": 33,
+    "chars": 71,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8082,
+    "joined_head": "突然某/天我不再需要/答案你爱/没爱过都不必在身/旁那些没/说完就再没/说完把困在门外的自己领回身边突然某天我不再需要答案承认/有些人只配一",
+    "title": "粉笺心语",
+    "status": "ok"
+  },
+  "7637808513418366244": {
+    "segments": 64,
+    "chars": 69,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8194,
+    "joined_head": "突然某天我不再需要答案“你爱没爱”“过都不必”“在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "印刷叙事",
+    "status": "ok"
+  },
+  "7637808596293602566": {
+    "segments": 27,
+    "chars": 83,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7468,
+    "joined_head": "突然某天我…不再/需要答案/你爱没爱/过都/<不必在身旁>那些没说完<就再>没/说完/把困在门外的<自己领回>身边/突然某/天我不再需要<答",
+    "title": "温柔小情歌",
+    "status": "ok"
+  },
+  "7639218786591182134": {
+    "segments": 25,
+    "chars": 83,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7468,
+    "joined_head": "突然某天我不/再/需/要/答/案”你爱没爱过都不必在“”身旁“那些没说完就再没”“说完把困/在门外的自己领回身边突然某天我不/再/需/要/答",
+    "title": "夏日手写",
+    "status": "ok"
+  },
+  "7642559939294104842": {
+    "segments": 20,
+    "chars": 70,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8138,
+    "joined_head": "/突然某天我不再需要答案/你爱没爱过都不必在身旁/那些没说完就再没说完把困在门外/的自己领回身边/突然某天我不再需要答案/承认有些人只配一段",
+    "title": "绿色简约",
+    "status": "ok"
+  },
+  "7642561205797702938": {
+    "segments": 24,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "粉白故事",
+    "status": "ok"
+  },
+  "7642587895278210355": {
+    "segments": 30,
+    "chars": 67,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.831,
+    "joined_head": "“突然某天我不再需”“要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "错落叠影",
+    "status": "ok"
+  },
+  "7642592971375807753": {
+    "segments": 14,
+    "chars": 76,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7815,
+    "joined_head": "“突然某天我不再需要答案”“你爱没爱过都不必在身旁”“那些没说完就再没说完”“把困在门外的自己领回身边”“突然某天我不再需要答案”“承认有些",
+    "title": "粉黄可爱",
+    "status": "ok"
+  },
+  "7642652941349883146": {
+    "segments": 7,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "星闪发光",
+    "status": "ok"
+  },
+  "7643710841346379018": {
+    "segments": 22,
+    "chars": 99,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.6782,
+    "joined_head": "/突然某天我//不再需要答//案//你爱没爱过//都不必在身//旁/那/些/没说完就/再/没说/完把困在/门/外/的/自/己领回身/边突然/",
+    "title": "抒情序曲",
+    "status": "ok"
+  },
+  "7643810724996730138": {
+    "segments": 32,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "橙意圆满",
+    "status": "ok"
+  },
+  "7644860580343434550": {
+    "segments": 28,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "续写情怀",
+    "status": "ok"
+  },
+  "7644866510250331428": {
+    "segments": 19,
+    "chars": 76,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7815,
+    "joined_head": "突然某天我不再需要答案''你爱没爱过都不必在身旁''那些没说完就再没''''说完''把困在门外的自己领回身边突然某天我不再需要答案''承认有",
+    "title": "浮光映白",
+    "status": "ok"
+  },
+  "7644898988323261750": {
+    "title": "热血对决",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 6149,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7644900125197765942": {
+    "segments": 31,
+    "chars": 70,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8138,
+    "joined_head": "突然某天我不再需要答案你爱没爱过/都不必/在身旁那些没说<完就再没说完>把困在门外/的自己/领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "淡蓝抒情",
+    "status": "ok"
+  },
+  "7644900167077924115": {
+    "segments": 16,
+    "chars": 87,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7284,
+    "joined_head": "突然某天我不再/需/要/答/案你爱没爱/过/都/不/必/在/身/旁那些没说完就再没说完...把困在门外的/自己领回身边/突然某天我不/再需要",
+    "title": "粉白爱心",
+    "status": "ok"
+  },
+  "7644900203459267894": {
+    "segments": 30,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 6,
+    "dup_pairs": 1,
+    "similarity": 0.5755,
+    "joined_head": "不再需要答天我突然某案你爱没爱过都不必在身旁完就再没说说那些没完外把困在的自己领门回身边不再需要答天我突然某案些人只配一承认有段",
+    "title": "渐变浅绿",
+    "status": "ok"
+  },
+  "7644924626480516395": {
+    "segments": 17,
+    "chars": 82,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.7516,
+    "joined_head": "<突然某天>我不再需要答案你爱没爱过都不必在.身旁.<那些没说>完就再没说完把困-在-门-外-的-自-己-领-回-身边突然某天我不再需要.答",
+    "title": "碎光入梦",
+    "status": "ok"
+  },
+  "7646312997060758826": {
+    "title": "樱花飘落",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 4360,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7647790362131565878": {
+    "title": "紫恋情缘",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 4584,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  },
+  "7659338667684547903": {
+    "title": "岛屿叙事",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 5841,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"internal\\\",\\\"err_code\\\":-100009,\\\"err_msg\\\":\\\"internal"
+  },
+  "7660406603153214761": {
+    "segments": 22,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 5,
+    "dup_pairs": 0,
+    "similarity": 0.777,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完在门外的自己把困身边领回突然某天我不再需要答案只配承认有些人一段",
+    "title": "雨落映像",
+    "status": "ok"
+  },
+  "7660406730429320511": {
+    "segments": 42,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "错落微光",
+    "status": "ok"
+  },
+  "7664496745895841065": {
+    "segments": 16,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 3,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "细碎星光",
+    "status": "ok"
+  },
+  "7665196151640984873": {
+    "segments": 47,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "浅绿雾光",
+    "status": "ok"
+  },
+  "7674925591522462995": {
+    "segments": 24,
+    "chars": 128,
+    "bad_json": 0,
+    "overlaps": 12,
+    "dup_pairs": 0,
+    "similarity": 0.5813,
+    "joined_head": "突然某天我不突然某天我不再需要答案再需要答案你爱没爱过都你爱没爱过都不必在身旁不必在身旁那些没说完就那些没说完就再没说完再没说完把困在门外的",
+    "title": "随写留痕",
+    "status": "ok"
+  },
+  "7674926686625975595": {
+    "segments": 19,
+    "chars": 152,
+    "bad_json": 0,
+    "overlaps": 5,
+    "dup_pairs": 0,
+    "similarity": 0.5198,
+    "joined_head": "/突然某天我不再需要答案你爱没爱过都/不必在身旁FIGHTTILLTHEVERYENDTHEFUTURE’SINOURHANDS那些没（说完",
+    "title": "唯美星光",
+    "status": "ok"
+  },
+  "7681134759530990910": {
+    "segments": 18,
+    "chars": 64,
+    "bad_json": 0,
+    "overlaps": 0,
+    "dup_pairs": 0,
+    "similarity": 0.8489,
+    "joined_head": "突然某天我不再需要答案你爱没爱过都不必在身旁那些没说完就再没说完把困在门外的自己领回身边突然某天我不再需要答案承认有些人只配一段",
+    "title": "emoji律动",
+    "status": "ok"
+  },
+  "7681201587280252175": {
+    "title": "花好月圆",
+    "status": "failed",
+    "error": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 5260,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"runtime\\\",\\\"err_code\\\":-100147,\\\"err_msg\\\":\\\"patch app"
+  }
+}

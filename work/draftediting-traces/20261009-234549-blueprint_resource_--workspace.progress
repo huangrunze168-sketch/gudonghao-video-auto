@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560745967,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"动感歌词\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","pid":57776}
+{"stage":"policy","at":1791560745967,"rules":8}
+{"stage":"create-process:begin","at":1791560745970,"vmId":"draftediting-1791560745967"}
+{"stage":"create-process:done","at":1791560746257,"processId":55096,"success":true}
+{"stage":"worker-ready","at":1791560746739}

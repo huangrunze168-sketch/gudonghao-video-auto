@@ -1,0 +1,6 @@
+{"stage":"start","at":1791905939251,"args":["material","search","--type","effect","--prompt","朦胧 夜色 光晕","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\c695a23fcba14d67aeb18eca439fd5ed","pid":49196}
+{"stage":"policy","at":1791905939252,"rules":9}
+{"stage":"policy-network","at":1791905939252,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791905939254,"vmId":"draftediting-1791905939251"}
+{"stage":"create-process:done","at":1791905939273,"processId":17608,"success":true}
+{"stage":"worker-ready","at":1791905939793}

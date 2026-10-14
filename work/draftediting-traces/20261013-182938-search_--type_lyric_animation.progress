@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887374717,"args":["material","search","--type","lyric_animation","--prompt","就算你没在谁面前认过这段 至少你哭的样子只有我看","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\55d6cc710cf54ffd9262389a1612dad3","pid":35088}
+{"stage":"policy","at":1791887374717,"rules":9}
+{"stage":"policy-network","at":1791887374717,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887374720,"vmId":"draftediting-1791887374717"}
+{"stage":"create-process:done","at":1791887374738,"processId":1712,"success":true}
+{"stage":"worker-ready","at":1791887375220}

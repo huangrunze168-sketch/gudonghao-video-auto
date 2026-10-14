@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902649207,"args":["material","search","--type","sticker","--prompt","不想再问 沉默 无奈","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\4fb74668d5c743e8b20a93ab94f8f580","pid":26184}
+{"stage":"policy","at":1791902649208,"rules":9}
+{"stage":"policy-network","at":1791902649208,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902649210,"vmId":"draftediting-1791902649207"}
+{"stage":"create-process:done","at":1791902649231,"processId":51240,"success":true}
+{"stage":"worker-ready","at":1791902649744}

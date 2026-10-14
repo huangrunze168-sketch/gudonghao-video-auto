@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887625989,"args":["material","search","--type","lyric_animation","--prompt","复古 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\dcd31e746c204524882ca0b0167c46be","pid":10008}
+{"stage":"policy","at":1791887625989,"rules":9}
+{"stage":"policy-network","at":1791887625990,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887625993,"vmId":"draftediting-1791887625989"}
+{"stage":"create-process:done","at":1791887626012,"processId":20872,"success":true}
+{"stage":"worker-ready","at":1791887626493}

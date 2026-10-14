@@ -1,0 +1,112 @@
+{
+  "engine": "official",
+  "lyric_segments": 7,
+  "animation": "vimo://7513861835175546166",
+  "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+  "language": "zh",
+  "text_override": {
+    "segments": 7,
+    "replaced": 7,
+    "lines": 52,
+    "align": "ordered",
+    "spans": [
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        18,
+        19
+      ]
+    ],
+    "split_created": 0,
+    "word_samples": [
+      {
+        "text": "有一些瞬间 我在命运之外",
+        "gaps_ms": [
+          94,
+          93,
+          180,
+          180,
+          260,
+          260,
+          120,
+          120
+        ]
+      },
+      {
+        "text": "楼下站着 一直在发呆",
+        "gaps_ms": [
+          200,
+          200,
+          200,
+          200,
+          20,
+          20,
+          680,
+          220
+        ]
+      }
+    ],
+    "mean_similarity": 0.848,
+    "mean_cost": 0.152
+  },
+  "recognized": [
+    {
+      "start_us": 6933333,
+      "duration_us": 3566667,
+      "text": "有一些瞬间 我在命运之外"
+    },
+    {
+      "start_us": 10800000,
+      "duration_us": 3266666,
+      "text": "楼下站着一直在发呆"
+    },
+    {
+      "start_us": 14100000,
+      "duration_us": 3633333,
+      "text": "屏幕聊起来我没理睬"
+    },
+    {
+      "start_us": 17733333,
+      "duration_us": 3633333,
+      "text": "那几分钟我才算存在"
+    },
+    {
+      "start_us": 21366666,
+      "duration_us": 3600000,
+      "text": "你也试过把互相伤害"
+    },
+    {
+      "start_us": 24966666,
+      "duration_us": 3633334,
+      "text": "他钥匙的手慢了半拍"
+    },
+    {
+      "start_us": 28600000,
+      "duration_us": 1433333,
+      "text": "呼一口气才"
+    }
+  ],
+  "chorus_trim": null
+}

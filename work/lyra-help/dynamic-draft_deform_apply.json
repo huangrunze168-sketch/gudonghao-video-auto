@@ -1,0 +1,441 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791604954910",
+    "processId": 59612,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-f809fe3f347442cb",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Apply stretch, corner-pin (video/sticker), or surface-track deformation.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --ref TEXT          Unified draft reference\r\n          --mode TEXT:{stretch,scale,corner-pin,corner_pin,perspective,surface-track,surface_track,surface,plane-track} REQUIRED \r\n                              Deform mode: stretch, corner-pin, or surface-track\r\n          --deform-seg-id TEXT \r\n                              Edited segment id for stretch/corner-pin modes\r\n          --follower-seg-id TEXT \r\n                              Follower segment id for surface-track mode\r\n          --tracked-video-seg-id TEXT \r\n                              Tracked source video segment id for surface-track mode\r\n          --corner-top-left TEXT \r\n                              Corner-pin top-left point x,y\r\n          --corner-bottom-left TEXT \r\n                              Corner-pin bottom-left point x,y\r\n          --corner-top-right TEXT \r\n                              Corner-pin top-right point x,y\r\n          --corner-bottom-right TEXT \r\n                              Corner-pin bottom-right point x,y\r\n          --plane-top-left TEXT \r\n                              Surface-track initial plane top-left point x,y\r\n          --plane-bottom-left TEXT \r\n                              Surface-track initial plane bottom-left point x,y\r\n          --plane-top-right TEXT \r\n                              Surface-track initial plane top-right point x,y\r\n          --plane-bottom-right TEXT \r\n                              Surface-track initial plane bottom-right point x,y\r\n          --content-u-min TEXT \r\n                              Follower left edge in tracked-plane coordinates for surface-track\r\n                              mode\r\n          --content-u-max TEXT \r\n                              Follower right edge in tracked-plane coordinates for\r\n                              surface-track mode\r\n          --content-v-min TEXT \r\n                              Follower top edge in tracked-plane coordinates for surface-track\r\n                              mode\r\n          --content-v-max TEXT \r\n                              Follower bottom edge in tracked-plane coordinates for\r\n                              surface-track mode\r\n          --tracking-begin-time <duration> \r\n                              Surface-track begin time; explicit unit required: us, ms, s, or\r\n                              min\r\n          --tracking-end-time <duration> \r\n                              Surface-track end time; explicit unit required: us, ms, s, or min\r\n          --tracking-seed-time <duration> \r\n                              Surface-track seed-frame time; explicit unit required: us, ms, s,\r\n                              or min\r\n          --scale TEXT        Uniform stretch/scale value\r\n          --scale-x TEXT      Horizontal stretch/scale value\r\n          --scale-y TEXT      Vertical stretch/scale value\r\n          --position-x TEXT   Optional canvas x position update\r\n          --position-y TEXT   Optional canvas y position update\r\n          --rotation TEXT     Optional rotation update in degrees\r\n          --alpha TEXT        Optional alpha update\r\n          --wait-for-tracking Wait for surface-track algorithm completion\r\n          --no-wait-for-tracking \r\n                              Do not wait for surface-track algorithm completion\r\n          --tracking-timeout <duration> \r\n                              Caller-side surface-track wait timeout; explicit unit required\r\n          --tracking-poll-interval <duration> [1s] \r\n                              Surface-track task status poll interval; explicit unit required\r\n          --enable-scale-tracking \r\n                              Enable scale tracking in surface-track mode\r\n          --enable-relative-distance-tracking \r\n                              Enable relative-distance tracking in surface-track mode\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  $ lyra-cli draft deform apply --mode stretch --deform-seg-id <id> --scale-x 1.2 --scale-y 1.5\r\n  $ lyra-cli draft deform apply --mode corner-pin --deform-seg-id <id> --corner-top-left \"-0.2,0.2\" --corner-bottom-left \"-0.2,-0.2\" --corner-top-right \"0.2,0.2\" --corner-bottom-right \"0.2,-0.2\"\r\n  $ lyra-cli draft deform apply --mode surface-track --tracked-video-seg-id <video> --follower-seg-id <follower> --plane-top-left \"-0.2,0.2\" --plane-bottom-left \"-0.2,-0.2\" --plane-top-right \"0.2,0.2\" --plane-bottom-right \"0.2,-0.2\" --content-u-min 0.05 --content-u-max 0.95 --content-v-min 0.36 --content-v-max 0.52 --tracking-begin-time 3s --tracking-end-time 5.2s --tracking-seed-time 3s --no-wait-for-tracking\r\n  $ lyra-cli draft algo query --task-id <task_id>\r\n",
+      "stderr": "",
+      "output": "Apply stretch, corner-pin (video/sticker), or surface-track deformation.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --ref TEXT          Unified draft reference\r\n          --mode TEXT:{stretch,scale,corner-pin,corner_pin,perspective,surface-track,surface_track,surface,plane-track} REQUIRED \r\n                              Deform mode: stretch, corner-pin, or surface-track\r\n          --deform-seg-id TEXT \r\n                              Edited segment id for stretch/corner-pin modes\r\n          --follower-seg-id TEXT \r\n                              Follower segment id for surface-track mode\r\n          --tracked-video-seg-id TEXT \r\n                              Tracked source video segment id for surface-track mode\r\n          --corner-top-left TEXT \r\n                              Corner-pin top-left point x,y\r\n          --corner-bottom-left TEXT \r\n                              Corner-pin bottom-left point x,y\r\n          --corner-top-right TEXT \r\n                              Corner-pin top-right point x,y\r\n          --corner-bottom-right TEXT \r\n                              Corner-pin bottom-right point x,y\r\n          --plane-top-left TEXT \r\n                              Surface-track initial plane top-left point x,y\r\n          --plane-bottom-left TEXT \r\n                              Surface-track initial plane bottom-left point x,y\r\n          --plane-top-right TEXT \r\n                              Surface-track initial plane top-right point x,y\r\n          --plane-bottom-right TEXT \r\n                              Surface-track initial plane bottom-right point x,y\r\n          --content-u-min TEXT \r\n                              Follower left edge in tracked-plane coordinates for surface-track\r\n                              mode\r\n          --content-u-max TEXT \r\n                              Follower right edge in tracked-plane coordinates for\r\n                              surface-track mode\r\n          --content-v-min TEXT \r\n                              Follower top edge in tracked-plane coordinates for surface-track\r\n                              mode\r\n          --content-v-max TEXT \r\n                              Follower bottom edge in tracked-plane coordinates for\r\n                              surface-track mode\r\n          --tracking-begin-time <duration> \r\n                              Surface-track begin time; explicit unit required: us, ms, s, or\r\n                              min\r\n          --tracking-end-time <duration> \r\n                              Surface-track end time; explicit unit required: us, ms, s, or min\r\n          --tracking-seed-time <duration> \r\n                              Surface-track seed-frame time; explicit unit required: us, ms, s,\r\n                              or min\r\n          --scale TEXT        Uniform stretch/scale value\r\n          --scale-x TEXT      Horizontal stretch/scale value\r\n          --scale-y TEXT      Vertical stretch/scale value\r\n          --position-x TEXT   Optional canvas x position update\r\n          --position-y TEXT   Optional canvas y position update\r\n          --rotation TEXT     Optional rotation update in degrees\r\n          --alpha TEXT        Optional alpha update\r\n          --wait-for-tracking Wait for surface-track algorithm completion\r\n          --no-wait-for-tracking \r\n                              Do not wait for surface-track algorithm completion\r\n          --tracking-timeout <duration> \r\n                              Caller-side surface-track wait timeout; explicit unit required\r\n          --tracking-poll-interval <duration> [1s] \r\n                              Surface-track task status poll interval; explicit unit required\r\n          --enable-scale-tracking \r\n                              Enable scale tracking in surface-track mode\r\n          --enable-relative-distance-tracking \r\n                              Enable relative-distance tracking in surface-track mode\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  $ lyra-cli draft deform apply --mode stretch --deform-seg-id <id> --scale-x 1.2 --scale-y 1.5\r\n  $ lyra-cli draft deform apply --mode corner-pin --deform-seg-id <id> --corner-top-left \"-0.2,0.2\" --corner-bottom-left \"-0.2,-0.2\" --corner-top-right \"0.2,0.2\" --corner-bottom-right \"0.2,-0.2\"\r\n  $ lyra-cli draft deform apply --mode surface-track --tracked-video-seg-id <video> --follower-seg-id <follower> --plane-top-left \"-0.2,0.2\" --plane-bottom-left \"-0.2,-0.2\" --plane-top-right \"0.2,0.2\" --plane-bottom-right \"0.2,-0.2\" --content-u-min 0.05 --content-u-max 0.95 --content-v-min 0.36 --content-v-max 0.52 --tracking-begin-time 3s --tracking-end-time 5.2s --tracking-seed-time 3s --no-wait-for-tracking\r\n  $ lyra-cli draft algo query --task-id <task_id>\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 532,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "deform",
+        "apply",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791604954922,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791604954,\"timestamp_str\":\"2026-10-10 12:02:34.922\",\"trace_index\":11,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791604955210,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.210\",\"trace_index\":12,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791604955213,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":59612,\"ppid\":63104,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.213\",\"trace_index\":13,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791604955283,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-s61frsr7\\__PSScriptPolicyTest_0vhe5hwb.cfe.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791604955283,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.283\",\"trace_index\":14,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791604955284,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-s61frsr7\\__PSScriptPolicyTest_beo11tpq.4ue.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791604955285,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.285\",\"trace_index\":15,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791604955505,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-s61frsr7\\__PSScriptPolicyTest_wfy4ra4z.l1n.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791604955505,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.505\",\"trace_index\":16,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791604955506,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-s61frsr7\\__PSScriptPolicyTest_bghr5hm4.xou.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791604955506,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.506\",\"trace_index\":17,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791604955619,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":64036,\"ppid\":59612,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.619\",\"trace_index\":18,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791604955770,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":2140,\"ppid\":64036,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.770\",\"trace_index\":19,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791604955921,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-91661050268600",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791604955921,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-91661050268600\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.921\",\"trace_index\":20,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791604955941,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791604955941,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.941\",\"trace_index\":21,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791604955942,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791604955942,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.942\",\"trace_index\":22,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791604955951,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791604955951,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.951\",\"trace_index\":23,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791604955953,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791604955953,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604955,\"timestamp_str\":\"2026-10-10 12:02:35.953\",\"trace_index\":24,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791604956250,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\2140.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791604956254,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":516,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":2140,\"ppid\":64036,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791604956,\"timestamp_str\":\"2026-10-10 12:02:36.254\",\"trace_index\":25,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791604956254,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604954910",
+      "processId": 2140,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791604956267,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":657,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":64036,\"ppid\":59612,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791604956,\"timestamp_str\":\"2026-10-10 12:02:36.267\",\"trace_index\":26,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791604956267,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604954910",
+      "processId": 64036,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791604956282,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791604956288,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1078,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":59612,\"ppid\":63104,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791604956,\"timestamp_str\":\"2026-10-10 12:02:36.288\",\"trace_index\":27,\"vm_id\":\"draftediting-1791604954910\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791604956288,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791604956295,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604954910",
+      "processId": 59612,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

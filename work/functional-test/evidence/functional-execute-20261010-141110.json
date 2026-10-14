@@ -1,0 +1,152 @@
+{
+  "command_count": 6,
+  "context": {
+    "ref": "local://func-test",
+    "draft_root": "C:\\Users\\Administrator\\Documents\\剪映\\work\\functional-test\\run\\drafts\\func-test",
+    "notes": [
+      "create 未成功: exit_9 "
+    ]
+  },
+  "execute": {
+    "rows": [
+      {
+        "path": [
+          "draft",
+          "edit"
+        ],
+        "args": [
+          "edit",
+          "--ref",
+          "local://func-test",
+          "--op",
+          "func-test"
+        ],
+        "state": "needs_login",
+        "exit_code": 5,
+        "err_code": null,
+        "err_category": "",
+        "message": "",
+        "duration_ms": 1358,
+        "used_flags": [
+          "--ref",
+          "--op"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "config"
+        ],
+        "args": [
+          "config",
+          "--ref",
+          "local://func-test",
+          "--ratio",
+          "func-test"
+        ],
+        "state": "worker_timeout",
+        "exit_code": null,
+        "err_code": null,
+        "err_category": "",
+        "message": "VMSDK worker 超时",
+        "duration_ms": 90011,
+        "used_flags": [
+          "--ref",
+          "--ratio"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "create"
+        ],
+        "args": [
+          "project",
+          "create",
+          "--ref",
+          "local://func-test",
+          "--dir",
+          "C:\\Users\\Administrator\\Documents\\剪映\\work\\functional-test\\run\\out"
+        ],
+        "state": "worker_timeout",
+        "exit_code": null,
+        "err_code": null,
+        "err_category": "",
+        "message": "VMSDK worker 超时",
+        "duration_ms": 90012,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "list"
+        ],
+        "args": [
+          "project",
+          "list"
+        ],
+        "state": "needs_login",
+        "exit_code": 5,
+        "err_code": null,
+        "err_category": "",
+        "message": "",
+        "duration_ms": 1337,
+        "used_flags": []
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "focus"
+        ],
+        "args": [
+          "project",
+          "focus",
+          "--ref",
+          "local://func-test"
+        ],
+        "state": "exit_9",
+        "exit_code": 9,
+        "err_code": null,
+        "err_category": "",
+        "message": "",
+        "duration_ms": 1378,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "delete"
+        ],
+        "args": [
+          "project",
+          "delete",
+          "--ref",
+          "local://func-test"
+        ],
+        "state": "exit_9",
+        "exit_code": 9,
+        "err_code": null,
+        "err_category": "",
+        "message": "",
+        "duration_ms": 1389,
+        "used_flags": [
+          "--ref"
+        ]
+      }
+    ],
+    "summary": {
+      "needs_login": 2,
+      "worker_timeout": 2,
+      "exit_9": 2
+    }
+  }
+}

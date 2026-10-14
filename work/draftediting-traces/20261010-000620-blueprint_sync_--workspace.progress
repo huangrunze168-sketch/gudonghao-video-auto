@@ -1,0 +1,5 @@
+{"stage":"start","at":1791561977897,"args":["draft","blueprint","sync","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-update","--ref","local://headless-lyrics-update"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":46012}
+{"stage":"policy","at":1791561977898,"rules":8}
+{"stage":"create-process:begin","at":1791561977901,"vmId":"draftediting-1791561977898"}
+{"stage":"create-process:done","at":1791561978241,"processId":53604,"success":true}
+{"stage":"worker-ready","at":1791561978731}

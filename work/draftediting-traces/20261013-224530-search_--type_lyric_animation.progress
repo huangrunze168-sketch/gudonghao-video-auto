@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902725612,"args":["material","search","--type","lyric_animation","--prompt","综艺 歌词字幕","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\87e6e310b03146f5bc02d69a3e3dd546","pid":32688}
+{"stage":"policy","at":1791902725613,"rules":9}
+{"stage":"policy-network","at":1791902725613,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902725617,"vmId":"draftediting-1791902725613"}
+{"stage":"create-process:done","at":1791902725643,"processId":51316,"success":true}
+{"stage":"worker-ready","at":1791902726197}

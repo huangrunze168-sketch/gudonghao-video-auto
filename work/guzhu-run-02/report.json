@@ -1,0 +1,82 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "问春风": {
+      "name": "问春风",
+      "safe_name": "问春风",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\jypack-inspect\\extracted\\ImportedMaterials\\Used\\问春风_14495974825818550881.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\问春风.lrc",
+      "start_us": 119700000,
+      "window_us": 33524262,
+      "clip_us": 33524286,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-02\\songs\\问春风.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-02\\jypack\\问春风.jypack",
+      "jypack_bytes": 13031064,
+      "pruned_assets": 36,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 8390929,
+        "delta_us": 1957596,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "main_duration_us": 25133333,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "lyrics": 8,
+        "lyrics_dropped": 0,
+        "pruned_materials": {
+          "texts": 38,
+          "material_animations": 32
+        },
+        "duration_us": 33524262,
+        "max_segment_end_us": 33524262
+      },
+      "lyric_cues": 8,
+      "status": "rendered",
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-02\\render\\问春风\\render.mp4",
+        "duration": 33.533333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "a75696bdc273711520705fc7cbac0336462a28efe62b43ae44b27fc981af3f0d",
+        "size": 3233088,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风"
+      },
+      "render_seconds": 10.3
+    }
+  },
+  "order": [
+    "问春风"
+  ],
+  "intro": {
+    "lines": [
+      "姐妹们先别划走",
+      "老板说这单生意亏了三年",
+      "可账本上从来没亏过",
+      "于是他写下这首歌",
+      "评论区敲个句号就当我股东"
+    ],
+    "mode": "sapi",
+    "voice": "Microsoft Huihui Desktop",
+    "total_us": 8390929
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

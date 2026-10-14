@@ -1,0 +1,6 @@
+{"stage":"start","at":1791885975351,"args":["material","search","--type","sticker","--prompt","安静 独处 治愈 简约","--limit","4"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\f7a61967b5e840edad19a233b8eb433d","pid":1788}
+{"stage":"policy","at":1791885975352,"rules":9}
+{"stage":"policy-network","at":1791885975352,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791885975357,"vmId":"draftediting-1791885975352"}
+{"stage":"create-process:done","at":1791885975376,"processId":45772,"success":true}
+{"stage":"worker-ready","at":1791885975880}

@@ -1,0 +1,218 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791794690.225114,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-template-verify",
+  "steps": {
+    "recognize": {
+      "status": "reused",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\测试-auto-lyrics-large-v3\\lyrics.json",
+      "cue_count": 12,
+      "recognizer": {
+        "detected_language": "zh",
+        "language_probability": 1.0,
+        "model": "large-v3",
+        "device": "cpu",
+        "compute_type": "int8",
+        "clip_start_seconds": 119.7,
+        "clip_end_seconds": 151.266666
+      },
+      "at": 1791794690.2322254
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-run-20261012-164450",
+      "ref": "local://headless-run-20261012-164450",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261012-164450",
+      "segment_count": 25,
+      "at": 1791794697.6610084
+    },
+    "align": {
+      "status": "skipped",
+      "reason": "改用检索到的可用官方模板逐句生成",
+      "replacement": {
+        "asset_id": "subtitle_template1",
+        "resource_id": "7537250955520118040",
+        "title": "歌词-简约手写字",
+        "source": "search",
+        "usable_count": 6,
+        "searched": 6
+      },
+      "at": 1791794729.857471
+    },
+    "template-resources": {
+      "status": "incomplete",
+      "templates": 6,
+      "missing": [
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        }
+      ],
+      "replacement": {
+        "asset_id": "subtitle_template1",
+        "resource_id": "7537250955520118040",
+        "title": "歌词-简约手写字",
+        "source": "search",
+        "usable_count": 6,
+        "searched": 6
+      },
+      "at": 1791794729.864601
+    },
+    "selection": {
+      "status": "ok",
+      "cards": [
+        "lyric_0002",
+        "lyric_0003",
+        "lyric_0004",
+        "lyric_0005",
+        "lyric_0006",
+        "lyric_0007",
+        "lyric_0008",
+        "lyric_0009",
+        "lyric_0010",
+        "lyric_0011",
+        "lyric_0012"
+      ],
+      "tts": false,
+      "lyric_target": "template",
+      "speech_ref": null,
+      "selection": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261012-164450\\edit.selection",
+      "subtitle_plan": {
+        "mode": "replacement-template",
+        "template_ref": "subtitle_template1",
+        "template_title": "歌词-简约手写字",
+        "kept": 11,
+        "dropped": 1
+      },
+      "at": 1791794729.8730412
+    },
+    "normalize": {
+      "status": "ok",
+      "files": {
+        "target_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        },
+        "current_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        }
+      },
+      "at": 1791794729.882761
+    },
+    "apply": {
+      "status": "ok",
+      "executed_count": 12,
+      "planned_count": 12,
+      "commands": [
+        "draft edit --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"于是不觉可问春风\\\";start=6433ms;duration=1867ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"它掠过我空袖口春风\\\";start=8300ms;duration=2160ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"添我十万八千梦\\\";start=10460ms;duration=2300ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"走向没有你的岸\\\";start=13130ms;duration=1970ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"各起重山各起重梦\\\";start=15100ms;duration=1840ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"终于不问归程\\\";start=16940ms;duration=2540ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"还会等到有理想\\\";start=20010ms;duration=1850ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"缺陷天边一番红人\\\";start=21860ms;duration=2060ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"长大后才知晓\\\";start=23920ms;duration=2220ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"这一程虚有我\\\";start=26800ms;duration=2100ms\" --add \"type=subtitle_template;resource=vimo://7537250955520118040;content=\\\"自封\\\";start=28900ms;duration=2300ms\"",
+        "blueprint static-layout seg_id=86096ED3-7FBF-4865-8715-D95268F8E1F4",
+        "blueprint static-layout seg_id=972D507B-4467-4035-AFE4-D71705297D85",
+        "blueprint static-layout seg_id=412FA55F-4224-4dbe-B5F7-6BFDE5573631",
+        "blueprint static-layout seg_id=6297A518-667D-4583-8C55-2E8C593B8C1D",
+        "blueprint static-layout seg_id=A338400F-EE2E-4010-85B6-575678332879",
+        "blueprint static-layout seg_id=E843D238-0E8B-4caa-9804-1A9F53E92131",
+        "blueprint static-layout seg_id=01AA1BA5-448F-46f0-B002-9A902AC05B62",
+        "blueprint static-layout seg_id=6E912461-80F5-4dfd-9628-DABB6E265C59",
+        "blueprint static-layout seg_id=5731E977-DE24-4935-8EFB-65D6957B6A1D",
+        "blueprint static-layout seg_id=ED58F29B-06EC-4510-899F-C97D0A1F1F19",
+        "blueprint static-layout seg_id=734B329D-2996-464f-82DF-59D82CF1D616"
+      ],
+      "validation": "Applied; live draft validation passed.",
+      "at": 1791794735.2131498
+    },
+    "mirrors": {
+      "status": "ok",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-run-20261012-164450\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+      "written": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-run-20261012-164450\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-run-20261012-164450\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-run-20261012-164450\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791794735.2233171
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-template-verify\\06-render\\render.mp4",
+      "output_size": 2251224,
+      "video_duration": 31.6,
+      "at": 1791794748.31065
+    }
+  },
+  "finished_at": 1791794748.3178062,
+  "working_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-run-20261012-164450"
+}

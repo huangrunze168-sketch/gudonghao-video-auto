@@ -1,0 +1,6 @@
+{"stage":"start","at":1791950088055,"args":["lint","draft","--ref","local://guzhu-01","--output","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\guzhu-lint-304aed3b\\lint-report.json"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":48424}
+{"stage":"policy","at":1791950088055,"rules":9}
+{"stage":"policy-network","at":1791950088056,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791950088059,"vmId":"draftediting-1791950088055"}
+{"stage":"create-process:done","at":1791950088077,"processId":56576,"success":true}
+{"stage":"worker-ready","at":1791950088575}

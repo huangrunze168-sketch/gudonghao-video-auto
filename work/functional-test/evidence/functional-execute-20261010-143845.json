@@ -1,0 +1,581 @@
+{
+  "command_count": 20,
+  "context": {
+    "ref": "local://func-test-1010-143711",
+    "draft_root": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\func-test-1010-143711",
+    "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test",
+    "media": {
+      "video": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+      "audio": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.m4a",
+      "image": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+    },
+    "create": {
+      "state": "ok",
+      "message": "success"
+    },
+    "notes": [
+      "工程被上一条命令删除，已重建并重新灌入片段"
+    ]
+  },
+  "execute": {
+    "rows": [
+      {
+        "path": [
+          "draft",
+          "edit"
+        ],
+        "args": [
+          "edit",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--op",
+          "split"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100110,
+        "err_category": "usage",
+        "message": "gen_patch: invalid action: gen_patch --op split requires --target",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100110,\"err_msg\":\"gen_patch: invalid action: gen_patch --op split requires --target\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1287,
+        "used_flags": [
+          "--ref",
+          "--op"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "config"
+        ],
+        "args": [
+          "config",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--ratio",
+          "16:9"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[],\"extras\":[]}}\r\n",
+        "duration_ms": 1308,
+        "used_flags": [
+          "--ref",
+          "--ratio"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "create"
+        ],
+        "args": [
+          "project",
+          "create",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"draft_id\":\"80B07689-5051-4c1e-A0D9-4B00C991491C\",\"draft_name\":\"func-test-1010-143711\",\"ref\":\"local://func-test-1010-143711\"}}\r\n",
+        "duration_ms": 864,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "list"
+        ],
+        "args": [
+          "project",
+          "list"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"focused_ref\":null,\"projects\":[{\"draft_id\":\"44882863-FB8C-4d4a-AA40-F46EB759208A\",\"name\":\"测试 (1)\",\"ref\":\"local://测试 (1)\"},{\"draft_id\":\"A07A551A-CB42-4dd4-8692-B72F6732E68B\",\"name\":\"最怕你离开_0921_2226\",\"ref\":\"local://最怕你离开_0921_2226\"},{\"draft_id\":\"BCEE4B9F-DEED-4e14-92B6-7A4E348A9B4F\",\"name\":\"9月20日\",\"ref\":\"local://9月20日\"},{\"draft_id\":\"D8304EB7-93C1-416c-9EDC-FA1B22DFAA2A\",\"name\":\"9月16日 (4)\",\"ref\":\"local://9月16日 (4)\"},{\"draft_id\":\"B83E30C1-88D4-4b37-B146-B82316E51DFE\",\"name\":\"9月16日 (3)\",\"ref\":\"local://9月16日 (3)\"},{\"draft_id\":\"84CDB95A-2CF9-422b-8C18-8B698",
+        "duration_ms": 639,
+        "used_flags": []
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "focus"
+        ],
+        "args": [
+          "project",
+          "focus",
+          "--ref",
+          "local://func-test-1010-143711"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-143711\"}}\r\n",
+        "duration_ms": 646,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "delete"
+        ],
+        "args": [
+          "project",
+          "delete",
+          "--ref",
+          "local://func-test-1010-143711"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-143711\"}}\r\n",
+        "duration_ms": 669,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "set"
+        ],
+        "args": [
+          "cover",
+          "set",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--image",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"height\":320,\"source\":\"image\",\"thumbnail_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-143711\\\\draft_cover.jpg\",\"width\":320}}\r\n",
+        "duration_ms": 1656,
+        "used_flags": [
+          "--ref",
+          "--image"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "clear"
+        ],
+        "args": [
+          "cover",
+          "clear",
+          "--ref",
+          "local://func-test-1010-143711"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"cleared\":true,\"thumbnail_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-143711\\\\draft_cover.jpg\"}}\r\n",
+        "duration_ms": 1283,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "extract",
+          "summary"
+        ],
+        "args": [
+          "extract",
+          "summary",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out",
+          "--seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E"
+        ],
+        "state": "business_error",
+        "exit_code": 1,
+        "err_code": -100154,
+        "err_category": "runtime",
+        "message": "draft extract failed: handle draft extract: extract failed: extract failed",
+        "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100154,\"err_msg\":\"draft extract failed: handle draft extract: extract failed: extract failed\",\"recovery\":\"retry\",\"result\":null,\"severity\":\"retryable\"}\r\n",
+        "duration_ms": 1290,
+        "used_flags": [
+          "--ref",
+          "--dir",
+          "--seg-id"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "add"
+        ],
+        "args": [
+          "template",
+          "add",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.mp4",
+          "--title",
+          "func-test",
+          "--start",
+          "1s",
+          "--track-index",
+          "0",
+          "--duration",
+          "1s",
+          "--resource-dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "business_error",
+        "exit_code": 1,
+        "err_code": -100147,
+        "err_category": "runtime",
+        "message": "patch apply failed: template parse failed: code=-10011, msg=unzip failed",
+        "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: template parse failed: code=-10011, msg=unzip failed\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1350,
+        "used_flags": [
+          "--ref",
+          "--resource",
+          "--title",
+          "--start",
+          "--track-index",
+          "--duration",
+          "--resource-dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "publish"
+        ],
+        "args": [
+          "template",
+          "publish",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"delivery_mode\":\"local_template_package\",\"items\":[{\"content\":\"template\",\"error\":\"\",\"ok\":true,\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-143711\\\\publish\\\\template.zip\",\"resource_report\":[]}],\"package_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-143711\\\\publish\\\\template.zip\",\"publish_dir\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-143711",
+        "duration_ms": 1632,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "render"
+        ],
+        "args": [
+          "template",
+          "render",
+          "--config",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--output",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out\\draft-template-render.mp4",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100001,
+        "err_category": "usage",
+        "message": "invalid argument: draft template render requires a fresh --ref whose workspace does not already exist",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100001,\"err_msg\":\"invalid argument: draft template render requires a fresh --ref whose workspace does not already exist\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1375,
+        "used_flags": [
+          "--config",
+          "--ref",
+          "--output",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "slots"
+        ],
+        "args": [
+          "template",
+          "slots",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--template-seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"slots\":[],\"template_segment_id\":\"6CB669F8-1CA1-443f-AF35-4B7FACC1791E\"}}\r\n",
+        "duration_ms": 1314,
+        "used_flags": [
+          "--ref",
+          "--template-seg-id"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "replace"
+        ],
+        "args": [
+          "template",
+          "replace",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--template-seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E",
+          "--slot",
+          "func-test",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.mp4",
+          "--content",
+          "功能测试"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100001,
+        "err_category": "usage",
+        "message": "invalid argument: slot not found: func-test",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100001,\"err_msg\":\"invalid argument: slot not found: func-test\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1307,
+        "used_flags": [
+          "--ref",
+          "--template-seg-id",
+          "--slot",
+          "--resource",
+          "--content"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "query"
+        ],
+        "args": [
+          "algo",
+          "query",
+          "--task-id",
+          "func-test"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100178,
+        "err_category": "usage",
+        "message": "invalid video-tracking task id: func-test",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100178,\"err_msg\":\"invalid video-tracking task id: func-test\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 647,
+        "used_flags": [
+          "--task-id"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "wait"
+        ],
+        "args": [
+          "algo",
+          "wait",
+          "--task-id",
+          "func-test"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100178,
+        "err_category": "usage",
+        "message": "invalid video-tracking task id: func-test",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100178,\"err_msg\":\"invalid video-tracking task id: func-test\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 630,
+        "used_flags": [
+          "--task-id"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "quality-enhance"
+        ],
+        "args": [
+          "algo",
+          "quality-enhance",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E",
+          "--from",
+          "1s"
+        ],
+        "state": "needs_login",
+        "exit_code": 1,
+        "err_code": -100304,
+        "err_category": "not_found",
+        "message": "auth credential is missing: not logged in. Please log in and retry",
+        "stdout": "{\"err_category\":\"not_found\",\"err_code\":-100304,\"err_msg\":\"auth credential is missing: not logged in. Please log in and retry\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1312,
+        "used_flags": [
+          "--ref",
+          "--seg-id",
+          "--from"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "upscale-resolution"
+        ],
+        "args": [
+          "algo",
+          "upscale-resolution",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E",
+          "--mode",
+          "auto",
+          "--from",
+          "1s",
+          "--input-path",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+          "--output-path",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out\\draft-algo-upscale-resolution.mp4",
+          "--task-id",
+          "func-test"
+        ],
+        "state": "needs_login",
+        "exit_code": 1,
+        "err_code": -100304,
+        "err_category": "not_found",
+        "message": "auth credential is missing: not logged in. Please log in and retry",
+        "stdout": "{\"err_category\":\"not_found\",\"err_code\":-100304,\"err_msg\":\"auth credential is missing: not logged in. Please log in and retry\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1296,
+        "used_flags": [
+          "--ref",
+          "--seg-id",
+          "--mode",
+          "--from",
+          "--input-path",
+          "--output-path",
+          "--task-id"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "ai-frame-interpolation"
+        ],
+        "args": [
+          "algo",
+          "ai-frame-interpolation",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E",
+          "--fps",
+          "30"
+        ],
+        "state": "needs_login",
+        "exit_code": 1,
+        "err_code": -100304,
+        "err_category": "not_found",
+        "message": "auth credential is missing: not logged in. Please log in and retry",
+        "stdout": "{\"err_category\":\"not_found\",\"err_code\":-100304,\"err_msg\":\"auth credential is missing: not logged in. Please log in and retry\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1301,
+        "used_flags": [
+          "--ref",
+          "--seg-id",
+          "--fps"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "ai-matting"
+        ],
+        "args": [
+          "algo",
+          "ai-matting",
+          "--ref",
+          "local://func-test-1010-143711",
+          "--seg-id",
+          "6CB669F8-1CA1-443f-AF35-4B7FACC1791E",
+          "--workspace",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "needs_login",
+        "exit_code": 1,
+        "err_code": -100304,
+        "err_category": "not_found",
+        "message": "auth credential is missing: not logged in. Please log in and retry",
+        "stdout": "{\"err_category\":\"not_found\",\"err_code\":-100304,\"err_msg\":\"auth credential is missing: not logged in. Please log in and retry\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1402,
+        "used_flags": [
+          "--ref",
+          "--seg-id",
+          "--workspace"
+        ]
+      }
+    ],
+    "summary": {
+      "usage": 5,
+      "ok": 9,
+      "business_error": 2,
+      "needs_login": 4
+    }
+  }
+}

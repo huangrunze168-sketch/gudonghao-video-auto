@@ -1,0 +1,38 @@
+{
+  "schema": "jianying-jypack-native-render/v1",
+  "status": "rendered",
+  "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-final\\jypack\\问春风-副歌后段.jypack",
+  "source_sha256": "b03a36af853f6fe07ae2c4b7ebd5422d124bdfee75ce8d28d14bcb12534a97d8",
+  "timeline_id": "9FE2B520-CD9A-45FC-9A0C-5E3D33D32B65",
+  "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风-副歌后段",
+  "imported_draft_written": false,
+  "runtime_profile": "jy14-headless-windows-11.5.0.14471",
+  "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-final\\render\\问春风-副歌后段\\render.mp4",
+  "output_sha256": "0276db99f660e950b1e50c52737b9d88d3c8b4eaeeb3b8f91f0a9acd2953a017",
+  "output_size": 3211451,
+  "width": 1280,
+  "height": 720,
+  "video_codec": "h264",
+  "video_duration": 33.2,
+  "audio_codec": "aac",
+  "audio_duration": 33.203991,
+  "toolchain": {
+    "compiler": "clang version 23.1.1 (https://github.com/llvm/llvm-project 6dfe1677ab8dffbc6ec13d53a1e0215d75147689)",
+    "clang_cl": "C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+    "vcvars64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat",
+    "command": [
+      "C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+      "/nologo",
+      "/std:c++17",
+      "/EHsc",
+      "/MD",
+      "/O2",
+      "/D_CRT_SECURE_NO_WARNINGS",
+      "/utf-8",
+      "C:\\Users\\Administrator\\Documents\\剪映\\engine\\native_export_windows.cpp",
+      "/Fe:C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-final\\render\\问春风-副歌后段\\native-export-helper.exe"
+    ]
+  },
+  "runtime_token_used": false,
+  "renderer": "Jianying native ExportService"
+}

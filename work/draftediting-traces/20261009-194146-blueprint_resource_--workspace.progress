@@ -1,0 +1,5 @@
+{"stage":"start","at":1791546104990,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2","--import","local:///C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/7504926415540817178/7358f86acd45337dc0e2f396cae401db/font.ttf","--title","draft-font"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2","pid":56972}
+{"stage":"policy","at":1791546104991,"rules":9}
+{"stage":"create-process:begin","at":1791546104995,"vmId":"draftediting-1791546104990"}
+{"stage":"create-process:done","at":1791546105347,"processId":46392,"success":true}
+{"stage":"worker-ready","at":1791546105854}

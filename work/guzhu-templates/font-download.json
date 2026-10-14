@@ -1,0 +1,284 @@
+{
+  "6740435494053614093": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "6740439840254333443": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1968,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7025886295524119053": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2299,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7035888265290846756": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "7068207165277737502": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1926,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7078971008769593887": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1849,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7081925028773630471": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2027,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7194703888736326146": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 923,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_category"
+  },
+  "7209395076210889217": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 890,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_category"
+  },
+  "7209396183293235714": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 840,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_category"
+  },
+  "7215808497844228609": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 865,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_category"
+  },
+  "7230715372683399740": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "7265609486646121018": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1747,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7265611310132367931": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2998,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7265611544820453948": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2911,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7265611790313067069": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "7265942661473767938": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 890,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_category"
+  },
+  "7267843679044244027": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "7290440791967666725": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2025,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290444545689391653": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2087,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290445091401896507": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1832,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290445254241555005": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1932,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290455103704666679": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2100,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290455877864133157": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1955,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290455967735484987": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1835,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290456177559736889": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1879,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290457161887388219": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1980,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290457267030200869": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2009,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7290457477873668666": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2096,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7298970759601345026": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 901,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_category"
+  },
+  "7312718751328113162": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1928,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7312719287796371978": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2013,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7312719426845938203": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2066,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7312719708283736627": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1906,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7312720059191792154": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1923,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7312720141865718282": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2148,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7312720421177004571": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1851,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7315024815268565541": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2164,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7316817704143295003": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "7340606325656654345": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2517,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7340606328869491227": {
+    "status": "failed-still-missing-dir",
+    "size": 0,
+    "cli": "官方返回成功",
+    "error": ""
+  },
+  "7410326723322974746": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2261,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7410326723805319706": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2126,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7423616268764189193": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1858,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7423616268952932902": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2180,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7444913491762221577": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 2380,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  },
+  "7494187329054052901": {
+    "status": "failed-still-lock-only",
+    "size": 0,
+    "cli": "失败，禁止自动替代",
+    "error": "lyra-cli 调用失败: {\n  \"exitCode\": 1,\n  \"timedOut\": false,\n  \"durationMs\": 1849,\n  \"stderr\": \"\",\n  \"stdout\": \"{\\\"err_categor"
+  }
+}

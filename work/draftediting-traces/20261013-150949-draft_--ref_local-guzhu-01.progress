@@ -1,0 +1,5 @@
+{"stage":"start","at":1791875385233,"args":["lint","draft","--ref","local://guzhu-01"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":57096}
+{"stage":"policy","at":1791875385233,"rules":8}
+{"stage":"create-process:begin","at":1791875385236,"vmId":"draftediting-1791875385233"}
+{"stage":"create-process:done","at":1791875385670,"processId":54868,"success":true}
+{"stage":"worker-ready","at":1791875386217}

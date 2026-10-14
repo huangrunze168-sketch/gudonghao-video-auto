@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560895905,"args":["draft","blueprint","apply","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-234742","--dir","C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-zigzag-20261009-234742","--ref","local://headless-zigzag-20261009-234742","--selection-file","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-234742\\edit.selection","--allow-existing-main-deletion","--allow-existing-subtitle-changes"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":46340}
+{"stage":"policy","at":1791560895906,"rules":9}
+{"stage":"create-process:begin","at":1791560895909,"vmId":"draftediting-1791560895906"}
+{"stage":"create-process:done","at":1791560896213,"processId":44380,"success":true}
+{"stage":"worker-ready","at":1791560896722}

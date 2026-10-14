@@ -1,0 +1,39 @@
+{
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "out": "C:/Users/Administrator/Documents/剪映/work/guzhu-run-01",
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "主播认为家产从未易主",
+      "只是双方都有难言的苦...",
+      "于是主播哭着写了这首...",
+      "一个句号就是入股"
+    ],
+    "tts": {
+      "mode": "files",
+      "files": [
+        "C:/Users/Administrator/Documents/剪映/work/guzhu-test/voice/line-01.wav",
+        "C:/Users/Administrator/Documents/剪映/work/guzhu-test/voice/line-02.wav",
+        "C:/Users/Administrator/Documents/剪映/work/guzhu-test/voice/line-03.wav",
+        "C:/Users/Administrator/Documents/剪映/work/guzhu-test/voice/line-04.wav",
+        "C:/Users/Administrator/Documents/剪映/work/guzhu-test/voice/line-05.wav"
+      ]
+    }
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "bitrate": 6000000,
+    "timeout": 900,
+    "import_timeout": 180
+  },
+  "songs": [
+    {
+      "name": "问春风",
+      "file": "C:/Users/Administrator/Documents/剪映/work/jypack-inspect/extracted/ImportedMaterials/Used/问春风_14495974825818550881.wav",
+      "lyrics": "C:/Users/Administrator/Documents/剪映/work/guzhu-test/问春风.lrc",
+      "start": 119.7
+    }
+  ]
+}

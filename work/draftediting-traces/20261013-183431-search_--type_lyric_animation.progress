@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887667317,"args":["material","search","--type","lyric_animation","--prompt","温柔 甜 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\1afa5362417848908f74ed13c666173d","pid":47512}
+{"stage":"policy","at":1791887667317,"rules":9}
+{"stage":"policy-network","at":1791887667318,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887667321,"vmId":"draftediting-1791887667317"}
+{"stage":"create-process:done","at":1791887667340,"processId":47392,"success":true}
+{"stage":"worker-ready","at":1791887667823}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902667436,"args":["material","search","--type","sticker","--prompt","想通了 微笑 轻松","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\3a60cae263834c2880b08dac79a75409","pid":51524}
+{"stage":"policy","at":1791902667436,"rules":9}
+{"stage":"policy-network","at":1791902667437,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902667440,"vmId":"draftediting-1791902667436"}
+{"stage":"create-process:done","at":1791902667461,"processId":50860,"success":true}
+{"stage":"worker-ready","at":1791902667991}

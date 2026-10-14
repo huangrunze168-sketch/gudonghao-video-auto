@@ -1,0 +1,74 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "mv测试": {
+      "name": "mv测试",
+      "safe_name": "mv测试",
+      "source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\eb\\eb41d90d8cf6bf7bb78602ed13db37e392180b27076694a627d06e186767d207\\mv测试.mp3",
+      "lyrics_source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\4a\\4a4e64a2fc482eaa81d556548711bc536b4c47c1365be5112ff29d05e14fdceb\\mv歌词.txt",
+      "source_duration_us": 48848958,
+      "start_us": 0,
+      "start_pick": "full-song",
+      "audio_layout": "full",
+      "window_us": 48848957,
+      "clip_us": 48848957,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-probe\\songs\\mv测试.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-probe\\jypack\\mv测试.jypack",
+      "jypack_bytes": 30878658,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 5928663,
+        "delta_us": -504670,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 48848957,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 0,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 54777620,
+        "max_segment_end_us": 54777620
+      },
+      "lyric_cues": 0,
+      "status": "built"
+    }
+  },
+  "order": [
+    "mv测试"
+  ],
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首战歌写给还在等的人",
+      "他把三年的心事都唱进去了",
+      "如果你也听懂了一句",
+      "评论区一个句号就是入股"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 5928663
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 0,
+    "built": 1,
+    "failed": 0
+  }
+}

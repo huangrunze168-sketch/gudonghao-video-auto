@@ -1,0 +1,14 @@
+{
+  "status": "build-verified",
+  "name": "first-draft-j576tduj",
+  "build": "C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\build",
+  "source_unchanged": true,
+  "draft_registered": false,
+  "video_exported": false,
+  "shell": "powershell",
+  "commands": {
+    "publish": "C:\\Python314\\python.exe C:\\Users\\Administrator\\Documents\\剪映\\skills\\yichen-jianying-edit\\scripts\\headless_draft.py publish --build C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\build --audit C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\publish-audit",
+    "verify": "C:\\Python314\\python.exe C:\\Users\\Administrator\\Documents\\剪映\\skills\\yichen-jianying-edit\\scripts\\headless_draft.py verify --build C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\build --report C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\after-native-save.json",
+    "export": "C:\\Python314\\python.exe C:\\Users\\Administrator\\Documents\\剪映\\skills\\yichen-jianying-edit\\scripts\\headless_draft.py export --build C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\build --out C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-0n_s7p5t\\work\\first-draft-j576tduj\\export"
+  }
+}

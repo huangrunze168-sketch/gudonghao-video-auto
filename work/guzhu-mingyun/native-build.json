@@ -1,0 +1,82 @@
+{
+  "batch": {
+    "template": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\1b\\1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2\\测试.jypack",
+    "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun",
+    "_base": "C:\\Users\\Administrator\\Documents\\剪映",
+    "media": {
+      "native_audio": true,
+      "background": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\background.png",
+      "stickers": "off"
+    },
+    "lyrics": {
+      "engine": "official",
+      "animation": "7513861835175546166"
+    },
+    "render": {
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "bitrate": 6000000,
+      "timeout": 1800
+    },
+    "songs": [
+      {
+        "name": "有一些瞬间 我在命运之外",
+        "audio_layout": "chorus",
+        "chorus_start_us": 58280000,
+        "target_seconds": 30,
+        "file": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\28\\28aa1248353b84819d4e7fd8c78bc47fe26a20b85a16ba9fbe596d4683fe05bc\\有一些瞬间 我在命运之外（男）.wav",
+        "lyrics": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\7a\\7a0e011d24e5ff22fcf13ad0222bdbd682902e54aa7eefe526a0e3846fcf76a1\\新建 文本文档 (3).txt"
+      }
+    ]
+  },
+  "entry": {
+    "name": "有一些瞬间 我在命运之外",
+    "safe_name": "有一些瞬间_我在命运之外",
+    "source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\28\\28aa1248353b84819d4e7fd8c78bc47fe26a20b85a16ba9fbe596d4683fe05bc\\有一些瞬间 我在命运之外（男）.wav",
+    "lyrics_source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\7a\\7a0e011d24e5ff22fcf13ad0222bdbd682902e54aa7eefe526a0e3846fcf76a1\\新建 文本文档 (3).txt",
+    "chorus_at": 12,
+    "source_duration_us": 223600000,
+    "start_us": 58280000,
+    "start_pick": "chorus-given+target30s",
+    "audio_layout": "chorus",
+    "window_us": 23095384,
+    "clip_us": 23095384,
+    "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\songs\\有一些瞬间_我在命运之外.wav",
+    "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\jypack\\有一些瞬间_我在命运之外.jypack",
+    "jypack_bytes": 103155451,
+    "pruned_assets": 35,
+    "repaired_media": [
+      {
+        "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+        "detected": null,
+        "action": "替换为纯色图片",
+        "size": [
+          1920,
+          1280
+        ]
+      }
+    ],
+    "timeline": {
+      "intro_before_us": 6433333,
+      "intro_after_us": 6904616,
+      "delta_us": 471283,
+      "intro_groups": 5,
+      "intro_groups_grown": 0,
+      "template_main_duration_us": 25133333,
+      "main_duration_us": 23095384,
+      "shifted_segments": 8,
+      "rescaled_intro_clips": 1,
+      "main_clip_resized": 1,
+      "background_replaced": 1,
+      "stickers_replaced": 0,
+      "pruned_materials": {
+        "texts": 38
+      },
+      "duration_us": 30000000,
+      "max_segment_end_us": 32037949
+    },
+    "lyric_cues": 0,
+    "status": "built"
+  }
+}

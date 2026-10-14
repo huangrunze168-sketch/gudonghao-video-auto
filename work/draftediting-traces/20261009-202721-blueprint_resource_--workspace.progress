@@ -1,0 +1,5 @@
+{"stage":"start","at":1791548839331,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\resource-probe","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"query\": \"浪漫氛围\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\resource-probe","pid":45168}
+{"stage":"policy","at":1791548839331,"rules":8}
+{"stage":"create-process:begin","at":1791548839335,"vmId":"draftediting-1791548839331"}
+{"stage":"create-process:done","at":1791548839740,"processId":48004,"success":true}
+{"stage":"worker-ready","at":1791548840224}

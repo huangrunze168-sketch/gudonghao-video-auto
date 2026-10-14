@@ -1,0 +1,6 @@
+{"stage":"start","at":1791880526795,"args":["material","search","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online-check","pid":23228}
+{"stage":"policy","at":1791880526795,"rules":8}
+{"stage":"policy-network","at":1791880526796,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791880526799,"vmId":"draftediting-1791880526795"}
+{"stage":"create-process:done","at":1791880527389,"processId":12536,"success":true}
+{"stage":"worker-ready","at":1791880527998}

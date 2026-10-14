@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560979619,"args":["draft","blueprint","init","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\lyric-probe"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting","pid":42636}
+{"stage":"policy","at":1791560979620,"rules":9}
+{"stage":"create-process:begin","at":1791560979622,"vmId":"draftediting-1791560979619"}
+{"stage":"create-process:done","at":1791560979929,"processId":58560,"success":true}
+{"stage":"worker-ready","at":1791560980423}

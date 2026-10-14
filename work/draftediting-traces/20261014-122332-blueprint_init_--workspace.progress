@@ -1,0 +1,6 @@
+{"stage":"start","at":1791951810543,"args":["draft","blueprint","init","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\guzhu-lyric-a-05b1b29b"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp","pid":51056}
+{"stage":"policy","at":1791951810543,"rules":9}
+{"stage":"policy-network","at":1791951810544,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791951810548,"vmId":"draftediting-1791951810543"}
+{"stage":"create-process:done","at":1791951810567,"processId":50124,"success":true}
+{"stage":"worker-ready","at":1791951811055}

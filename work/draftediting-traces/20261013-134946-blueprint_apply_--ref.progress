@@ -1,0 +1,5 @@
+{"stage":"start","at":1791870584269,"args":["draft","blueprint","apply","--ref","local://__guzhu_probe_missing__"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":41556}
+{"stage":"policy","at":1791870584270,"rules":7}
+{"stage":"create-process:begin","at":1791870584273,"vmId":"draftediting-1791870584269"}
+{"stage":"create-process:done","at":1791870584589,"processId":30056,"success":true}
+{"stage":"worker-ready","at":1791870585097}

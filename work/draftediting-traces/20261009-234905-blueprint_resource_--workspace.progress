@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560943522,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-234847","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"卡拉OK\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-234847","pid":57284}
+{"stage":"policy","at":1791560943522,"rules":8}
+{"stage":"create-process:begin","at":1791560943525,"vmId":"draftediting-1791560943522"}
+{"stage":"create-process:done","at":1791560943801,"processId":57532,"success":true}
+{"stage":"worker-ready","at":1791560944288}

@@ -1,0 +1,5 @@
+{"stage":"start","at":1791869757955,"args":["media","trim-video","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":21088}
+{"stage":"policy","at":1791869757956,"rules":7}
+{"stage":"create-process:begin","at":1791869757960,"vmId":"draftediting-1791869757956"}
+{"stage":"create-process:done","at":1791869758436,"processId":3352,"success":true}
+{"stage":"worker-ready","at":1791869758920}

@@ -1,0 +1,314 @@
+{
+  "sticker_scale": 2.0,
+  "stickers": [
+    {
+      "segment": "40299214",
+      "keyframes": [
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "7F9E6290",
+      "keyframes": [
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "6864B460",
+      "keyframes": [
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "92E62534",
+      "keyframes": [
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "5E56A09F",
+      "keyframes": [
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleX",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        },
+        {
+          "property": "KFTypeScaleY",
+          "before": [
+            0.22
+          ],
+          "after": [
+            2.0
+          ]
+        }
+      ]
+    }
+  ],
+  "effect_intensity": [
+    {
+      "resource_id": "7581434656197741849",
+      "intensity": 0.1,
+      "result": "{'affected_segments': [{'operator': 'update', 'segment_id': 'CEFDF797-ED0E-49af-93C4-9DCBB5297990', "
+    },
+    {
+      "resource_id": "7496779956345654552",
+      "intensity": 0.1,
+      "result": "{'affected_segments': [{'operator': 'update', 'segment_id': 'CEFDF797-ED0E-49af-93C4-9DCBB5297990', "
+    },
+    {
+      "resource_id": "7666032151833546008",
+      "intensity": 0.1,
+      "result": "{'affected_segments': [{'operator': 'update', 'segment_id': 'CEFDF797-ED0E-49af-93C4-9DCBB5297990', "
+    }
+  ],
+  "verify_stickers": [
+    {
+      "sticker": "40299214",
+      "scale_values": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    },
+    {
+      "sticker": "7F9E6290",
+      "scale_values": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    },
+    {
+      "sticker": "6864B460",
+      "scale_values": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    },
+    {
+      "sticker": "92E62534",
+      "scale_values": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    },
+    {
+      "sticker": "5E56A09F",
+      "scale_values": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    }
+  ]
+}

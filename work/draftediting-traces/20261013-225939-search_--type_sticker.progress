@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903573680,"args":["material","search","--type","sticker","--prompt","问号 猫 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\6ce96403187247cb89b070a045cf7242","pid":47072}
+{"stage":"policy","at":1791903573680,"rules":9}
+{"stage":"policy-network","at":1791903573681,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903573684,"vmId":"draftediting-1791903573680"}
+{"stage":"create-process:done","at":1791903573706,"processId":36580,"success":true}
+{"stage":"worker-ready","at":1791903574284}

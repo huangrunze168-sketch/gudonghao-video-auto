@@ -1,0 +1,79 @@
+{
+  "schema": "jianying-lyrics/v1",
+  "recognizer": "lyra-cli draft lyrics recognize",
+  "language": "zh",
+  "sentences": [
+    "九月不必再逢",
+    "于是不觉可闻",
+    "春风它掠过我空袖口",
+    "春风添我十万八千梦",
+    "走向没有你的岸",
+    "隔几重山隔几重梦",
+    "终于不问归程",
+    "还未等到远离乡 却见天边已泛红",
+    "人长大后才知晓",
+    "这一程序由我自封"
+  ],
+  "cues": [
+    {
+      "id": "lyric_01",
+      "text": "九月不必再逢",
+      "start_ms": 80,
+      "end_ms": 2940
+    },
+    {
+      "id": "lyric_02",
+      "text": "于是不觉可闻",
+      "start_ms": 6440,
+      "end_ms": 7960
+    },
+    {
+      "id": "lyric_03",
+      "text": "春风它掠过我空袖口",
+      "start_ms": 7960,
+      "end_ms": 10120
+    },
+    {
+      "id": "lyric_04",
+      "text": "春风添我十万八千梦",
+      "start_ms": 10120,
+      "end_ms": 13260
+    },
+    {
+      "id": "lyric_05",
+      "text": "走向没有你的岸",
+      "start_ms": 13320,
+      "end_ms": 15200
+    },
+    {
+      "id": "lyric_06",
+      "text": "隔几重山隔几重梦",
+      "start_ms": 15200,
+      "end_ms": 17120
+    },
+    {
+      "id": "lyric_07",
+      "text": "终于不问归程",
+      "start_ms": 17120,
+      "end_ms": 20160
+    },
+    {
+      "id": "lyric_08",
+      "text": "还未等到远离乡 却见天边已泛红",
+      "start_ms": 20160,
+      "end_ms": 23760
+    },
+    {
+      "id": "lyric_09",
+      "text": "人长大后才知晓",
+      "start_ms": 23760,
+      "end_ms": 26940
+    },
+    {
+      "id": "lyric_10",
+      "text": "这一程序由我自封",
+      "start_ms": 27080,
+      "end_ms": 31581
+    }
+  ]
+}

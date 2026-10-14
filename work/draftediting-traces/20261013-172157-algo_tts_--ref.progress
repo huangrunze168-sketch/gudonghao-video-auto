@@ -1,0 +1,6 @@
+{"stage":"start","at":1791883307812,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","9857A870-3A18-4905-A45F-CF7C61F65ED9","--text","懂这首歌的评论区留个句号","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":3604}
+{"stage":"policy","at":1791883307812,"rules":8}
+{"stage":"policy-network","at":1791883307813,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791883307817,"vmId":"draftediting-1791883307812"}
+{"stage":"create-process:done","at":1791883307836,"processId":20252,"success":true}
+{"stage":"worker-ready","at":1791883308305}

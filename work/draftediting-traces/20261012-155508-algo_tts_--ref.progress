@@ -1,0 +1,5 @@
+{"stage":"start","at":1791791705398,"args":["draft","algo","tts","--ref","local://guzhu-official-test","--text","家人们别划走，这条用剪映官方音色试一句。","--speaker","BV700_streaming","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":50004}
+{"stage":"policy","at":1791791705399,"rules":7}
+{"stage":"create-process:begin","at":1791791705402,"vmId":"draftediting-1791791705399"}
+{"stage":"create-process:done","at":1791791705731,"processId":45804,"success":true}
+{"stage":"worker-ready","at":1791791706241}

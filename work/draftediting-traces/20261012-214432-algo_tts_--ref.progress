@@ -1,0 +1,5 @@
+{"stage":"start","at":1791812667552,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","9857A870-3A18-4905-A45F-CF7C61F65ED9","--text","评论区一个句号就是入股","--speaker","ICL_zh_female_xinmanbo","--speed","1.3","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":4660}
+{"stage":"policy","at":1791812667553,"rules":7}
+{"stage":"create-process:begin","at":1791812667557,"vmId":"draftediting-1791812667553"}
+{"stage":"create-process:done","at":1791812667999,"processId":52956,"success":true}
+{"stage":"worker-ready","at":1791812668515}

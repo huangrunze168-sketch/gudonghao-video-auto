@@ -1,0 +1,5 @@
+{"stage":"start","at":1791870314072,"args":["draft","video","mask","update","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":31872}
+{"stage":"policy","at":1791870314072,"rules":7}
+{"stage":"create-process:begin","at":1791870314076,"vmId":"draftediting-1791870314072"}
+{"stage":"create-process:done","at":1791870314502,"processId":56356,"success":true}
+{"stage":"worker-ready","at":1791870314998}

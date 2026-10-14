@@ -1,0 +1,440 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791567836211",
+    "processId": 38508,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-bd083c116506e5fb",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Browse material topic collections, or list assets inside a specific topic.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h, --help                            Print this help message and exit\r\n      --type TEXT REQUIRED              Required. Material asset type key, such as `music`, `sticker`,\r\n                                        `effect`, `transition`, `text_template`, `sound`, `photo`, or\r\n                                        `video`.\r\n      --resource-platform <vimo|heycan|loki|1|2> \r\n                                        Material library source for visual/audio topics. Use `vimo`,\r\n                                        `heycan`, or `loki`; ignored for `--type music`.\r\n      --scene TEXT                      Music topic/list scene hint. Topic/recommended music use numeric\r\n                                        scenes; similar music defaults to `edit` when omitted.\r\n      --id INT                          Topic ID returned by `material topic`. When set, list concrete\r\n                                        assets inside this topic pool.\r\n      --topic-key TEXT                  Topic key returned by `material topic`. Optional when the topic\r\n                                        ID is sufficient.\r\n      --list-source <topic|recommended|template-fit|similar> \r\n                                        Music list source (`--type music` only). Use `topic` with `--id`,\r\n                                        or `recommended`, `template-fit`, or `similar`.\r\n      --limit INT:POSITIVE [10]         Maximum number of items to return in list mode. Default is 10.\r\n      --cursor INT:NONNEGATIVE [0]      Paging cursor for list mode, starts from 0.\r\n      --template-id <template-id>       Music list template-fit only: template ID.\r\n      --seed-resource-id <seed-resource-id> \r\n                                        Music list similar only: seed resource ID.\r\n      --seed-clip-id <seed-clip-id>     Music list similar only: seed clip ID.\r\n      --request-id <request-id>         Music list only: request ID for correlation or paging.\r\n      --filter-commercial               Music list only: restrict songs to commercially usable music.\r\n      --intelligence-reorder            Visual/audio list only: enable intelligence reorder.\r\n      --channel <online|test|local_test> \r\n                                        Material request channel. Use `test` or `local_test` for internal\r\n                                        test resources.\r\n  -v, --version                         Show version information and exit.\r\n      --jq TEXT                         Pretty-print JSON output; with an optional selector like\r\n                                        .result.items[0].id, output the selected JSON value instead of\r\n                                        the full schema envelope.\r\n\r\nWHEN TO USE\r\n  - Without `--id`: list curated topic pools for the given asset type\r\n    (hot / holiday / style / scene / playlist / collection).\r\n  - With `--id <topic_id>`: list concrete assets inside that topic pool.\r\n  - For music, `--id` may be omitted when combined with a `--list-source`\r\n    other than `topic` (e.g. `recommended`, `template-fit`, `similar`).\r\n\r\nEXAMPLES\r\n  # List topics under an asset type\r\n  $ lyra-cli material topic --type sticker\r\n  $ lyra-cli material topic --type music\r\n\r\n  # List assets inside a topic\r\n  $ lyra-cli material topic --type sticker --id 123 --limit 10\r\n  $ lyra-cli material topic --type music   --list-source recommended --limit 10\r\n  $ lyra-cli material topic --type music   --list-source similar --seed-resource-id 6944678306690085633\r\n\r\nOUTPUT\r\n  Without `--id`: result.topics[] with topic_id / topic_key / topic_name / topic_source.\r\n  With `--id` (or music `--list-source`): result.items[].resource_id for query, download, or draft handoff.\r\n",
+      "stderr": "",
+      "output": "Browse material topic collections, or list assets inside a specific topic.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h, --help                            Print this help message and exit\r\n      --type TEXT REQUIRED              Required. Material asset type key, such as `music`, `sticker`,\r\n                                        `effect`, `transition`, `text_template`, `sound`, `photo`, or\r\n                                        `video`.\r\n      --resource-platform <vimo|heycan|loki|1|2> \r\n                                        Material library source for visual/audio topics. Use `vimo`,\r\n                                        `heycan`, or `loki`; ignored for `--type music`.\r\n      --scene TEXT                      Music topic/list scene hint. Topic/recommended music use numeric\r\n                                        scenes; similar music defaults to `edit` when omitted.\r\n      --id INT                          Topic ID returned by `material topic`. When set, list concrete\r\n                                        assets inside this topic pool.\r\n      --topic-key TEXT                  Topic key returned by `material topic`. Optional when the topic\r\n                                        ID is sufficient.\r\n      --list-source <topic|recommended|template-fit|similar> \r\n                                        Music list source (`--type music` only). Use `topic` with `--id`,\r\n                                        or `recommended`, `template-fit`, or `similar`.\r\n      --limit INT:POSITIVE [10]         Maximum number of items to return in list mode. Default is 10.\r\n      --cursor INT:NONNEGATIVE [0]      Paging cursor for list mode, starts from 0.\r\n      --template-id <template-id>       Music list template-fit only: template ID.\r\n      --seed-resource-id <seed-resource-id> \r\n                                        Music list similar only: seed resource ID.\r\n      --seed-clip-id <seed-clip-id>     Music list similar only: seed clip ID.\r\n      --request-id <request-id>         Music list only: request ID for correlation or paging.\r\n      --filter-commercial               Music list only: restrict songs to commercially usable music.\r\n      --intelligence-reorder            Visual/audio list only: enable intelligence reorder.\r\n      --channel <online|test|local_test> \r\n                                        Material request channel. Use `test` or `local_test` for internal\r\n                                        test resources.\r\n  -v, --version                         Show version information and exit.\r\n      --jq TEXT                         Pretty-print JSON output; with an optional selector like\r\n                                        .result.items[0].id, output the selected JSON value instead of\r\n                                        the full schema envelope.\r\n\r\nWHEN TO USE\r\n  - Without `--id`: list curated topic pools for the given asset type\r\n    (hot / holiday / style / scene / playlist / collection).\r\n  - With `--id <topic_id>`: list concrete assets inside that topic pool.\r\n  - For music, `--id` may be omitted when combined with a `--list-source`\r\n    other than `topic` (e.g. `recommended`, `template-fit`, `similar`).\r\n\r\nEXAMPLES\r\n  # List topics under an asset type\r\n  $ lyra-cli material topic --type sticker\r\n  $ lyra-cli material topic --type music\r\n\r\n  # List assets inside a topic\r\n  $ lyra-cli material topic --type sticker --id 123 --limit 10\r\n  $ lyra-cli material topic --type music   --list-source recommended --limit 10\r\n  $ lyra-cli material topic --type music   --list-source similar --seed-resource-id 6944678306690085633\r\n\r\nOUTPUT\r\n  Without `--id`: result.topics[] with topic_id / topic_key / topic_name / topic_source.\r\n  With `--id` (or music `--list-source`): result.items[].resource_id for query, download, or draft handoff.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 528,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "material",
+        "topic",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791567836224,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.224\",\"trace_index\":11,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791567836504,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.504\",\"trace_index\":12,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791567836507,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":38508,\"ppid\":57860,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.507\",\"trace_index\":13,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791567836575,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-kxa0bfed\\__PSScriptPolicyTest_hdhgkvmf.4il.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791567836575,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.575\",\"trace_index\":14,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791567836576,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-kxa0bfed\\__PSScriptPolicyTest_dbaciv5g.pmg.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791567836576,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.576\",\"trace_index\":15,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791567836800,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-kxa0bfed\\__PSScriptPolicyTest_0qx44x25.3jf.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791567836800,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.800\",\"trace_index\":16,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791567836801,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-kxa0bfed\\__PSScriptPolicyTest_yoi1csmo.oap.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791567836801,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.801\",\"trace_index\":17,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791567836910,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":23380,\"ppid\":38508,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791567836,\"timestamp_str\":\"2026-10-10 01:43:56.910\",\"trace_index\":18,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791567837059,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":54968,\"ppid\":23380,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.059\",\"trace_index\":19,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791567837203,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-54542333262500",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791567837204,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-54542333262500\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.203\",\"trace_index\":20,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791567837232,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791567837232,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.232\",\"trace_index\":21,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791567837233,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791567837233,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.233\",\"trace_index\":22,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791567837243,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791567837243,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.243\",\"trace_index\":23,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791567837244,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791567837244,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.244\",\"trace_index\":24,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791567837535,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\54968.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791567837539,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":500,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":54968,\"ppid\":23380,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.539\",\"trace_index\":25,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791567837539,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567836211",
+      "processId": 54968,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791567837552,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":656,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":23380,\"ppid\":38508,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.552\",\"trace_index\":26,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791567837552,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567836211",
+      "processId": 23380,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791567837566,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791567837571,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1078,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":38508,\"ppid\":57860,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791567837,\"timestamp_str\":\"2026-10-10 01:43:57.571\",\"trace_index\":27,\"vm_id\":\"draftediting-1791567836211\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791567837571,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791567837578,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567836211",
+      "processId": 38508,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

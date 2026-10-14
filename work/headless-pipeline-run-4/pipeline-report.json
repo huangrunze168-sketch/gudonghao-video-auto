@@ -1,0 +1,241 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791547510.67301,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-4",
+  "steps": {
+    "recognize": {
+      "status": "ok",
+      "model": "large-v3",
+      "detected_language": "zh",
+      "cue_count": 12,
+      "lyrics_json": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-4\\01-recognize\\lyrics.json",
+      "srt": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-4\\01-recognize\\lyrics.srt",
+      "official_plan": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-4\\01-recognize\\official-features.plan.json",
+      "at": 1791547555.5342484
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-full-20261009-200555",
+      "ref": "local://headless-full-20261009-200555",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-200555",
+      "segment_count": 25,
+      "at": 1791547563.6958532
+    },
+    "align": {
+      "status": "ok",
+      "cards": 6,
+      "aligned": 6,
+      "skipped": 0,
+      "outside_cues": [
+        0
+      ],
+      "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-4\\03-alignment.json",
+      "at": 1791547563.7037456
+    },
+    "selection": {
+      "status": "ok",
+      "cards": [
+        "t6",
+        "t7",
+        "t8",
+        "t9",
+        "t10",
+        "t11"
+      ],
+      "tts": false,
+      "speech_ref": null,
+      "selection": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-200555\\edit.selection",
+      "at": 1791547563.710658
+    },
+    "normalize": {
+      "status": "ok",
+      "files": {
+        "target_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        },
+        "current_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        }
+      },
+      "at": 1791547563.7195597
+    },
+    "apply": {
+      "status": "ok",
+      "executed_count": 18,
+      "planned_count": 18,
+      "commands": [
+        "draft edit --update \"text_shadow=0;shadow_enable=0\" --target seg_id=1668560B-2F7F-4fed-A871-D56BE1B2F579",
+        "draft edit --update \"text=1;target=于是|不觉可|问春风\" --target seg_id=1668560B-2F7F-4fed-A871-D56BE1B2F579",
+        "draft edit --update \"text_shadow=0;shadow_enable=0\" --target seg_id=45B5F94E-2DB2-4b1d-8E7C-80F06A4586AD",
+        "draft edit --update \"text=1;target=它掠过我|空袖口|春风\" --target seg_id=45B5F94E-2DB2-4b1d-8E7C-80F06A4586AD",
+        "draft edit --update \"text_shadow=0;shadow_enable=0\" --target seg_id=96089ECA-E9F0-46c0-8410-3A14285002F5",
+        "draft edit --update \"text=1;target=添我十万|八千|梦|走向没有|你的|岸\" --target seg_id=96089ECA-E9F0-46c0-8410-3A14285002F5",
+        "draft edit --update \"text_shadow=0;shadow_enable=0\" --target seg_id=73A3B9FE-C964-45c3-BCE3-3CAC6F883070",
+        "draft edit --update \"text=1;target=各|起|重山|各起|重梦|终于|不|问|归|程\" --target seg_id=73A3B9FE-C964-45c3-BCE3-3CAC6F883070",
+        "draft edit --update \"text_shadow=0;shadow_enable=0\" --target seg_id=D2C62A99-F9B5-4028-8451-C69437BAD2DF",
+        "draft edit --update \"text=1;target=还会等|到有理想缺|陷天边一|番红人\" --target seg_id=D2C62A99-F9B5-4028-8451-C69437BAD2DF",
+        "draft edit --update \"text_shadow=0;shadow_enable=0\" --target seg_id=4E85C317-1C25-4ad4-9634-3D9ECB8F5905",
+        "draft edit --update \"text=1;target=长大后|才知|晓这|一程虚有|我自访\" --target seg_id=4E85C317-1C25-4ad4-9634-3D9ECB8F5905",
+        "blueprint static-layout seg_id=1668560B-2F7F-4fed-A871-D56BE1B2F579",
+        "blueprint static-layout seg_id=45B5F94E-2DB2-4b1d-8E7C-80F06A4586AD",
+        "blueprint static-layout seg_id=96089ECA-E9F0-46c0-8410-3A14285002F5",
+        "blueprint static-layout seg_id=73A3B9FE-C964-45c3-BCE3-3CAC6F883070",
+        "blueprint static-layout seg_id=D2C62A99-F9B5-4028-8451-C69437BAD2DF",
+        "blueprint static-layout seg_id=4E85C317-1C25-4ad4-9634-3D9ECB8F5905"
+      ],
+      "validation": "Applied; live draft validation passed.",
+      "at": 1791547569.4533503
+    },
+    "slot-rewrite": {
+      "status": "ok",
+      "cards": [
+        {
+          "card": "t6",
+          "segment_id": "1668560B-2F7F-4fed-A871-D56BE1B2F579",
+          "slots": [
+            "于是不",
+            "觉可",
+            "问春风",
+            "于是不觉可问春风"
+          ],
+          "word_count": 8,
+          "start_ms": 6466
+        },
+        {
+          "card": "t7",
+          "segment_id": "45B5F94E-2DB2-4b1d-8E7C-80F06A4586AD",
+          "slots": [
+            "它掠过我空",
+            "袖口",
+            "春风",
+            "它掠过我空袖口春风"
+          ],
+          "word_count": 9,
+          "start_ms": 7900
+        },
+        {
+          "card": "t8",
+          "segment_id": "96089ECA-E9F0-46c0-8410-3A14285002F5",
+          "slots": [
+            "添我十万",
+            "八",
+            "千梦",
+            "走向",
+            "没有",
+            "你的岸",
+            "添我十万八千梦走向没有你的岸"
+          ],
+          "word_count": 12,
+          "start_ms": 10100
+        },
+        {
+          "card": "t9",
+          "segment_id": "73A3B9FE-C964-45c3-BCE3-3CAC6F883070",
+          "slots": [
+            "各起",
+            "各起",
+            "重山各",
+            "重山各",
+            "起重梦",
+            "起重梦",
+            "起重梦",
+            "终于",
+            "不问",
+            "归程",
+            "各起重山各起重梦终于不问归程"
+          ],
+          "word_count": 14,
+          "start_ms": 15233
+        },
+        {
+          "card": "t10",
+          "segment_id": "D2C62A99-F9B5-4028-8451-C69437BAD2DF",
+          "slots": [
+            "还会",
+            "等到有",
+            "理想",
+            "缺陷天边一",
+            "番红人",
+            "还会等到有理想缺陷天边一番红人"
+          ],
+          "word_count": 15,
+          "start_ms": 20500
+        },
+        {
+          "card": "t11",
+          "segment_id": "4E85C317-1C25-4ad4-9634-3D9ECB8F5905",
+          "slots": [
+            "长大后",
+            "才知",
+            "晓这",
+            "一程虚",
+            "有我自访",
+            "长大后才知晓这一程虚有我自访"
+          ],
+          "word_count": 14,
+          "start_ms": 23766
+        }
+      ],
+      "mirrors": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-full-20261009-200555\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-full-20261009-200555\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-full-20261009-200555\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-full-20261009-200555\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791547569.8897545
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-4\\06-render\\render.mp4",
+      "output_size": 2250726,
+      "video_duration": 31.6,
+      "at": 1791547582.165158
+    }
+  },
+  "finished_at": 1791547582.1708746,
+  "working_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-full-20261009-200555"
+}

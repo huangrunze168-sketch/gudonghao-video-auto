@@ -1,0 +1,6 @@
+{"stage":"start","at":1791951403503,"args":["material","search","--type","font","--prompt","默陌专辑手写体","--limit","3"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\cacacfaad2db4f1ca0d6f85986958fe1","pid":58924}
+{"stage":"policy","at":1791951403504,"rules":9}
+{"stage":"policy-network","at":1791951403504,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791951403508,"vmId":"draftediting-1791951403504"}
+{"stage":"create-process:done","at":1791951403528,"processId":11232,"success":true}
+{"stage":"worker-ready","at":1791951404077}

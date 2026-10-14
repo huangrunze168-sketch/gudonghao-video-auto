@@ -1,0 +1,76 @@
+{
+  "camera": {
+    "affected_segments": [
+      {
+        "operator": "update",
+        "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "segment_type": "segment_video",
+        "target_time_range": {
+          "duration": 23100000,
+          "start": 6933333
+        },
+        "track_index": 0
+      }
+    ],
+    "extras": [],
+    "segment_ids": [
+      "CEFDF797-ED0E-49af-93C4-9DCBB5297990"
+    ]
+  },
+  "transition": {
+    "affected_segments": [
+      {
+        "operator": "update",
+        "segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "segment_type": "segment_video",
+        "target_time_range": {
+          "duration": 6933333,
+          "start": 0
+        },
+        "track_index": 0
+      }
+    ],
+    "extras": [],
+    "segment_ids": [
+      "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+    ]
+  },
+  "download": {
+    "command": [
+      "material",
+      "download",
+      "--type",
+      "transition",
+      "--resource-id",
+      "6724845717472416269"
+    ],
+    "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\abacea24c80a4112a5a8d6104f52b875",
+    "status": "官方返回成功",
+    "envelope": {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "transition",
+        "--resource-id",
+        "6724845717472416269"
+      ],
+      "result": {
+        "err_code": 0,
+        "err_msg": "success",
+        "result": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6724845717472416269\\bf40a46a8f8e68ea34d80212666b5e7c",
+          "resource_dir": "",
+          "resource_id": "6724845717472416269",
+          "resource_platform": 1,
+          "type": "transition"
+        }
+      },
+      "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\6724845717472416269\\\\bf40a46a8f8e68ea34d80212666b5e7c\",\"resource_dir\":\"\",\"resource_id\":\"6724845717472416269\",\"resource_platform\":1,\"type\":\"transition\"}}\r\n",
+      "stderr": "",
+      "host_pid": 42840,
+      "duration_ms": 3658
+    },
+    "files": []
+  }
+}

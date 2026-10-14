@@ -1,0 +1,1245 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791950088055",
+    "processId": 56576,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-4c95d8eee166af8d",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": false,
+      "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"automation_exit_code\":1,\"domain\":\"lint.draft\",\"draft_json_file\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\guzhu-01\\\\Timelines\\\\A6729104-386F-40AD-AC76-DDC2EDF90562\\\\draft_content.json\",\"draft_ref\":\"local://guzhu-01\",\"draft_root\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\guzhu-01\",\"execution_policy\":{\"auto_fix\":false,\"mode\":\"report_only\"},\"facts\":{\"layout\":{\"bbox_entries\":[{\"bbox\":{\"axis_aligned_box\":{\"bottom\":1280.0,\"center_x\":1138.0,\"center_y\":640.0,\"height\":1280.0,\"left\":178.0,\"right\":2098.0,\"top\":0.0,\"width\":1920.0},\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"measurement\":{\"backend\":\"lv-draft.original_size\",\"effect_render_initialized\":false,\"ve_editor_initialized\":false}},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F\",\"measure_error\":\"input media type or dimensions do not match --element-type video\",\"segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"segment_type\":\"video\"},{\"bbox\":{\"axis_aligned_box\":{\"bottom\":1110.5,\"center_x\":1138.0,\"center_y\":640.0,\"height\":941.0,\"left\":302.0,\"right\":1974.0,\"top\":169.5,\"width\":1672.0},\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"measurement\":{\"backend\":\"lv-draft.original_size\",\"effect_render_initialized\":false,\"ve_editor_initialized\":false}},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"BCD19CE6-633C-4D38-B737-A5498C02D643\",\"measure_error\":\"input media type or dimensions do not match --element-type video\",\"segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"segment_type\":\"video\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96233B82-1481-4b90-A7D6-8003E6EF43EA\",\"segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96A528DE-2687-4326-BF31-F959C03088E1\",\"segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"7AAB0035-E800-4d1f-B8B1-CF052BA7C62D\",\"segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"DA729333-5BBA-40e0-B493-90DF997E84AA\",\"segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"D761E739-C064-4720-881F-AF4433063C17\",\"segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.6147040672371918,\"measurement_mode\":\"static\",\"right\":0.6147040672371918,\"top\":-0.45160476694804397,\"width\":1.2294081344743837,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.6147040672371918,\"right\":0.6147040672371918,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"3B1370D4-E32C-41df-BC7B-A72C3C780353\",\"segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.6147040672371918,\"measurement_mode\":\"static\",\"right\":0.6147040672371918,\"top\":-0.45160476694804397,\"width\":1.2294081344743837,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.6147040672371918,\"right\":0.6147040672371918,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F66AB2D0-8799-4a20-93D0-AA8524654C94\",\"segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.8017361111710603,\"measurement_mode\":\"static\",\"right\":0.8017361111710603,\"top\":-0.45160476694804397,\"width\":1.6034722223421205,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.09913194441446987,\"top\":0.7258023834740219,\"width\":0.8017361111710604},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.8017361111710603,\"right\":0.8017361111710603,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26\",\"segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.8017359919617707,\"measurement_mode\":\"static\",\"right\":0.8017359919617707,\"top\":-0.45160476694804397,\"width\":1.6034719839235414,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.09913200401911465,\"top\":0.7258023834740219,\"width\":0.8017359919617708},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.8017359919617707,\"right\":0.8017359919617707,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"2D0B96E7-CB57-485b-B97A-FA710EE4A9C3\",\"segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.6770479626725251,\"measurement_mode\":\"static\",\"right\":0.6770479626725251,\"top\":-0.45160476694804397,\"width\":1.3540959253450502,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.16147601866373745,\"top\":0.7258023834740219,\"width\":0.6770479626725252},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.6770479626725251,\"right\":0.6770479626725251,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"E794DF70-7C4D-4427-904D-30F45C19A8FE\",\"segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12676204442977906,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2535240888595581,\"left\":-0.40440999434995734,\"measurement_mode\":\"static\",\"right\":0.40440999434995734,\"top\":0.12676204442977906,\"width\":0.8088199886999147,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"runtime_box\":{\"bottom\":-0.12676204442977906,\"left\":-0.40440999434995734,\"right\":0.40440999434995734,\"top\":0.12676204442977906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"9E2358B0-1FA7-4a9b-8F33-AC1FB6A32EE7\",\"segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.1260502576828003,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2521005153656006,\"left\":-0.4052750791941879,\"measurement_mode\":\"static\",\"right\":0.4052750791941879,\"top\":0.1260502576828003,\"width\":0.8105501583883759,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.12605025768280026,\"left\":0.29736246040290604,\"top\":0.43697487115859984,\"width\":0.4052750791941879},\"runtime_box\":{\"bottom\":-0.1260502576828003,\"left\":-0.4052750791941879,\"right\":0.4052750791941879,\"top\":0.1260502576828003}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F5765006-33DC-44a6-B374-63094D7BD842\",\"segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12680978775024415,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2536195755004883,\"left\":-0.4043519693853985,\"measurement_mode\":\"static\",\"right\":0.4043519693853985,\"top\":0.12680978775024415,\"width\":0.808703938770797,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.1268097877502441,\"left\":0.29782401530730074,\"top\":0.43659510612487795,\"width\":0.4043519693853985},\"runtime_box\":{\"bottom\":-0.12680978775024415,\"left\":-0.4043519693853985,\"right\":0.4043519693853985,\"top\":0.12680978775024415}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"6DB54D43-39AD-4189-8326-A9826A073D4A\",\"segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12666656970977783,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.25333313941955565,\"left\":-0.4914324077235793,\"measurement_mode\":\"static\",\"right\":0.4914324077235793,\"top\":0.12666656970977783,\"width\":0.9828648154471586,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.1266665697097778,\"left\":0.25428379613821034,\"top\":0.4366667151451111,\"width\":0.4914324077235794},\"runtime_box\":{\"bottom\":-0.12666656970977783,\"left\":-0.4914324077235793,\"right\":0.4914324077235793,\"top\":0.12666656970977783}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"B24E2784-16E3-4882-A7D5-AE6BCA6DF2EA\",\"segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12676204442977906,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2535240888595581,\"left\":-0.40440999434995734,\"measurement_mode\":\"static\",\"right\":0.40440999434995734,\"top\":0.12676204442977906,\"width\":0.8088199886999147,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"runtime_box\":{\"bottom\":-0.12676204442977906,\"left\":-0.40440999434995734,\"right\":0.40440999434995734,\"top\":0.12676204442977906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"764A8E2D-864F-459e-B65D-C7D2F0A47F2E\",\"segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.07415788173675537,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.14831576347351075,\"left\":-0.7290635700804069,\"measurement_mode\":\"static\",\"right\":0.7290635700804069,\"top\":0.07415788173675537,\"width\":1.4581271401608138,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.07415788173675542,\"left\":0.13546821495979655,\"top\":0.4629210591316223,\"width\":0.7290635700804069},\"runtime_box\":{\"bottom\":-0.07415788173675537,\"left\":-0.7290635700804069,\"right\":0.7290635700804069,\"top\":0.07415788173675537}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"0DAA6106-8D15-4b83-9558-BF287C0CD50C\",\"segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"segment_type\":\"text\"}],\"bounds\":[{\"bbox\":{\"height\":1.0,\"left\":0.07820738137082602,\"top\":0.0,\"width\":0.843585237258348},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F\",\"segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"segment_type\":\"video\"},{\"bbox\":{\"height\":0.73515625,\"left\":0.13268892794376097,\"top\":0.132421875,\"width\":0.7346221441124781},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"BCD19CE6-633C-4D38-B737-A5498C02D643\",\"segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"segment_type\":\"video\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96233B82-1481-4b90-A7D6-8003E6EF43EA\",\"segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96A528DE-2687-4326-BF31-F959C03088E1\",\"segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"7AAB0035-E800-4d1f-B8B1-CF052BA7C62D\",\"segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"DA729333-5BBA-40e0-B493-90DF997E84AA\",\"segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"D761E739-C064-4720-881F-AF4433063C17\",\"segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"3B1370D4-E32C-41df-BC7B-A72C3C780353\",\"segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F66AB2D0-8799-4a20-93D0-AA8524654C94\",\"segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.09913194441446987,\"top\":0.7258023834740219,\"width\":0.8017361111710604},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26\",\"segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.09913200401911465,\"top\":0.7258023834740219,\"width\":0.8017359919617708},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"2D0B96E7-CB57-485b-B97A-FA710EE4A9C3\",\"segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.16147601866373745,\"top\":0.7258023834740219,\"width\":0.6770479626725252},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"E794DF70-7C4D-4427-904D-30F45C19A8FE\",\"segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"9E2358B0-1FA7-4a9b-8F33-AC1FB6A32EE7\",\"segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.12605025768280026,\"left\":0.29736246040290604,\"top\":0.43697487115859984,\"width\":0.4052750791941879},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F5765006-33DC-44a6-B374-63094D7BD842\",\"segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.1268097877502441,\"left\":0.29782401530730074,\"top\":0.43659510612487795,\"width\":0.4043519693853985},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"6DB54D43-39AD-4189-8326-A9826A073D4A\",\"segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.1266665697097778,\"left\":0.25428379613821034,\"top\":0.4366667151451111,\"width\":0.4914324077235794},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"B24E2784-16E3-4882-A7D5-AE6BCA6DF2EA\",\"segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"764A8E2D-864F-459e-B65D-C7D2F0A47F2E\",\"segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.07415788173675542,\"left\":0.13546821495979655,\"top\":0.4629210591316223,\"width\":0.7290635700804069},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"0DAA6106-8D15-4b83-9558-BF287C0CD50C\",\"segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"segment_type\":\"text\"}],\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"checked_bbox_count\":18,\"measured_bbox_count\":0,\"missing_bbox_count\":0,\"original_size_bbox_count\":2,\"out_of_bounds_count\":0,\"runtime_bbox_count\":16},\"normalized_segment_count\":28,\"parsed\":true,\"resource\":[{\"draft_id\":\"A6729104-386F-40AD-AC76-DDC2EDF90562\",\"duplicate_id_count\":0,\"local_resources\":[],\"material_count\":25,\"references\":[{\"actual_buckets\":[\"videos\"],\"expected_buckets\":[\"photos\",\"videos\"],\"field\":\"material_id\",\"material_id\":\"AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F\",\"resolved\":true,\"segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"segment_type\":\"video\"},{\"actual_buckets\":[\"videos\"],\"expected_buckets\":[\"photos\",\"videos\"],\"field\":\"material_id\",\"material_id\":\"BCD19CE6-633C-4D38-B737-A5498C02D643\",\"resolved\":true,\"segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"segment_type\":\"video\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"96233B82-1481-4b90-A7D6-8003E6EF43EA\",\"resolved\":true,\"segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"96A528DE-2687-4326-BF31-F959C03088E1\",\"resolved\":true,\"segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"7AAB0035-E800-4d1f-B8B1-CF052BA7C62D\",\"resolved\":true,\"segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"DA729333-5BBA-40e0-B493-90DF997E84AA\",\"resolved\":true,\"segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"D761E739-C064-4720-881F-AF4433063C17\",\"resolved\":true,\"segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"3B1370D4-E32C-41df-BC7B-A72C3C780353\",\"resolved\":true,\"segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"F66AB2D0-8799-4a20-93D0-AA8524654C94\",\"resolved\":true,\"segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26\",\"resolved\":true,\"segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"2D0B96E7-CB57-485b-B97A-FA710EE4A9C3\",\"resolved\":true,\"segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"E794DF70-7C4D-4427-904D-30F45C19A8FE\",\"resolved\":true,\"segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"9E2358B0-1FA7-4a9b-8F33-AC1FB6A32EE7\",\"resolved\":true,\"segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"F5765006-33DC-44a6-B374-63094D7BD842\",\"resolved\":true,\"segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"6DB54D43-39AD-4189-8326-A9826A073D4A\",\"resolved\":true,\"segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"B24E2784-16E3-4882-A7D5-AE6BCA6DF2EA\",\"resolved\":true,\"segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"764A8E2D-864F-459e-B65D-C7D2F0A47F2E\",\"resolved\":true,\"segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"0DAA6106-8D15-4b83-9558-BF287C0CD50C\",\"resolved\":true,\"segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"CEB65D32-4058-4d78-8C64-01F511C79FF2\",\"resolved\":true,\"segment_id\":\"A37F062D-4365-4aba-A819-C0EFD9E8300B\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"0F8B437D-31F1-4f58-9661-2312306FFAB4\",\"resolved\":true,\"segment_id\":\"B7B69AB8-FAB7-4310-9799-F13155E26D58\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"3A809DC7-3BEE-4572-8A15-2A2D84F6A248\",\"resolved\":true,\"segment_id\":\"A31A14CC-8D90-4244-9690-6776A91C61E0\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"F1FFB83E-FB32-48d4-A362-9EACF37D3690\",\"resolved\":true,\"segment_id\":\"27247D95-1F6F-490d-851F-E3830E55552E\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"C9DCF49A-858A-4ebd-B69C-075C19B5FD29\",\"resolved\":true,\"segment_id\":\"B8D14971-9064-4abb-A31C-E8CCC437E178\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"8CDBF701-3706-4e5f-AB69-88E2BB0C5F36\",\"resolved\":true,\"segment_id\":\"478493DE-7EFA-44d4-866C-79B3E92B2487\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"1796A247-F6F1-48AE-B4A5-087425852547\",\"resolved\":true,\"segment_id\":\"4D201827-7DC5-4fd3-9807-311C18BAE1B9\",\"segment_type\":\"audio\"}],\"typed_materials\":true}],\"runtime\":true,\"segment_count\":25,\"source_kind\":\"lv_draft\",\"spatial\":{\"evaluable\":false,\"missing_evidence_count\":16,\"occlusion_risk_count\":0,\"occlusion_threshold\":0.3,\"pairs\":[{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},{\"intersection_area\":0.03936193188405568,\"iou\":0.04666029008755767,\"left_coverage\":0.04666029008755767,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},{\"intersection_area\":0.0393619260313719,\"iou\":0.046660283149688765,\"left_coverage\":0.046660283149688765,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},{\"intersection_area\":0.03324025875550031,\"iou\":0.039403556733082656,\"left_coverage\":0.039403556733082656,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":12166666,\"time_overlap_us\":3133333,\"time_start_us\":9033333},{\"intersection_area\":0.05108502816484467,\"iou\":0.09459103293609993,\"left_coverage\":0.09459103293609993,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":15700000,\"time_overlap_us\":3533334,\"time_start_us\":12166666},{\"intersection_area\":0.05127578741415559,\"iou\":0.09494425021095801,\"left_coverage\":0.09494425021095801,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":19066666,\"time_overlap_us\":3366666,\"time_start_us\":15700000},{\"intersection_area\":0.06224805733056271,\"iou\":0.11526093363721643,\"left_coverage\":0.11526093363721643,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":23166666,\"time_overlap_us\":4100000,\"time_start_us\":19066666},{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":26300000,\"time_overlap_us\":3133334,\"time_start_us\":23166666},{\"intersection_area\":0.05406581000859951,\"iou\":0.1001103649926099,\"left_coverage\":0.1001103649926099,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":29633333,\"time_overlap_us\":3333333,\"time_start_us\":26300000}],\"spatial_overlap_pair_count\":16,\"spatial_overlap_threshold\":0.01,\"temporal_pair_count\":21,\"truth_boundary\":\"draft geometry reports deterministic risk; rendered media plus vision evidence is required for visual subject/face occlusion truth\"},\"suites\":[\"layout\",\"occlusion\",\"property\",\"resource\",\"spatial\",\"structure\",\"timeline\"],\"timeline\":{\"draft_duration\":29633333,\"evaluable\":true,\"gap_count\":3,\"invalid_source_time_range_count\":0,\"normalized_segment_count\":28,\"overlap_count\":2,\"timed_segment_count\":28,\"track_count\":8},\"track_count\":7,\"warning_count\":17},\"input\":\"\",\"issues\":[{\"evidence\":{\"left_segment_id\":\"40ACACBC-8CAE-4c7d-9648-2E4E4B91C00E\",\"overlap_us\":20600332,\"right_segment_id\":\"5C1D84D7-FEDB-42f6-9D55-7BBB0096AE2A\",\"track\":\"default\"},\"message\":\"segments overlap on the same track\",\"rule_id\":\"result.draft-timeline-overlap.v1\",\"severity\":\"error\"},{\"evidence\":{\"left_segment_id\":\"5C1D84D7-FEDB-42f6-9D55-7BBB0096AE2A\",\"overlap_us\":20600332,\"right_segment_id\":\"7FA66654-2C4C-4b76-A231-98E3062CDCFF\",\"track\":\"default\"},\"message\":\"segments overlap on the same track\",\"rule_id\":\"result.draft-timeline-overlap.v1\",\"severity\":\"error\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.03936193188405568,\"iou\":0.04666029008755767,\"left_coverage\":0.04666029008755767,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0393619260313719,\"iou\":0.046660283149688765,\"left_coverage\":0.046660283149688765,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.03324025875550031,\"iou\":0.039403556733082656,\"left_coverage\":0.039403556733082656,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":12166666,\"time_overlap_us\":3133333,\"time_start_us\":9033333},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05108502816484467,\"iou\":0.09459103293609993,\"left_coverage\":0.09459103293609993,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":15700000,\"time_overlap_us\":3533334,\"time_start_us\":12166666},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05127578741415559,\"iou\":0.09494425021095801,\"left_coverage\":0.09494425021095801,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":19066666,\"time_overlap_us\":3366666,\"time_start_us\":15700000},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.06224805733056271,\"iou\":0.11526093363721643,\"left_coverage\":0.11526093363721643,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":23166666,\"time_overlap_us\":4100000,\"time_start_us\":19066666},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":26300000,\"time_overlap_us\":3133334,\"time_start_us\":23166666},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05406581000859951,\"iou\":0.1001103649926099,\"left_coverage\":0.1001103649926099,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":29633333,\"time_overlap_us\":3333333,\"time_start_us\":26300000},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"overlap_pairs_missing_distinct_z_order\":16,\"overlap_pairs_missing_front_opacity\":0,\"segment_count\":28,\"segments_missing_time_or_bbox\":0},\"message\":\"spatial or occlusion evaluation is incomplete; normalized time/bbox, distinct z-order, and front opacity evidence are required\",\"rule_id\":\"result.draft-spatial-evidence-missing.v1\",\"severity\":\"warning\"}],\"report\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\guzhu-lint-304aed3b\\\\lint-report.json\",\"schema_version\":\"lyra.lint-draft-report/v1\",\"status\":\"fail\",\"verdicts\":{\"result\":\"REJECT\"}}}\r\n",
+      "stderr": "",
+      "output": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"automation_exit_code\":1,\"domain\":\"lint.draft\",\"draft_json_file\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\guzhu-01\\\\Timelines\\\\A6729104-386F-40AD-AC76-DDC2EDF90562\\\\draft_content.json\",\"draft_ref\":\"local://guzhu-01\",\"draft_root\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\guzhu-01\",\"execution_policy\":{\"auto_fix\":false,\"mode\":\"report_only\"},\"facts\":{\"layout\":{\"bbox_entries\":[{\"bbox\":{\"axis_aligned_box\":{\"bottom\":1280.0,\"center_x\":1138.0,\"center_y\":640.0,\"height\":1280.0,\"left\":178.0,\"right\":2098.0,\"top\":0.0,\"width\":1920.0},\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"measurement\":{\"backend\":\"lv-draft.original_size\",\"effect_render_initialized\":false,\"ve_editor_initialized\":false}},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F\",\"measure_error\":\"input media type or dimensions do not match --element-type video\",\"segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"segment_type\":\"video\"},{\"bbox\":{\"axis_aligned_box\":{\"bottom\":1110.5,\"center_x\":1138.0,\"center_y\":640.0,\"height\":941.0,\"left\":302.0,\"right\":1974.0,\"top\":169.5,\"width\":1672.0},\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"measurement\":{\"backend\":\"lv-draft.original_size\",\"effect_render_initialized\":false,\"ve_editor_initialized\":false}},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"BCD19CE6-633C-4D38-B737-A5498C02D643\",\"measure_error\":\"input media type or dimensions do not match --element-type video\",\"segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"segment_type\":\"video\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96233B82-1481-4b90-A7D6-8003E6EF43EA\",\"segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96A528DE-2687-4326-BF31-F959C03088E1\",\"segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"7AAB0035-E800-4d1f-B8B1-CF052BA7C62D\",\"segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"DA729333-5BBA-40e0-B493-90DF997E84AA\",\"segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"VEUtils.getInfoStickerData\",\"bottom\":0.0788963450246093,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.41999999999999993},\"coordinate_space\":\"ve_canvas\",\"height\":0.6822073099507813,\"left\":-0.1918333384747364,\"measurement_mode\":\"static\",\"right\":0.1918333384747364,\"top\":0.7611036549753906,\"width\":0.3836666769494728,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"sticker\"},\"normalized_box\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"runtime_box\":{\"bottom\":0.0788963450246093,\"left\":-0.1918333384747364,\"right\":0.1918333384747364,\"top\":0.7611036549753906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"D761E739-C064-4720-881F-AF4433063C17\",\"segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"segment_type\":\"sticker\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.6147040672371918,\"measurement_mode\":\"static\",\"right\":0.6147040672371918,\"top\":-0.45160476694804397,\"width\":1.2294081344743837,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.6147040672371918,\"right\":0.6147040672371918,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"3B1370D4-E32C-41df-BC7B-A72C3C780353\",\"segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.6147040672371918,\"measurement_mode\":\"static\",\"right\":0.6147040672371918,\"top\":-0.45160476694804397,\"width\":1.2294081344743837,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.6147040672371918,\"right\":0.6147040672371918,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F66AB2D0-8799-4a20-93D0-AA8524654C94\",\"segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.8017361111710603,\"measurement_mode\":\"static\",\"right\":0.8017361111710603,\"top\":-0.45160476694804397,\"width\":1.6034722223421205,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.09913194441446987,\"top\":0.7258023834740219,\"width\":0.8017361111710604},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.8017361111710603,\"right\":0.8017361111710603,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26\",\"segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.8017359919617707,\"measurement_mode\":\"static\",\"right\":0.8017359919617707,\"top\":-0.45160476694804397,\"width\":1.6034719839235414,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.09913200401911465,\"top\":0.7258023834740219,\"width\":0.8017359919617708},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.8017359919617707,\"right\":0.8017359919617707,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"2D0B96E7-CB57-485b-B97A-FA710EE4A9C3\",\"segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.5497965069373064,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":-0.5007006369426752},\"coordinate_space\":\"ve_canvas\",\"height\":0.09819173998926245,\"left\":-0.6770479626725251,\"measurement_mode\":\"static\",\"right\":0.6770479626725251,\"top\":-0.45160476694804397,\"width\":1.3540959253450502,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.049095869994631336,\"left\":0.16147601866373745,\"top\":0.7258023834740219,\"width\":0.6770479626725252},\"runtime_box\":{\"bottom\":-0.5497965069373064,\"left\":-0.6770479626725251,\"right\":0.6770479626725251,\"top\":-0.45160476694804397}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"E794DF70-7C4D-4427-904D-30F45C19A8FE\",\"segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12676204442977906,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2535240888595581,\"left\":-0.40440999434995734,\"measurement_mode\":\"static\",\"right\":0.40440999434995734,\"top\":0.12676204442977906,\"width\":0.8088199886999147,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"runtime_box\":{\"bottom\":-0.12676204442977906,\"left\":-0.40440999434995734,\"right\":0.40440999434995734,\"top\":0.12676204442977906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"9E2358B0-1FA7-4a9b-8F33-AC1FB6A32EE7\",\"segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.1260502576828003,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2521005153656006,\"left\":-0.4052750791941879,\"measurement_mode\":\"static\",\"right\":0.4052750791941879,\"top\":0.1260502576828003,\"width\":0.8105501583883759,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.12605025768280026,\"left\":0.29736246040290604,\"top\":0.43697487115859984,\"width\":0.4052750791941879},\"runtime_box\":{\"bottom\":-0.1260502576828003,\"left\":-0.4052750791941879,\"right\":0.4052750791941879,\"top\":0.1260502576828003}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F5765006-33DC-44a6-B374-63094D7BD842\",\"segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12680978775024415,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2536195755004883,\"left\":-0.4043519693853985,\"measurement_mode\":\"static\",\"right\":0.4043519693853985,\"top\":0.12680978775024415,\"width\":0.808703938770797,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.1268097877502441,\"left\":0.29782401530730074,\"top\":0.43659510612487795,\"width\":0.4043519693853985},\"runtime_box\":{\"bottom\":-0.12680978775024415,\"left\":-0.4043519693853985,\"right\":0.4043519693853985,\"top\":0.12680978775024415}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"6DB54D43-39AD-4189-8326-A9826A073D4A\",\"segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12666656970977783,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.25333313941955565,\"left\":-0.4914324077235793,\"measurement_mode\":\"static\",\"right\":0.4914324077235793,\"top\":0.12666656970977783,\"width\":0.9828648154471586,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.1266665697097778,\"left\":0.25428379613821034,\"top\":0.4366667151451111,\"width\":0.4914324077235794},\"runtime_box\":{\"bottom\":-0.12666656970977783,\"left\":-0.4914324077235793,\"right\":0.4914324077235793,\"top\":0.12666656970977783}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"B24E2784-16E3-4882-A7D5-AE6BCA6DF2EA\",\"segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.12676204442977906,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.2535240888595581,\"left\":-0.40440999434995734,\"measurement_mode\":\"static\",\"right\":0.40440999434995734,\"top\":0.12676204442977906,\"width\":0.8088199886999147,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"runtime_box\":{\"bottom\":-0.12676204442977906,\"left\":-0.40440999434995734,\"right\":0.40440999434995734,\"top\":0.12676204442977906}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"764A8E2D-864F-459e-B65D-C7D2F0A47F2E\",\"segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"segment_type\":\"text\"},{\"bbox\":{\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"computed_property\":{\"backend\":\"Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE\",\"bottom\":-0.07415788173675537,\"bounding_box_scope\":\"visual\",\"center\":{\"x\":0.0,\"y\":0.0},\"coordinate_space\":\"ve_canvas\",\"height\":0.14831576347351075,\"left\":-0.7290635700804069,\"measurement_mode\":\"static\",\"right\":0.7290635700804069,\"top\":0.07415788173675537,\"width\":1.4581271401608138,\"with_rotate\":true},\"measurement\":{\"backend\":\"runtime.computeSegmentProperty.boundingBox\",\"element_type\":\"text\"},\"normalized_box\":{\"height\":0.07415788173675542,\"left\":0.13546821495979655,\"top\":0.4629210591316223,\"width\":0.7290635700804069},\"runtime_box\":{\"bottom\":-0.07415788173675537,\"left\":-0.7290635700804069,\"right\":0.7290635700804069,\"top\":0.07415788173675537}},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"0DAA6106-8D15-4b83-9558-BF287C0CD50C\",\"segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"segment_type\":\"text\"}],\"bounds\":[{\"bbox\":{\"height\":1.0,\"left\":0.07820738137082602,\"top\":0.0,\"width\":0.843585237258348},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F\",\"segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"segment_type\":\"video\"},{\"bbox\":{\"height\":0.73515625,\"left\":0.13268892794376097,\"top\":0.132421875,\"width\":0.7346221441124781},\"bbox_source\":\"lv-draft.original-size\",\"material_id\":\"BCD19CE6-633C-4D38-B737-A5498C02D643\",\"segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"segment_type\":\"video\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96233B82-1481-4b90-A7D6-8003E6EF43EA\",\"segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"96A528DE-2687-4326-BF31-F959C03088E1\",\"segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"7AAB0035-E800-4d1f-B8B1-CF052BA7C62D\",\"segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"DA729333-5BBA-40e0-B493-90DF997E84AA\",\"segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.34110365497539064,\"left\":0.4040833307626318,\"top\":0.11944817251230472,\"width\":0.19183333847473638},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"D761E739-C064-4720-881F-AF4433063C17\",\"segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"segment_type\":\"sticker\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"3B1370D4-E32C-41df-BC7B-A72C3C780353\",\"segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.19264796638140408,\"top\":0.7258023834740219,\"width\":0.614704067237192},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F66AB2D0-8799-4a20-93D0-AA8524654C94\",\"segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.09913194441446987,\"top\":0.7258023834740219,\"width\":0.8017361111710604},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26\",\"segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.09913200401911465,\"top\":0.7258023834740219,\"width\":0.8017359919617708},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"2D0B96E7-CB57-485b-B97A-FA710EE4A9C3\",\"segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.049095869994631336,\"left\":0.16147601866373745,\"top\":0.7258023834740219,\"width\":0.6770479626725252},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"E794DF70-7C4D-4427-904D-30F45C19A8FE\",\"segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"9E2358B0-1FA7-4a9b-8F33-AC1FB6A32EE7\",\"segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.12605025768280026,\"left\":0.29736246040290604,\"top\":0.43697487115859984,\"width\":0.4052750791941879},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"F5765006-33DC-44a6-B374-63094D7BD842\",\"segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.1268097877502441,\"left\":0.29782401530730074,\"top\":0.43659510612487795,\"width\":0.4043519693853985},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"6DB54D43-39AD-4189-8326-A9826A073D4A\",\"segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.1266665697097778,\"left\":0.25428379613821034,\"top\":0.4366667151451111,\"width\":0.4914324077235794},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"B24E2784-16E3-4882-A7D5-AE6BCA6DF2EA\",\"segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.126762044429779,\"left\":0.29779500282502136,\"top\":0.4366189777851105,\"width\":0.4044099943499573},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"764A8E2D-864F-459e-B65D-C7D2F0A47F2E\",\"segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"segment_type\":\"text\"},{\"bbox\":{\"height\":0.07415788173675542,\"left\":0.13546821495979655,\"top\":0.4629210591316223,\"width\":0.7290635700804069},\"bbox_source\":\"runtime.computeSegmentProperty.boundingBox\",\"material_id\":\"0DAA6106-8D15-4b83-9558-BF287C0CD50C\",\"segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"segment_type\":\"text\"}],\"canvas\":{\"height\":1280.0,\"source\":\"RuntimeDraft.canvas_config\",\"width\":2276.0},\"checked_bbox_count\":18,\"measured_bbox_count\":0,\"missing_bbox_count\":0,\"original_size_bbox_count\":2,\"out_of_bounds_count\":0,\"runtime_bbox_count\":16},\"normalized_segment_count\":28,\"parsed\":true,\"resource\":[{\"draft_id\":\"A6729104-386F-40AD-AC76-DDC2EDF90562\",\"duplicate_id_count\":0,\"local_resources\":[],\"material_count\":25,\"references\":[{\"actual_buckets\":[\"videos\"],\"expected_buckets\":[\"photos\",\"videos\"],\"field\":\"material_id\",\"material_id\":\"AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F\",\"resolved\":true,\"segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"segment_type\":\"video\"},{\"actual_buckets\":[\"videos\"],\"expected_buckets\":[\"photos\",\"videos\"],\"field\":\"material_id\",\"material_id\":\"BCD19CE6-633C-4D38-B737-A5498C02D643\",\"resolved\":true,\"segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"segment_type\":\"video\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"96233B82-1481-4b90-A7D6-8003E6EF43EA\",\"resolved\":true,\"segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"96A528DE-2687-4326-BF31-F959C03088E1\",\"resolved\":true,\"segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"7AAB0035-E800-4d1f-B8B1-CF052BA7C62D\",\"resolved\":true,\"segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"DA729333-5BBA-40e0-B493-90DF997E84AA\",\"resolved\":true,\"segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"stickers\"],\"expected_buckets\":[\"stickers\"],\"field\":\"material_id\",\"material_id\":\"D761E739-C064-4720-881F-AF4433063C17\",\"resolved\":true,\"segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"segment_type\":\"sticker\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"3B1370D4-E32C-41df-BC7B-A72C3C780353\",\"resolved\":true,\"segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"F66AB2D0-8799-4a20-93D0-AA8524654C94\",\"resolved\":true,\"segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26\",\"resolved\":true,\"segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"2D0B96E7-CB57-485b-B97A-FA710EE4A9C3\",\"resolved\":true,\"segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"E794DF70-7C4D-4427-904D-30F45C19A8FE\",\"resolved\":true,\"segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"9E2358B0-1FA7-4a9b-8F33-AC1FB6A32EE7\",\"resolved\":true,\"segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"F5765006-33DC-44a6-B374-63094D7BD842\",\"resolved\":true,\"segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"6DB54D43-39AD-4189-8326-A9826A073D4A\",\"resolved\":true,\"segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"B24E2784-16E3-4882-A7D5-AE6BCA6DF2EA\",\"resolved\":true,\"segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"764A8E2D-864F-459e-B65D-C7D2F0A47F2E\",\"resolved\":true,\"segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"texts\"],\"expected_buckets\":[\"text_templates\",\"texts\"],\"field\":\"material_id\",\"material_id\":\"0DAA6106-8D15-4b83-9558-BF287C0CD50C\",\"resolved\":true,\"segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"segment_type\":\"text\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"CEB65D32-4058-4d78-8C64-01F511C79FF2\",\"resolved\":true,\"segment_id\":\"A37F062D-4365-4aba-A819-C0EFD9E8300B\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"0F8B437D-31F1-4f58-9661-2312306FFAB4\",\"resolved\":true,\"segment_id\":\"B7B69AB8-FAB7-4310-9799-F13155E26D58\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"3A809DC7-3BEE-4572-8A15-2A2D84F6A248\",\"resolved\":true,\"segment_id\":\"A31A14CC-8D90-4244-9690-6776A91C61E0\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"F1FFB83E-FB32-48d4-A362-9EACF37D3690\",\"resolved\":true,\"segment_id\":\"27247D95-1F6F-490d-851F-E3830E55552E\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"C9DCF49A-858A-4ebd-B69C-075C19B5FD29\",\"resolved\":true,\"segment_id\":\"B8D14971-9064-4abb-A31C-E8CCC437E178\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"8CDBF701-3706-4e5f-AB69-88E2BB0C5F36\",\"resolved\":true,\"segment_id\":\"478493DE-7EFA-44d4-866C-79B3E92B2487\",\"segment_type\":\"audio\"},{\"actual_buckets\":[\"audios\"],\"expected_buckets\":[\"audios\",\"musics\"],\"field\":\"material_id\",\"material_id\":\"1796A247-F6F1-48AE-B4A5-087425852547\",\"resolved\":true,\"segment_id\":\"4D201827-7DC5-4fd3-9807-311C18BAE1B9\",\"segment_type\":\"audio\"}],\"typed_materials\":true}],\"runtime\":true,\"segment_count\":25,\"source_kind\":\"lv_draft\",\"spatial\":{\"evaluable\":false,\"missing_evidence_count\":16,\"occlusion_risk_count\":0,\"occlusion_threshold\":0.3,\"pairs\":[{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},{\"intersection_area\":0.03936193188405568,\"iou\":0.04666029008755767,\"left_coverage\":0.04666029008755767,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},{\"intersection_area\":0.0393619260313719,\"iou\":0.046660283149688765,\"left_coverage\":0.046660283149688765,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},{\"intersection_area\":0.03324025875550031,\"iou\":0.039403556733082656,\"left_coverage\":0.039403556733082656,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":12166666,\"time_overlap_us\":3133333,\"time_start_us\":9033333},{\"intersection_area\":0.05108502816484467,\"iou\":0.09459103293609993,\"left_coverage\":0.09459103293609993,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":15700000,\"time_overlap_us\":3533334,\"time_start_us\":12166666},{\"intersection_area\":0.05127578741415559,\"iou\":0.09494425021095801,\"left_coverage\":0.09494425021095801,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":19066666,\"time_overlap_us\":3366666,\"time_start_us\":15700000},{\"intersection_area\":0.06224805733056271,\"iou\":0.11526093363721643,\"left_coverage\":0.11526093363721643,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":23166666,\"time_overlap_us\":4100000,\"time_start_us\":19066666},{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":26300000,\"time_overlap_us\":3133334,\"time_start_us\":23166666},{\"intersection_area\":0.05406581000859951,\"iou\":0.1001103649926099,\"left_coverage\":0.1001103649926099,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"occlusion_evaluable\":false,\"occlusion_reason\":\"distinct z-order evidence is required\",\"right_coverage\":1.0,\"right_segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":29633333,\"time_overlap_us\":3333333,\"time_start_us\":26300000}],\"spatial_overlap_pair_count\":16,\"spatial_overlap_threshold\":0.01,\"temporal_pair_count\":21,\"truth_boundary\":\"draft geometry reports deterministic risk; rendered media plus vision evidence is required for visual subject/face occlusion truth\"},\"suites\":[\"layout\",\"occlusion\",\"property\",\"resource\",\"spatial\",\"structure\",\"timeline\"],\"timeline\":{\"draft_duration\":29633333,\"evaluable\":true,\"gap_count\":3,\"invalid_source_time_range_count\":0,\"normalized_segment_count\":28,\"overlap_count\":2,\"timed_segment_count\":28,\"track_count\":8},\"track_count\":7,\"warning_count\":17},\"input\":\"\",\"issues\":[{\"evidence\":{\"left_segment_id\":\"40ACACBC-8CAE-4c7d-9648-2E4E4B91C00E\",\"overlap_us\":20600332,\"right_segment_id\":\"5C1D84D7-FEDB-42f6-9D55-7BBB0096AE2A\",\"track\":\"default\"},\"message\":\"segments overlap on the same track\",\"rule_id\":\"result.draft-timeline-overlap.v1\",\"severity\":\"error\"},{\"evidence\":{\"left_segment_id\":\"5C1D84D7-FEDB-42f6-9D55-7BBB0096AE2A\",\"overlap_us\":20600332,\"right_segment_id\":\"7FA66654-2C4C-4b76-A231-98E3062CDCFF\",\"track\":\"default\"},\"message\":\"segments overlap on the same track\",\"rule_id\":\"result.draft-timeline-overlap.v1\",\"severity\":\"error\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"2A34E39C-A289-4d4b-8903-39CBCB9003ED\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"2ACD226D-FB51-4709-8676-C67DF4F9C73B\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"004ABF8A-3AEF-473d-83A9-50F2BA968E5A\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"4FDF1578-F43B-4da2-9F2A-3092E310BA08\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0654350528998638,\"iou\":0.07756780229171355,\"left_coverage\":0.07756780229171355,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"BC3C8051-18C5-4d1a-AE35-A4B152E69178\",\"right_track\":\"769211B0-BC32-49c8-B837-7089E7FC5E60\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"F115244E-ED22-409a-91DC-4FBFD7627BAF\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":1550769,\"time_overlap_us\":1550769,\"time_start_us\":0},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.030179430970248295,\"iou\":0.035775200462648496,\"left_coverage\":0.035775200462648496,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"83E2C964-6C6B-4a5a-8C3E-B85597765742\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":3212307,\"time_overlap_us\":1661538,\"time_start_us\":1550769},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.03936193188405568,\"iou\":0.04666029008755767,\"left_coverage\":0.04666029008755767,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"D558DFE7-27EE-4818-87C1-2C1B18F66F6C\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":4966153,\"time_overlap_us\":1753846,\"time_start_us\":3212307},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.0393619260313719,\"iou\":0.046660283149688765,\"left_coverage\":0.046660283149688765,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"280EAF16-0D36-44f2-97F9-C8C8517D2EDC\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":6978461,\"time_overlap_us\":2012308,\"time_start_us\":4966153},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.03324025875550031,\"iou\":0.039403556733082656,\"left_coverage\":0.039403556733082656,\"left_segment_id\":\"D2C0181F-737E-4102-91BC-408D47A2AB7E\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"9857A870-3A18-4905-A45F-CF7C61F65ED9\",\"right_track\":\"7A810613-854C-4cb6-91F0-0DDE17FFB23A\",\"time_end_us\":8584615,\"time_overlap_us\":1606154,\"time_start_us\":6978461},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"11C5B299-1A5D-432b-A0AC-2CA1BF8FEBD1\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":12166666,\"time_overlap_us\":3133333,\"time_start_us\":9033333},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05108502816484467,\"iou\":0.09459103293609993,\"left_coverage\":0.09459103293609993,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"5E66F3B6-A459-42a5-ACFA-1AF20FD0849E\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":15700000,\"time_overlap_us\":3533334,\"time_start_us\":12166666},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05127578741415559,\"iou\":0.09494425021095801,\"left_coverage\":0.09494425021095801,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"E8C6F27A-9D93-45ca-8990-156D04957F3A\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":19066666,\"time_overlap_us\":3366666,\"time_start_us\":15700000},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.06224805733056271,\"iou\":0.11526093363721643,\"left_coverage\":0.11526093363721643,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"83C3C08A-F96F-4695-AFAD-1590D532DA42\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":23166666,\"time_overlap_us\":4100000,\"time_start_us\":19066666},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05126383767163596,\"iou\":0.09492212360109094,\"left_coverage\":0.09492212360109094,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"1BA93AC5-61B7-406e-8793-89C1099A5136\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":26300000,\"time_overlap_us\":3133334,\"time_start_us\":23166666},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"intersection_area\":0.05406581000859951,\"iou\":0.1001103649926099,\"left_coverage\":0.1001103649926099,\"left_segment_id\":\"CEFDF797-ED0E-49af-93C4-9DCBB5297990\",\"left_track\":\"54E641D5-42DE-443c-B1CF-DC1B8AA45FD6\",\"right_coverage\":1.0,\"right_segment_id\":\"CA8045D7-A4F2-426d-9456-A2DF24641C80\",\"right_track\":\"DB515A1D-0170-4385-9AC3-4A68F0139789\",\"time_end_us\":29633333,\"time_overlap_us\":3333333,\"time_start_us\":26300000},\"message\":\"elements overlap in both timeline and normalized canvas space\",\"rule_id\":\"result.draft-spatial-overlap.v1\",\"severity\":\"warning\"},{\"evidence\":{\"overlap_pairs_missing_distinct_z_order\":16,\"overlap_pairs_missing_front_opacity\":0,\"segment_count\":28,\"segments_missing_time_or_bbox\":0},\"message\":\"spatial or occlusion evaluation is incomplete; normalized time/bbox, distinct z-order, and front opacity evidence are required\",\"rule_id\":\"result.draft-spatial-evidence-missing.v1\",\"severity\":\"warning\"}],\"report\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\guzhu-lint-304aed3b\\\\lint-report.json\",\"schema_version\":\"lyra.lint-draft-report/v1\",\"status\":\"fail\",\"verdicts\":{\"result\":\"REJECT\"}}}\r\n",
+      "exitCode": 1,
+      "timedOut": false,
+      "durationMs": 1515,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "lint",
+        "draft",
+        "--ref",
+        "local://guzhu-01",
+        "--output",
+        "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\guzhu-lint-304aed3b\\lint-report.json"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791950088067,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.067\",\"trace_index\":11,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":9,\"net_counts\":1}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791950088077,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.077\",\"trace_index\":12,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791950088080,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":56576,\"ppid\":48424,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.080\",\"trace_index\":13,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791950088149,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cnmkgkl8\\__PSScriptPolicyTest_fxkossvw.lbm.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791950088149,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.149\",\"trace_index\":14,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791950088150,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cnmkgkl8\\__PSScriptPolicyTest_xj45bxmw.e3y.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791950088150,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.150\",\"trace_index\":15,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791950088359,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cnmkgkl8\\__PSScriptPolicyTest_zdopoa1z.vhg.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791950088359,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.359\",\"trace_index\":16,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791950088360,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cnmkgkl8\\__PSScriptPolicyTest_b1dio1dy.dfc.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791950088360,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.360\",\"trace_index\":17,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791950088476,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":53944,\"ppid\":56576,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.476\",\"trace_index\":18,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791950088615,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":57884,\"ppid\":53944,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.615\",\"trace_index\":19,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791950088772,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-68470458739200",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791950088772,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-68470458739200\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.772\",\"trace_index\":20,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791950088790,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791950088790,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.790\",\"trace_index\":21,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791950088791,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791950088791,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.791\",\"trace_index\":22,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791950088797,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791950088798,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.797\",\"trace_index\":23,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791950088799,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791950088799,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950088,\"timestamp_str\":\"2026-10-14 11:54:48.799\",\"trace_index\":24,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791950088991,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\logs\\lyra-cli-20261014004558.log",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791950089140,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":58352,\"ppid\":57884,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.140\",\"trace_index\":25,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791950089243,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":125,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":58352,\"ppid\":57884,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.243\",\"trace_index\":26,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791950089243,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791950088055",
+      "processId": 58352,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791950089488,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791950089490,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.490\",\"trace_index\":27,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791950089489,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791950089490,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data_low\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.490\",\"trace_index\":28,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791950089490,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-35",
+      "sequence": 35,
+      "timestamp": 1791950089490,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.490\",\"trace_index\":29,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-36",
+      "sequence": 36,
+      "timestamp": 1791950089490,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-37",
+      "sequence": 37,
+      "timestamp": 1791950089490,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data_low\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.490\",\"trace_index\":30,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-38",
+      "sequence": 38,
+      "timestamp": 1791950089491,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-39",
+      "sequence": 39,
+      "timestamp": 1791950089491,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791950089,\"timestamp_str\":\"2026-10-14 11:54:49.491\",\"trace_index\":31,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-40",
+      "sequence": 40,
+      "timestamp": 1791950089492,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-41",
+      "sequence": 41,
+      "timestamp": 1791950089493,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-42",
+      "sequence": 42,
+      "timestamp": 1791950089493,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-43",
+      "sequence": 43,
+      "timestamp": 1791950089494,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-44",
+      "sequence": 44,
+      "timestamp": 1791950089495,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-45",
+      "sequence": 45,
+      "timestamp": 1791950089495,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-46",
+      "sequence": 46,
+      "timestamp": 1791950089496,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-47",
+      "sequence": 47,
+      "timestamp": 1791950089497,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-48",
+      "sequence": 48,
+      "timestamp": 1791950089498,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-49",
+      "sequence": 49,
+      "timestamp": 1791950089498,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-50",
+      "sequence": 50,
+      "timestamp": 1791950089499,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-51",
+      "sequence": 51,
+      "timestamp": 1791950089500,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-52",
+      "sequence": 52,
+      "timestamp": 1791950089500,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-53",
+      "sequence": 53,
+      "timestamp": 1791950089501,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-54",
+      "sequence": 54,
+      "timestamp": 1791950089502,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-55",
+      "sequence": 55,
+      "timestamp": 1791950089813,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 17,
+        "sourcePort": 0,
+        "destinationPort": 53,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "8.8.8.8",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-56",
+      "sequence": 56,
+      "timestamp": 1791950089813,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 17,
+        "sourcePort": 0,
+        "destinationPort": 53,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "2001:4860:4860::8888",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-57",
+      "sequence": 57,
+      "timestamp": 1791950089817,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-58",
+      "sequence": 58,
+      "timestamp": 1791950089818,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-59",
+      "sequence": 59,
+      "timestamp": 1791950089819,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-60",
+      "sequence": 60,
+      "timestamp": 1791950089820,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-61",
+      "sequence": 61,
+      "timestamp": 1791950089820,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-62",
+      "sequence": 62,
+      "timestamp": 1791950089821,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-63",
+      "sequence": 63,
+      "timestamp": 1791950089822,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-64",
+      "sequence": 64,
+      "timestamp": 1791950089823,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-65",
+      "sequence": 65,
+      "timestamp": 1791950089824,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-66",
+      "sequence": 66,
+      "timestamp": 1791950089825,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-67",
+      "sequence": 67,
+      "timestamp": 1791950089826,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-68",
+      "sequence": 68,
+      "timestamp": 1791950089827,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-69",
+      "sequence": 69,
+      "timestamp": 1791950089828,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-70",
+      "sequence": 70,
+      "timestamp": 1791950089828,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-71",
+      "sequence": 71,
+      "timestamp": 1791950089829,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-72",
+      "sequence": 72,
+      "timestamp": 1791950089830,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-73",
+      "sequence": 73,
+      "timestamp": 1791950089832,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-74",
+      "sequence": 74,
+      "timestamp": 1791950089833,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-75",
+      "sequence": 75,
+      "timestamp": 1791950089834,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-76",
+      "sequence": 76,
+      "timestamp": 1791950089835,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000e21c.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-77",
+      "sequence": 77,
+      "timestamp": 1791950089851,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 0,
+        "destinationPort": 7897,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "127.0.0.1",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-78",
+      "sequence": 78,
+      "timestamp": 1791950090008,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\57884.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-79",
+      "sequence": 79,
+      "timestamp": 1791950090008,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"marker\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791950090,\"timestamp_str\":\"2026-10-14 11:54:50.008\",\"trace_index\":32,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-80",
+      "sequence": 80,
+      "timestamp": 1791950090067,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":1484,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":57884,\"ppid\":53944,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791950090,\"timestamp_str\":\"2026-10-14 11:54:50.067\",\"trace_index\":33,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-81",
+      "sequence": 81,
+      "timestamp": 1791950090067,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791950088055",
+      "processId": 57884,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-82",
+      "sequence": 82,
+      "timestamp": 1791950090097,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1625,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":53944,\"ppid\":56576,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791950090,\"timestamp_str\":\"2026-10-14 11:54:50.097\",\"trace_index\":34,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-83",
+      "sequence": 83,
+      "timestamp": 1791950090098,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791950088055",
+      "processId": 53944,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-84",
+      "sequence": 84,
+      "timestamp": 1791950090113,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-85",
+      "sequence": 85,
+      "timestamp": 1791950090119,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":2047,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":56576,\"ppid\":48424,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791950090,\"timestamp_str\":\"2026-10-14 11:54:50.119\",\"trace_index\":35,\"vm_id\":\"draftediting-1791950088055\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-86",
+      "sequence": 86,
+      "timestamp": 1791950090119,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-87",
+      "sequence": 87,
+      "timestamp": 1791950090127,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791950088055",
+      "processId": 56576,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

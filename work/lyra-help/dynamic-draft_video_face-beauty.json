@@ -1,0 +1,441 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791605047852",
+    "processId": 39952,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-bddf56506a76dc9e",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Apply or clear one face-beauty category, or apply one preset package.\r\nPass exactly one of\r\n--skin/--shape/--feature/--makeup/--body/--makeup-root/--preset. Category\r\noptions accept on/off/clear; --preset accepts a resource URI. Use --item for\r\nsemantic item keys resolved by videoeditor during patch apply.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --ref TEXT          Unified draft reference\r\n          --seg-id <SEG_ID[,SEG_ID...]> ... \r\n                              Target segment id; repeat --seg-id or pass a comma-separated list\r\n          --seg-type <TYPE[,TYPE...]> \r\n                              Target segment type; must match this typed shortcut\r\n          --target-track <INDEX[,INDEX...]> \r\n                              Target track index(es)\r\n          --seg-index <INDEX[,INDEX...]> \r\n                              Comma-separated segment indexes within one target track, e.g.\r\n                              0,2,-1\r\n          --time-window <START,END> \r\n                              Select segments overlapping the half-open timeline window\r\n                              [start,end); start must be less than end\r\n          --skin TEXT         Skin management: on/off/clear\r\n          --shape TEXT        Face shape: on/off/clear\r\n          --feature TEXT      Facial features: on/off/clear\r\n          --makeup TEXT       Makeup: on/off/clear\r\n          --body TEXT         Body shaping: on/off/clear\r\n          --makeup-root TEXT  Makeup root anchor: on/off/clear\r\n          --preset TEXT       One-tap preset resource URI: vimo://<id> / local://<path>\r\n          --resource TEXT     Figure resource URI: vimo://<id> / local://<path>\r\n          --item TEXT         Portable semantic item key in skin/shape/feature, such as\r\n                              skin.whiten, shape.slim_face, or feature.nose_height; see the\r\n                              atomic Skill for the complete portable list. Only valid with\r\n                              category=on and an absolute --amount\r\n          --amount TEXT       Resource-specific finite adjustment amount; bare values,\r\n                              percentages, signed values, and relative updates are allowed.\r\n                              Resource-specific scalar; bare finite values and percentages are\r\n                              accepted.\r\n          --skin-tone-warmth TEXT \r\n                              Skin tone warmth slider; negative values are cooler, positive\r\n                              values are warmer. Resource-specific scalar; bare finite values\r\n                              and percentages are accepted.\r\n          --preset-intensity TEXT \r\n                              Preset intensity with normalized scalar or percent. Use a bare\r\n                              scalar or percent; the ratio suffix is invalid. Range after\r\n                              normalization: [0,1].\r\n          --face-mode TEXT    Face mode: multi / single\r\n          --face-id TEXT      Face id (required when --face-mode single)\r\n          --subject-ref TEXT  Versioned person reference returned by material-understand; use\r\n                              instead of --face-id\r\n          --makeup-root-resource TEXT \r\n                              Makeup root resource (optional, only with --makeup on)\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nNOTE: face-beauty only applies to video segments; pass one category per command.\r\n      Standalone --preset execution expands auto_beauty.json into real figures\r\n      and persists one-tap preset metadata.\r\nEXAMPLES\r\n  # Enable skin management with a resource, amount and multi-face mode\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --skin on --resource vimo://<id> --amount 0.8 --face-mode multi\r\n  # Enable a semantic item; videoeditor resolves it to the matching resource URI\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --shape on --item shape.slim_face --amount 0.5 --face-mode multi\r\n  # Apply a skin tone item with intensity and warmth sliders\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --skin on --resource vimo://<id> --amount 0.65 --skin-tone-warmth -0.15 --face-mode multi\r\n  # Turn off the makeup category\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --makeup off\r\n  # Set the standalone makeup-root anchor (no --amount is required)\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --makeup-root on --resource vimo://<id> --face-mode multi\r\n  # Apply a one-tap preset package\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --preset vimo://<id> --preset-intensity 80% --face-mode multi\r\n  # Apply one item to a person returned by material-understand\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --shape on --resource vimo://<id> --amount 0.5 --face-mode single --subject-ref mu://<analysis_id>/subject/<subject_id>\r\n",
+      "stderr": "",
+      "output": "Apply or clear one face-beauty category, or apply one preset package.\r\nPass exactly one of\r\n--skin/--shape/--feature/--makeup/--body/--makeup-root/--preset. Category\r\noptions accept on/off/clear; --preset accepts a resource URI. Use --item for\r\nsemantic item keys resolved by videoeditor during patch apply.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --ref TEXT          Unified draft reference\r\n          --seg-id <SEG_ID[,SEG_ID...]> ... \r\n                              Target segment id; repeat --seg-id or pass a comma-separated list\r\n          --seg-type <TYPE[,TYPE...]> \r\n                              Target segment type; must match this typed shortcut\r\n          --target-track <INDEX[,INDEX...]> \r\n                              Target track index(es)\r\n          --seg-index <INDEX[,INDEX...]> \r\n                              Comma-separated segment indexes within one target track, e.g.\r\n                              0,2,-1\r\n          --time-window <START,END> \r\n                              Select segments overlapping the half-open timeline window\r\n                              [start,end); start must be less than end\r\n          --skin TEXT         Skin management: on/off/clear\r\n          --shape TEXT        Face shape: on/off/clear\r\n          --feature TEXT      Facial features: on/off/clear\r\n          --makeup TEXT       Makeup: on/off/clear\r\n          --body TEXT         Body shaping: on/off/clear\r\n          --makeup-root TEXT  Makeup root anchor: on/off/clear\r\n          --preset TEXT       One-tap preset resource URI: vimo://<id> / local://<path>\r\n          --resource TEXT     Figure resource URI: vimo://<id> / local://<path>\r\n          --item TEXT         Portable semantic item key in skin/shape/feature, such as\r\n                              skin.whiten, shape.slim_face, or feature.nose_height; see the\r\n                              atomic Skill for the complete portable list. Only valid with\r\n                              category=on and an absolute --amount\r\n          --amount TEXT       Resource-specific finite adjustment amount; bare values,\r\n                              percentages, signed values, and relative updates are allowed.\r\n                              Resource-specific scalar; bare finite values and percentages are\r\n                              accepted.\r\n          --skin-tone-warmth TEXT \r\n                              Skin tone warmth slider; negative values are cooler, positive\r\n                              values are warmer. Resource-specific scalar; bare finite values\r\n                              and percentages are accepted.\r\n          --preset-intensity TEXT \r\n                              Preset intensity with normalized scalar or percent. Use a bare\r\n                              scalar or percent; the ratio suffix is invalid. Range after\r\n                              normalization: [0,1].\r\n          --face-mode TEXT    Face mode: multi / single\r\n          --face-id TEXT      Face id (required when --face-mode single)\r\n          --subject-ref TEXT  Versioned person reference returned by material-understand; use\r\n                              instead of --face-id\r\n          --makeup-root-resource TEXT \r\n                              Makeup root resource (optional, only with --makeup on)\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nNOTE: face-beauty only applies to video segments; pass one category per command.\r\n      Standalone --preset execution expands auto_beauty.json into real figures\r\n      and persists one-tap preset metadata.\r\nEXAMPLES\r\n  # Enable skin management with a resource, amount and multi-face mode\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --skin on --resource vimo://<id> --amount 0.8 --face-mode multi\r\n  # Enable a semantic item; videoeditor resolves it to the matching resource URI\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --shape on --item shape.slim_face --amount 0.5 --face-mode multi\r\n  # Apply a skin tone item with intensity and warmth sliders\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --skin on --resource vimo://<id> --amount 0.65 --skin-tone-warmth -0.15 --face-mode multi\r\n  # Turn off the makeup category\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --makeup off\r\n  # Set the standalone makeup-root anchor (no --amount is required)\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --makeup-root on --resource vimo://<id> --face-mode multi\r\n  # Apply a one-tap preset package\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --preset vimo://<id> --preset-intensity 80% --face-mode multi\r\n  # Apply one item to a person returned by material-understand\r\n  $ lyra-cli draft video face-beauty --seg-id <UUID> --shape on --resource vimo://<id> --amount 0.5 --face-mode single --subject-ref mu://<analysis_id>/subject/<subject_id>\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 527,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "video",
+        "face-beauty",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791605047863,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791605047,\"timestamp_str\":\"2026-10-10 12:04:07.863\",\"trace_index\":11,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791605048179,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.179\",\"trace_index\":12,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791605048182,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":39952,\"ppid\":62636,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.182\",\"trace_index\":13,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791605048248,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-jl5fjdfp\\__PSScriptPolicyTest_q0ic02aj.irv.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791605048248,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.248\",\"trace_index\":14,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791605048249,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-jl5fjdfp\\__PSScriptPolicyTest_i02jof0e.uwc.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791605048249,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.249\",\"trace_index\":15,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791605048460,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-jl5fjdfp\\__PSScriptPolicyTest_cr1e4d1y.lm5.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791605048460,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.460\",\"trace_index\":16,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791605048461,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-jl5fjdfp\\__PSScriptPolicyTest_nldquzwu.kym.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791605048461,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.461\",\"trace_index\":17,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791605048568,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":3828,\"ppid\":39952,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.568\",\"trace_index\":18,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791605048712,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":62592,\"ppid\":3828,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.712\",\"trace_index\":19,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791605048860,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-91753989430600",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791605048860,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-91753989430600\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.860\",\"trace_index\":20,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791605048880,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791605048881,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.881\",\"trace_index\":21,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791605048882,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791605048882,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.882\",\"trace_index\":22,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791605048891,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791605048891,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.891\",\"trace_index\":23,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791605048892,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791605048893,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605048,\"timestamp_str\":\"2026-10-10 12:04:08.893\",\"trace_index\":24,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791605049189,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\62592.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791605049193,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":500,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":62592,\"ppid\":3828,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791605049,\"timestamp_str\":\"2026-10-10 12:04:09.193\",\"trace_index\":25,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791605049193,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605047852",
+      "processId": 62592,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791605049205,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":656,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":3828,\"ppid\":39952,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791605049,\"timestamp_str\":\"2026-10-10 12:04:09.205\",\"trace_index\":26,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791605049205,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605047852",
+      "processId": 3828,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791605049220,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791605049225,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1047,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":39952,\"ppid\":62636,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791605049,\"timestamp_str\":\"2026-10-10 12:04:09.225\",\"trace_index\":27,\"vm_id\":\"draftediting-1791605047852\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791605049225,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791605049232,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605047852",
+      "processId": 39952,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

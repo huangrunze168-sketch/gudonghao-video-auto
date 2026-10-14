@@ -1,0 +1,5 @@
+{"stage":"start","at":1791864021861,"args":["material","search","--type","sticker","--prompt","古风","--limit","5","--network-mode","on"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映","pid":46588}
+{"stage":"policy","at":1791864021862,"rules":7}
+{"stage":"create-process:begin","at":1791864021865,"vmId":"draftediting-1791864021861"}
+{"stage":"create-process:done","at":1791864022278,"processId":19920,"success":true}
+{"stage":"worker-ready","at":1791864022779}

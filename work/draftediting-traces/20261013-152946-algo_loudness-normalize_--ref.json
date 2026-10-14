@@ -1,0 +1,1193 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791876582438",
+    "processId": 54116,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-63ce0fe8ad614cc3",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": false,
+      "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: {\\\"lyra_err_code\\\":100,\\\"lyra_err_msg\\\":\\\"segment has no audio stream: CEFDF797-ED0E-49af-93C4-9DCBB5297990\\\"}\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+      "stderr": "",
+      "output": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: {\\\"lyra_err_code\\\":100,\\\"lyra_err_msg\\\":\\\"segment has no audio stream: CEFDF797-ED0E-49af-93C4-9DCBB5297990\\\"}\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+      "exitCode": 1,
+      "timedOut": false,
+      "durationMs": 2745,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "algo",
+        "loudness-normalize",
+        "--ref",
+        "local://guzhu-01",
+        "--seg-id",
+        "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "--enable",
+        "true",
+        "--target-loudness",
+        "-14.0"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791876582451,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791876582,\"timestamp_str\":\"2026-10-13 15:29:42.451\",\"trace_index\":11,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791876582834,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791876582,\"timestamp_str\":\"2026-10-13 15:29:42.833\",\"trace_index\":12,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791876582837,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":54116,\"ppid\":21536,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791876582,\"timestamp_str\":\"2026-10-13 15:29:42.837\",\"trace_index\":13,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791876582912,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cw_e5m11\\__PSScriptPolicyTest_kf2m3imm.3t4.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791876582913,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876582,\"timestamp_str\":\"2026-10-13 15:29:42.913\",\"trace_index\":14,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791876582914,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cw_e5m11\\__PSScriptPolicyTest_mnmecklu.ft3.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791876582914,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876582,\"timestamp_str\":\"2026-10-13 15:29:42.914\",\"trace_index\":15,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791876583166,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cw_e5m11\\__PSScriptPolicyTest_jztiob1r.e3o.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791876583166,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.166\",\"trace_index\":16,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791876583167,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-cw_e5m11\\__PSScriptPolicyTest_wakhebn1.cng.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791876583167,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.167\",\"trace_index\":17,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791876583291,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":54456,\"ppid\":54116,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.291\",\"trace_index\":18,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791876583422,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":36040,\"ppid\":54456,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.422\",\"trace_index\":19,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791876583578,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-192412044426700",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791876583578,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-192412044426700\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.578\",\"trace_index\":20,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791876583601,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791876583601,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.601\",\"trace_index\":21,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791876583603,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791876583603,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.603\",\"trace_index\":22,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791876583614,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791876583614,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.614\",\"trace_index\":23,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791876583616,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791876583616,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.616\",\"trace_index\":24,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791876583808,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\logs\\lyra-cli-20261013110819.log",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791876583985,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":27880,\"ppid\":36040,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791876583,\"timestamp_str\":\"2026-10-13 15:29:43.984\",\"trace_index\":25,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791876584109,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":141,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":27880,\"ppid\":36040,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791876584,\"timestamp_str\":\"2026-10-13 15:29:44.109\",\"trace_index\":26,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791876584109,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791876582438",
+      "processId": 27880,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791876584375,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791876584377,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791876584,\"timestamp_str\":\"2026-10-13 15:29:44.377\",\"trace_index\":27,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791876584375,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791876584377,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data_low\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791876584,\"timestamp_str\":\"2026-10-13 15:29:44.377\",\"trace_index\":28,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791876584376,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-35",
+      "sequence": 35,
+      "timestamp": 1791876584377,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791876584,\"timestamp_str\":\"2026-10-13 15:29:44.377\",\"trace_index\":29,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-36",
+      "sequence": 36,
+      "timestamp": 1791876584377,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-37",
+      "sequence": 37,
+      "timestamp": 1791876584377,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data_low\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791876584,\"timestamp_str\":\"2026-10-13 15:29:44.377\",\"trace_index\":30,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-38",
+      "sequence": 38,
+      "timestamp": 1791876584378,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-39",
+      "sequence": 39,
+      "timestamp": 1791876584378,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791876584,\"timestamp_str\":\"2026-10-13 15:29:44.378\",\"trace_index\":31,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-40",
+      "sequence": 40,
+      "timestamp": 1791876584379,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-41",
+      "sequence": 41,
+      "timestamp": 1791876584379,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-42",
+      "sequence": 42,
+      "timestamp": 1791876584380,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-43",
+      "sequence": 43,
+      "timestamp": 1791876584381,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-44",
+      "sequence": 44,
+      "timestamp": 1791876584382,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-45",
+      "sequence": 45,
+      "timestamp": 1791876584383,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-46",
+      "sequence": 46,
+      "timestamp": 1791876584383,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-47",
+      "sequence": 47,
+      "timestamp": 1791876584384,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-48",
+      "sequence": 48,
+      "timestamp": 1791876584385,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-49",
+      "sequence": 49,
+      "timestamp": 1791876584386,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-50",
+      "sequence": 50,
+      "timestamp": 1791876584386,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-51",
+      "sequence": 51,
+      "timestamp": 1791876584387,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-52",
+      "sequence": 52,
+      "timestamp": 1791876584388,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-53",
+      "sequence": 53,
+      "timestamp": 1791876584389,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-54",
+      "sequence": 54,
+      "timestamp": 1791876584389,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-55",
+      "sequence": 55,
+      "timestamp": 1791876584708,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-56",
+      "sequence": 56,
+      "timestamp": 1791876584709,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-57",
+      "sequence": 57,
+      "timestamp": 1791876584710,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-58",
+      "sequence": 58,
+      "timestamp": 1791876584711,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-59",
+      "sequence": 59,
+      "timestamp": 1791876584712,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-60",
+      "sequence": 60,
+      "timestamp": 1791876584713,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-61",
+      "sequence": 61,
+      "timestamp": 1791876584714,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-62",
+      "sequence": 62,
+      "timestamp": 1791876584715,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-63",
+      "sequence": 63,
+      "timestamp": 1791876584715,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-64",
+      "sequence": 64,
+      "timestamp": 1791876584716,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-65",
+      "sequence": 65,
+      "timestamp": 1791876584717,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-66",
+      "sequence": 66,
+      "timestamp": 1791876584718,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-67",
+      "sequence": 67,
+      "timestamp": 1791876584719,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-68",
+      "sequence": 68,
+      "timestamp": 1791876584720,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-69",
+      "sequence": 69,
+      "timestamp": 1791876584721,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-70",
+      "sequence": 70,
+      "timestamp": 1791876584722,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-71",
+      "sequence": 71,
+      "timestamp": 1791876584723,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-72",
+      "sequence": 72,
+      "timestamp": 1791876584724,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-73",
+      "sequence": 73,
+      "timestamp": 1791876584726,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-74",
+      "sequence": 74,
+      "timestamp": 1791876584727,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\0000000000008cc8.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-75",
+      "sequence": 75,
+      "timestamp": 1791876586019,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\36040.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-76",
+      "sequence": 76,
+      "timestamp": 1791876586019,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"marker\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791876586,\"timestamp_str\":\"2026-10-13 15:29:46.019\",\"trace_index\":32,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-77",
+      "sequence": 77,
+      "timestamp": 1791876586086,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":2687,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":36040,\"ppid\":54456,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791876586,\"timestamp_str\":\"2026-10-13 15:29:46.086\",\"trace_index\":33,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-78",
+      "sequence": 78,
+      "timestamp": 1791876586086,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791876582438",
+      "processId": 36040,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-79",
+      "sequence": 79,
+      "timestamp": 1791876586130,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":2859,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":54456,\"ppid\":54116,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791876586,\"timestamp_str\":\"2026-10-13 15:29:46.130\",\"trace_index\":34,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-80",
+      "sequence": 80,
+      "timestamp": 1791876586130,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54456,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-81",
+      "sequence": 81,
+      "timestamp": 1791876586145,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-82",
+      "sequence": 82,
+      "timestamp": 1791876586151,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":3328,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":54116,\"ppid\":21536,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791876586,\"timestamp_str\":\"2026-10-13 15:29:46.151\",\"trace_index\":35,\"vm_id\":\"draftediting-1791876582438\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-83",
+      "sequence": 83,
+      "timestamp": 1791876586151,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-84",
+      "sequence": 84,
+      "timestamp": 1791876586159,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791876582438",
+      "processId": 54116,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

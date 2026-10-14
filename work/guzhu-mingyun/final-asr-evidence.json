@@ -1,0 +1,906 @@
+{
+  "command": [
+    "media",
+    "asr",
+    "--input",
+    "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\final.mp4",
+    "--language",
+    "zh",
+    "--output",
+    "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\asr.json"
+  ],
+  "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check",
+  "status": "官方返回成功",
+  "envelope": {
+    "command": [
+      "media",
+      "asr",
+      "--input",
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\final.mp4",
+      "--language",
+      "zh",
+      "--output",
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\asr.json"
+    ],
+    "result": {
+      "err_code": 0,
+      "err_msg": "success",
+      "result": {
+        "asr": {
+          "audio_source": "local_video_audio",
+          "clear_talking_head": false,
+          "is_only_request_subtitles": true,
+          "recognize_type": "subtitle",
+          "segment_id": "",
+          "sentence_count": 11,
+          "sentences": [
+            {
+              "duration_us": 1080000,
+              "index": 1,
+              "start_us": 120000,
+              "tag": "speech",
+              "text": "有没有下班到家",
+              "words": [
+                {
+                  "duration_us": 200000,
+                  "start_us": 120000,
+                  "text": "有"
+                },
+                {
+                  "duration_us": 200000,
+                  "start_us": 320000,
+                  "text": "没有"
+                },
+                {
+                  "duration_us": 240000,
+                  "start_us": 520000,
+                  "text": "下班"
+                },
+                {
+                  "duration_us": 440000,
+                  "start_us": 760000,
+                  "text": "到家"
+                }
+              ]
+            },
+            {
+              "duration_us": 1440000,
+              "index": 2,
+              "start_us": 1200000,
+              "tag": "speech",
+              "text": "却在楼下多站几分钟",
+              "words": [
+                {
+                  "duration_us": 160000,
+                  "start_us": 1200000,
+                  "text": "却"
+                },
+                {
+                  "duration_us": 160000,
+                  "start_us": 1360000,
+                  "text": "在"
+                },
+                {
+                  "duration_us": 280000,
+                  "start_us": 1520000,
+                  "text": "楼下"
+                },
+                {
+                  "duration_us": 160000,
+                  "start_us": 1800000,
+                  "text": "多"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 1960000,
+                  "text": "站"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 2120000,
+                  "text": "几"
+                },
+                {
+                  "duration_us": 400000,
+                  "start_us": 2240000,
+                  "text": "分钟"
+                }
+              ]
+            },
+            {
+              "duration_us": 1040000,
+              "index": 3,
+              "start_us": 2640000,
+              "tag": "speech",
+              "text": "不是不想回家",
+              "words": [
+                {
+                  "duration_us": 280000,
+                  "start_us": 2640000,
+                  "text": "不是"
+                },
+                {
+                  "duration_us": 320000,
+                  "start_us": 2920000,
+                  "text": "不想"
+                },
+                {
+                  "duration_us": 440000,
+                  "start_us": 3240000,
+                  "text": "回家"
+                }
+              ]
+            },
+            {
+              "duration_us": 1560000,
+              "index": 4,
+              "start_us": 3680000,
+              "tag": "speech",
+              "text": "只是想把自己还给自己",
+              "words": [
+                {
+                  "duration_us": 280000,
+                  "start_us": 3680000,
+                  "text": "只是"
+                },
+                {
+                  "duration_us": 160000,
+                  "start_us": 3960000,
+                  "text": "想"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 4120000,
+                  "text": "把"
+                },
+                {
+                  "duration_us": 200000,
+                  "start_us": 4240000,
+                  "text": "自己"
+                },
+                {
+                  "duration_us": 320000,
+                  "start_us": 4440000,
+                  "text": "还给"
+                },
+                {
+                  "duration_us": 480000,
+                  "start_us": 4760000,
+                  "text": "自己"
+                }
+              ]
+            },
+            {
+              "duration_us": 1940000,
+              "index": 5,
+              "start_us": 5240000,
+              "tag": "speech",
+              "text": "懂这首歌的评论区留个句号",
+              "words": [
+                {
+                  "duration_us": 120000,
+                  "start_us": 5240000,
+                  "text": "懂"
+                },
+                {
+                  "duration_us": 200000,
+                  "start_us": 5480000,
+                  "text": "这"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 5680000,
+                  "text": "首"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 5800000,
+                  "text": "歌"
+                },
+                {
+                  "duration_us": 160000,
+                  "start_us": 5920000,
+                  "text": "的"
+                },
+                {
+                  "duration_us": 160000,
+                  "start_us": 6080000,
+                  "text": "评论"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 6240000,
+                  "text": "区"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 6400000,
+                  "text": "留"
+                },
+                {
+                  "duration_us": 120000,
+                  "start_us": 6520000,
+                  "text": "个"
+                },
+                {
+                  "duration_us": 500000,
+                  "start_us": 6680000,
+                  "text": "句号"
+                }
+              ]
+            },
+            {
+              "duration_us": 2860000,
+              "index": 6,
+              "start_us": 11200000,
+              "tag": "speech",
+              "text": "站着一直在发呆",
+              "words": [
+                {
+                  "duration_us": 240000,
+                  "start_us": 11200000,
+                  "text": "站"
+                },
+                {
+                  "duration_us": 200000,
+                  "start_us": 11440000,
+                  "text": "着"
+                },
+                {
+                  "duration_us": 680000,
+                  "start_us": 11640000,
+                  "text": "一直"
+                },
+                {
+                  "duration_us": 440000,
+                  "start_us": 12320000,
+                  "text": "在"
+                },
+                {
+                  "duration_us": 1300000,
+                  "start_us": 12760000,
+                  "text": "发呆"
+                }
+              ]
+            },
+            {
+              "duration_us": 3640000,
+              "index": 7,
+              "start_us": 14080000,
+              "tag": "speech",
+              "text": "屏幕亮起来我没理睬",
+              "words": [
+                {
+                  "duration_us": 680000,
+                  "start_us": 14080000,
+                  "text": "屏幕"
+                },
+                {
+                  "duration_us": 280000,
+                  "start_us": 14760000,
+                  "text": "亮"
+                },
+                {
+                  "duration_us": 840000,
+                  "start_us": 15040000,
+                  "text": "起来"
+                },
+                {
+                  "duration_us": 520000,
+                  "start_us": 15880000,
+                  "text": "我"
+                },
+                {
+                  "duration_us": 240000,
+                  "start_us": 16400000,
+                  "text": "没"
+                },
+                {
+                  "duration_us": 1080000,
+                  "start_us": 16640000,
+                  "text": "理睬"
+                }
+              ]
+            },
+            {
+              "duration_us": 3640000,
+              "index": 8,
+              "start_us": 17720000,
+              "tag": "speech",
+              "text": "那几分钟我才算存在",
+              "words": [
+                {
+                  "duration_us": 280000,
+                  "start_us": 17720000,
+                  "text": "那"
+                },
+                {
+                  "duration_us": 200000,
+                  "start_us": 18000000,
+                  "text": "几"
+                },
+                {
+                  "duration_us": 640000,
+                  "start_us": 18200000,
+                  "text": "分钟"
+                },
+                {
+                  "duration_us": 520000,
+                  "start_us": 18840000,
+                  "text": "我"
+                },
+                {
+                  "duration_us": 800000,
+                  "start_us": 19360000,
+                  "text": "才算"
+                },
+                {
+                  "duration_us": 1200000,
+                  "start_us": 20160000,
+                  "text": "存在"
+                }
+              ]
+            },
+            {
+              "duration_us": 3580000,
+              "index": 9,
+              "start_us": 21360000,
+              "tag": "speech",
+              "text": "你也试过把互相伤害",
+              "words": [
+                {
+                  "duration_us": 440000,
+                  "start_us": 21360000,
+                  "text": "你"
+                },
+                {
+                  "duration_us": 280000,
+                  "start_us": 21800000,
+                  "text": "也"
+                },
+                {
+                  "duration_us": 480000,
+                  "start_us": 22080000,
+                  "text": "试过"
+                },
+                {
+                  "duration_us": 400000,
+                  "start_us": 22560000,
+                  "text": "把"
+                },
+                {
+                  "duration_us": 640000,
+                  "start_us": 22960000,
+                  "text": "互相"
+                },
+                {
+                  "duration_us": 1340000,
+                  "start_us": 23600000,
+                  "text": "伤害"
+                }
+              ]
+            },
+            {
+              "duration_us": 3420000,
+              "index": 10,
+              "start_us": 25160000,
+              "tag": "speech",
+              "text": "照耀时的手慢了半拍",
+              "words": [
+                {
+                  "duration_us": 360000,
+                  "start_us": 25160000,
+                  "text": "照耀"
+                },
+                {
+                  "duration_us": 240000,
+                  "start_us": 25520000,
+                  "text": "时"
+                },
+                {
+                  "duration_us": 200000,
+                  "start_us": 25760000,
+                  "text": "的"
+                },
+                {
+                  "duration_us": 840000,
+                  "start_us": 25960000,
+                  "text": "手慢"
+                },
+                {
+                  "duration_us": 320000,
+                  "start_us": 26960000,
+                  "text": "了"
+                },
+                {
+                  "duration_us": 400000,
+                  "start_us": 27280000,
+                  "text": "半"
+                },
+                {
+                  "duration_us": 900000,
+                  "start_us": 27680000,
+                  "text": "拍"
+                }
+              ]
+            },
+            {
+              "duration_us": 1449000,
+              "index": 11,
+              "start_us": 28600000,
+              "tag": "speech",
+              "text": "呼一口气才",
+              "words": [
+                {
+                  "duration_us": 520000,
+                  "start_us": 28600000,
+                  "text": "呼"
+                },
+                {
+                  "duration_us": 680000,
+                  "start_us": 29120000,
+                  "text": "一口气"
+                },
+                {
+                  "duration_us": 249000,
+                  "start_us": 29800000,
+                  "text": "才"
+                }
+              ]
+            }
+          ],
+          "source": "lyra_cli_asr",
+          "source_language_code": "zh",
+          "subtitle_source": 1,
+          "translate_language_code": "",
+          "word_count": 63
+        },
+        "audio_path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\final.mp4",
+        "audio_source": "local_video_audio",
+        "clear_talking_head": false,
+        "extracted_audio_codec": "aac",
+        "extracted_audio_duration_us": 30046009,
+        "input": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\final.mp4",
+        "input_type": "video",
+        "language": "zh",
+        "operator": "asr",
+        "output": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\asr.json",
+        "sentence_count": 11,
+        "sentences": [
+          {
+            "duration_us": 1080000,
+            "index": 1,
+            "start_us": 120000,
+            "tag": "speech",
+            "text": "有没有下班到家",
+            "words": [
+              {
+                "duration_us": 200000,
+                "start_us": 120000,
+                "text": "有"
+              },
+              {
+                "duration_us": 200000,
+                "start_us": 320000,
+                "text": "没有"
+              },
+              {
+                "duration_us": 240000,
+                "start_us": 520000,
+                "text": "下班"
+              },
+              {
+                "duration_us": 440000,
+                "start_us": 760000,
+                "text": "到家"
+              }
+            ]
+          },
+          {
+            "duration_us": 1440000,
+            "index": 2,
+            "start_us": 1200000,
+            "tag": "speech",
+            "text": "却在楼下多站几分钟",
+            "words": [
+              {
+                "duration_us": 160000,
+                "start_us": 1200000,
+                "text": "却"
+              },
+              {
+                "duration_us": 160000,
+                "start_us": 1360000,
+                "text": "在"
+              },
+              {
+                "duration_us": 280000,
+                "start_us": 1520000,
+                "text": "楼下"
+              },
+              {
+                "duration_us": 160000,
+                "start_us": 1800000,
+                "text": "多"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 1960000,
+                "text": "站"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 2120000,
+                "text": "几"
+              },
+              {
+                "duration_us": 400000,
+                "start_us": 2240000,
+                "text": "分钟"
+              }
+            ]
+          },
+          {
+            "duration_us": 1040000,
+            "index": 3,
+            "start_us": 2640000,
+            "tag": "speech",
+            "text": "不是不想回家",
+            "words": [
+              {
+                "duration_us": 280000,
+                "start_us": 2640000,
+                "text": "不是"
+              },
+              {
+                "duration_us": 320000,
+                "start_us": 2920000,
+                "text": "不想"
+              },
+              {
+                "duration_us": 440000,
+                "start_us": 3240000,
+                "text": "回家"
+              }
+            ]
+          },
+          {
+            "duration_us": 1560000,
+            "index": 4,
+            "start_us": 3680000,
+            "tag": "speech",
+            "text": "只是想把自己还给自己",
+            "words": [
+              {
+                "duration_us": 280000,
+                "start_us": 3680000,
+                "text": "只是"
+              },
+              {
+                "duration_us": 160000,
+                "start_us": 3960000,
+                "text": "想"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 4120000,
+                "text": "把"
+              },
+              {
+                "duration_us": 200000,
+                "start_us": 4240000,
+                "text": "自己"
+              },
+              {
+                "duration_us": 320000,
+                "start_us": 4440000,
+                "text": "还给"
+              },
+              {
+                "duration_us": 480000,
+                "start_us": 4760000,
+                "text": "自己"
+              }
+            ]
+          },
+          {
+            "duration_us": 1940000,
+            "index": 5,
+            "start_us": 5240000,
+            "tag": "speech",
+            "text": "懂这首歌的评论区留个句号",
+            "words": [
+              {
+                "duration_us": 120000,
+                "start_us": 5240000,
+                "text": "懂"
+              },
+              {
+                "duration_us": 200000,
+                "start_us": 5480000,
+                "text": "这"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 5680000,
+                "text": "首"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 5800000,
+                "text": "歌"
+              },
+              {
+                "duration_us": 160000,
+                "start_us": 5920000,
+                "text": "的"
+              },
+              {
+                "duration_us": 160000,
+                "start_us": 6080000,
+                "text": "评论"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 6240000,
+                "text": "区"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 6400000,
+                "text": "留"
+              },
+              {
+                "duration_us": 120000,
+                "start_us": 6520000,
+                "text": "个"
+              },
+              {
+                "duration_us": 500000,
+                "start_us": 6680000,
+                "text": "句号"
+              }
+            ]
+          },
+          {
+            "duration_us": 2860000,
+            "index": 6,
+            "start_us": 11200000,
+            "tag": "speech",
+            "text": "站着一直在发呆",
+            "words": [
+              {
+                "duration_us": 240000,
+                "start_us": 11200000,
+                "text": "站"
+              },
+              {
+                "duration_us": 200000,
+                "start_us": 11440000,
+                "text": "着"
+              },
+              {
+                "duration_us": 680000,
+                "start_us": 11640000,
+                "text": "一直"
+              },
+              {
+                "duration_us": 440000,
+                "start_us": 12320000,
+                "text": "在"
+              },
+              {
+                "duration_us": 1300000,
+                "start_us": 12760000,
+                "text": "发呆"
+              }
+            ]
+          },
+          {
+            "duration_us": 3640000,
+            "index": 7,
+            "start_us": 14080000,
+            "tag": "speech",
+            "text": "屏幕亮起来我没理睬",
+            "words": [
+              {
+                "duration_us": 680000,
+                "start_us": 14080000,
+                "text": "屏幕"
+              },
+              {
+                "duration_us": 280000,
+                "start_us": 14760000,
+                "text": "亮"
+              },
+              {
+                "duration_us": 840000,
+                "start_us": 15040000,
+                "text": "起来"
+              },
+              {
+                "duration_us": 520000,
+                "start_us": 15880000,
+                "text": "我"
+              },
+              {
+                "duration_us": 240000,
+                "start_us": 16400000,
+                "text": "没"
+              },
+              {
+                "duration_us": 1080000,
+                "start_us": 16640000,
+                "text": "理睬"
+              }
+            ]
+          },
+          {
+            "duration_us": 3640000,
+            "index": 8,
+            "start_us": 17720000,
+            "tag": "speech",
+            "text": "那几分钟我才算存在",
+            "words": [
+              {
+                "duration_us": 280000,
+                "start_us": 17720000,
+                "text": "那"
+              },
+              {
+                "duration_us": 200000,
+                "start_us": 18000000,
+                "text": "几"
+              },
+              {
+                "duration_us": 640000,
+                "start_us": 18200000,
+                "text": "分钟"
+              },
+              {
+                "duration_us": 520000,
+                "start_us": 18840000,
+                "text": "我"
+              },
+              {
+                "duration_us": 800000,
+                "start_us": 19360000,
+                "text": "才算"
+              },
+              {
+                "duration_us": 1200000,
+                "start_us": 20160000,
+                "text": "存在"
+              }
+            ]
+          },
+          {
+            "duration_us": 3580000,
+            "index": 9,
+            "start_us": 21360000,
+            "tag": "speech",
+            "text": "你也试过把互相伤害",
+            "words": [
+              {
+                "duration_us": 440000,
+                "start_us": 21360000,
+                "text": "你"
+              },
+              {
+                "duration_us": 280000,
+                "start_us": 21800000,
+                "text": "也"
+              },
+              {
+                "duration_us": 480000,
+                "start_us": 22080000,
+                "text": "试过"
+              },
+              {
+                "duration_us": 400000,
+                "start_us": 22560000,
+                "text": "把"
+              },
+              {
+                "duration_us": 640000,
+                "start_us": 22960000,
+                "text": "互相"
+              },
+              {
+                "duration_us": 1340000,
+                "start_us": 23600000,
+                "text": "伤害"
+              }
+            ]
+          },
+          {
+            "duration_us": 3420000,
+            "index": 10,
+            "start_us": 25160000,
+            "tag": "speech",
+            "text": "照耀时的手慢了半拍",
+            "words": [
+              {
+                "duration_us": 360000,
+                "start_us": 25160000,
+                "text": "照耀"
+              },
+              {
+                "duration_us": 240000,
+                "start_us": 25520000,
+                "text": "时"
+              },
+              {
+                "duration_us": 200000,
+                "start_us": 25760000,
+                "text": "的"
+              },
+              {
+                "duration_us": 840000,
+                "start_us": 25960000,
+                "text": "手慢"
+              },
+              {
+                "duration_us": 320000,
+                "start_us": 26960000,
+                "text": "了"
+              },
+              {
+                "duration_us": 400000,
+                "start_us": 27280000,
+                "text": "半"
+              },
+              {
+                "duration_us": 900000,
+                "start_us": 27680000,
+                "text": "拍"
+              }
+            ]
+          },
+          {
+            "duration_us": 1449000,
+            "index": 11,
+            "start_us": 28600000,
+            "tag": "speech",
+            "text": "呼一口气才",
+            "words": [
+              {
+                "duration_us": 520000,
+                "start_us": 28600000,
+                "text": "呼"
+              },
+              {
+                "duration_us": 680000,
+                "start_us": 29120000,
+                "text": "一口气"
+              },
+              {
+                "duration_us": 249000,
+                "start_us": 29800000,
+                "text": "才"
+              }
+            ]
+          }
+        ],
+        "source_language_code": "zh",
+        "task_id": "6acdfe2c3f053301df5f2201_8_2",
+        "timeout_ms": 300000,
+        "word_count": 63
+      }
+    },
+    "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"asr\":{\"audio_source\":\"local_video_audio\",\"clear_talking_head\":false,\"is_only_request_subtitles\":true,\"recognize_type\":\"subtitle\",\"segment_id\":\"\",\"sentence_count\":11,\"sentences\":[{\"duration_us\":1080000,\"index\":1,\"start_us\":120000,\"tag\":\"speech\",\"text\":\"有没有下班到家\",\"words\":[{\"duration_us\":200000,\"start_us\":120000,\"text\":\"有\"},{\"duration_us\":200000,\"start_us\":320000,\"text\":\"没有\"},{\"duration_us\":240000,\"start_us\":520000,\"text\":\"下班\"},{\"duration_us\":440000,\"start_us\":760000,\"text\":\"到家\"}]},{\"duration_us\":1440000,\"index\":2,\"start_us\":1200000,\"tag\":\"speech\",\"text\":\"却在楼下多站几分钟\",\"words\":[{\"duration_us\":160000,\"start_us\":1200000,\"text\":\"却\"},{\"duration_us\":160000,\"start_us\":1360000,\"text\":\"在\"},{\"duration_us\":280000,\"start_us\":1520000,\"text\":\"楼下\"},{\"duration_us\":160000,\"start_us\":1800000,\"text\":\"多\"},{\"duration_us\":120000,\"start_us\":1960000,\"text\":\"站\"},{\"duration_us\":120000,\"start_us\":2120000,\"text\":\"几\"},{\"duration_us\":400000,\"start_us\":2240000,\"text\":\"分钟\"}]},{\"duration_us\":1040000,\"index\":3,\"start_us\":2640000,\"tag\":\"speech\",\"text\":\"不是不想回家\",\"words\":[{\"duration_us\":280000,\"start_us\":2640000,\"text\":\"不是\"},{\"duration_us\":320000,\"start_us\":2920000,\"text\":\"不想\"},{\"duration_us\":440000,\"start_us\":3240000,\"text\":\"回家\"}]},{\"duration_us\":1560000,\"index\":4,\"start_us\":3680000,\"tag\":\"speech\",\"text\":\"只是想把自己还给自己\",\"words\":[{\"duration_us\":280000,\"start_us\":3680000,\"text\":\"只是\"},{\"duration_us\":160000,\"start_us\":3960000,\"text\":\"想\"},{\"duration_us\":120000,\"start_us\":4120000,\"text\":\"把\"},{\"duration_us\":200000,\"start_us\":4240000,\"text\":\"自己\"},{\"duration_us\":320000,\"start_us\":4440000,\"text\":\"还给\"},{\"duration_us\":480000,\"start_us\":4760000,\"text\":\"自己\"}]},{\"duration_us\":1940000,\"index\":5,\"start_us\":5240000,\"tag\":\"speech\",\"text\":\"懂这首歌的评论区留个句号\",\"words\":[{\"duration_us\":120000,\"start_us\":5240000,\"text\":\"懂\"},{\"duration_us\":200000,\"start_us\":5480000,\"text\":\"这\"},{\"duration_us\":120000,\"start_us\":5680000,\"text\":\"首\"},{\"duration_us\":120000,\"start_us\":5800000,\"text\":\"歌\"},{\"duration_us\":160000,\"start_us\":5920000,\"text\":\"的\"},{\"duration_us\":160000,\"start_us\":6080000,\"text\":\"评论\"},{\"duration_us\":120000,\"start_us\":6240000,\"text\":\"区\"},{\"duration_us\":120000,\"start_us\":6400000,\"text\":\"留\"},{\"duration_us\":120000,\"start_us\":6520000,\"text\":\"个\"},{\"duration_us\":500000,\"start_us\":6680000,\"text\":\"句号\"}]},{\"duration_us\":2860000,\"index\":6,\"start_us\":11200000,\"tag\":\"speech\",\"text\":\"站着一直在发呆\",\"words\":[{\"duration_us\":240000,\"start_us\":11200000,\"text\":\"站\"},{\"duration_us\":200000,\"start_us\":11440000,\"text\":\"着\"},{\"duration_us\":680000,\"start_us\":11640000,\"text\":\"一直\"},{\"duration_us\":440000,\"start_us\":12320000,\"text\":\"在\"},{\"duration_us\":1300000,\"start_us\":12760000,\"text\":\"发呆\"}]},{\"duration_us\":3640000,\"index\":7,\"start_us\":14080000,\"tag\":\"speech\",\"text\":\"屏幕亮起来我没理睬\",\"words\":[{\"duration_us\":680000,\"start_us\":14080000,\"text\":\"屏幕\"},{\"duration_us\":280000,\"start_us\":14760000,\"text\":\"亮\"},{\"duration_us\":840000,\"start_us\":15040000,\"text\":\"起来\"},{\"duration_us\":520000,\"start_us\":15880000,\"text\":\"我\"},{\"duration_us\":240000,\"start_us\":16400000,\"text\":\"没\"},{\"duration_us\":1080000,\"start_us\":16640000,\"text\":\"理睬\"}]},{\"duration_us\":3640000,\"index\":8,\"start_us\":17720000,\"tag\":\"speech\",\"text\":\"那几分钟我才算存在\",\"words\":[{\"duration_us\":280000,\"start_us\":17720000,\"text\":\"那\"},{\"duration_us\":200000,\"start_us\":18000000,\"text\":\"几\"},{\"duration_us\":640000,\"start_us\":18200000,\"text\":\"分钟\"},{\"duration_us\":520000,\"start_us\":18840000,\"text\":\"我\"},{\"duration_us\":800000,\"start_us\":19360000,\"text\":\"才算\"},{\"duration_us\":1200000,\"start_us\":20160000,\"text\":\"存在\"}]},{\"duration_us\":3580000,\"index\":9,\"start_us\":21360000,\"tag\":\"speech\",\"text\":\"你也试过把互相伤害\",\"words\":[{\"duration_us\":440000,\"start_us\":21360000,\"text\":\"你\"},{\"duration_us\":280000,\"start_us\":21800000,\"text\":\"也\"},{\"duration_us\":480000,\"start_us\":22080000,\"text\":\"试过\"},{\"duration_us\":400000,\"start_us\":22560000,\"text\":\"把\"},{\"duration_us\":640000,\"start_us\":22960000,\"text\":\"互相\"},{\"duration_us\":1340000,\"start_us\":23600000,\"text\":\"伤害\"}]},{\"duration_us\":3420000,\"index\":10,\"start_us\":25160000,\"tag\":\"speech\",\"text\":\"照耀时的手慢了半拍\",\"words\":[{\"duration_us\":360000,\"start_us\":25160000,\"text\":\"照耀\"},{\"duration_us\":240000,\"start_us\":25520000,\"text\":\"时\"},{\"duration_us\":200000,\"start_us\":25760000,\"text\":\"的\"},{\"duration_us\":840000,\"start_us\":25960000,\"text\":\"手慢\"},{\"duration_us\":320000,\"start_us\":26960000,\"text\":\"了\"},{\"duration_us\":400000,\"start_us\":27280000,\"text\":\"半\"},{\"duration_us\":900000,\"start_us\":27680000,\"text\":\"拍\"}]},{\"duration_us\":1449000,\"index\":11,\"start_us\":28600000,\"tag\":\"speech\",\"text\":\"呼一口气才\",\"words\":[{\"duration_us\":520000,\"start_us\":28600000,\"text\":\"呼\"},{\"duration_us\":680000,\"start_us\":29120000,\"text\":\"一口气\"},{\"duration_us\":249000,\"start_us\":29800000,\"text\":\"才\"}]}],\"source\":\"lyra_cli_asr\",\"source_language_code\":\"zh\",\"subtitle_source\":1,\"translate_language_code\":\"\",\"word_count\":63},\"audio_path\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-final-check\\\\final.mp4\",\"audio_source\":\"local_video_audio\",\"clear_talking_head\":false,\"extracted_audio_codec\":\"aac\",\"extracted_audio_duration_us\":30046009,\"input\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-final-check\\\\final.mp4\",\"input_type\":\"video\",\"language\":\"zh\",\"operator\":\"asr\",\"output\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-final-check\\\\asr.json\",\"sentence_count\":11,\"sentences\":[{\"duration_us\":1080000,\"index\":1,\"start_us\":120000,\"tag\":\"speech\",\"text\":\"有没有下班到家\",\"words\":[{\"duration_us\":200000,\"start_us\":120000,\"text\":\"有\"},{\"duration_us\":200000,\"start_us\":320000,\"text\":\"没有\"},{\"duration_us\":240000,\"start_us\":520000,\"text\":\"下班\"},{\"duration_us\":440000,\"start_us\":760000,\"text\":\"到家\"}]},{\"duration_us\":1440000,\"index\":2,\"start_us\":1200000,\"tag\":\"speech\",\"text\":\"却在楼下多站几分钟\",\"words\":[{\"duration_us\":160000,\"start_us\":1200000,\"text\":\"却\"},{\"duration_us\":160000,\"start_us\":1360000,\"text\":\"在\"},{\"duration_us\":280000,\"start_us\":1520000,\"text\":\"楼下\"},{\"duration_us\":160000,\"start_us\":1800000,\"text\":\"多\"},{\"duration_us\":120000,\"start_us\":1960000,\"text\":\"站\"},{\"duration_us\":120000,\"start_us\":2120000,\"text\":\"几\"},{\"duration_us\":400000,\"start_us\":2240000,\"text\":\"分钟\"}]},{\"duration_us\":1040000,\"index\":3,\"start_us\":2640000,\"tag\":\"speech\",\"text\":\"不是不想回家\",\"words\":[{\"duration_us\":280000,\"start_us\":2640000,\"text\":\"不是\"},{\"duration_us\":320000,\"start_us\":2920000,\"text\":\"不想\"},{\"duration_us\":440000,\"start_us\":3240000,\"text\":\"回家\"}]},{\"duration_us\":1560000,\"index\":4,\"start_us\":3680000,\"tag\":\"speech\",\"text\":\"只是想把自己还给自己\",\"words\":[{\"duration_us\":280000,\"start_us\":3680000,\"text\":\"只是\"},{\"duration_us\":160000,\"start_us\":3960000,\"text\":\"想\"},{\"duration_us\":120000,\"start_us\":4120000,\"text\":\"把\"},{\"duration_us\":200000,\"start_us\":4240000,\"text\":\"自己\"},{\"duration_us\":320000,\"start_us\":4440000,\"text\":\"还给\"},{\"duration_us\":480000,\"start_us\":4760000,\"text\":\"自己\"}]},{\"duration_us\":1940000,\"index\":5,\"start_us\":5240000,\"tag\":\"speech\",\"text\":\"懂这首歌的评论区留个句号\",\"words\":[{\"duration_us\":120000,\"start_us\":5240000,\"text\":\"懂\"},{\"duration_us\":200000,\"start_us\":5480000,\"text\":\"这\"},{\"duration_us\":120000,\"start_us\":5680000,\"text\":\"首\"},{\"duration_us\":120000,\"start_us\":5800000,\"text\":\"歌\"},{\"duration_us\":160000,\"start_us\":5920000,\"text\":\"的\"},{\"duration_us\":160000,\"start_us\":6080000,\"text\":\"评论\"},{\"duration_us\":120000,\"start_us\":6240000,\"text\":\"区\"},{\"duration_us\":120000,\"start_us\":6400000,\"text\":\"留\"},{\"duration_us\":120000,\"start_us\":6520000,\"text\":\"个\"},{\"duration_us\":500000,\"start_us\":6680000,\"text\":\"句号\"}]},{\"duration_us\":2860000,\"index\":6,\"start_us\":11200000,\"tag\":\"speech\",\"text\":\"站着一直在发呆\",\"words\":[{\"duration_us\":240000,\"start_us\":11200000,\"text\":\"站\"},{\"duration_us\":200000,\"start_us\":11440000,\"text\":\"着\"},{\"duration_us\":680000,\"start_us\":11640000,\"text\":\"一直\"},{\"duration_us\":440000,\"start_us\":12320000,\"text\":\"在\"},{\"duration_us\":1300000,\"start_us\":12760000,\"text\":\"发呆\"}]},{\"duration_us\":3640000,\"index\":7,\"start_us\":14080000,\"tag\":\"speech\",\"text\":\"屏幕亮起来我没理睬\",\"words\":[{\"duration_us\":680000,\"start_us\":14080000,\"text\":\"屏幕\"},{\"duration_us\":280000,\"start_us\":14760000,\"text\":\"亮\"},{\"duration_us\":840000,\"start_us\":15040000,\"text\":\"起来\"},{\"duration_us\":520000,\"start_us\":15880000,\"text\":\"我\"},{\"duration_us\":240000,\"start_us\":16400000,\"text\":\"没\"},{\"duration_us\":1080000,\"start_us\":16640000,\"text\":\"理睬\"}]},{\"duration_us\":3640000,\"index\":8,\"start_us\":17720000,\"tag\":\"speech\",\"text\":\"那几分钟我才算存在\",\"words\":[{\"duration_us\":280000,\"start_us\":17720000,\"text\":\"那\"},{\"duration_us\":200000,\"start_us\":18000000,\"text\":\"几\"},{\"duration_us\":640000,\"start_us\":18200000,\"text\":\"分钟\"},{\"duration_us\":520000,\"start_us\":18840000,\"text\":\"我\"},{\"duration_us\":800000,\"start_us\":19360000,\"text\":\"才算\"},{\"duration_us\":1200000,\"start_us\":20160000,\"text\":\"存在\"}]},{\"duration_us\":3580000,\"index\":9,\"start_us\":21360000,\"tag\":\"speech\",\"text\":\"你也试过把互相伤害\",\"words\":[{\"duration_us\":440000,\"start_us\":21360000,\"text\":\"你\"},{\"duration_us\":280000,\"start_us\":21800000,\"text\":\"也\"},{\"duration_us\":480000,\"start_us\":22080000,\"text\":\"试过\"},{\"duration_us\":400000,\"start_us\":22560000,\"text\":\"把\"},{\"duration_us\":640000,\"start_us\":22960000,\"text\":\"互相\"},{\"duration_us\":1340000,\"start_us\":23600000,\"text\":\"伤害\"}]},{\"duration_us\":3420000,\"index\":10,\"start_us\":25160000,\"tag\":\"speech\",\"text\":\"照耀时的手慢了半拍\",\"words\":[{\"duration_us\":360000,\"start_us\":25160000,\"text\":\"照耀\"},{\"duration_us\":240000,\"start_us\":25520000,\"text\":\"时\"},{\"duration_us\":200000,\"start_us\":25760000,\"text\":\"的\"},{\"duration_us\":840000,\"start_us\":25960000,\"text\":\"手慢\"},{\"duration_us\":320000,\"start_us\":26960000,\"text\":\"了\"},{\"duration_us\":400000,\"start_us\":27280000,\"text\":\"半\"},{\"duration_us\":900000,\"start_us\":27680000,\"text\":\"拍\"}]},{\"duration_us\":1449000,\"index\":11,\"start_us\":28600000,\"tag\":\"speech\",\"text\":\"呼一口气才\",\"words\":[{\"duration_us\":520000,\"start_us\":28600000,\"text\":\"呼\"},{\"duration_us\":680000,\"start_us\":29120000,\"text\":\"一口气\"},{\"duration_us\":249000,\"start_us\":29800000,\"text\":\"才\"}]}],\"source_language_code\":\"zh\",\"task_id\":\"6acdfe2c3f053301df5f2201_8_2\",\"timeout_ms\":300000,\"word_count\":63}}\r\n",
+    "stderr": "",
+    "host_pid": 42840,
+    "duration_ms": 9267
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\asr.json",
+      "bytes": 20614
+    },
+    {
+      "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\final.mp4",
+      "bytes": 6859712
+    }
+  ]
+}

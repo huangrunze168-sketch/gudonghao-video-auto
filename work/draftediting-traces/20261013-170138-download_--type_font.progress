@@ -1,0 +1,6 @@
+{"stage":"start","at":1791882095407,"args":["material","download","--type","font","--resource-id","7311913734081876506","--resource-dir","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\7311913734081876506"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\89c32572af3d402eaaee846d15cd2495","pid":42872}
+{"stage":"policy","at":1791882095408,"rules":9}
+{"stage":"policy-network","at":1791882095408,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791882095410,"vmId":"draftediting-1791882095408"}
+{"stage":"create-process:done","at":1791882095721,"processId":21752,"success":true}
+{"stage":"worker-ready","at":1791882096257}

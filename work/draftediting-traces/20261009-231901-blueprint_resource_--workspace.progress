@@ -1,0 +1,5 @@
+{"stage":"start","at":1791559137732,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog-probe","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"歌词动效\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog-probe","pid":56664}
+{"stage":"policy","at":1791559137733,"rules":8}
+{"stage":"create-process:begin","at":1791559137738,"vmId":"draftediting-1791559137733"}
+{"stage":"create-process:done","at":1791559138021,"processId":56744,"success":true}
+{"stage":"worker-ready","at":1791559138528}

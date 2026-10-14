@@ -1,0 +1,5 @@
+{"stage":"start","at":1791886801334,"args":["draft","blueprint","init","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\guzhu-intro-6af2ef33"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp","pid":10452}
+{"stage":"policy","at":1791886801335,"rules":9}
+{"stage":"create-process:begin","at":1791886801337,"vmId":"draftediting-1791886801334"}
+{"stage":"create-process:done","at":1791886801356,"processId":20832,"success":true}
+{"stage":"worker-ready","at":1791886801824}

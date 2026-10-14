@@ -1,0 +1,6 @@
+{"stage":"start","at":1791884544603,"args":["material","search","--type","effect","--prompt","电影 胶片 质感 克制","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\33cfc189a8a646e19daac577cfa6493f","pid":18236}
+{"stage":"policy","at":1791884544604,"rules":9}
+{"stage":"policy-network","at":1791884544604,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791884544608,"vmId":"draftediting-1791884544604"}
+{"stage":"create-process:done","at":1791884544627,"processId":18736,"success":true}
+{"stage":"worker-ready","at":1791884545111}

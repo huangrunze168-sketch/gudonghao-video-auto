@@ -1,0 +1,348 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "就算至少": {
+      "name": "就算至少",
+      "safe_name": "就算至少",
+      "source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\ac\\acd83c5baa6ad9c162d73347f02b5edfbef13347ca6dd0fb3b9c9f9493d954a1\\就算至少.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\e7\\e73492a8171f0b0c2228c12cc403717e609f02a3b91d29f276f8981f79e340c8\\新建 文本文档 (3).txt",
+      "chorus_at": 14,
+      "source_duration_us": 228400000,
+      "start_us": 67000000,
+      "start_pick": "chorus-asr-cache+target30s",
+      "audio_layout": "chorus",
+      "window_us": 24259410,
+      "clip_us": 24259410,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\songs\\就算至少.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\jypack\\就算至少.jypack",
+      "jypack_bytes": 28792618,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 5740613,
+        "delta_us": -692720,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 24259410,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 30000023,
+        "max_segment_end_us": 30873946
+      },
+      "lyric_cues": 0,
+      "status": "rendered",
+      "animation_pick": {
+        "id": "7591420714515844395",
+        "why": "pool:rainy(28)->浪漫氛围"
+      },
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 7,
+        "animation": "vimo://7591420714515844395",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": {
+          "segments": 7,
+          "replaced": 7,
+          "lines": 52,
+          "align": "ordered",
+          "spans": [
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              19,
+              20
+            ],
+            [
+              20,
+              21
+            ]
+          ],
+          "split_created": 0,
+          "word_samples": [
+            {
+              "text": "就算你没在谁面前认过这段",
+              "gaps_ms": [
+                534,
+                200,
+                160,
+                120,
+                120,
+                440,
+                260,
+                260
+              ]
+            },
+            {
+              "text": "就算我在你名单里 排不到最前",
+              "gaps_ms": [
+                494,
+                200,
+                140,
+                140,
+                120,
+                260,
+                260,
+                360
+              ]
+            }
+          ],
+          "mean_similarity": 0.948,
+          "mean_cost": 0.052
+        },
+        "recognized": [
+          {
+            "start_us": 6066666,
+            "duration_us": 3200000,
+            "text": "就算你没在谁面前忍过这段"
+          },
+          {
+            "start_us": 9266666,
+            "duration_us": 3800000,
+            "text": "就算我在你名单里排不到最前"
+          },
+          {
+            "start_us": 13066666,
+            "duration_us": 3466667,
+            "text": "就算那句以后你没说过一遍"
+          },
+          {
+            "start_us": 16533333,
+            "duration_us": 3600000,
+            "text": "就算我等的万一一直没出现"
+          },
+          {
+            "start_us": 20133333,
+            "duration_us": 3666667,
+            "text": "至少你哭的样子只有我看见"
+          },
+          {
+            "start_us": 23800000,
+            "duration_us": 4033333,
+            "text": "至少你最难堪 那晚我送你去医院"
+          },
+          {
+            "start_us": 28100000,
+            "duration_us": 1933333,
+            "text": "至少不是拥有过"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "transition": {
+        "name": "叠化",
+        "resource": "6724845717472416269",
+        "seg_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+      },
+      "video_effect": {
+        "name": "富士影片",
+        "resource": "7631600978600480036",
+        "seg_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990"
+      },
+      "picture_adjust": {
+        "options": {
+          "--brightness": "-0.02",
+          "--contrast": "0.12",
+          "--saturation": "0.1",
+          "--color-temperature": "-0.04",
+          "--sharpening": "0.15"
+        }
+      },
+      "loudness_normalize": {
+        "segments": 7,
+        "target_loudness": -14.0
+      },
+      "lint": {
+        "report": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\guzhu-lint-758350d6\\lint-report.json",
+        "passed": false,
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 2313,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "keys": [
+          "domain",
+          "draft_json_file",
+          "draft_ref",
+          "draft_root",
+          "execution_policy",
+          "facts",
+          "input",
+          "issues",
+          "schema_version",
+          "status",
+          "verdicts"
+        ],
+        "issues": [
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.04127929806709296,
+                "left": -0.2839181026421419,
+                "top": 0.5941909118682163,
+                "width": 0.0748296563361357
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "25A2129D-237E-4f1a-9594-56ABA4BAA795",
+              "segment_id": "C2FF30B9-9674-4443-B889-BD07C0DE6AA3",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.04583333432674408,
+                "left": -0.31703027633591696,
+                "top": 0.6049506275124292,
+                "width": 0.14105400372368582
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "52E7FB6E-72C6-47dc-B618-CA04A7A1DCC2",
+              "segment_id": "602B6E47-72B3-4056-A433-460CB90EF38C",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.045572918653488226,
+                "left": -0.31718852844860224,
+                "top": 0.6050808353490571,
+                "width": 0.14137050794905637
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "DCA50E1F-9413-45c8-8CBF-068DB10C8971",
+              "segment_id": "59E4CBBB-C67B-40b1-A0B2-A2F13E0611A8",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.04127929806709285,
+                "left": 1.2670078232837843,
+                "top": 0.3595297039355241,
+                "width": 0.07482965633613547
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "F083952A-F4B7-41b2-B8BD-E6B08630D328",
+              "segment_id": "AFCD5F95-2EAD-426d-B869-78BCF30EC6BD",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.04583333432674408,
+                "left": 1.233895649590009,
+                "top": 0.34421595203166,
+                "width": 0.14105400372368582
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "EF1BC5C8-0194-4c47-968F-388973B693E8",
+              "segment_id": "BBF7E83C-80AB-4af0-BCFD-4B82F4208E5B",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.04557291865348817,
+                "left": 1.2337373974773238,
+                "top": 0.3443461598682879,
+                "width": 0.14137050794905637
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "D0BC0C49-911A-429c-B106-389DE283C290",
+              "segment_id": "471210AA-0933-415f-B10F-B0EEC9D14CB5",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          }
+        ]
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\render\\就算至少\\render.mp4",
+        "duration": 30.033333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "ec41e2c27752d0105748dda808a2dfe74f3b7a52697ab0a292e4eeee2ab7872f",
+        "size": 6879052,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
+      },
+      "render_seconds": 184.5
+    }
+  },
+  "order": [
+    "就算至少"
+  ],
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首歌写给所有没名分的人",
+      "他攒了一整箱的委屈",
+      "如果你也听过这两个字",
+      "评论区一个句号就是入股"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 5740613
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

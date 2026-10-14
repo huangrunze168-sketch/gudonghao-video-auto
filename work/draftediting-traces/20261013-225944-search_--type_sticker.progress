@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903580354,"args":["material","search","--type","sticker","--prompt","疑惑 狗 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\99c012a4102341f3a4dc5f6d0346d6b0","pid":47296}
+{"stage":"policy","at":1791903580355,"rules":9}
+{"stage":"policy-network","at":1791903580355,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903580359,"vmId":"draftediting-1791903580355"}
+{"stage":"create-process:done","at":1791903580378,"processId":51912,"success":true}
+{"stage":"worker-ready","at":1791903580895}

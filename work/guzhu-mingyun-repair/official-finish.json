@@ -1,0 +1,907 @@
+{
+  "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "commands": [
+    {
+      "action": [
+        "video",
+        "effect",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "--resource": "vimo://7399494094050970920"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+            "segment_type": "segment_video",
+            "target_time_range": {
+              "duration": 23100000,
+              "start": 6933333
+            },
+            "track_index": 0
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "CEFDF797-ED0E-49af-93C4-9DCBB5297990"
+        ]
+      }
+    },
+    {
+      "action": [
+        "video",
+        "effect",
+        "update"
+      ],
+      "options": {
+        "--seg-id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "--resource-id": "7399494094050970920",
+        "--params-json": "{\"effects_adjust_background_animation\": 0.18, \"effects_adjust_speed\": 0.25}"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+            "segment_type": "segment_video",
+            "target_time_range": {
+              "duration": 23100000,
+              "start": 6933333
+            },
+            "track_index": 0
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "keyframe",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "--animated-property": "scale",
+        "--points": "0s:1x,23.100000s:1.035x"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+            "segment_type": "segment_video",
+            "target_time_range": {
+              "duration": 23100000,
+              "start": 6933333
+            },
+            "track_index": 0
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "CEFDF797-ED0E-49af-93C4-9DCBB5297990"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "remove"
+      ],
+      "options": {
+        "--seg-id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "remove",
+            "segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1089231,
+              "start": 0
+            },
+            "track_index": 1
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "remove"
+      ],
+      "options": {
+        "--seg-id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "remove",
+            "segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1403077,
+              "start": 1089231
+            },
+            "track_index": 1
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "remove"
+      ],
+      "options": {
+        "--seg-id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "remove",
+            "segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1052308,
+              "start": 2492308
+            },
+            "track_index": 1
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "remove"
+      ],
+      "options": {
+        "--seg-id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "remove",
+            "segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1495385,
+              "start": 3544616
+            },
+            "track_index": 1
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "remove"
+      ],
+      "options": {
+        "--seg-id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "remove",
+            "segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1864615,
+              "start": 5040001
+            },
+            "track_index": 1
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "add"
+      ],
+      "options": {
+        "--resource": "vimo://7567593135224786200",
+        "--start": "0.000000s",
+        "--duration": "1.100000s"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "add",
+            "segment_id": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1100000,
+              "start": 0
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "8BDE6881-D41D-4D37-9D78-251C67AE8C29"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "translate"
+      ],
+      "options": {
+        "--seg-id": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+        "--x": "0",
+        "--y": "0.42"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1100000,
+              "start": 0
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "keyframe",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+        "--animated-property": "scale",
+        "--points": "0s:0.22x,1.100000s:0.22x"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1100000,
+              "start": 0
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "8BDE6881-D41D-4D37-9D78-251C67AE8C29"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "add"
+      ],
+      "options": {
+        "--resource": "vimo://7436961804237933836",
+        "--start": "1.100000s",
+        "--duration": "1.400000s"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "add",
+            "segment_id": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1400000,
+              "start": 1100000
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "F718336B-C97C-4B4C-A498-A6690BC654B9"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "translate"
+      ],
+      "options": {
+        "--seg-id": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+        "--x": "0",
+        "--y": "0.42"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1400000,
+              "start": 1100000
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "keyframe",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+        "--animated-property": "scale",
+        "--points": "0s:0.22x,1.400000s:0.22x"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1400000,
+              "start": 1100000
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "F718336B-C97C-4B4C-A498-A6690BC654B9"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "add"
+      ],
+      "options": {
+        "--resource": "vimo://7215840456385629451",
+        "--start": "2.500000s",
+        "--duration": "1.066666s"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "add",
+            "segment_id": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1066666,
+              "start": 2500000
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "63FC3CE8-373A-458A-AF18-A5157628BD95"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "translate"
+      ],
+      "options": {
+        "--seg-id": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+        "--x": "0",
+        "--y": "0.42"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1066666,
+              "start": 2500000
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "keyframe",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+        "--animated-property": "scale",
+        "--points": "0s:0.22x,1.066666s:0.22x"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1066666,
+              "start": 2500000
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "63FC3CE8-373A-458A-AF18-A5157628BD95"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "add"
+      ],
+      "options": {
+        "--resource": "vimo://7436961764689988883",
+        "--start": "3.566666s",
+        "--duration": "1.500000s"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "add",
+            "segment_id": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1500000,
+              "start": 3566666
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "9B94333F-CC74-4403-B3E6-E36C2A7EEA56"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "translate"
+      ],
+      "options": {
+        "--seg-id": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+        "--x": "0",
+        "--y": "0.42"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1500000,
+              "start": 3566666
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "keyframe",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+        "--animated-property": "scale",
+        "--points": "0s:0.22x,1.500000s:0.22x"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1500000,
+              "start": 3566666
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "9B94333F-CC74-4403-B3E6-E36C2A7EEA56"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "add"
+      ],
+      "options": {
+        "--resource": "vimo://7410221196421172480",
+        "--start": "5.066666s",
+        "--duration": "1.866667s"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "add",
+            "segment_id": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1866667,
+              "start": 5066666
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "09CE654B-5D87-4A43-B63C-E4B369026E20"
+        ]
+      }
+    },
+    {
+      "action": [
+        "sticker",
+        "translate"
+      ],
+      "options": {
+        "--seg-id": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+        "--x": "0",
+        "--y": "0.42"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1866667,
+              "start": 5066666
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": []
+      }
+    },
+    {
+      "action": [
+        "keyframe",
+        "add"
+      ],
+      "options": {
+        "--seg-id": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+        "--animated-property": "scale",
+        "--points": "0s:0.22x,1.866667s:0.22x"
+      },
+      "result": {
+        "affected_segments": [
+          {
+            "operator": "update",
+            "segment_id": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+            "segment_type": "segment_sticker",
+            "target_time_range": {
+              "duration": 1866667,
+              "start": 5066666
+            },
+            "track_index": 6
+          }
+        ],
+        "extras": [],
+        "segment_ids": [
+          "09CE654B-5D87-4A43-B63C-E4B369026E20"
+        ]
+      }
+    }
+  ],
+  "downloads": [
+    {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "effect",
+        "--resource-id",
+        "7399494094050970920"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\8ecb19548e8e4711afd53709a3224671",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "effect",
+          "--resource-id",
+          "7399494094050970920"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7399494094050970920\\179080155bccbfd7ddf7e37137eb2747",
+            "resource_dir": "",
+            "resource_id": "7399494094050970920",
+            "resource_platform": 1,
+            "type": "effect"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7399494094050970920\\\\179080155bccbfd7ddf7e37137eb2747\",\"resource_dir\":\"\",\"resource_id\":\"7399494094050970920\",\"resource_platform\":1,\"type\":\"effect\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 5268
+      },
+      "files": []
+    },
+    {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "sticker",
+        "--resource-id",
+        "7567593135224786200"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\5f186ff888df497c8318fd59f8e41378",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "sticker",
+          "--resource-id",
+          "7567593135224786200"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7567593135224786200\\6979f2ccfccd74f65dee6987d2cbf3d0",
+            "resource_dir": "",
+            "resource_id": "7567593135224786200",
+            "resource_platform": 1,
+            "type": "sticker"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7567593135224786200\\\\6979f2ccfccd74f65dee6987d2cbf3d0\",\"resource_dir\":\"\",\"resource_id\":\"7567593135224786200\",\"resource_platform\":1,\"type\":\"sticker\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 2177
+      },
+      "files": []
+    },
+    {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "sticker",
+        "--resource-id",
+        "7436961804237933836"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\de346c6a8d3e41c18d51a2b0faf9e156",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "sticker",
+          "--resource-id",
+          "7436961804237933836"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7436961804237933836\\ae4a9a4b243ad2bdac5ce2fff2646f20",
+            "resource_dir": "",
+            "resource_id": "7436961804237933836",
+            "resource_platform": 1,
+            "type": "sticker"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7436961804237933836\\\\ae4a9a4b243ad2bdac5ce2fff2646f20\",\"resource_dir\":\"\",\"resource_id\":\"7436961804237933836\",\"resource_platform\":1,\"type\":\"sticker\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 1975
+      },
+      "files": []
+    },
+    {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "sticker",
+        "--resource-id",
+        "7215840456385629451"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\f54780c91659464b9a71230f60269230",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "sticker",
+          "--resource-id",
+          "7215840456385629451"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7215840456385629451\\fa92f9389cbd707353825fe4f07a5086",
+            "resource_dir": "",
+            "resource_id": "7215840456385629451",
+            "resource_platform": 1,
+            "type": "sticker"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7215840456385629451\\\\fa92f9389cbd707353825fe4f07a5086\",\"resource_dir\":\"\",\"resource_id\":\"7215840456385629451\",\"resource_platform\":1,\"type\":\"sticker\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 2521
+      },
+      "files": []
+    },
+    {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "sticker",
+        "--resource-id",
+        "7436961764689988883"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\a49da4813fbf4e0fbb7a544b9ea6d9c5",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "sticker",
+          "--resource-id",
+          "7436961764689988883"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7436961764689988883\\f116b6eb18be1e1b9d21f2e97fa216f2",
+            "resource_dir": "",
+            "resource_id": "7436961764689988883",
+            "resource_platform": 1,
+            "type": "sticker"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7436961764689988883\\\\f116b6eb18be1e1b9d21f2e97fa216f2\",\"resource_dir\":\"\",\"resource_id\":\"7436961764689988883\",\"resource_platform\":1,\"type\":\"sticker\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 2116
+      },
+      "files": []
+    },
+    {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "sticker",
+        "--resource-id",
+        "7410221196421172480"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\ffe4a4f00f6149aba861bd39ef0f46ae",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "sticker",
+          "--resource-id",
+          "7410221196421172480"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7410221196421172480\\2733031b5e8809b9e43779e0226a804c",
+            "resource_dir": "",
+            "resource_id": "7410221196421172480",
+            "resource_platform": 1,
+            "type": "sticker"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7410221196421172480\\\\2733031b5e8809b9e43779e0226a804c\",\"resource_dir\":\"\",\"resource_id\":\"7410221196421172480\",\"resource_platform\":1,\"type\":\"sticker\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 2016
+      },
+      "files": []
+    }
+  ],
+  "stickers": [
+    {
+      "name": "下班啦",
+      "resource_id": "7567593135224786200",
+      "segment": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+      "range": [
+        0,
+        1100000
+      ]
+    },
+    {
+      "name": "享受独处",
+      "resource_id": "7436961804237933836",
+      "segment": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+      "range": [
+        1100000,
+        1400000
+      ]
+    },
+    {
+      "name": "叹气",
+      "resource_id": "7215840456385629451",
+      "segment": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+      "range": [
+        2500000,
+        1066666
+      ]
+    },
+    {
+      "name": "独处时光",
+      "resource_id": "7436961764689988883",
+      "segment": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+      "range": [
+        3566666,
+        1500000
+      ]
+    },
+    {
+      "name": "静享慢时光",
+      "resource_id": "7410221196421172480",
+      "segment": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+      "range": [
+        5066666,
+        1866667
+      ]
+    }
+  ]
+}

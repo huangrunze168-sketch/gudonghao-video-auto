@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560755348,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"氛围感歌词\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","pid":58528}
+{"stage":"policy","at":1791560755348,"rules":8}
+{"stage":"create-process:begin","at":1791560755352,"vmId":"draftediting-1791560755348"}
+{"stage":"create-process:done","at":1791560755631,"processId":59160,"success":true}
+{"stage":"worker-ready","at":1791560756116}

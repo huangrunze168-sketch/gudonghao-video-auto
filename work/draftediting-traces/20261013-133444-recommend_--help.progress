@@ -1,0 +1,5 @@
+{"stage":"start","at":1791869682487,"args":["material","recommend","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":32248}
+{"stage":"policy","at":1791869682487,"rules":7}
+{"stage":"create-process:begin","at":1791869682491,"vmId":"draftediting-1791869682487"}
+{"stage":"create-process:done","at":1791869682792,"processId":49360,"success":true}
+{"stage":"worker-ready","at":1791869683288}

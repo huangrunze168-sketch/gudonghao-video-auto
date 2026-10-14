@@ -1,0 +1,440 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791568798861",
+    "processId": 41052,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-f5f39b56925ecb26",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Evaluate an existing command/workflow trace without executing or repairing it.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --trace TEXT:FILE REQUIRED \r\n                              Versioned trace JSON or Evaluation Run JSON to inspect.\r\n          --suite TEXT [envelope,ordering,targeting,postcheck,evidence]  \r\n                              CSV suites:\r\n                              envelope,ordering,targeting,material,postcheck,recovery,evidence,workflow,all.\r\n          --workflow TEXT     Optional workflow id expected in the trace.\r\n          --expect-step TEXT ... \r\n                              Required surface or step id; repeatable.\r\n          --expect-order TEXT ... \r\n                              Required before:after relation; repeatable.\r\n          --target-policy TEXT:{stable,strict,allow-index} [stable]  \r\n                              Target policy: stable, strict, or allow-index.\r\n          --material-policy TEXT:{none,optional,required} [optional]  \r\n                              Material evidence policy: none, optional, or required.\r\n          --material-check TEXT ... \r\n                              Required material evidence field; repeatable.\r\n          --postcheck TEXT ... \r\n                              Required postcheck domain such as draft or media; repeatable.\r\n          --recovery-policy TEXT:{none,warn,required,require-on-error} [require-on-error]  \r\n                              Recovery evidence policy: none, warn, required, or\r\n                              require-on-error.\r\n          --require-evidence TEXT ... \r\n                              Required evidence field; repeatable.\r\n          --evidence-scope TEXT:{issue,report,workflow} [issue]  \r\n                              Evidence scope: issue, report, or workflow.\r\n          --output TEXT       Write the trace lint report JSON.\r\n          --fail-on TEXT:{error,never} [error]  \r\n                              Exit policy: error or never.\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  $ lyra-cli lint command --suite registry,schema,docs,acceptance,workflow\r\n  $ lyra-cli lint command --capability draft.video.add --acceptance-level L0\r\n  $ lyra-cli lint command --run --acceptance-level L1\r\n  $ lyra-cli lint media --input ./output.mp4 --expected-kind video\r\n  $ lyra-cli lint algorithm-effect --algorithm draft.algo.ai-matting --baseline ./source.mp4 --candidate ./alpha.mp4 --artifacts ./algorithm-effect-artifacts --output ./algorithm-effect.json\r\n  $ lyra-cli lint draft --ref local://my_project --require-segment\r\n  $ lyra-cli lint draft --input /absolute/path/to/draft_info.json --require-segment\r\n  $ lyra-cli lint draft --ref local://my_project --suite resource,resource-availability --local-resource-root ./draft\r\n\r\nLEARN MORE\r\n  `lint command` orchestrates acceptance; result lint commands provide report-only evidence.\r\n",
+      "stderr": "",
+      "output": "Evaluate an existing command/workflow trace without executing or repairing it.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --trace TEXT:FILE REQUIRED \r\n                              Versioned trace JSON or Evaluation Run JSON to inspect.\r\n          --suite TEXT [envelope,ordering,targeting,postcheck,evidence]  \r\n                              CSV suites:\r\n                              envelope,ordering,targeting,material,postcheck,recovery,evidence,workflow,all.\r\n          --workflow TEXT     Optional workflow id expected in the trace.\r\n          --expect-step TEXT ... \r\n                              Required surface or step id; repeatable.\r\n          --expect-order TEXT ... \r\n                              Required before:after relation; repeatable.\r\n          --target-policy TEXT:{stable,strict,allow-index} [stable]  \r\n                              Target policy: stable, strict, or allow-index.\r\n          --material-policy TEXT:{none,optional,required} [optional]  \r\n                              Material evidence policy: none, optional, or required.\r\n          --material-check TEXT ... \r\n                              Required material evidence field; repeatable.\r\n          --postcheck TEXT ... \r\n                              Required postcheck domain such as draft or media; repeatable.\r\n          --recovery-policy TEXT:{none,warn,required,require-on-error} [require-on-error]  \r\n                              Recovery evidence policy: none, warn, required, or\r\n                              require-on-error.\r\n          --require-evidence TEXT ... \r\n                              Required evidence field; repeatable.\r\n          --evidence-scope TEXT:{issue,report,workflow} [issue]  \r\n                              Evidence scope: issue, report, or workflow.\r\n          --output TEXT       Write the trace lint report JSON.\r\n          --fail-on TEXT:{error,never} [error]  \r\n                              Exit policy: error or never.\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  $ lyra-cli lint command --suite registry,schema,docs,acceptance,workflow\r\n  $ lyra-cli lint command --capability draft.video.add --acceptance-level L0\r\n  $ lyra-cli lint command --run --acceptance-level L1\r\n  $ lyra-cli lint media --input ./output.mp4 --expected-kind video\r\n  $ lyra-cli lint algorithm-effect --algorithm draft.algo.ai-matting --baseline ./source.mp4 --candidate ./alpha.mp4 --artifacts ./algorithm-effect-artifacts --output ./algorithm-effect.json\r\n  $ lyra-cli lint draft --ref local://my_project --require-segment\r\n  $ lyra-cli lint draft --input /absolute/path/to/draft_info.json --require-segment\r\n  $ lyra-cli lint draft --ref local://my_project --suite resource,resource-availability --local-resource-root ./draft\r\n\r\nLEARN MORE\r\n  `lint command` orchestrates acceptance; result lint commands provide report-only evidence.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 499,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "lint",
+        "trace",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791568798873,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791568798,\"timestamp_str\":\"2026-10-10 01:59:58.873\",\"trace_index\":11,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791568799466,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.466\",\"trace_index\":12,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791568799469,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":41052,\"ppid\":61292,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.469\",\"trace_index\":13,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791568799537,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-f2zzkxjz\\__PSScriptPolicyTest_0lp1tjix.e3z.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791568799537,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.537\",\"trace_index\":14,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791568799538,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-f2zzkxjz\\__PSScriptPolicyTest_0ghiyrbx.iey.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791568799538,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.538\",\"trace_index\":15,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791568799754,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-f2zzkxjz\\__PSScriptPolicyTest_ihbw5see.wyc.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791568799754,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.754\",\"trace_index\":16,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791568799755,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-f2zzkxjz\\__PSScriptPolicyTest_zekfd0e1.r5g.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791568799755,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.755\",\"trace_index\":17,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791568799860,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":40608,\"ppid\":41052,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791568799,\"timestamp_str\":\"2026-10-10 01:59:59.860\",\"trace_index\":18,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791568800001,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":40916,\"ppid\":40608,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.001\",\"trace_index\":19,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791568800142,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-55505271871600",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791568800142,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-55505271871600\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.142\",\"trace_index\":20,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791568800159,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791568800159,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.159\",\"trace_index\":21,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791568800160,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791568800160,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.160\",\"trace_index\":22,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791568800168,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791568800168,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.168\",\"trace_index\":23,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791568800169,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791568800169,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.169\",\"trace_index\":24,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791568800449,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\40916.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791568800454,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":484,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":40916,\"ppid\":40608,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.454\",\"trace_index\":25,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791568800454,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40916,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791568800470,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":625,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":40608,\"ppid\":41052,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.469\",\"trace_index\":26,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791568800470,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791568798861",
+      "processId": 40608,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791568800483,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791568800488,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1031,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":41052,\"ppid\":61292,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791568800,\"timestamp_str\":\"2026-10-10 02:00:00.488\",\"trace_index\":27,\"vm_id\":\"draftediting-1791568798861\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791568800489,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791568800495,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791568798861",
+      "processId": 41052,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

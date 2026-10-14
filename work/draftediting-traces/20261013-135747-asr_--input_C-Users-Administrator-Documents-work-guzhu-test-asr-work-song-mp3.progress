@@ -1,0 +1,5 @@
+{"stage":"start","at":1791871064336,"args":["media","asr","--input","C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\asr-work\\song.mp3","--language","zh","--output","C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\asr-work\\asr.json"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\asr-work","pid":22008}
+{"stage":"policy","at":1791871064336,"rules":8}
+{"stage":"create-process:begin","at":1791871064339,"vmId":"draftediting-1791871064336"}
+{"stage":"create-process:done","at":1791871064672,"processId":41720,"success":true}
+{"stage":"worker-ready","at":1791871065802}

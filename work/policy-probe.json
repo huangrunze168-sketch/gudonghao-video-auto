@@ -1,0 +1,52 @@
+{
+ "default_rules_type": "read_only",
+ "directly_delete_paths": [],
+ "net_rules": [
+  {
+   "network_allow": "*"
+  }
+ ],
+ "rules": [
+  {
+   "file_path": "C:\\Users\\Administrator\\.lyra-cli",
+   "process_name": "",
+   "type": "read_write"
+  },
+  {
+   "file_path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro",
+   "process_name": "",
+   "type": "read_write"
+  },
+  {
+   "file_path": "C:\\Users\\Administrator\\AppData\\Local\\lyra-cli",
+   "process_name": "",
+   "type": "read_write"
+  },
+  {
+   "file_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp",
+   "process_name": "",
+   "type": "read_write"
+  },
+  {
+   "file_path": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell",
+   "process_name": "",
+   "type": "copy_on_write"
+  },
+  {
+   "file_path": "C:\\ProgramData",
+   "process_name": "",
+   "type": "read_write"
+  },
+  {
+   "file_path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft",
+   "process_name": "",
+   "type": "read_write"
+  },
+  {
+   "file_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\380c97c6c31c40af86091be6e4e137ea",
+   "process_name": "",
+   "type": "read_write"
+  }
+ ],
+ "run_type": "run_task"
+}

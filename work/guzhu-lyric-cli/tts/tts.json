@@ -1,0 +1,34 @@
+{
+  "mode": "official",
+  "voice": "ICL_zh_female_xinmanbo",
+  "rate": 0,
+  "lines": [
+    {
+      "text": "家人们别划走",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-lyric-cli\\tts\\normalized\\line-01.wav",
+      "duration_us": 996848
+    },
+    {
+      "text": "这首歌写给还在等的人",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-lyric-cli\\tts\\normalized\\line-02.wav",
+      "duration_us": 1619501
+    },
+    {
+      "text": "他把三年的心事都唱进去了",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-lyric-cli\\tts\\normalized\\line-03.wav",
+      "duration_us": 1903878
+    },
+    {
+      "text": "如果你也听懂了一句",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-lyric-cli\\tts\\normalized\\line-04.wav",
+      "duration_us": 1304512
+    },
+    {
+      "text": "评论区一个句号就是入股",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-lyric-cli\\tts\\normalized\\line-05.wav",
+      "duration_us": 1701043
+    }
+  ],
+  "speaker": "ICL_zh_female_xinmanbo",
+  "text_key": "[\"家人们别划走\", \"这首歌写给还在等的人\", \"他把三年的心事都唱进去了\", \"如果你也听懂了一句\", \"评论区一个句号就是入股\"]"
+}

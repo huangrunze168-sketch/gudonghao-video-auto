@@ -1,0 +1,5 @@
+{"stage":"start","at":1791951738504,"args":["draft","text","style","--ref","local://guzhu-mingyun-effect-control","--seg-id","","--seg-type","text","--font","7340606325656654345"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":55780}
+{"stage":"policy","at":1791951738505,"rules":8}
+{"stage":"create-process:begin","at":1791951738508,"vmId":"draftediting-1791951738505"}
+{"stage":"create-process:done","at":1791951738527,"processId":15084,"success":true}
+{"stage":"worker-ready","at":1791951739006}

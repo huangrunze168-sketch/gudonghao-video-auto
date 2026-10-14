@@ -1,0 +1,52 @@
+{
+  "status": {
+    "consoleAlogBridgeInstalled": true,
+    "loaded": true,
+    "parentProcessWatchdogInstalled": false,
+    "parentProcessWatchdogReason": "not_configured",
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\agent_runtime_addon.node",
+    "crashReporterConfigured": false,
+    "processName": "custom-agent-bun-packaged-server",
+    "sandbox": {
+      "available": true,
+      "initialized": true,
+      "subscribed": true,
+      "configSource": "settings",
+      "capabilities": {
+        "compiledIn": true,
+        "supportChecked": true,
+        "supported": true,
+        "initialized": true,
+        "platform": "windows",
+        "configSource": "settings"
+      }
+    },
+    "sandboxBridgePublished": true
+  },
+  "bridgeKeys": [
+    "capabilities",
+    "basePolicy",
+    "shutdown",
+    "createProcess",
+    "readProcessStream",
+    "writeProcessStream",
+    "closeProcessStream",
+    "updateConfig",
+    "killProcess",
+    "discardFiles",
+    "getVmInfo",
+    "subscribeEvents"
+  ],
+  "capabilities": {
+    "compiledIn": true,
+    "supportChecked": true,
+    "supported": true,
+    "initialized": true,
+    "platform": "windows",
+    "configSource": "settings"
+  },
+  "basePolicy": {
+    "fullConfig": "{\"default_rules_type\":\"read_only\",\"directly_delete_paths\":[],\"net_rules\":[],\"rules\":[{\"file_path\":\"C:\\\\Users\\\\Administrator\\\\.lyra-cli\",\"process_name\":\"\",\"type\":\"read_write\"},{\"file_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\",\"process_name\":\"\",\"type\":\"read_write\"},{\"file_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\lyra-cli\",\"process_name\":\"\",\"type\":\"read_write\"},{\"file_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Temp\",\"process_name\":\"\",\"type\":\"read_write\"},{\"file_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Microsoft\\\\Windows\\\\PowerShell\",\"process_name\":\"\",\"type\":\"copy_on_write\"},{\"file_path\":\"C:\\\\ProgramData\",\"process_name\":\"\",\"type\":\"read_write\"},{\"file_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\",\"process_name\":\"\",\"type\":\"read_write\"}],\"run_type\":\"run_task\"}",
+    "source": "settings"
+  }
+}

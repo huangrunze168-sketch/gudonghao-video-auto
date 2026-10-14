@@ -1,0 +1,50 @@
+{
+  "scale": 0.8,
+  "stickers": [
+    {
+      "name": "疑惑的猫咪",
+      "segment": "40299214",
+      "keyframe_points": 4,
+      "range": [
+        0,
+        1566666
+      ]
+    },
+    {
+      "name": "外星小猫 无语表情 立体贴",
+      "segment": "7F9E6290",
+      "keyframe_points": 4,
+      "range": [
+        1566666,
+        1666667
+      ]
+    },
+    {
+      "name": "笑哭 表情 哭笑不得 流泪 3D",
+      "segment": "6864B460",
+      "keyframe_points": 4,
+      "range": [
+        3233333,
+        1733333
+      ]
+    },
+    {
+      "name": "线条小狗-加油",
+      "segment": "92E62534",
+      "keyframe_points": 4,
+      "range": [
+        4966666,
+        2033334
+      ]
+    },
+    {
+      "name": "猫咪竖起了大拇指，老哥稳！我猫星",
+      "segment": "5E56A09F",
+      "keyframe_points": 4,
+      "range": [
+        7000000,
+        1600000
+      ]
+    }
+  ]
+}

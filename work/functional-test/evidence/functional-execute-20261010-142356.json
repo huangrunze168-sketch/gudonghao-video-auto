@@ -1,0 +1,286 @@
+{
+  "command_count": 10,
+  "context": {
+    "ref": "local://func-test-1010-141828",
+    "draft_root": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\func-test-1010-141828",
+    "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test",
+    "media": {
+      "video": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+      "audio": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.m4a",
+      "image": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+    },
+    "create": {
+      "state": "worker_timeout",
+      "message": "VMSDK worker 超时"
+    },
+    "notes": [
+      "create 未成功: worker_timeout VMSDK worker 超时",
+      "工程被上一条命令删除，已重建",
+      "工程被上一条命令删除，已重建"
+    ]
+  },
+  "execute": {
+    "rows": [
+      {
+        "path": [
+          "draft",
+          "edit"
+        ],
+        "args": [
+          "edit",
+          "--ref",
+          "local://func-test-1010-141828",
+          "--op",
+          "split"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100110,
+        "err_category": "usage",
+        "message": "gen_patch: invalid action: gen_patch --op split requires --target",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100110,\"err_msg\":\"gen_patch: invalid action: gen_patch --op split requires --target\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 778,
+        "used_flags": [
+          "--ref",
+          "--op"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "config"
+        ],
+        "args": [
+          "config",
+          "--ref",
+          "local://func-test-1010-141828",
+          "--ratio",
+          "16:9"
+        ],
+        "state": "worker_timeout",
+        "exit_code": null,
+        "err_code": null,
+        "err_category": "",
+        "message": "VMSDK worker 超时",
+        "stdout": "",
+        "duration_ms": 90012,
+        "used_flags": [
+          "--ref",
+          "--ratio"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "create"
+        ],
+        "args": [
+          "project",
+          "create",
+          "--ref",
+          "local://func-test-1010-141828",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"draft_id\":\"14C71C1C-E5DE-40c2-9F97-117783AC06E3\",\"draft_name\":\"func-test-1010-141828\",\"ref\":\"local://func-test-1010-141828\"}}\r\n",
+        "duration_ms": 803,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "list"
+        ],
+        "args": [
+          "project",
+          "list"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"focused_ref\":null,\"projects\":[{\"draft_id\":\"44882863-FB8C-4d4a-AA40-F46EB759208A\",\"name\":\"测试 (1)\",\"ref\":\"local://测试 (1)\"},{\"draft_id\":\"A07A551A-CB42-4dd4-8692-B72F6732E68B\",\"name\":\"最怕你离开_0921_2226\",\"ref\":\"local://最怕你离开_0921_2226\"},{\"draft_id\":\"BCEE4B9F-DEED-4e14-92B6-7A4E348A9B4F\",\"name\":\"9月20日\",\"ref\":\"local://9月20日\"},{\"draft_id\":\"D8304EB7-93C1-416c-9EDC-FA1B22DFAA2A\",\"name\":\"9月16日 (4)\",\"ref\":\"local://9月16日 (4)\"},{\"draft_id\":\"B83E30C1-88D4-4b37-B146-B82316E51DFE\",\"name\":\"9月16日 (3)\",\"ref\":\"local://9月16日 (3)\"},{\"draft_id\":\"84CDB95A-2CF9-422b-8C18-8B698",
+        "duration_ms": 565,
+        "used_flags": []
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "focus"
+        ],
+        "args": [
+          "project",
+          "focus",
+          "--ref",
+          "local://func-test-1010-141828"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-141828\"}}\r\n",
+        "duration_ms": 615,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "delete"
+        ],
+        "args": [
+          "project",
+          "delete",
+          "--ref",
+          "local://func-test-1010-141828"
+        ],
+        "state": "worker_timeout",
+        "exit_code": null,
+        "err_code": null,
+        "err_category": "",
+        "message": "VMSDK worker 超时",
+        "stdout": "",
+        "duration_ms": 90012,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "set"
+        ],
+        "args": [
+          "cover",
+          "set",
+          "--ref",
+          "local://func-test-1010-141828",
+          "--image",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"height\":320,\"source\":\"image\",\"thumbnail_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-141828\\\\draft_cover.jpg\",\"width\":320}}\r\n",
+        "duration_ms": 1400,
+        "used_flags": [
+          "--ref",
+          "--image"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "clear"
+        ],
+        "args": [
+          "cover",
+          "clear",
+          "--ref",
+          "local://func-test-1010-141828"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"cleared\":true,\"thumbnail_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-141828\\\\draft_cover.jpg\"}}\r\n",
+        "duration_ms": 822,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "extract",
+          "summary"
+        ],
+        "args": [
+          "extract",
+          "summary",
+          "--ref",
+          "local://func-test-1010-141828",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"json_result\":\"[{\\\"attributes\\\":{\\\"height\\\":0,\\\"width\\\":0},\\\"id\\\":\\\"417D3E61-8AFF-4b3a-92A7-39167F84007C\\\",\\\"type\\\":\\\"draft\\\"}]\"}}\r\n",
+        "duration_ms": 770,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "add"
+        ],
+        "args": [
+          "template",
+          "add",
+          "--ref",
+          "local://func-test-1010-141828",
+          "--resource",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+          "--title",
+          "func-test",
+          "--start",
+          "1s",
+          "--track-index",
+          "0",
+          "--duration",
+          "1s",
+          "--resource-dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100001,
+        "err_category": "usage",
+        "message": "invalid argument: unsupported template resource: C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4; expected local:///<abs_path> or template://<template_id>",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100001,\"err_msg\":\"invalid argument: unsupported template resource: C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Temp\\\\jianying-func-test\\\\media\\\\sample.mp4; expected local:///<abs_path> or template://<template_id>\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 562,
+        "used_flags": [
+          "--ref",
+          "--resource",
+          "--title",
+          "--start",
+          "--track-index",
+          "--duration",
+          "--resource-dir"
+        ]
+      }
+    ],
+    "summary": {
+      "usage": 2,
+      "worker_timeout": 2,
+      "ok": 6
+    }
+  }
+}

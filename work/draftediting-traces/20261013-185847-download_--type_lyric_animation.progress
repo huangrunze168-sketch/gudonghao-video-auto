@@ -1,0 +1,6 @@
+{"stage":"start","at":1791889113415,"args":["material","download","--type","lyric_animation","--resource-id","7290445091401896507"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\dc4822497bac4033b4600ed2f375c527","pid":49508}
+{"stage":"policy","at":1791889113416,"rules":9}
+{"stage":"policy-network","at":1791889113416,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791889113420,"vmId":"draftediting-1791889113416"}
+{"stage":"create-process:done","at":1791889113439,"processId":34468,"success":true}
+{"stage":"worker-ready","at":1791889113916}

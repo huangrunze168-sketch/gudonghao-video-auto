@@ -1,0 +1,216 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791561172.4758725,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-15",
+  "steps": {
+    "recognize": {
+      "status": "reused",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8\\01-recognize\\lyrics.json",
+      "cue_count": 12,
+      "recognizer": {
+        "detected_language": "zh",
+        "language_probability": 1.0,
+        "model": "large-v3",
+        "device": "cpu",
+        "compute_type": "int8",
+        "clip_start_seconds": 119.7,
+        "clip_end_seconds": 151.266666
+      },
+      "at": 1791561172.4768426
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-kara-20261009-235252",
+      "ref": "local://headless-kara-20261009-235252",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-235252",
+      "segment_count": 25,
+      "at": 1791561180.045032
+    },
+    "align": {
+      "status": "skipped",
+      "reason": "改用检索到的可用官方模板逐句生成",
+      "replacement": {
+        "asset_id": "subtitle_template2",
+        "resource_id": "7418206434447363340",
+        "title": " 卡拉OK-蓝色",
+        "source": "explicit",
+        "resource_readable": true
+      },
+      "at": 1791561206.7159715
+    },
+    "template-resources": {
+      "status": "incomplete",
+      "templates": 6,
+      "missing": [
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        }
+      ],
+      "replacement": {
+        "asset_id": "subtitle_template2",
+        "resource_id": "7418206434447363340",
+        "title": " 卡拉OK-蓝色",
+        "source": "explicit",
+        "resource_readable": true
+      },
+      "at": 1791561206.7222981
+    },
+    "selection": {
+      "status": "ok",
+      "cards": [
+        "lyric_0002",
+        "lyric_0003",
+        "lyric_0004",
+        "lyric_0005",
+        "lyric_0006",
+        "lyric_0007",
+        "lyric_0008",
+        "lyric_0009",
+        "lyric_0010",
+        "lyric_0011",
+        "lyric_0012"
+      ],
+      "tts": false,
+      "lyric_target": "template",
+      "speech_ref": null,
+      "selection": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-235252\\edit.selection",
+      "subtitle_plan": {
+        "mode": "replacement-template",
+        "template_ref": "subtitle_template2",
+        "template_title": " 卡拉OK-蓝色",
+        "kept": 11,
+        "dropped": 1
+      },
+      "at": 1791561206.729595
+    },
+    "normalize": {
+      "status": "ok",
+      "files": {
+        "target_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        },
+        "current_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        }
+      },
+      "at": 1791561206.7389252
+    },
+    "apply": {
+      "status": "ok",
+      "executed_count": 12,
+      "planned_count": 12,
+      "commands": [
+        "draft edit --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"于是不觉可问春风\\\";start=6433ms;duration=1867ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"它掠过我空袖口春风\\\";start=8300ms;duration=2160ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"添我十万八千梦\\\";start=10460ms;duration=2300ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"走向没有你的岸\\\";start=13130ms;duration=1970ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"各起重山各起重梦\\\";start=15100ms;duration=1840ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"终于不问归程\\\";start=16940ms;duration=2540ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"还会等到有理想\\\";start=20010ms;duration=1850ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"缺陷天边一番红人\\\";start=21860ms;duration=2060ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"长大后才知晓\\\";start=23920ms;duration=2220ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"这一程虚有我\\\";start=26800ms;duration=2100ms\" --add \"type=subtitle_template;resource=vimo://7418206434447363340;content=\\\"只望\\\";start=28900ms;duration=2280ms\"",
+        "blueprint static-layout seg_id=E80DF615-FFED-418a-9676-7B84CCBCA701",
+        "blueprint static-layout seg_id=74DAA967-B6B6-41aa-9DFC-ABB4845CFA1D",
+        "blueprint static-layout seg_id=CA7F3661-61A8-460e-820D-A89343FA75FF",
+        "blueprint static-layout seg_id=26D20457-5966-48e6-B872-706B4318B126",
+        "blueprint static-layout seg_id=674E5E90-E119-40ba-9E5A-1CA89897B997",
+        "blueprint static-layout seg_id=086F476D-2468-4506-BF1E-2CD4C8DAC960",
+        "blueprint static-layout seg_id=FEA4AE68-0D21-475a-815B-C246629CAF25",
+        "blueprint static-layout seg_id=EE211194-71ED-4abd-864C-6F8E91169B7E",
+        "blueprint static-layout seg_id=A6213667-5259-4420-BBA2-F2462B540351",
+        "blueprint static-layout seg_id=7482BCF9-5D5B-4643-9173-8B8D48E15D37",
+        "blueprint static-layout seg_id=2F51681D-4E39-46e5-9DB3-CB1A7BECE5C5"
+      ],
+      "validation": "Applied; live draft validation passed.",
+      "at": 1791561214.4356818
+    },
+    "mirrors": {
+      "status": "ok",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-kara-20261009-235252\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+      "written": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-kara-20261009-235252\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-kara-20261009-235252\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-kara-20261009-235252\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791561214.4461086
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-15\\06-render\\render.mp4",
+      "output_size": 2303045,
+      "video_duration": 31.6,
+      "at": 1791561230.365302
+    }
+  },
+  "finished_at": 1791561230.3722353,
+  "working_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-kara-20261009-235252"
+}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902868327,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","280EAF16-0D36-44f2-97F9-C8C8517D2EDC","--text","门口那盏灯 一直是你自己开的","--speaker","ICL_zh_female_xinmanbo","--speed","1.0","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":48720}
+{"stage":"policy","at":1791902868327,"rules":8}
+{"stage":"policy-network","at":1791902868327,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902868331,"vmId":"draftediting-1791902868327"}
+{"stage":"create-process:done","at":1791902868349,"processId":53064,"success":true}
+{"stage":"worker-ready","at":1791902868816}

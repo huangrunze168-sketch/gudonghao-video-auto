@@ -1,0 +1,23 @@
+{
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "out": "C:/Users/Administrator/Documents/剪映/work/guzhu-official",
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首歌写给还在等的人",
+      "他把三年的心事都唱进去了",
+      "如果你也听懂了一句",
+      "评论区一个句号就是入股"
+    ],
+    "tts": { "mode": "official" }
+  },
+  "render": { "width": 1280, "height": 720, "fps": 30, "bitrate": 6000000, "timeout": 900 },
+  "songs": [
+    {
+      "name": "问春风",
+      "file": "C:/Users/Administrator/Documents/剪映/work/jypack-inspect/extracted/ImportedMaterials/Used/问春风_14495974825818550881.wav",
+      "lyrics": "C:/Users/Administrator/Documents/剪映/work/guzhu-test/问春风.lrc",
+      "start": "auto"
+    }
+  ]
+}

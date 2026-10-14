@@ -1,0 +1,82 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791601145.2679157,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\run-verify",
+  "steps": {
+    "recognize": {
+      "status": "ok",
+      "engine": "official",
+      "language": "zh",
+      "cue_count": 10,
+      "sentences": [
+        "九月不必再逢",
+        "于是不觉可闻",
+        "春风它掠过我空袖口",
+        "春风添我十万八千梦",
+        "走向没有你的岸",
+        "隔几重山隔几重梦",
+        "终于不问归程",
+        "还未等到远离乡 却见天边已泛红",
+        "人长大后才知晓",
+        "这一程序由我自封"
+      ],
+      "lyrics_json": "C:\\Users\\Administrator\\Documents\\剪映\\work\\run-verify\\01-recognize\\lyrics.json",
+      "at": 1791601163.5029948
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-verify-20261010-105905",
+      "ref": "local://headless-verify-20261010-105905",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261010-105905",
+      "segment_count": 25,
+      "at": 1791601154.2822394
+    },
+    "selection": {
+      "status": "skipped",
+      "reason": "official 引擎不使用 Selection",
+      "at": 1791601184.2603576
+    },
+    "apply": {
+      "status": "ok",
+      "engine": "official",
+      "resource": "vimo://7591420714515844395",
+      "executed_count": 1,
+      "applied": [
+        "九月不必再逢"
+      ],
+      "failed": [],
+      "leftover": [],
+      "rounds": 2,
+      "applied_count": 1,
+      "failed_count": 0,
+      "leftover_count": 0,
+      "at": 1791601184.2664628
+    },
+    "slots": {
+      "status": "skipped",
+      "reason": "official 引擎由官方命令落地动效",
+      "at": 1791601184.2726765
+    },
+    "mirrors": {
+      "status": "ok",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-verify-20261010-105905\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+      "written": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-verify-20261010-105905\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-verify-20261010-105905\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-verify-20261010-105905\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791601184.2822685
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\run-verify\\06-render\\render.mp4",
+      "output_size": 5202640,
+      "video_duration": 31.6,
+      "at": 1791601202.2299004
+    }
+  },
+  "working_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-verify-20261010-105905",
+  "finished_at": 1791601202.2349696
+}

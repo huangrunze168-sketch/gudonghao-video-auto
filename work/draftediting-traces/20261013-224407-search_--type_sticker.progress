@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902642955,"args":["material","search","--type","sticker","--prompt","放下 释怀 松口气","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\805999855aaa41aa92d6b385223c3159","pid":52152}
+{"stage":"policy","at":1791902642955,"rules":9}
+{"stage":"policy-network","at":1791902642955,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902642958,"vmId":"draftediting-1791902642955"}
+{"stage":"create-process:done","at":1791902642977,"processId":48120,"success":true}
+{"stage":"worker-ready","at":1791902643494}

@@ -1,0 +1,35 @@
+{
+  "mode": "official",
+  "voice": "ICL_zh_female_xinmanbo",
+  "rate": 0,
+  "lines": [
+    {
+      "text": "家人们别划走",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\tts\\normalized\\line-01.wav",
+      "duration_us": 766168
+    },
+    {
+      "text": "这首歌写给所有没名分的人",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\tts\\normalized\\line-02.wav",
+      "duration_us": 1458095
+    },
+    {
+      "text": "他攒了一整箱的委屈",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\tts\\normalized\\line-03.wav",
+      "duration_us": 1052336
+    },
+    {
+      "text": "如果你也听过这两个字",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\tts\\normalized\\line-04.wav",
+      "duration_us": 1156304
+    },
+    {
+      "text": "评论区一个句号就是入股",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-sz\\tts\\normalized\\line-05.wav",
+      "duration_us": 1307710
+    }
+  ],
+  "speaker": "ICL_zh_female_xinmanbo",
+  "speed": 1.3,
+  "text_key": "[\"家人们别划走\", \"这首歌写给所有没名分的人\", \"他攒了一整箱的委屈\", \"如果你也听过这两个字\", \"评论区一个句号就是入股\"]"
+}

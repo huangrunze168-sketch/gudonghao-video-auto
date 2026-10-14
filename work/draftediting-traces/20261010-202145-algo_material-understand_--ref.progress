@@ -1,0 +1,5 @@
+{"stage":"start","at":1791634898971,"args":["draft","algo","material-understand","--ref","local://func-test-fix3","--seg-id","F18117AE-3C38-4136-B668-0324711ECFB9","--prompt","花","--analysis-level","low"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test","pid":59984}
+{"stage":"policy","at":1791634898971,"rules":9}
+{"stage":"create-process:begin","at":1791634898975,"vmId":"draftediting-1791634898971"}
+{"stage":"create-process:done","at":1791634901010,"processId":60896,"success":true}
+{"stage":"worker-ready","at":1791634901566}

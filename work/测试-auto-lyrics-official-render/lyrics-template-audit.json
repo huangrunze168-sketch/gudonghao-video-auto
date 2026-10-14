@@ -1,0 +1,62 @@
+{
+  "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\测试-auto-lyrics-large-v3\\lyrics.json",
+  "recognized_by": {
+    "detected_language": "zh",
+    "language_probability": 1.0,
+    "model": "large-v3",
+    "device": "cpu",
+    "compute_type": "int8",
+    "clip_start_seconds": 119.7,
+    "clip_end_seconds": 151.266666
+  },
+  "template_segments": [
+    {
+      "segment_id": "1668560B-2F7F-4fed-A871-D56BE1B2F579",
+      "start_ms": 6080,
+      "end_ms": 8300,
+      "text": "于是不觉可问春风",
+      "template_name": "浪漫氛围",
+      "effect_id": "7591420714515844395"
+    },
+    {
+      "segment_id": "45B5F94E-2DB2-4b1d-8E7C-80F06A4586AD",
+      "start_ms": 8300,
+      "end_ms": 10460,
+      "text": "它掠过我空袖口春风",
+      "template_name": "浪漫氛围",
+      "effect_id": "7591420714515844395"
+    },
+    {
+      "segment_id": "96089ECA-E9F0-46c0-8410-3A14285002F5",
+      "start_ms": 10460,
+      "end_ms": 15100,
+      "text": "添我十万八千梦\n走向没有你的岸",
+      "template_name": "浪漫氛围",
+      "effect_id": "7591420714515844395"
+    },
+    {
+      "segment_id": "73A3B9FE-C964-45c3-BCE3-3CAC6F883070",
+      "start_ms": 15100,
+      "end_ms": 19480,
+      "text": "各起重山各起重梦\n终于不问归程",
+      "template_name": "浪漫氛围",
+      "effect_id": "7591420714515844395"
+    },
+    {
+      "segment_id": "D2C62A99-F9B5-4028-8451-C69437BAD2DF",
+      "start_ms": 20010,
+      "end_ms": 23920,
+      "text": "还会等到有理想\n缺陷天边一番红人",
+      "template_name": "浪漫氛围",
+      "effect_id": "7591420714515844395"
+    },
+    {
+      "segment_id": "4E85C317-1C25-4ad4-9634-3D9ECB8F5905",
+      "start_ms": 23920,
+      "end_ms": 31200,
+      "text": "长大后才知晓\n这一程虚有我\n自封",
+      "template_name": "浪漫氛围",
+      "effect_id": "7591420714515844395"
+    }
+  ]
+}

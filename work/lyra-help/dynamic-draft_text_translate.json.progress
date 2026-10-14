@@ -1,0 +1,5 @@
+{"stage":"start","at":1791604636064,"args":["draft","text","translate","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\help-probe","pid":48840}
+{"stage":"policy","at":1791604636064,"rules":8}
+{"stage":"create-process:begin","at":1791604636067,"vmId":"draftediting-1791604636064"}
+{"stage":"create-process:done","at":1791604636354,"processId":52708,"success":true}
+{"stage":"worker-ready","at":1791604636941}

@@ -1,0 +1,26 @@
+{
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "out": "C:/Users/Administrator/Documents/剪映/work/guzhu-mv",
+  "media": {
+    "background": "C:/Users/Administrator/Documents/剪映/work/guzhu-mv/background.png"
+  },
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首战歌写给还在等的人",
+      "他把三年的心事都唱进去了",
+      "如果你也听懂了一句",
+      "评论区一个句号就是入股"
+    ],
+    "tts": { "mode": "official", "speed": 1.3 }
+  },
+  "lyrics": { "engine": "official" },
+  "render": { "width": 1280, "height": 720, "fps": 30, "bitrate": 6000000, "timeout": 900 },
+  "songs": [
+    {
+      "name": "mv测试",
+      "file": "C:/Users/Administrator/.dsh/attachments/v1/files/eb/eb41d90d8cf6bf7bb78602ed13db37e392180b27076694a627d06e186767d207/mv测试.mp3",
+      "lyrics": "C:/Users/Administrator/.dsh/attachments/v1/files/4a/4a4e64a2fc482eaa81d556548711bc536b4c47c1365be5112ff29d05e14fdceb/mv歌词.txt"
+    }
+  ]
+}

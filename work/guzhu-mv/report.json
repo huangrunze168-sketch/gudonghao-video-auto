@@ -1,0 +1,176 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "mv测试": {
+      "name": "mv测试",
+      "safe_name": "mv测试",
+      "source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\eb\\eb41d90d8cf6bf7bb78602ed13db37e392180b27076694a627d06e186767d207\\mv测试.mp3",
+      "lyrics_source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\4a\\4a4e64a2fc482eaa81d556548711bc536b4c47c1365be5112ff29d05e14fdceb\\mv歌词.txt",
+      "chorus_at": 6,
+      "source_duration_us": 48848958,
+      "start_us": 23338003,
+      "start_pick": "chorus-official-cache",
+      "audio_layout": "chorus",
+      "window_us": 25510952,
+      "clip_us": 25510952,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mv\\songs\\mv测试.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mv\\jypack\\mv测试.jypack",
+      "jypack_bytes": 29156337,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 5928663,
+        "delta_us": -504670,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 25510952,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 31439615,
+        "max_segment_end_us": 31439615
+      },
+      "lyric_cues": 0,
+      "status": "rendered",
+      "animation_pick": {
+        "id": "7413395931036437796",
+        "why": "lyrics:guofeng(19)+dark"
+      },
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 6,
+        "animation": "vimo://7413395931036437796",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": {
+          "segments": 4,
+          "replaced": 4,
+          "lines": 12,
+          "align": "ordered",
+          "spans": [
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "split_created": 2,
+          "word_samples": [
+            {
+              "text": "金戈铁马身披麒麟甲 我要追你到落霞",
+              "gaps_ms": [
+                677,
+                677,
+                480,
+                480,
+                120,
+                200,
+                220,
+                340
+              ]
+            },
+            {
+              "text": "琵琶秋色下 黄昏侧饮马举目望月牙",
+              "gaps_ms": [
+                234,
+                560,
+                520,
+                200,
+                480,
+                480,
+                600,
+                680
+              ]
+            }
+          ],
+          "mean_similarity": 0.804,
+          "mean_cost": 0.196
+        },
+        "recognized": [
+          {
+            "start_us": 5966666,
+            "duration_us": 6066667,
+            "text": "金戈铁马身披西陵甲 我要追你到晚霞"
+          },
+          {
+            "start_us": 12366666,
+            "duration_us": 5633334,
+            "text": "琵琶秋色下换红色饮马举目望月牙"
+          },
+          {
+            "start_us": 18066666,
+            "duration_us": 5900000,
+            "text": "孤雁飞起漫天弄狂沙 萧萧良人你在哪"
+          },
+          {
+            "start_us": 24066666,
+            "duration_us": 5900000,
+            "text": "长发落蒹葭漠北共飒飒换你到白发"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01-mv",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mv\\render\\mv测试\\render.mp4",
+        "duration": 31.466667,
+        "width": 1280,
+        "height": 720,
+        "sha256": "e9d7eaeb533cddf8b8bb6b0928958031c987649097b47717b0cdbfafcb2a69cd",
+        "size": 3736653,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01-mv"
+      },
+      "render_seconds": 47.7
+    }
+  },
+  "order": [
+    "mv测试"
+  ],
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首战歌写给还在等的人",
+      "他把三年的心事都唱进去了",
+      "如果你也听懂了一句",
+      "评论区一个句号就是入股"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 5928663
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

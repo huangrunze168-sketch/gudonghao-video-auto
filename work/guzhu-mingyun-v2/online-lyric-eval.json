@@ -1,0 +1,258 @@
+[
+  {
+    "id": "7431852704038784275",
+    "name": "节奏摇滚",
+    "style_title": "节奏摇滚",
+    "size": 30,
+    "prominent": true,
+    "ready": false
+  },
+  {
+    "id": "7413395931036437796",
+    "name": "国风大字",
+    "style_title": "ChineseCalligraphy",
+    "size": 25,
+    "prominent": true,
+    "ready": false
+  },
+  {
+    "id": "7410706783687265545",
+    "name": "多彩粗体",
+    "style_title": "ColorBold",
+    "size": 22,
+    "prominent": true,
+    "ready": false
+  },
+  {
+    "id": "7548651294404234505",
+    "name": "KTV复古字幕",
+    "style_title": "ktv",
+    "size": 20,
+    "prominent": true,
+    "ready": false
+  },
+  {
+    "id": "7414104429437209919",
+    "name": "长句Emoji",
+    "style_title": "moji长句10",
+    "size": 19,
+    "prominent": true,
+    "ready": false
+  },
+  {
+    "id": "7431852391374392615",
+    "name": "抒情手写",
+    "style_title": "文艺手写",
+    "size": 17,
+    "prominent": true,
+    "ready": false
+  },
+  {
+    "id": "7681582929503407369",
+    "name": "复古大字",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": true
+  },
+  {
+    "id": "7674925591522462995",
+    "name": "随写留痕",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": true
+  },
+  {
+    "id": "7637097392927542534",
+    "name": "粉笺心语",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": true
+  },
+  {
+    "id": "7616645005112790314",
+    "name": "简约手写",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": true
+  },
+  {
+    "id": "7633340127388962090",
+    "name": "清叙",
+    "style_title": "layout_spread",
+    "size": 12,
+    "prominent": false,
+    "ready": true
+  },
+  {
+    "id": "7411202083610758436",
+    "name": "文艺抒情歌",
+    "style_title": "MV",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7516463273789639973",
+    "name": "歌词骰子",
+    "style_title": "gecishaizi",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7581443056113650963",
+    "name": "烟花抒情",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7549168126147988763",
+    "name": "书法大字",
+    "style_title": "guofengdazi",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7603235197269609791",
+    "name": "发光手写",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7589549528966057252",
+    "name": "文艺慢调",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7602473145622072595",
+    "name": "文艺复古",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7637808596293602566",
+    "name": "温柔小情歌",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7413393075579407652",
+    "name": "极简小清新",
+    "style_title": "SimpleIrregular",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7644900125197765942",
+    "name": "淡蓝抒情",
+    "style_title": "layout_spread",
+    "size": 14,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7513861835175546166",
+    "name": "文艺宋体",
+    "style_title": "shouxiedazi",
+    "size": 12,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7530902253683707187",
+    "name": "弧形播放器",
+    "style_title": "huxing",
+    "size": 12,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7537261659082050825",
+    "name": "粉色手写",
+    "style_title": "lovely_pink",
+    "size": 10,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7443704917673512201",
+    "name": "简约歌词滚动",
+    "style_title": "播放器_lv",
+    "size": 7,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7407448729785093414",
+    "name": "黑胶唱片机",
+    "style_title": "LyricRolling_LV",
+    "size": 7,
+    "prominent": false,
+    "ready": false
+  },
+  {
+    "id": "7633781433735204139",
+    "name": "紫色抒情",
+    "size": null,
+    "prominent": false,
+    "ready": false,
+    "note": "下载失败"
+  },
+  {
+    "id": "7626692393407974719",
+    "name": "抒情散文诗",
+    "size": null,
+    "prominent": false,
+    "ready": false,
+    "note": "下载失败"
+  },
+  {
+    "id": "7462349347921890571",
+    "name": "喜庆大字",
+    "size": null,
+    "prominent": false,
+    "ready": false,
+    "note": "下载失败"
+  },
+  {
+    "id": "7547980936109903155",
+    "name": "胖圆手写",
+    "size": null,
+    "prominent": false,
+    "ready": false,
+    "note": "下载失败"
+  },
+  {
+    "id": "7478538192770190603",
+    "name": "文艺诗",
+    "size": null,
+    "prominent": false,
+    "ready": false,
+    "note": "下载失败"
+  },
+  {
+    "id": "7639218786591182134",
+    "name": "夏日手写",
+    "size": null,
+    "prominent": false,
+    "ready": false,
+    "note": "下载失败"
+  }
+]

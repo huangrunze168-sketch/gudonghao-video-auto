@@ -1,0 +1,6 @@
+{"stage":"start","at":1791882878216,"args":["material","search","--type","lyric_animation","--prompt","留白 简约 抒情","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\92a4b8bcc0a845db8abfada37891bd21","pid":10452}
+{"stage":"policy","at":1791882878217,"rules":9}
+{"stage":"policy-network","at":1791882878217,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791882878221,"vmId":"draftediting-1791882878217"}
+{"stage":"create-process:done","at":1791882878240,"processId":39696,"success":true}
+{"stage":"worker-ready","at":1791882878747}

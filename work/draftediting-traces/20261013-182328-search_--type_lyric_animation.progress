@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887004866,"args":["material","search","--type","lyric_animation","--prompt","温暖 歌词","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\b71dccf67a0945da8ae82550ab56568a","pid":3824}
+{"stage":"policy","at":1791887004867,"rules":9}
+{"stage":"policy-network","at":1791887004867,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887004869,"vmId":"draftediting-1791887004866"}
+{"stage":"create-process:done","at":1791887004888,"processId":6596,"success":true}
+{"stage":"worker-ready","at":1791887005365}

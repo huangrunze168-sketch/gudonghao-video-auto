@@ -1,0 +1,5 @@
+{"stage":"start","at":1791563809081,"args":["draft","lyrics","recognize","--ref","local://headless-final-lyrics","--language","zh"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":45524}
+{"stage":"policy","at":1791563809082,"rules":9}
+{"stage":"create-process:begin","at":1791563809086,"vmId":"draftediting-1791563809081"}
+{"stage":"create-process:done","at":1791563809395,"processId":50752,"success":true}
+{"stage":"worker-ready","at":1791563809908}

@@ -1,0 +1,79 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791605353975",
+    "processId": 62000,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-94d5a7cff6bf3e04",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Atomic: subject mask/VOS. Uses draft-aware mask_tracking_matting when --ref +\r\n--seg-id or an active editor session is available; otherwise falls back to media\r\nobject-matting-track with --input.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h, --help                            Print this help message and exit\r\n      --input TEXT                      Source video file path.\r\n      --ref TEXT                        Draft ref used as in-memory segment context.\r\n      --seg-id TEXT                     Target video segment id for draft-aware mask tracking.\r\n      --target-object-desc TEXT         SAM3 English physical target phrase.\r\n      --seed-mask-rle-json TEXT         Optional seed mask RLE JSON (@file).\r\n      --seed-time TEXT                  Seed frame time (file-local or segment-local, e.g. 1200ms).\r\n      --output-dir TEXT REQUIRED        Directory for mask artifacts.\r\n      --channel <online|test|local_test> \r\n                                        Material request channel. Use `test` or `local_test` for internal\r\n                                        test resources.\r\n  -v, --version                         Show version information and exit.\r\n      --jq TEXT                         Pretty-print JSON output; with an optional selector like\r\n                                        .result.items[0].id, output the selected JSON value instead of\r\n                                        the full schema envelope.\r\n\r\nWORKFLOW\r\n  build-runtime-manifest  strictly resolves package recipe steps into a standard runtime_data_manifest.\r\n  track-subject-mask / encode-subject-alpha / track-plane-quad are the atomic steps it dispatches; they can also be called directly.\r\n\r\nNOTE\r\n  Produces subject_alpha.v1 / subject_transform.v1 / plane_quad.v1 with time_base=draft_us (frame time_us rebased to 0). Apply via `draft effect add --type motiongraph --runtime-data-manifest <manifest>`.\r\n",
+      "stderr": "",
+      "output": "Atomic: subject mask/VOS. Uses draft-aware mask_tracking_matting when --ref +\r\n--seg-id or an active editor session is available; otherwise falls back to media\r\nobject-matting-track with --input.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h, --help                            Print this help message and exit\r\n      --input TEXT                      Source video file path.\r\n      --ref TEXT                        Draft ref used as in-memory segment context.\r\n      --seg-id TEXT                     Target video segment id for draft-aware mask tracking.\r\n      --target-object-desc TEXT         SAM3 English physical target phrase.\r\n      --seed-mask-rle-json TEXT         Optional seed mask RLE JSON (@file).\r\n      --seed-time TEXT                  Seed frame time (file-local or segment-local, e.g. 1200ms).\r\n      --output-dir TEXT REQUIRED        Directory for mask artifacts.\r\n      --channel <online|test|local_test> \r\n                                        Material request channel. Use `test` or `local_test` for internal\r\n                                        test resources.\r\n  -v, --version                         Show version information and exit.\r\n      --jq TEXT                         Pretty-print JSON output; with an optional selector like\r\n                                        .result.items[0].id, output the selected JSON value instead of\r\n                                        the full schema envelope.\r\n\r\nWORKFLOW\r\n  build-runtime-manifest  strictly resolves package recipe steps into a standard runtime_data_manifest.\r\n  track-subject-mask / encode-subject-alpha / track-plane-quad are the atomic steps it dispatches; they can also be called directly.\r\n\r\nNOTE\r\n  Produces subject_alpha.v1 / subject_transform.v1 / plane_quad.v1 with time_base=draft_us (frame time_us rebased to 0). Apply via `draft effect add --type motiongraph --runtime-data-manifest <manifest>`.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 401,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "material",
+        "motiongraph",
+        "track-subject-mask",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791605353991,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791605353,\"timestamp_str\":\"2026-10-10 12:09:13.991\",\"trace_index\":11,\"vm_id\":\"draftediting-1791605353975\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791605354519,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791605354,\"timestamp_str\":\"2026-10-10 12:09:14.519\",\"trace_index\":12,\"vm_id\":\"draftediting-1791605353975\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791605355493,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605353975",
+      "processId": 62000,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

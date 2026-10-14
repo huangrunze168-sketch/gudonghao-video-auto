@@ -1,0 +1,121 @@
+{
+  "cards": [
+    {
+      "id": "t6",
+      "cues": [
+        1
+      ],
+      "slots": 3,
+      "words": 8,
+      "start_ms": 6466,
+      "end_ms": 7899,
+      "overlap_ratio": 1.0,
+      "status": "aligned",
+      "segments": [
+        "于是不",
+        "觉可问",
+        "春风"
+      ]
+    },
+    {
+      "id": "t7",
+      "cues": [
+        2
+      ],
+      "slots": 3,
+      "words": 9,
+      "start_ms": 7900,
+      "end_ms": 10100,
+      "overlap_ratio": 0.818,
+      "status": "aligned",
+      "segments": [
+        "它掠过",
+        "我空袖",
+        "口春风"
+      ]
+    },
+    {
+      "id": "t8",
+      "cues": [
+        3,
+        4
+      ],
+      "slots": 6,
+      "words": 12,
+      "start_ms": 10100,
+      "end_ms": 15233,
+      "overlap_ratio": 0.904,
+      "status": "aligned",
+      "segments": [
+        "添我",
+        "十万",
+        "八千",
+        "梦走",
+        "向没有",
+        "你的岸"
+      ]
+    },
+    {
+      "id": "t9",
+      "cues": [
+        5,
+        6
+      ],
+      "slots": 10,
+      "words": 14,
+      "start_ms": 15233,
+      "end_ms": 20099,
+      "overlap_ratio": 0.873,
+      "status": "aligned",
+      "segments": [
+        "各起",
+        "重山",
+        "各起",
+        "重梦",
+        "终",
+        "于",
+        "不",
+        "问",
+        "归",
+        "程"
+      ]
+    },
+    {
+      "id": "t10",
+      "cues": [
+        7,
+        8
+      ],
+      "slots": 4,
+      "words": 15,
+      "start_ms": 20500,
+      "end_ms": 23766,
+      "overlap_ratio": 1.0,
+      "status": "aligned",
+      "segments": [
+        "还会等到",
+        "有理想缺",
+        "陷天边一",
+        "番红人"
+      ]
+    },
+    {
+      "id": "t11",
+      "cues": [],
+      "slots": 5,
+      "words": 0,
+      "start_ms": 23766,
+      "end_ms": 24066,
+      "status": "skipped",
+      "reason": "卡时间窗内没有歌词句"
+    }
+  ],
+  "outside_cue_indices": [
+    0,
+    9,
+    10,
+    11
+  ],
+  "aligned_cards": 5,
+  "skipped_cards": 1
+}

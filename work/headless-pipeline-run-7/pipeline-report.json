@@ -1,0 +1,174 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791548265.790998,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-7",
+  "steps": {
+    "recognize": {
+      "status": "ok",
+      "model": "large-v3",
+      "detected_language": "zh",
+      "cue_count": 12,
+      "lyrics_json": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-7\\01-recognize\\lyrics.json",
+      "srt": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-7\\01-recognize\\lyrics.srt",
+      "official_plan": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-7\\01-recognize\\official-features.plan.json",
+      "at": 1791548313.7914293
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-subsync-20261009-201833",
+      "ref": "local://headless-subsync-20261009-201833",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-201833",
+      "segment_count": 25,
+      "at": 1791548323.901435
+    },
+    "align": {
+      "status": "skipped",
+      "reason": "字幕模式直接按识别句时间生成字幕",
+      "at": 1791548323.9084067
+    },
+    "selection": {
+      "status": "ok",
+      "cards": [
+        "lyric_0002",
+        "lyric_0003",
+        "lyric_0004",
+        "lyric_0005",
+        "lyric_0006",
+        "lyric_0007",
+        "lyric_0008",
+        "lyric_0009",
+        "lyric_0010",
+        "lyric_0011",
+        "lyric_0012"
+      ],
+      "tts": false,
+      "lyric_target": "subtitle",
+      "speech_ref": null,
+      "selection": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-201833\\edit.selection",
+      "subtitle_plan": {
+        "blocked_windows": [
+          [
+            0,
+            866
+          ],
+          [
+            866,
+            2399
+          ],
+          [
+            2400,
+            3833
+          ],
+          [
+            3833,
+            5433
+          ],
+          [
+            5433,
+            6433
+          ]
+        ],
+        "kept": 11,
+        "dropped": 1
+      },
+      "at": 1791548323.9175487
+    },
+    "normalize": {
+      "status": "ok",
+      "files": {
+        "target_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        },
+        "current_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        }
+      },
+      "at": 1791548323.925618
+    },
+    "apply": {
+      "status": "ok",
+      "executed_count": 13,
+      "planned_count": 13,
+      "commands": [
+        "draft edit --add \"type=text;content=\\\"于是不觉可问春风\\\";text_type=subtitle;time_range.start=6433ms;time_range.duration=1867ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:8] --add \"type=text;content=\\\"它掠过我空袖口春风\\\";text_type=subtitle;time_range.start=8300ms;time_range.duration=2160ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:9] --add \"type=text;content=\\\"添我十万八千梦\\\";text_type=subtitle;time_range.start=10460ms;time_range.duration=2300ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:7] --add \"type=text;content=\\\"走向没有你的岸\\\";text_type=subtitle;time_range.start=13130ms;time_range.duration=1970ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:7] --add \"type=text;content=\\\"各起重山各起重梦\\\";text_type=subtitle;time_range.start=15100ms;time_range.duration=1840ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:8] --add \"type=text;content=\\\"终于不问归程\\\";text_type=subtitle;time_range.start=16940ms;time_range.duration=2540ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:6] --add \"type=text;content=\\\"还会等到有理想\\\";text_type=subtitle;time_range.start=20010ms;time_range.duration=1850ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:7] --add \"type=text;content=\\\"缺陷天边一番红人\\\";text_type=subtitle;time_range.start=21860ms;time_range.duration=2060ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:8] --add \"type=text;content=\\\"长大后才知晓\\\";text_type=subtitle;time_range.start=23920ms;time_range.duration=2220ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:6] --add \"type=text;content=\\\"这一程虚有我\\\";text_type=subtitle;time_range.start=26800ms;time_range.duration=2100ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:6]",
+        "draft edit --add \"type=text;content=\\\"自讽之讽\\\";text_type=subtitle;time_range.start=28900ms;time_range.duration=2360ms\" --update \"font_size=5;text_color=16777215;text_alpha=1;text_outline_color=0;text_outline_width=0.08\" --scope text.range=[0:4]",
+        "blueprint static-layout seg_id=4D4881AD-F8C2-462E-8698-37494440C843",
+        "blueprint static-layout seg_id=2CA4D1D4-FFDF-4B6E-96D2-5C4B236987D6",
+        "blueprint static-layout seg_id=456BA3DB-71FC-4D84-8DAC-35E778261B2E",
+        "blueprint static-layout seg_id=38E48E6C-DA20-43B9-AE82-94958DE8E516",
+        "blueprint static-layout seg_id=49D622B0-057A-4DE9-9DE3-36D1B3E335AB",
+        "blueprint static-layout seg_id=755C9BCD-8181-4512-B9DB-98C771ACC86C",
+        "blueprint static-layout seg_id=33CA620C-D66F-4603-A764-1618FAEC5961",
+        "blueprint static-layout seg_id=C8626E7B-F5AB-4F13-87C6-AE3D9748CAD3",
+        "blueprint static-layout seg_id=81F6FDCA-20D9-4D8A-9438-E1B0356E7967",
+        "blueprint static-layout seg_id=A1B247C9-F4F4-4340-B79C-C9FA02EE4F5D",
+        "blueprint static-layout seg_id=6C2449F7-01AC-4E00-AB43-7E404A022503"
+      ],
+      "validation": "Applied; live draft validation passed.",
+      "at": 1791548329.1516144
+    },
+    "mirrors": {
+      "status": "ok",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-subsync-20261009-201833\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+      "written": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-subsync-20261009-201833\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-subsync-20261009-201833\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-subsync-20261009-201833\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791548329.161665
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-7\\06-render\\render.mp4",
+      "output_size": 2259358,
+      "video_duration": 31.6,
+      "at": 1791548341.9208045
+    }
+  },
+  "finished_at": 1791548341.927496,
+  "working_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-subsync-20261009-201833"
+}

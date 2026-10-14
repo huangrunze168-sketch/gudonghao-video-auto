@@ -1,0 +1,2140 @@
+{
+  "domain": "lint.draft",
+  "draft_json_file": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01\\Timelines\\AC9F8AE4-5E10-4FFE-97A5-F023C4E82AB2\\draft_content.json",
+  "draft_ref": "local://guzhu-01",
+  "draft_root": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "execution_policy": {
+    "auto_fix": false,
+    "mode": "report_only"
+  },
+  "facts": {
+    "layout": {
+      "bbox_entries": [
+        {
+          "bbox": {
+            "axis_aligned_box": {
+              "bottom": 1280.0,
+              "center_x": 1138.0,
+              "center_y": 640.0,
+              "height": 1280.0,
+              "left": 178.0,
+              "right": 2098.0,
+              "top": 0.0,
+              "width": 1920.0
+            },
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "measurement": {
+              "backend": "lv-draft.original_size",
+              "effect_render_initialized": false,
+              "ve_editor_initialized": false
+            }
+          },
+          "bbox_source": "lv-draft.original-size",
+          "material_id": "AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F",
+          "measure_error": "input media type or dimensions do not match --element-type video",
+          "segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "segment_type": "video"
+        },
+        {
+          "bbox": {
+            "axis_aligned_box": {
+              "bottom": 1110.5,
+              "center_x": 1138.0,
+              "center_y": 640.0,
+              "height": 941.0,
+              "left": 302.0,
+              "right": 1974.0,
+              "top": 169.5,
+              "width": 1672.0
+            },
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "measurement": {
+              "backend": "lv-draft.original_size",
+              "effect_render_initialized": false,
+              "ve_editor_initialized": false
+            }
+          },
+          "bbox_source": "lv-draft.original-size",
+          "material_id": "8DB43642-E09A-4689-8C93-9E669404DA61",
+          "measure_error": "input media type or dimensions do not match --element-type video",
+          "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "segment_type": "video"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "VEUtils.getInfoStickerData",
+              "bottom": 0.0788963450246093,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.41999999999999993
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.6822073099507813,
+              "left": -0.1918333384747364,
+              "measurement_mode": "static",
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906,
+              "width": 0.3836666769494728,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "sticker"
+            },
+            "normalized_box": {
+              "height": 0.34110365497539064,
+              "left": 0.4040833307626318,
+              "top": 0.11944817251230472,
+              "width": 0.19183333847473638
+            },
+            "runtime_box": {
+              "bottom": 0.0788963450246093,
+              "left": -0.1918333384747364,
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "96233B82-1481-4b90-A7D6-8003E6EF43EA",
+          "segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "VEUtils.getInfoStickerData",
+              "bottom": 0.0788963450246093,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.41999999999999993
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.6822073099507813,
+              "left": -0.1918333384747364,
+              "measurement_mode": "static",
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906,
+              "width": 0.3836666769494728,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "sticker"
+            },
+            "normalized_box": {
+              "height": 0.34110365497539064,
+              "left": 0.4040833307626318,
+              "top": 0.11944817251230472,
+              "width": 0.19183333847473638
+            },
+            "runtime_box": {
+              "bottom": 0.0788963450246093,
+              "left": -0.1918333384747364,
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "96A528DE-2687-4326-BF31-F959C03088E1",
+          "segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "VEUtils.getInfoStickerData",
+              "bottom": 0.0788963450246093,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.41999999999999993
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.6822073099507813,
+              "left": -0.1918333384747364,
+              "measurement_mode": "static",
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906,
+              "width": 0.3836666769494728,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "sticker"
+            },
+            "normalized_box": {
+              "height": 0.34110365497539064,
+              "left": 0.4040833307626318,
+              "top": 0.11944817251230472,
+              "width": 0.19183333847473638
+            },
+            "runtime_box": {
+              "bottom": 0.0788963450246093,
+              "left": -0.1918333384747364,
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "7AAB0035-E800-4d1f-B8B1-CF052BA7C62D",
+          "segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "VEUtils.getInfoStickerData",
+              "bottom": 0.0788963450246093,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.41999999999999993
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.6822073099507813,
+              "left": -0.1918333384747364,
+              "measurement_mode": "static",
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906,
+              "width": 0.3836666769494728,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "sticker"
+            },
+            "normalized_box": {
+              "height": 0.34110365497539064,
+              "left": 0.4040833307626318,
+              "top": 0.11944817251230472,
+              "width": 0.19183333847473638
+            },
+            "runtime_box": {
+              "bottom": 0.0788963450246093,
+              "left": -0.1918333384747364,
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "DA729333-5BBA-40e0-B493-90DF997E84AA",
+          "segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "VEUtils.getInfoStickerData",
+              "bottom": 0.0788963450246093,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.41999999999999993
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.6822073099507813,
+              "left": -0.1918333384747364,
+              "measurement_mode": "static",
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906,
+              "width": 0.3836666769494728,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "sticker"
+            },
+            "normalized_box": {
+              "height": 0.34110365497539064,
+              "left": 0.4040833307626318,
+              "top": 0.11944817251230472,
+              "width": 0.19183333847473638
+            },
+            "runtime_box": {
+              "bottom": 0.0788963450246093,
+              "left": -0.1918333384747364,
+              "right": 0.1918333384747364,
+              "top": 0.7611036549753906
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "D761E739-C064-4720-881F-AF4433063C17",
+          "segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.5497965069373064,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": -0.5007006369426752
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.09819173998926245,
+              "left": -0.4016748316357667,
+              "measurement_mode": "static",
+              "right": 0.4016748316357667,
+              "top": -0.45160476694804397,
+              "width": 0.8033496632715335,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.049095869994631336,
+              "left": 0.2991625841821166,
+              "top": 0.7258023834740219,
+              "width": 0.4016748316357668
+            },
+            "runtime_box": {
+              "bottom": -0.5497965069373064,
+              "left": -0.4016748316357667,
+              "right": 0.4016748316357667,
+              "top": -0.45160476694804397
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "3B1370D4-E32C-41df-BC7B-A72C3C780353",
+          "segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.5497965069373064,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": -0.5007006369426752
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.09819173998926245,
+              "left": -0.5263627119134003,
+              "measurement_mode": "static",
+              "right": 0.5263627119134003,
+              "top": -0.45160476694804397,
+              "width": 1.0527254238268007,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.049095869994631336,
+              "left": 0.23681864404329983,
+              "top": 0.7258023834740219,
+              "width": 0.5263627119134004
+            },
+            "runtime_box": {
+              "bottom": -0.5497965069373064,
+              "left": -0.5263627119134003,
+              "right": 0.5263627119134003,
+              "top": -0.45160476694804397
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "F66AB2D0-8799-4a20-93D0-AA8524654C94",
+          "segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.5497965069373064,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": -0.5007006369426752
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.09819173998926245,
+              "left": -0.3393308765957887,
+              "measurement_mode": "static",
+              "right": 0.3393308765957887,
+              "top": -0.45160476694804397,
+              "width": 0.6786617531915774,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.049095869994631336,
+              "left": 0.3303345617021056,
+              "top": 0.7258023834740219,
+              "width": 0.33933087659578876
+            },
+            "runtime_box": {
+              "bottom": -0.5497965069373064,
+              "left": -0.3393308765957887,
+              "right": 0.3393308765957887,
+              "top": -0.45160476694804397
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26",
+          "segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.5497965069373064,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": -0.5007006369426752
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.09819173998926245,
+              "left": -0.5887066669533784,
+              "measurement_mode": "static",
+              "right": 0.5887066669533784,
+              "top": -0.45160476694804397,
+              "width": 1.1774133339067567,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.049095869994631336,
+              "left": 0.20564666652331082,
+              "top": 0.7258023834740219,
+              "width": 0.5887066669533785
+            },
+            "runtime_box": {
+              "bottom": -0.5497965069373064,
+              "left": -0.5887066669533784,
+              "right": 0.5887066669533784,
+              "top": -0.45160476694804397
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "2D0B96E7-CB57-485b-B97A-FA710EE4A9C3",
+          "segment_id": "280EAF16-0D36-44f2-97F9-C8C8517D2EDC",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.5497965069373064,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": -0.5007006369426752
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.09819173998926245,
+              "left": -0.7133945174286896,
+              "measurement_mode": "static",
+              "right": 0.7133945174286896,
+              "top": -0.45160476694804397,
+              "width": 1.4267890348573793,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.049095869994631336,
+              "left": 0.14330274128565518,
+              "top": 0.7258023834740219,
+              "width": 0.7133945174286898
+            },
+            "runtime_box": {
+              "bottom": -0.5497965069373064,
+              "left": -0.7133945174286896,
+              "right": 0.7133945174286896,
+              "top": -0.45160476694804397
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "E794DF70-7C4D-4427-904D-30F45C19A8FE",
+          "segment_id": "9857A870-3A18-4905-A45F-CF7C61F65ED9",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "1B7D14B2-0816-403e-9224-5EC95F49118E",
+          "segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "1C3F5AF9-CD3E-4bb6-9147-61326B963F91",
+          "segment_id": "CA56210F-F6D1-4cdf-90B0-5166C629D092",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "3820FF8D-99BC-46da-96BA-328EBEFF8349",
+          "segment_id": "69FD2793-89BB-434c-98D0-73ACC6E2EDEF",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "F9635E0E-F420-4c58-AB58-46B1B37E9B38",
+          "segment_id": "7F3CBFFC-6A46-4f98-AED7-CCC310C998B8",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "E27340BE-83E6-42b5-A360-DF84FA77EA5B",
+          "segment_id": "4FF35AE5-65DE-44d1-93F8-3E0A9B011DAB",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "8DFD85A0-BC23-4b45-A80C-87F49FA48E4B",
+          "segment_id": "66CB979B-93A6-4b8c-8810-463CC21DAF60",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "canvas": {
+              "height": 1280.0,
+              "source": "RuntimeDraft.canvas_config",
+              "width": 2276.0
+            },
+            "computed_property": {
+              "backend": "Effect.rich_text_static_api/CT_GET_TEXT_RECT+CT_GET_TEXT_ORIGINAL_SIZE",
+              "bottom": -0.07747395634651184,
+              "bounding_box_scope": "visual",
+              "center": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "coordinate_space": "ve_canvas",
+              "height": 0.1549479126930237,
+              "left": -0.9058391188904774,
+              "measurement_mode": "static",
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184,
+              "width": 1.8116782377809548,
+              "with_rotate": true
+            },
+            "measurement": {
+              "backend": "runtime.computeSegmentProperty.boundingBox",
+              "element_type": "text"
+            },
+            "normalized_box": {
+              "height": 0.07747395634651189,
+              "left": 0.047080440554761294,
+              "top": 0.46126302182674406,
+              "width": 0.9058391188904773
+            },
+            "runtime_box": {
+              "bottom": -0.07747395634651184,
+              "left": -0.9058391188904774,
+              "right": 0.9058391188904774,
+              "top": 0.07747395634651184
+            }
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "D2AA6C09-547F-4738-8CFE-F54E2B834BCF",
+          "segment_id": "22F81227-BB57-4958-A463-E547F786B80C",
+          "segment_type": "text"
+        }
+      ],
+      "bounds": [
+        {
+          "bbox": {
+            "height": 1.0,
+            "left": 0.07820738137082602,
+            "top": 0.0,
+            "width": 0.843585237258348
+          },
+          "bbox_source": "lv-draft.original-size",
+          "material_id": "AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F",
+          "segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "segment_type": "video"
+        },
+        {
+          "bbox": {
+            "height": 0.73515625,
+            "left": 0.13268892794376097,
+            "top": 0.132421875,
+            "width": 0.7346221441124781
+          },
+          "bbox_source": "lv-draft.original-size",
+          "material_id": "8DB43642-E09A-4689-8C93-9E669404DA61",
+          "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "segment_type": "video"
+        },
+        {
+          "bbox": {
+            "height": 0.34110365497539064,
+            "left": 0.4040833307626318,
+            "top": 0.11944817251230472,
+            "width": 0.19183333847473638
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "96233B82-1481-4b90-A7D6-8003E6EF43EA",
+          "segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "height": 0.34110365497539064,
+            "left": 0.4040833307626318,
+            "top": 0.11944817251230472,
+            "width": 0.19183333847473638
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "96A528DE-2687-4326-BF31-F959C03088E1",
+          "segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "height": 0.34110365497539064,
+            "left": 0.4040833307626318,
+            "top": 0.11944817251230472,
+            "width": 0.19183333847473638
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "7AAB0035-E800-4d1f-B8B1-CF052BA7C62D",
+          "segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "height": 0.34110365497539064,
+            "left": 0.4040833307626318,
+            "top": 0.11944817251230472,
+            "width": 0.19183333847473638
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "DA729333-5BBA-40e0-B493-90DF997E84AA",
+          "segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "height": 0.34110365497539064,
+            "left": 0.4040833307626318,
+            "top": 0.11944817251230472,
+            "width": 0.19183333847473638
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "D761E739-C064-4720-881F-AF4433063C17",
+          "segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+          "segment_type": "sticker"
+        },
+        {
+          "bbox": {
+            "height": 0.049095869994631336,
+            "left": 0.2991625841821166,
+            "top": 0.7258023834740219,
+            "width": 0.4016748316357668
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "3B1370D4-E32C-41df-BC7B-A72C3C780353",
+          "segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.049095869994631336,
+            "left": 0.23681864404329983,
+            "top": 0.7258023834740219,
+            "width": 0.5263627119134004
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "F66AB2D0-8799-4a20-93D0-AA8524654C94",
+          "segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.049095869994631336,
+            "left": 0.3303345617021056,
+            "top": 0.7258023834740219,
+            "width": 0.33933087659578876
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26",
+          "segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.049095869994631336,
+            "left": 0.20564666652331082,
+            "top": 0.7258023834740219,
+            "width": 0.5887066669533785
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "2D0B96E7-CB57-485b-B97A-FA710EE4A9C3",
+          "segment_id": "280EAF16-0D36-44f2-97F9-C8C8517D2EDC",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.049095869994631336,
+            "left": 0.14330274128565518,
+            "top": 0.7258023834740219,
+            "width": 0.7133945174286898
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "E794DF70-7C4D-4427-904D-30F45C19A8FE",
+          "segment_id": "9857A870-3A18-4905-A45F-CF7C61F65ED9",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "1B7D14B2-0816-403e-9224-5EC95F49118E",
+          "segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "1C3F5AF9-CD3E-4bb6-9147-61326B963F91",
+          "segment_id": "CA56210F-F6D1-4cdf-90B0-5166C629D092",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "3820FF8D-99BC-46da-96BA-328EBEFF8349",
+          "segment_id": "69FD2793-89BB-434c-98D0-73ACC6E2EDEF",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "F9635E0E-F420-4c58-AB58-46B1B37E9B38",
+          "segment_id": "7F3CBFFC-6A46-4f98-AED7-CCC310C998B8",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "E27340BE-83E6-42b5-A360-DF84FA77EA5B",
+          "segment_id": "4FF35AE5-65DE-44d1-93F8-3E0A9B011DAB",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "8DFD85A0-BC23-4b45-A80C-87F49FA48E4B",
+          "segment_id": "66CB979B-93A6-4b8c-8810-463CC21DAF60",
+          "segment_type": "text"
+        },
+        {
+          "bbox": {
+            "height": 0.07747395634651189,
+            "left": 0.047080440554761294,
+            "top": 0.46126302182674406,
+            "width": 0.9058391188904773
+          },
+          "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+          "material_id": "D2AA6C09-547F-4738-8CFE-F54E2B834BCF",
+          "segment_id": "22F81227-BB57-4958-A463-E547F786B80C",
+          "segment_type": "text"
+        }
+      ],
+      "canvas": {
+        "height": 1280.0,
+        "source": "RuntimeDraft.canvas_config",
+        "width": 2276.0
+      },
+      "checked_bbox_count": 19,
+      "measured_bbox_count": 0,
+      "missing_bbox_count": 0,
+      "original_size_bbox_count": 2,
+      "out_of_bounds_count": 0,
+      "runtime_bbox_count": 17
+    },
+    "normalized_segment_count": 29,
+    "parsed": true,
+    "resource": [
+      {
+        "draft_id": "AC9F8AE4-5E10-4FFE-97A5-F023C4E82AB2",
+        "duplicate_id_count": 0,
+        "local_resources": [],
+        "material_count": 26,
+        "references": [
+          {
+            "actual_buckets": [
+              "videos"
+            ],
+            "expected_buckets": [
+              "photos",
+              "videos"
+            ],
+            "field": "material_id",
+            "material_id": "AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F",
+            "resolved": true,
+            "segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+            "segment_type": "video"
+          },
+          {
+            "actual_buckets": [
+              "videos"
+            ],
+            "expected_buckets": [
+              "photos",
+              "videos"
+            ],
+            "field": "material_id",
+            "material_id": "8DB43642-E09A-4689-8C93-9E669404DA61",
+            "resolved": true,
+            "segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+            "segment_type": "video"
+          },
+          {
+            "actual_buckets": [
+              "stickers"
+            ],
+            "expected_buckets": [
+              "stickers"
+            ],
+            "field": "material_id",
+            "material_id": "96233B82-1481-4b90-A7D6-8003E6EF43EA",
+            "resolved": true,
+            "segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+            "segment_type": "sticker"
+          },
+          {
+            "actual_buckets": [
+              "stickers"
+            ],
+            "expected_buckets": [
+              "stickers"
+            ],
+            "field": "material_id",
+            "material_id": "96A528DE-2687-4326-BF31-F959C03088E1",
+            "resolved": true,
+            "segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+            "segment_type": "sticker"
+          },
+          {
+            "actual_buckets": [
+              "stickers"
+            ],
+            "expected_buckets": [
+              "stickers"
+            ],
+            "field": "material_id",
+            "material_id": "7AAB0035-E800-4d1f-B8B1-CF052BA7C62D",
+            "resolved": true,
+            "segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+            "segment_type": "sticker"
+          },
+          {
+            "actual_buckets": [
+              "stickers"
+            ],
+            "expected_buckets": [
+              "stickers"
+            ],
+            "field": "material_id",
+            "material_id": "DA729333-5BBA-40e0-B493-90DF997E84AA",
+            "resolved": true,
+            "segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+            "segment_type": "sticker"
+          },
+          {
+            "actual_buckets": [
+              "stickers"
+            ],
+            "expected_buckets": [
+              "stickers"
+            ],
+            "field": "material_id",
+            "material_id": "D761E739-C064-4720-881F-AF4433063C17",
+            "resolved": true,
+            "segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+            "segment_type": "sticker"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "3B1370D4-E32C-41df-BC7B-A72C3C780353",
+            "resolved": true,
+            "segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "F66AB2D0-8799-4a20-93D0-AA8524654C94",
+            "resolved": true,
+            "segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26",
+            "resolved": true,
+            "segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "2D0B96E7-CB57-485b-B97A-FA710EE4A9C3",
+            "resolved": true,
+            "segment_id": "280EAF16-0D36-44f2-97F9-C8C8517D2EDC",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "E794DF70-7C4D-4427-904D-30F45C19A8FE",
+            "resolved": true,
+            "segment_id": "9857A870-3A18-4905-A45F-CF7C61F65ED9",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "1B7D14B2-0816-403e-9224-5EC95F49118E",
+            "resolved": true,
+            "segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "1C3F5AF9-CD3E-4bb6-9147-61326B963F91",
+            "resolved": true,
+            "segment_id": "CA56210F-F6D1-4cdf-90B0-5166C629D092",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "3820FF8D-99BC-46da-96BA-328EBEFF8349",
+            "resolved": true,
+            "segment_id": "69FD2793-89BB-434c-98D0-73ACC6E2EDEF",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "F9635E0E-F420-4c58-AB58-46B1B37E9B38",
+            "resolved": true,
+            "segment_id": "7F3CBFFC-6A46-4f98-AED7-CCC310C998B8",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "E27340BE-83E6-42b5-A360-DF84FA77EA5B",
+            "resolved": true,
+            "segment_id": "4FF35AE5-65DE-44d1-93F8-3E0A9B011DAB",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "8DFD85A0-BC23-4b45-A80C-87F49FA48E4B",
+            "resolved": true,
+            "segment_id": "66CB979B-93A6-4b8c-8810-463CC21DAF60",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "texts"
+            ],
+            "expected_buckets": [
+              "text_templates",
+              "texts"
+            ],
+            "field": "material_id",
+            "material_id": "D2AA6C09-547F-4738-8CFE-F54E2B834BCF",
+            "resolved": true,
+            "segment_id": "22F81227-BB57-4958-A463-E547F786B80C",
+            "segment_type": "text"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "CEB65D32-4058-4d78-8C64-01F511C79FF2",
+            "resolved": true,
+            "segment_id": "A37F062D-4365-4aba-A819-C0EFD9E8300B",
+            "segment_type": "audio"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "0F8B437D-31F1-4f58-9661-2312306FFAB4",
+            "resolved": true,
+            "segment_id": "B7B69AB8-FAB7-4310-9799-F13155E26D58",
+            "segment_type": "audio"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "3A809DC7-3BEE-4572-8A15-2A2D84F6A248",
+            "resolved": true,
+            "segment_id": "A31A14CC-8D90-4244-9690-6776A91C61E0",
+            "segment_type": "audio"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "F1FFB83E-FB32-48d4-A362-9EACF37D3690",
+            "resolved": true,
+            "segment_id": "27247D95-1F6F-490d-851F-E3830E55552E",
+            "segment_type": "audio"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "C9DCF49A-858A-4ebd-B69C-075C19B5FD29",
+            "resolved": true,
+            "segment_id": "B8D14971-9064-4abb-A31C-E8CCC437E178",
+            "segment_type": "audio"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "8CDBF701-3706-4e5f-AB69-88E2BB0C5F36",
+            "resolved": true,
+            "segment_id": "478493DE-7EFA-44d4-866C-79B3E92B2487",
+            "segment_type": "audio"
+          },
+          {
+            "actual_buckets": [
+              "audios"
+            ],
+            "expected_buckets": [
+              "audios",
+              "musics"
+            ],
+            "field": "material_id",
+            "material_id": "CA1BDE71-5A6E-435A-B297-6651DD108A22",
+            "resolved": true,
+            "segment_id": "4D201827-7DC5-4fd3-9807-311C18BAE1B9",
+            "segment_type": "audio"
+          }
+        ],
+        "typed_materials": true
+      }
+    ],
+    "runtime": true,
+    "segment_count": 26,
+    "source_kind": "lv_draft",
+    "spatial": {
+      "evaluable": false,
+      "missing_evidence_count": 18,
+      "occlusion_risk_count": 0,
+      "occlusion_threshold": 0.3,
+      "pairs": [
+        {
+          "intersection_area": 0.0654350528998638,
+          "iou": 0.07756780229171355,
+          "left_coverage": 0.07756780229171355,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+          "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+          "time_end_us": 1089231,
+          "time_overlap_us": 1089231,
+          "time_start_us": 0
+        },
+        {
+          "intersection_area": 0.0654350528998638,
+          "iou": 0.07756780229171355,
+          "left_coverage": 0.07756780229171355,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+          "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+          "time_end_us": 2492308,
+          "time_overlap_us": 1403077,
+          "time_start_us": 1089231
+        },
+        {
+          "intersection_area": 0.0654350528998638,
+          "iou": 0.07756780229171355,
+          "left_coverage": 0.07756780229171355,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+          "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+          "time_end_us": 3544616,
+          "time_overlap_us": 1052308,
+          "time_start_us": 2492308
+        },
+        {
+          "intersection_area": 0.0654350528998638,
+          "iou": 0.07756780229171355,
+          "left_coverage": 0.07756780229171355,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+          "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+          "time_end_us": 5040001,
+          "time_overlap_us": 1495385,
+          "time_start_us": 3544616
+        },
+        {
+          "intersection_area": 0.0654350528998638,
+          "iou": 0.07756780229171355,
+          "left_coverage": 0.07756780229171355,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+          "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+          "time_end_us": 6904616,
+          "time_overlap_us": 1864615,
+          "time_start_us": 5040001
+        },
+        {
+          "intersection_area": 0.019720575314105038,
+          "iou": 0.023377098653595343,
+          "left_coverage": 0.023377098653595347,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+          "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+          "time_end_us": 1089231,
+          "time_overlap_us": 1089231,
+          "time_start_us": 0
+        },
+        {
+          "intersection_area": 0.025842235274121893,
+          "iou": 0.03063381639786533,
+          "left_coverage": 0.03063381639786533,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+          "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+          "time_end_us": 2492308,
+          "time_overlap_us": 1403077,
+          "time_start_us": 1089231
+        },
+        {
+          "intersection_area": 0.016659744602511135,
+          "iou": 0.01974873891422674,
+          "left_coverage": 0.01974873891422674,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+          "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+          "time_end_us": 3544616,
+          "time_overlap_us": 1052308,
+          "time_start_us": 2492308
+        },
+        {
+          "intersection_area": 0.028903065985715796,
+          "iou": 0.03426217613723393,
+          "left_coverage": 0.03426217613723393,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "280EAF16-0D36-44f2-97F9-C8C8517D2EDC",
+          "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+          "time_end_us": 5040001,
+          "time_overlap_us": 1495385,
+          "time_start_us": 3544616
+        },
+        {
+          "intersection_area": 0.03502472448256171,
+          "iou": 0.0415188921470367,
+          "left_coverage": 0.0415188921470367,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 1.0,
+          "right_segment_id": "9857A870-3A18-4905-A45F-CF7C61F65ED9",
+          "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+          "time_end_us": 6904616,
+          "time_overlap_us": 1864615,
+          "time_start_us": 5040001
+        },
+        {
+          "intersection_area": 0.06535588584591512,
+          "iou": 0.07703353029453487,
+          "left_coverage": 0.07747395634651187,
+          "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.931274902646751,
+          "right_segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 6933333,
+          "time_overlap_us": 33333,
+          "time_start_us": 6900000
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 10766666,
+          "time_overlap_us": 3833333,
+          "time_start_us": 6933333
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "CA56210F-F6D1-4cdf-90B0-5166C629D092",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 14066666,
+          "time_overlap_us": 3300000,
+          "time_start_us": 10766666
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "69FD2793-89BB-434c-98D0-73ACC6E2EDEF",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 17733333,
+          "time_overlap_us": 3666667,
+          "time_start_us": 14066666
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "7F3CBFFC-6A46-4f98-AED7-CCC310C998B8",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 21366666,
+          "time_overlap_us": 3633333,
+          "time_start_us": 17733333
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "4FF35AE5-65DE-44d1-93F8-3E0A9B011DAB",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 24966666,
+          "time_overlap_us": 3600000,
+          "time_start_us": 21366666
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "66CB979B-93A6-4b8c-8810-463CC21DAF60",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 28600000,
+          "time_overlap_us": 3633334,
+          "time_start_us": 24966666
+        },
+        {
+          "intersection_area": 0.056914083924151086,
+          "iou": 0.10285797088329708,
+          "left_coverage": 0.10538434019504274,
+          "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+          "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+          "occlusion_evaluable": false,
+          "occlusion_reason": "distinct z-order evidence is required",
+          "right_coverage": 0.8109852277215457,
+          "right_segment_id": "22F81227-BB57-4958-A463-E547F786B80C",
+          "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+          "time_end_us": 30033333,
+          "time_overlap_us": 1433333,
+          "time_start_us": 28600000
+        }
+      ],
+      "spatial_overlap_pair_count": 18,
+      "spatial_overlap_threshold": 0.01,
+      "temporal_pair_count": 25,
+      "truth_boundary": "draft geometry reports deterministic risk; rendered media plus vision evidence is required for visual subject/face occlusion truth"
+    },
+    "suites": [
+      "layout",
+      "occlusion",
+      "property",
+      "resource",
+      "spatial",
+      "structure",
+      "timeline"
+    ],
+    "timeline": {
+      "draft_duration": 30033333,
+      "evaluable": true,
+      "gap_count": 3,
+      "invalid_source_time_range_count": 0,
+      "normalized_segment_count": 29,
+      "overlap_count": 2,
+      "timed_segment_count": 29,
+      "track_count": 8
+    },
+    "track_count": 7,
+    "warning_count": 19
+  },
+  "input": "",
+  "issues": [
+    {
+      "evidence": {
+        "left_segment_id": "4C59E2E1-49A4-4127-9DE2-2ADB9CE9BC49",
+        "overlap_us": 23115332,
+        "right_segment_id": "7AA51067-BF2C-4f92-9112-9070AB4F4ABF",
+        "track": "default"
+      },
+      "message": "segments overlap on the same track",
+      "rule_id": "result.draft-timeline-overlap.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "left_segment_id": "7AA51067-BF2C-4f92-9112-9070AB4F4ABF",
+        "overlap_us": 23115332,
+        "right_segment_id": "EA4D2D1A-DC8D-4a84-8C0D-247D81A055DA",
+        "track": "default"
+      },
+      "message": "segments overlap on the same track",
+      "rule_id": "result.draft-timeline-overlap.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0654350528998638,
+        "iou": 0.07756780229171355,
+        "left_coverage": 0.07756780229171355,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+        "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+        "time_end_us": 1089231,
+        "time_overlap_us": 1089231,
+        "time_start_us": 0
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0654350528998638,
+        "iou": 0.07756780229171355,
+        "left_coverage": 0.07756780229171355,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+        "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+        "time_end_us": 2492308,
+        "time_overlap_us": 1403077,
+        "time_start_us": 1089231
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0654350528998638,
+        "iou": 0.07756780229171355,
+        "left_coverage": 0.07756780229171355,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+        "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+        "time_end_us": 3544616,
+        "time_overlap_us": 1052308,
+        "time_start_us": 2492308
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0654350528998638,
+        "iou": 0.07756780229171355,
+        "left_coverage": 0.07756780229171355,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+        "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+        "time_end_us": 5040001,
+        "time_overlap_us": 1495385,
+        "time_start_us": 3544616
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0654350528998638,
+        "iou": 0.07756780229171355,
+        "left_coverage": 0.07756780229171355,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+        "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+        "time_end_us": 6904616,
+        "time_overlap_us": 1864615,
+        "time_start_us": 5040001
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.019720575314105038,
+        "iou": 0.023377098653595343,
+        "left_coverage": 0.023377098653595347,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 1089231,
+        "time_overlap_us": 1089231,
+        "time_start_us": 0
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.025842235274121893,
+        "iou": 0.03063381639786533,
+        "left_coverage": 0.03063381639786533,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 2492308,
+        "time_overlap_us": 1403077,
+        "time_start_us": 1089231
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.016659744602511135,
+        "iou": 0.01974873891422674,
+        "left_coverage": 0.01974873891422674,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 3544616,
+        "time_overlap_us": 1052308,
+        "time_start_us": 2492308
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.028903065985715796,
+        "iou": 0.03426217613723393,
+        "left_coverage": 0.03426217613723393,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "280EAF16-0D36-44f2-97F9-C8C8517D2EDC",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 5040001,
+        "time_overlap_us": 1495385,
+        "time_start_us": 3544616
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.03502472448256171,
+        "iou": 0.0415188921470367,
+        "left_coverage": 0.0415188921470367,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "9857A870-3A18-4905-A45F-CF7C61F65ED9",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 6904616,
+        "time_overlap_us": 1864615,
+        "time_start_us": 5040001
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.06535588584591512,
+        "iou": 0.07703353029453487,
+        "left_coverage": 0.07747395634651187,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.931274902646751,
+        "right_segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 6933333,
+        "time_overlap_us": 33333,
+        "time_start_us": 6900000
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "D20FCFFA-5D91-48f4-80B1-2F575F064681",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 10766666,
+        "time_overlap_us": 3833333,
+        "time_start_us": 6933333
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "CA56210F-F6D1-4cdf-90B0-5166C629D092",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 14066666,
+        "time_overlap_us": 3300000,
+        "time_start_us": 10766666
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "69FD2793-89BB-434c-98D0-73ACC6E2EDEF",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 17733333,
+        "time_overlap_us": 3666667,
+        "time_start_us": 14066666
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "7F3CBFFC-6A46-4f98-AED7-CCC310C998B8",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 21366666,
+        "time_overlap_us": 3633333,
+        "time_start_us": 17733333
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "4FF35AE5-65DE-44d1-93F8-3E0A9B011DAB",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 24966666,
+        "time_overlap_us": 3600000,
+        "time_start_us": 21366666
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "66CB979B-93A6-4b8c-8810-463CC21DAF60",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 28600000,
+        "time_overlap_us": 3633334,
+        "time_start_us": 24966666
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.056914083924151086,
+        "iou": 0.10285797088329708,
+        "left_coverage": 0.10538434019504274,
+        "left_segment_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.8109852277215457,
+        "right_segment_id": "22F81227-BB57-4958-A463-E547F786B80C",
+        "right_track": "9AD92975-DB68-4ac5-AAAC-44839B622105",
+        "time_end_us": 30033333,
+        "time_overlap_us": 1433333,
+        "time_start_us": 28600000
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "overlap_pairs_missing_distinct_z_order": 18,
+        "overlap_pairs_missing_front_opacity": 0,
+        "segment_count": 29,
+        "segments_missing_time_or_bbox": 0
+      },
+      "message": "spatial or occlusion evaluation is incomplete; normalized time/bbox, distinct z-order, and front opacity evidence are required",
+      "rule_id": "result.draft-spatial-evidence-missing.v1",
+      "severity": "warning"
+    }
+  ],
+  "schema_version": "lyra.lint-draft-report/v1",
+  "status": "fail",
+  "verdicts": {
+    "result": "REJECT"
+  }
+}

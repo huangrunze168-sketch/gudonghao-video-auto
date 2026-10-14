@@ -1,0 +1,116 @@
+{
+  "report": "work\\guzhu-mingyun-repair\\final-lint.json",
+  "passed": false,
+  "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 2153,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+  "keys": [
+    "domain",
+    "draft_json_file",
+    "draft_ref",
+    "draft_root",
+    "execution_policy",
+    "facts",
+    "input",
+    "issues",
+    "schema_version",
+    "status",
+    "verdicts"
+  ],
+  "issues": [
+    {
+      "evidence": {
+        "bbox": {
+          "height": 1.33359375,
+          "left": 0.125,
+          "top": -0.3767968749999999,
+          "width": 0.75
+        },
+        "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+        "material_id": "47E3A3BB-C2AB-44a1-9A9C-49957851E74F",
+        "segment_id": "8BDE6881-D41D-4D37-9D78-251C67AE8C29",
+        "segment_type": "sticker"
+      },
+      "message": "visual segment bbox must remain inside canvas bounds",
+      "rule_id": "result.draft-bbox-bounds.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "bbox": {
+          "height": 0.6914930343750001,
+          "left": 0.30555556151142355,
+          "top": -0.05574651718750001,
+          "width": 0.38888887697715285
+        },
+        "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+        "material_id": "878BA829-FAF9-4da5-83DB-FC05196DB783",
+        "segment_id": "F718336B-C97C-4B4C-A498-A6690BC654B9",
+        "segment_type": "sticker"
+      },
+      "message": "visual segment bbox must remain inside canvas bounds",
+      "rule_id": "result.draft-bbox-bounds.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "bbox": {
+          "height": 0.6914930343750001,
+          "left": 0.30555556151142355,
+          "top": -0.05574651718750001,
+          "width": 0.38888887697715285
+        },
+        "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+        "material_id": "E3641394-BCBE-4982-80C1-3C5371B2D93B",
+        "segment_id": "63FC3CE8-373A-458A-AF18-A5157628BD95",
+        "segment_type": "sticker"
+      },
+      "message": "visual segment bbox must remain inside canvas bounds",
+      "rule_id": "result.draft-bbox-bounds.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "bbox": {
+          "height": 0.6914930343750001,
+          "left": 0.30555556151142355,
+          "top": -0.05574651718750001,
+          "width": 0.38888887697715285
+        },
+        "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+        "material_id": "EBC3D5FD-FEB1-4b47-B1B4-CD537453E2C4",
+        "segment_id": "9B94333F-CC74-4403-B3E6-E36C2A7EEA56",
+        "segment_type": "sticker"
+      },
+      "message": "visual segment bbox must remain inside canvas bounds",
+      "rule_id": "result.draft-bbox-bounds.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "bbox": {
+          "height": 1.33359375,
+          "left": 0.288888887741652,
+          "top": -0.3767968749999999,
+          "width": 0.422222224516696
+        },
+        "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+        "material_id": "6DFBA268-54B1-4dac-8079-063C036A36B0",
+        "segment_id": "09CE654B-5D87-4A43-B63C-E4B369026E20",
+        "segment_type": "sticker"
+      },
+      "message": "visual segment bbox must remain inside canvas bounds",
+      "rule_id": "result.draft-bbox-bounds.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "left_segment_id": "A31A14CC-8D90-4244-9690-6776A91C61E0",
+        "overlap_us": 28717,
+        "right_segment_id": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "track": "BE56020F-D922-4664-A5C2-86A0BF6D3697"
+      },
+      "message": "segments overlap on the same track",
+      "rule_id": "result.draft-timeline-overlap.v1",
+      "severity": "error"
+    }
+  ]
+}

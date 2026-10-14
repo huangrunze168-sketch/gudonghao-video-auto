@@ -1,0 +1,47 @@
+{
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "out": "C:/Users/Administrator/Documents/剪映/work/guzhu-sz",
+  "media": {
+    "background": "C:/Users/Administrator/Documents/剪映/work/guzhu-sz/background.png",
+    "color": {
+      "contrast": 0.12,
+      "saturation": 0.1,
+      "sharpening": 0.15,
+      "brightness": -0.02,
+      "color_temperature": -0.04
+    },
+    "loudness_normalize": -14
+  },
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首歌写给所有没名分的人",
+      "他攒了一整箱的委屈",
+      "如果你也听过这两个字",
+      "评论区一个句号就是入股"
+    ],
+    "tts": {
+      "mode": "official",
+      "speed": 1.3
+    }
+  },
+  "lyrics": {
+    "engine": "official"
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "bitrate": 6000000,
+    "timeout": 1800
+  },
+  "songs": [
+    {
+      "name": "就算至少",
+      "file": "C:/Users/Administrator/.dsh/attachments/v1/files/ac/acd83c5baa6ad9c162d73347f02b5edfbef13347ca6dd0fb3b9c9f9493d954a1/就算至少.wav",
+      "lyrics": "C:/Users/Administrator/.dsh/attachments/v1/files/e7/e73492a8171f0b0c2228c12cc403717e609f02a3b91d29f276f8981f79e340c8/新建 文本文档 (3).txt",
+      "target_seconds": 30,
+      "main_fade_out_ms": 1200
+    }
+  ]
+}

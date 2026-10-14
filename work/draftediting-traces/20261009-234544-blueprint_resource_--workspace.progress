@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560742283,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"字幕\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","pid":56660}
+{"stage":"policy","at":1791560742283,"rules":8}
+{"stage":"create-process:begin","at":1791560742286,"vmId":"draftediting-1791560742283"}
+{"stage":"create-process:done","at":1791560742589,"processId":53604,"success":true}
+{"stage":"worker-ready","at":1791560743062}

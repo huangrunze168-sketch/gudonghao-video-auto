@@ -1,0 +1,56 @@
+{
+  "explanation": "初次峰值测量转单声道导致约3dB合成增益；原始双声道口播峰值-5.59dBFS、副歌峰值-1.42dBFS。撤销额外归一，保留原定-8dB/+3dB。",
+  "result": {
+    "affected_segments": [
+      {
+        "applied_target_loudness": -14.0,
+        "average_loudness": 0.0,
+        "detection_used": false,
+        "effective_target_loudness": -14.0,
+        "enabled": false,
+        "loudness_unit": "LUFS",
+        "operator": "update",
+        "peak_loudness": 0.0,
+        "peak_unit": "SDK detector value",
+        "requested_target_loudness": -14.0,
+        "segment_id": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "segment_type": "segment_audio",
+        "source_duration_us": 23095384,
+        "source_start_us": 58280000,
+        "target_loudness": -14.0,
+        "target_time_range": {
+          "duration": 23066667,
+          "start": 6933333
+        },
+        "track_index": 5
+      }
+    ],
+    "extras": [
+      {
+        "applied_target_loudness": -14.0,
+        "average_loudness": 0.0,
+        "detection_used": false,
+        "effective_target_loudness": -14.0,
+        "enabled": false,
+        "loudness_unit": "LUFS",
+        "name": "loudness_normalize",
+        "operate_result": {
+          "status": "succeed"
+        },
+        "peak_loudness": 0.0,
+        "peak_unit": "SDK detector value",
+        "requested_target_loudness": -14.0,
+        "segment_id": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "segment_ids": [
+          "27247D95-1F6F-490d-851F-E3830E55552E"
+        ],
+        "source_duration_us": 23095384,
+        "source_start_us": 58280000,
+        "target_loudness": -14.0
+      }
+    ],
+    "segment_ids": [
+      "27247D95-1F6F-490d-851F-E3830E55552E"
+    ]
+  }
+}

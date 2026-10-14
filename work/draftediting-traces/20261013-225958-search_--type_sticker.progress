@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903593236,"args":["material","search","--type","sticker","--prompt","摆烂 狗 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\f92134ec87eb46e99b37f82c9922c7f4","pid":33508}
+{"stage":"policy","at":1791903593236,"rules":9}
+{"stage":"policy-network","at":1791903593236,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903593239,"vmId":"draftediting-1791903593236"}
+{"stage":"create-process:done","at":1791903593259,"processId":38616,"success":true}
+{"stage":"worker-ready","at":1791903593780}

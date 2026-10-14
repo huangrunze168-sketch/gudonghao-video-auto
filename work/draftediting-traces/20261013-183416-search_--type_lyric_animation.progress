@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887653033,"args":["material","search","--type","lyric_animation","--prompt","抒情 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\f6a00c5f05924434a878ae7f79032486","pid":44696}
+{"stage":"policy","at":1791887653034,"rules":9}
+{"stage":"policy-network","at":1791887653034,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887653036,"vmId":"draftediting-1791887653033"}
+{"stage":"create-process:done","at":1791887653055,"processId":27344,"success":true}
+{"stage":"worker-ready","at":1791887653526}

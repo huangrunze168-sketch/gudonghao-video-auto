@@ -1,0 +1,13 @@
+{
+  "schema": "jianying-lyrics-template-map/v1",
+  "lyrics": "work/测试-auto-lyrics-large-v3/lyrics.json",
+  "note": "卡与歌词句的对齐是显式决策：本地识别时间轴与原草稿歌词时间存在偏移，按重叠自动推断会串入相邻句。程序只校验交叠比例与槽位可行性。",
+  "cards": [
+    { "id": "t6", "cues": [1] },
+    { "id": "t7", "cues": [2] },
+    { "id": "t8", "cues": [3, 4] },
+    { "id": "t9", "cues": [5, 6] },
+    { "id": "t10", "cues": [7, 8] },
+    { "id": "t11", "cues": [9, 10, 11] }
+  ]
+}

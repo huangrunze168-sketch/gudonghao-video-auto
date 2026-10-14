@@ -1,0 +1,6 @@
+{"stage":"start","at":1791909887765,"args":["material","topic","--type","lyric_animation","--id","11878"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\44d43f6418454240b03c43e2de297fef","pid":2692}
+{"stage":"policy","at":1791909887765,"rules":9}
+{"stage":"policy-network","at":1791909887765,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791909887768,"vmId":"draftediting-1791909887765"}
+{"stage":"create-process:done","at":1791909887787,"processId":11536,"success":true}
+{"stage":"worker-ready","at":1791909888291}

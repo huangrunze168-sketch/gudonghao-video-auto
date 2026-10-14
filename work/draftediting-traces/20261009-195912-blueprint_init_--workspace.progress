@@ -1,0 +1,5 @@
+{"stage":"start","at":1791547150455,"args":["draft","blueprint","init","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-195909"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting","pid":57008}
+{"stage":"policy","at":1791547150456,"rules":9}
+{"stage":"create-process:begin","at":1791547150459,"vmId":"draftediting-1791547150456"}
+{"stage":"create-process:done","at":1791547150811,"processId":56592,"success":true}
+{"stage":"worker-ready","at":1791547151373}

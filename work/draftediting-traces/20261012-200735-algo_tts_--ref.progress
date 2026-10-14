@@ -1,0 +1,5 @@
+{"stage":"start","at":1791806851687,"args":["draft","algo","tts","--ref","local://guzhu-tts-source","--seg-id","280EAF16-0D36-44f2-97F9-C8C8517D2EDC","--text","如果你也听懂了一句","--speaker","ICL_zh_female_xinmanbo","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":11644}
+{"stage":"policy","at":1791806851687,"rules":7}
+{"stage":"create-process:begin","at":1791806851691,"vmId":"draftediting-1791806851687"}
+{"stage":"create-process:done","at":1791806852085,"processId":16296,"success":true}
+{"stage":"worker-ready","at":1791806852648}

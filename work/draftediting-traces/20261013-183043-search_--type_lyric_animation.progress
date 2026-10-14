@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887440413,"args":["material","search","--type","lyric_animation","--prompt","黑胶","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\162632fa9cd74154b1fa867f1d343c46","pid":41264}
+{"stage":"policy","at":1791887440413,"rules":9}
+{"stage":"policy-network","at":1791887440413,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887440416,"vmId":"draftediting-1791887440413"}
+{"stage":"create-process:done","at":1791887440434,"processId":8088,"success":true}
+{"stage":"worker-ready","at":1791887440912}

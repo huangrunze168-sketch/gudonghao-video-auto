@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902732420,"args":["material","search","--type","lyric_animation","--prompt","电影感 歌词","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\d1dc18001f4c43988ea40ff24425f769","pid":38600}
+{"stage":"policy","at":1791902732421,"rules":9}
+{"stage":"policy-network","at":1791902732422,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902732424,"vmId":"draftediting-1791902732421"}
+{"stage":"create-process:done","at":1791902732445,"processId":37408,"success":true}
+{"stage":"worker-ready","at":1791902733001}

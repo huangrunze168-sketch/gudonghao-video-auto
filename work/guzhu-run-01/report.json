@@ -1,0 +1,82 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "问春风": {
+      "name": "问春风",
+      "safe_name": "问春风",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\jypack-inspect\\extracted\\ImportedMaterials\\Used\\问春风_14495974825818550881.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\问春风.lrc",
+      "start_us": 119700000,
+      "window_us": 33086802,
+      "clip_us": 33086803,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-01\\songs\\问春风.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-01\\jypack\\问春风.jypack",
+      "jypack_bytes": 13126926,
+      "pruned_assets": 36,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 7953469,
+        "delta_us": 1520136,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "main_duration_us": 25133333,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "lyrics": 8,
+        "lyrics_dropped": 0,
+        "pruned_materials": {
+          "texts": 38,
+          "material_animations": 32
+        },
+        "duration_us": 33086802,
+        "max_segment_end_us": 33086802
+      },
+      "lyric_cues": 8,
+      "status": "rendered",
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-01\\render\\问春风\\render.mp4",
+        "duration": 33.1,
+        "width": 1280,
+        "height": 720,
+        "sha256": "826c4ae6177b0105900a2a4bb6ae7d5458423dcc2b147ceb52bf5cd9e7e745d0",
+        "size": 3085117,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风"
+      },
+      "render_seconds": 10.2
+    }
+  },
+  "order": [
+    "问春风"
+  ],
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "主播认为家产从未易主",
+      "只是双方都有难言的苦...",
+      "于是主播哭着写了这首...",
+      "一个句号就是入股"
+    ],
+    "mode": "files",
+    "voice": null,
+    "total_us": 7953469
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

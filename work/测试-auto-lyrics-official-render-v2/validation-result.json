@@ -1,0 +1,24 @@
+{
+  "status": "partial",
+  "recognition": "passed",
+  "official_template_material": "浪漫氛围",
+  "effect_id": "7591420714515844395",
+  "native_render": "passed",
+  "video_validation": {
+    "codec": "h264",
+    "width": 2276,
+    "height": 1280,
+    "frames": 952,
+    "video_duration_seconds": 31.733333,
+    "audio_codec": "aac",
+    "audio_duration_seconds": 31.740998,
+    "sha256": "123da54b26cec5bf6b2c8ee72d35005aba338638075b16025d455ea1cbec45e4"
+  },
+  "template_rebind": "failed_visual_validation",
+  "evidence": {
+    "modified_vs_original_frame_7_2": "pixel-identical",
+    "modified_vs_original_frame_13_8": "pixel-identical",
+    "runtime_token_available": false
+  },
+  "blocker": "官方歌词模板文字需由剪映 Agent Runtime/DraftEditing 重新编译；独立 ExportService 只渲染已编译状态。"
+}

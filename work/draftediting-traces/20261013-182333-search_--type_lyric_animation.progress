@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887010013,"args":["material","search","--type","lyric_animation","--prompt","夜色 歌词","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\713aa3f8fd844fd5b0fbb72af1154a25","pid":14372}
+{"stage":"policy","at":1791887010014,"rules":9}
+{"stage":"policy-network","at":1791887010014,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887010017,"vmId":"draftediting-1791887010014"}
+{"stage":"create-process:done","at":1791887010036,"processId":42172,"success":true}
+{"stage":"worker-ready","at":1791887010521}

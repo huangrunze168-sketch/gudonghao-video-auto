@@ -1,0 +1,6 @@
+{"stage":"start","at":1791904344430,"args":["material","search","--type","lyric_animation","--prompt","emoji 长句 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\bcc5c458cc2647a7856d8160415b4255","pid":44268}
+{"stage":"policy","at":1791904344431,"rules":9}
+{"stage":"policy-network","at":1791904344431,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791904344435,"vmId":"draftediting-1791904344430"}
+{"stage":"create-process:done","at":1791904344457,"processId":50468,"success":true}
+{"stage":"worker-ready","at":1791904344993}

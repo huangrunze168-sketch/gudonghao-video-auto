@@ -1,0 +1,5 @@
+{"stage":"start","at":1791794715520,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261012-164450\\resource-search","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"手写字幕\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261012-164450\\resource-search","pid":28036}
+{"stage":"policy","at":1791794715520,"rules":8}
+{"stage":"create-process:begin","at":1791794715524,"vmId":"draftediting-1791794715520"}
+{"stage":"create-process:done","at":1791794715881,"processId":52960,"success":true}
+{"stage":"worker-ready","at":1791794716394}

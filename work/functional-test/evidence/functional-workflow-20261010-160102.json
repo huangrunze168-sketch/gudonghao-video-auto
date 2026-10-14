@@ -1,0 +1,425 @@
+{
+  "command_count": 195,
+  "context": {
+    "ref": "local://func-test-1010-155949",
+    "draft_root": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\func-test-1010-155949",
+    "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test"
+  },
+  "workflow": {
+    "steps": [
+      {
+        "step": "01 建工程",
+        "note": "官方只在草稿根下识别工程",
+        "args": [
+          "draft",
+          "project",
+          "create",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"draft_id\":\"0B597046-9194-4b71-B280-94CC1E7E2AE4\",\"draft_name\":\"func-test-1010-155949\",\"ref\":\"local://func-test-1010-155949\"}}\r\n",
+        "duration_ms": 859,
+        "draft_changed": false
+      },
+      {
+        "step": "02 加主视频",
+        "note": "真实 mp4 入轨（--track 官方要求整数轨道号）",
+        "args": [
+          "draft",
+          "video",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.mp4",
+          "--track",
+          "0",
+          "--start",
+          "0s"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"add\",\"segment_id\":\"78195283-F4DD-4702-A688-E76C2CED4942\",\"segment_type\":\"segment_video\",\"target_time_range\":{\"duration\":3000000,\"start\":0},\"track_index\":0}],\"extras\":[],\"segment_ids\":[\"78195283-F4DD-4702-A688-E76C2CED4942\"]}}\r\n",
+        "duration_ms": 827,
+        "draft_changed": true
+      },
+      {
+        "step": "03 加画中画",
+        "note": "同轨第二段",
+        "args": [
+          "draft",
+          "video",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.mp4",
+          "--track",
+          "0",
+          "--start",
+          "1s",
+          "--duration",
+          "2s"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"add\",\"segment_id\":\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\",\"segment_type\":\"segment_video\",\"target_time_range\":{\"duration\":2000000,\"start\":0},\"track_index\":0}],\"extras\":[],\"segment_ids\":[\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\"]}}\r\n",
+        "duration_ms": 1459,
+        "draft_changed": true
+      },
+      {
+        "step": "04 加文字",
+        "note": "",
+        "args": [
+          "draft",
+          "text",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--content",
+          "功能测试字幕",
+          "--start",
+          "0s",
+          "--duration",
+          "3s"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"add\",\"segment_id\":\"DE4F9361-1E76-4E73-8243-BCCD3B0C034B\",\"segment_type\":\"segment_text\",\"target_time_range\":{\"duration\":3000000,\"start\":0},\"track_index\":1}],\"extras\":[],\"segment_ids\":[\"DE4F9361-1E76-4E73-8243-BCCD3B0C034B\"]}}\r\n",
+        "duration_ms": 1356,
+        "draft_changed": true
+      },
+      {
+        "step": "05 加音频",
+        "note": "",
+        "args": [
+          "draft",
+          "audio",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--kind",
+          "music",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.m4a",
+          "--start",
+          "0s"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"add\",\"segment_id\":\"69B575E6-E8EB-47E6-8B02-07DA94D2B83F\",\"segment_type\":\"segment_audio\",\"target_time_range\":{\"duration\":3000000,\"start\":0},\"track_index\":2}],\"extras\":[],\"segment_ids\":[\"69B575E6-E8EB-47E6-8B02-07DA94D2B83F\"]}}\r\n",
+        "duration_ms": 1369,
+        "draft_changed": true
+      },
+      {
+        "step": "06 导出结构",
+        "note": "",
+        "args": [
+          "draft",
+          "extract",
+          "summary",
+          "--ref",
+          "local://func-test-1010-155949"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"json_result\":\"[{\\\"attributes\\\":{\\\"height\\\":0,\\\"width\\\":0},\\\"id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"draft\\\"},{\\\"attributes\\\":{\\\"flag\\\":0,\\\"segments\\\":[\\\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\\\",\\\"78195283-F4DD-4702-A688-E76C2CED4942\\\"],\\\"track_index\\\":0},\\\"id\\\":\\\"AA8913B5-666B-413c-A2F6-8A23AF3A1657\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"track\\\"},{\\\"id\\\":\\\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"timeline\\\":{\\\"duration.ms\\\":2000,\\\"end.ms\\\":2000,\\\"start.ms\\\":0},\\\"type\\\":\\\"video\\\"},{\\\"id\\\":\\\"78195283-F4DD-4702-A688-E76C2CED4942\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"timeline\\\":{\\\"duration.ms\\\":3000,\\\"end.ms\\\":5000,\\\"start.ms\\\":2000},\\\"type\\\":\\\"video\\\"},{\\\"attributes\\\":{\\\"flag\\\":0,\\\"segments\\\":[\\\"DE4F9361-1E76-4E73-8243-BCCD3B0C034B\\\"],\\\"track_index\\\":1},\\\"id\\\":\\\"F269199F-173D-409d-9B9B-1F4AE44EA256\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"track\\\"},{\\\"id\\\":\\\"DE4F9361-1E76-4E73-8243-BCCD3B0C034B\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"timeline\\\":{\\\"duration.ms\\\":3000,\\\"end.ms\\\":3000,\\\"start.ms\\\":0},\\\"type\\\":\\\"text\\\"},{\\\"attributes\\\":{\\\"flag\\\":0,\\\"segments\\\":[\\\"69B575E6-E8EB-47E6-8B02-07DA94D2B83F\\\"],\\\"track_index\\\":2},\\\"id\\\":\\\"E6C1D764-6216-4b26-ACBF-293F438DD03B\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"track\\\"},{\\\"id\\\":\\\"69B575E6-E8EB-47E6-8B02-0",
+        "duration_ms": 1365,
+        "draft_changed": false,
+        "found_ids": [
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "78195283-F4DD-4702-A688-E76C2CED4942",
+          "DE4F9361-1E76-4E73-8243-BCCD3B0C034B",
+          "69B575E6-E8EB-47E6-8B02-07DA94D2B83F"
+        ],
+        "seed_steps": [
+          {
+            "kind": "video",
+            "state": "ok",
+            "exit_code": 0,
+            "message": "success"
+          },
+          {
+            "kind": "text",
+            "state": "ok",
+            "exit_code": 0,
+            "message": "success"
+          },
+          {
+            "kind": "audio",
+            "state": "ok",
+            "exit_code": 0,
+            "message": "success"
+          },
+          {
+            "kind": "extract-summary",
+            "state": "ok",
+            "ids": {
+              "video": [
+                "4D196575-0138-4E21-9F19-DD4CD773A82F"
+              ],
+              "text": [
+                "ED93EE16-A40E-4755-90FA-00B8A4794F37"
+              ],
+              "audio": [
+                "2AF12D08-9A7C-431A-BB91-35A48336E900"
+              ]
+            },
+            "all_ids": [
+              "4D196575-0138-4E21-9F19-DD4CD773A82F",
+              "ED93EE16-A40E-4755-90FA-00B8A4794F37",
+              "2AF12D08-9A7C-431A-BB91-35A48336E900"
+            ]
+          }
+        ]
+      },
+      {
+        "step": "07 视频变速",
+        "note": "",
+        "args": [
+          "draft",
+          "video",
+          "speed",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--seg-id",
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "--speed",
+          "1.5"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"update\",\"segment_id\":\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\",\"segment_type\":\"segment_video\",\"target_time_range\":{\"duration\":1333333,\"start\":0},\"track_index\":0}],\"extras\":[]}}\r\n",
+        "duration_ms": 1385,
+        "draft_changed": true
+      },
+      {
+        "step": "08 视频裁剪",
+        "note": "",
+        "args": [
+          "draft",
+          "video",
+          "crop",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--seg-id",
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "--ratio",
+          "16:9"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"update\",\"segment_id\":\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\",\"segment_type\":\"segment_video\",\"target_time_range\":{\"duration\":1333333,\"start\":0},\"track_index\":0}],\"extras\":[]}}\r\n",
+        "duration_ms": 1356,
+        "draft_changed": true
+      },
+      {
+        "step": "09 视频调色",
+        "note": "",
+        "args": [
+          "draft",
+          "video",
+          "adjust",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--seg-id",
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "--brightness",
+          "0.1",
+          "--saturation",
+          "0.1"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"update\",\"segment_id\":\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\",\"segment_type\":\"segment_video\",\"target_time_range\":{\"duration\":1333333,\"start\":0},\"track_index\":0}],\"extras\":[]}}\r\n",
+        "duration_ms": 3171,
+        "draft_changed": true
+      },
+      {
+        "step": "10 加关键帧",
+        "note": "官方只接受 position-x/scale/opacity 等属性名，--points 为 REQUIRED",
+        "args": [
+          "draft",
+          "keyframe",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--seg-id",
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "--animated-property",
+          "opacity",
+          "--points",
+          "0:0.2,1000000:0.8"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "message": "cli parse error: ValidationError: --points: expects an explicit unit: us, ms, s, or min; bare numbers and `m` are not accepted",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100003,\"err_msg\":\"cli parse error: ValidationError: --points: expects an explicit unit: us, ms, s, or min; bare numbers and `m` are not accepted\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 519,
+        "draft_changed": false
+      },
+      {
+        "step": "11 撤销",
+        "note": "官方：standalone 版不支持，验证报错文案",
+        "args": [
+          "draft",
+          "history",
+          "undo",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--steps",
+          "1"
+        ],
+        "state": "requires_embedded_library",
+        "exit_code": 2,
+        "message": "draft history undo / redo is only available when lyra-cli is embedded as a client library; the standalone executable does not support it yet",
+        "stdout": "{\"err_category\":\"unsupported\",\"err_code\":-100182,\"err_msg\":\"draft history undo / redo is only available when lyra-cli is embedded as a client library; the standalone executable does not support it yet\",\"recovery\":\"upgrade_or_switch_path\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1364,
+        "draft_changed": false
+      },
+      {
+        "step": "12 重做",
+        "note": "",
+        "args": [
+          "draft",
+          "history",
+          "redo",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--steps",
+          "1"
+        ],
+        "state": "requires_embedded_library",
+        "exit_code": 2,
+        "message": "draft history undo / redo is only available when lyra-cli is embedded as a client library; the standalone executable does not support it yet",
+        "stdout": "{\"err_category\":\"unsupported\",\"err_code\":-100182,\"err_msg\":\"draft history undo / redo is only available when lyra-cli is embedded as a client library; the standalone executable does not support it yet\",\"recovery\":\"upgrade_or_switch_path\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1354,
+        "draft_changed": false
+      },
+      {
+        "step": "13 加字幕条",
+        "note": "",
+        "args": [
+          "draft",
+          "subtitle",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--content",
+          "真实字幕",
+          "--start",
+          "0s",
+          "--duration",
+          "2s"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"add\",\"segment_id\":\"94AAF7F6-BD89-41E0-A690-EC8388CAC2F9\",\"segment_type\":\"segment_text\",\"target_time_range\":{\"duration\":2000000,\"start\":0},\"track_index\":3}],\"extras\":[],\"segment_ids\":[\"94AAF7F6-BD89-41E0-A690-EC8388CAC2F9\"]}}\r\n",
+        "duration_ms": 1370,
+        "draft_changed": true
+      },
+      {
+        "step": "14 加滤镜",
+        "note": "需要真实滤镜资源 id",
+        "args": [
+          "draft",
+          "video",
+          "filter",
+          "add",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--seg-id",
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.png"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[{\"operator\":\"update\",\"segment_id\":\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\",\"segment_type\":\"segment_video\",\"target_time_range\":{\"duration\":1333333,\"start\":0},\"track_index\":0}],\"extras\":[],\"segment_ids\":[\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\"]}}\r\n",
+        "duration_ms": 1353,
+        "draft_changed": true
+      },
+      {
+        "step": "15 导出模板包",
+        "note": "真实产出模板压缩包",
+        "args": [
+          "draft",
+          "template",
+          "publish",
+          "--ref",
+          "local://func-test-1010-155949",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "business_error",
+        "exit_code": 1,
+        "message": "patch apply failed: template: resource file not found: /C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.png",
+        "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: template: resource file not found: /C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.png\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 1370,
+        "draft_changed": false
+      },
+      {
+        "step": "16 最终结构",
+        "note": "",
+        "args": [
+          "draft",
+          "extract",
+          "summary",
+          "--ref",
+          "local://func-test-1010-155949"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"json_result\":\"[{\\\"attributes\\\":{\\\"height\\\":0,\\\"width\\\":0},\\\"id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"draft\\\"},{\\\"attributes\\\":{\\\"flag\\\":0,\\\"segments\\\":[\\\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\\\",\\\"78195283-F4DD-4702-A688-E76C2CED4942\\\"],\\\"track_index\\\":0},\\\"id\\\":\\\"AA8913B5-666B-413c-A2F6-8A23AF3A1657\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"track\\\"},{\\\"id\\\":\\\"1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"timeline\\\":{\\\"duration.ms\\\":1333,\\\"end.ms\\\":1333,\\\"start.ms\\\":0},\\\"type\\\":\\\"video\\\"},{\\\"id\\\":\\\"78195283-F4DD-4702-A688-E76C2CED4942\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"timeline\\\":{\\\"duration.ms\\\":3000,\\\"end.ms\\\":4333,\\\"start.ms\\\":1333},\\\"type\\\":\\\"video\\\"},{\\\"attributes\\\":{\\\"flag\\\":0,\\\"segments\\\":[\\\"DE4F9361-1E76-4E73-8243-BCCD3B0C034B\\\"],\\\"track_index\\\":1},\\\"id\\\":\\\"F269199F-173D-409d-9B9B-1F4AE44EA256\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"track\\\"},{\\\"id\\\":\\\"DE4F9361-1E76-4E73-8243-BCCD3B0C034B\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"timeline\\\":{\\\"duration.ms\\\":2333,\\\"end.ms\\\":2333,\\\"start.ms\\\":0},\\\"type\\\":\\\"text\\\"},{\\\"attributes\\\":{\\\"flag\\\":0,\\\"segments\\\":[\\\"69B575E6-E8EB-47E6-8B02-07DA94D2B83F\\\"],\\\"track_index\\\":2},\\\"id\\\":\\\"E6C1D764-6216-4b26-ACBF-293F438DD03B\\\",\\\"parent_id\\\":\\\"2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A\\\",\\\"type\\\":\\\"track\\\"},{\\\"id\\\":\\\"69B575E6-E8EB-47E6-8B02-0",
+        "duration_ms": 1358,
+        "draft_changed": false,
+        "segment_ids": [
+          "2C03FAA6-7EF0-4929-82CA-E141AC0C0D6A",
+          "AA8913B5-666B-413c-A2F6-8A23AF3A1657",
+          "1E28B924-7E1D-4AA0-BBC8-E3005ED5B11C",
+          "78195283-F4DD-4702-A688-E76C2CED4942",
+          "F269199F-173D-409d-9B9B-1F4AE44EA256",
+          "DE4F9361-1E76-4E73-8243-BCCD3B0C034B",
+          "E6C1D764-6216-4b26-ACBF-293F438DD03B",
+          "69B575E6-E8EB-47E6-8B02-07DA94D2B83F",
+          "D2B95FEF-9A27-4ef0-B301-851CD177634A",
+          "94AAF7F6-BD89-41E0-A690-EC8388CAC2F9"
+        ],
+        "outputs": [
+          "apply_execution_checkpoint.json",
+          "blueprint.json",
+          "current_draft.xml",
+          "draft-video-extract-frames.mp4",
+          "frame_000000.jpg",
+          "frame_000001.jpg",
+          "id_map.json",
+          "lint-algorithm-effect.mp4",
+          "lint-draft.mp4",
+          "lint-media.mp4"
+        ]
+      }
+    ],
+    "summary": {
+      "ok": 12,
+      "usage": 1,
+      "requires_embedded_library": 2,
+      "business_error": 1
+    }
+  }
+}

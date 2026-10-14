@@ -1,0 +1,5 @@
+{"stage":"start","at":1791791686044,"args":["draft","algo","tts","--ref","guzhu-official-test","--text","家人们别划走，这条用剪映官方音色试一句。","--speaker","ICL_zh_female_xinmanbo","--write-to-draft","true"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":13464}
+{"stage":"policy","at":1791791686044,"rules":7}
+{"stage":"create-process:begin","at":1791791686048,"vmId":"draftediting-1791791686044"}
+{"stage":"create-process:done","at":1791791686672,"processId":51708,"success":true}
+{"stage":"worker-ready","at":1791791687187}

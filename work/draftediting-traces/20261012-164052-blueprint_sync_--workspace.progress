@@ -1,0 +1,5 @@
+{"stage":"start","at":1791794449416,"args":["draft","blueprint","sync","--workspace","C:\\Temp\\anim-ws","--ref","local://guzhu-anim-test"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":34956}
+{"stage":"policy","at":1791794449417,"rules":8}
+{"stage":"create-process:begin","at":1791794449421,"vmId":"draftediting-1791794449417"}
+{"stage":"create-process:done","at":1791794449740,"processId":56168,"success":true}
+{"stage":"worker-ready","at":1791794450218}

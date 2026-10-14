@@ -1,0 +1,439 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791604830596",
+    "processId": 59688,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-a3540a923fc2ba3a",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Local media processing tasks / AIGC media tasks.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nSUBCOMMANDS:\r\n  aigc                        AIGC asset generation (text/image to image/video) and async task\r\n                              result query.\r\n  transcode-image             Convert a local image to a web-safe JPEG/PNG file.\r\n  crop-image                  Crop a display-oriented pixel rectangle from a local image.\r\n  resize-image                Resize a local image, preserving aspect ratio when one dimension\r\n                              is omitted.\r\n  compress                    Compress a video file to a target resolution. Bitrate\r\n                              auto-derives from resolution and codec when not given.\r\n  trim-video                  Keep the source video interval [start,end), including\r\n                              synchronized audio.\r\n  trim-audio                  Keep the source audio interval [start,end).\r\n  change-video-speed          Change a whole local video's playback speed and create a new\r\n                              video.\r\n  change-audio-speed          Change a whole local audio file's playback speed and create a new\r\n                              file.\r\n  rotate                      Physically rotate the displayed input video by 0, 90, 180, or 270\r\n                              degrees and clear display rotation metadata.\r\n  extract-frames              Extract display-oriented JPEG/PNG frames at exact timestamps or a\r\n                              fixed interval.\r\n  extract-audio               Extract the audio track from a video file.\r\n  probe                       Probe a local audio, image, or video file and return stable\r\n                              technical metadata.\r\n  loudness                    Detect average and peak loudness of a local audio or video file.\r\n  measure-box                 Measure a sticker or picture-in-picture media layout box without\r\n                              creating a VE editor or Effect render instance.\r\n  beats                       Detect music beat positions in a local audio or video file. Video\r\n                              inputs are decoded to a temporary audio track in the runner.\r\n  object-matting-track        Track an object in a local video and generate a complete\r\n                              timestamped mask sequence without modifying any draft.\r\n  asr                         Recognize speech from a local audio or video file and return ASR\r\n                              sentences.\r\n  vad                         Detect voice-active segments in a local audio or video file\r\n                              (VAD).\r\n  feature                     Extract deterministic L2 visual features from local media or\r\n                              prepared image frames.\r\n  translate                   Translate sentence-level JSON produced by media asr without\r\n                              rerunning ASR.\r\n  understand                  Analyze a local media file and return material understanding\r\n                              metadata.\r\n\r\nEXAMPLES\r\n  $ lyra-cli media transcode-image --input /tmp/in.heic --output /tmp/out.jpg\r\n  $ lyra-cli media crop-image --input /tmp/in.jpg --output /tmp/crop.jpg --left 100 --top 80 --width 640 --height 640\r\n  $ lyra-cli media resize-image --input /tmp/in.jpg --output /tmp/small.jpg --width 1280\r\n  $ lyra-cli media compress --input /tmp/in.mp4 --output /tmp/out.mp4 --width 1280 --height 720\r\n  $ lyra-cli media trim-video --input /tmp/in.mp4 --output /tmp/clip.mp4 --start 1s --end 5s\r\n  $ lyra-cli media change-audio-speed --input /tmp/in.m4a --output /tmp/fast.m4a --speed 1.5\r\n  $ lyra-cli media rotate --input /tmp/in.mov --output /tmp/rotated.mp4 --degrees 90\r\n  $ lyra-cli media extract-frames --input /tmp/in.mp4 --output-dir /tmp/frames --interval 1s --short-side 360\r\n  $ lyra-cli media extract-audio --input /tmp/in.mp4 --output /tmp/out.m4a\r\n  $ lyra-cli media measure-box --input /tmp/sticker --canvas-width 1080 --canvas-height 1920\r\n  $ lyra-cli media aigc text2image --prompt \"a cat portrait\" --ratio 1:1\r\n  $ lyra-cli media aigc image2video --first-image /tmp/first.png --prompt \"camera push in\"\r\n  $ lyra-cli media aigc query --submit-id <submit_id> --download-dir /tmp/out\r\n  $ lyra-cli media probe --input /tmp/in.mp4\r\n  $ lyra-cli media loudness --input /tmp/audio.m4a\r\n  $ lyra-cli media beats --input /tmp/song.m4a --output /tmp/beats.json\r\n  $ lyra-cli media object-matting-track --input /tmp/clip.mp4 --seed-time 1s --output-dir /tmp/matting --seed-mask-rle-json '{\"counts\":[2,2],\"size\":[2,2]}'\r\n  $ lyra-cli media asr --input /tmp/speech.m4a --language auto --output /tmp/asr.json\r\n  $ lyra-cli media vad --input /tmp/speech.m4a --output /tmp/vad.json\r\n  $ lyra-cli media feature --input /tmp/in.mp4 --frame /tmp/frame-0001.jpg --module quality --module shot\r\n  $ lyra-cli media translate --input /tmp/asr.json --target-language zh-CN --output /tmp/asr.zh.json\r\n  $ lyra-cli media understand --path /tmp/in.mp4 --prompt \"analyze the main subjects and visual style\"\r\nLEARN MORE\r\n  Use `lyra-cli media <subcommand> --help` for more information.\r\n",
+      "stderr": "",
+      "output": "Local media processing tasks / AIGC media tasks.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nSUBCOMMANDS:\r\n  aigc                        AIGC asset generation (text/image to image/video) and async task\r\n                              result query.\r\n  transcode-image             Convert a local image to a web-safe JPEG/PNG file.\r\n  crop-image                  Crop a display-oriented pixel rectangle from a local image.\r\n  resize-image                Resize a local image, preserving aspect ratio when one dimension\r\n                              is omitted.\r\n  compress                    Compress a video file to a target resolution. Bitrate\r\n                              auto-derives from resolution and codec when not given.\r\n  trim-video                  Keep the source video interval [start,end), including\r\n                              synchronized audio.\r\n  trim-audio                  Keep the source audio interval [start,end).\r\n  change-video-speed          Change a whole local video's playback speed and create a new\r\n                              video.\r\n  change-audio-speed          Change a whole local audio file's playback speed and create a new\r\n                              file.\r\n  rotate                      Physically rotate the displayed input video by 0, 90, 180, or 270\r\n                              degrees and clear display rotation metadata.\r\n  extract-frames              Extract display-oriented JPEG/PNG frames at exact timestamps or a\r\n                              fixed interval.\r\n  extract-audio               Extract the audio track from a video file.\r\n  probe                       Probe a local audio, image, or video file and return stable\r\n                              technical metadata.\r\n  loudness                    Detect average and peak loudness of a local audio or video file.\r\n  measure-box                 Measure a sticker or picture-in-picture media layout box without\r\n                              creating a VE editor or Effect render instance.\r\n  beats                       Detect music beat positions in a local audio or video file. Video\r\n                              inputs are decoded to a temporary audio track in the runner.\r\n  object-matting-track        Track an object in a local video and generate a complete\r\n                              timestamped mask sequence without modifying any draft.\r\n  asr                         Recognize speech from a local audio or video file and return ASR\r\n                              sentences.\r\n  vad                         Detect voice-active segments in a local audio or video file\r\n                              (VAD).\r\n  feature                     Extract deterministic L2 visual features from local media or\r\n                              prepared image frames.\r\n  translate                   Translate sentence-level JSON produced by media asr without\r\n                              rerunning ASR.\r\n  understand                  Analyze a local media file and return material understanding\r\n                              metadata.\r\n\r\nEXAMPLES\r\n  $ lyra-cli media transcode-image --input /tmp/in.heic --output /tmp/out.jpg\r\n  $ lyra-cli media crop-image --input /tmp/in.jpg --output /tmp/crop.jpg --left 100 --top 80 --width 640 --height 640\r\n  $ lyra-cli media resize-image --input /tmp/in.jpg --output /tmp/small.jpg --width 1280\r\n  $ lyra-cli media compress --input /tmp/in.mp4 --output /tmp/out.mp4 --width 1280 --height 720\r\n  $ lyra-cli media trim-video --input /tmp/in.mp4 --output /tmp/clip.mp4 --start 1s --end 5s\r\n  $ lyra-cli media change-audio-speed --input /tmp/in.m4a --output /tmp/fast.m4a --speed 1.5\r\n  $ lyra-cli media rotate --input /tmp/in.mov --output /tmp/rotated.mp4 --degrees 90\r\n  $ lyra-cli media extract-frames --input /tmp/in.mp4 --output-dir /tmp/frames --interval 1s --short-side 360\r\n  $ lyra-cli media extract-audio --input /tmp/in.mp4 --output /tmp/out.m4a\r\n  $ lyra-cli media measure-box --input /tmp/sticker --canvas-width 1080 --canvas-height 1920\r\n  $ lyra-cli media aigc text2image --prompt \"a cat portrait\" --ratio 1:1\r\n  $ lyra-cli media aigc image2video --first-image /tmp/first.png --prompt \"camera push in\"\r\n  $ lyra-cli media aigc query --submit-id <submit_id> --download-dir /tmp/out\r\n  $ lyra-cli media probe --input /tmp/in.mp4\r\n  $ lyra-cli media loudness --input /tmp/audio.m4a\r\n  $ lyra-cli media beats --input /tmp/song.m4a --output /tmp/beats.json\r\n  $ lyra-cli media object-matting-track --input /tmp/clip.mp4 --seed-time 1s --output-dir /tmp/matting --seed-mask-rle-json '{\"counts\":[2,2],\"size\":[2,2]}'\r\n  $ lyra-cli media asr --input /tmp/speech.m4a --language auto --output /tmp/asr.json\r\n  $ lyra-cli media vad --input /tmp/speech.m4a --output /tmp/vad.json\r\n  $ lyra-cli media feature --input /tmp/in.mp4 --frame /tmp/frame-0001.jpg --module quality --module shot\r\n  $ lyra-cli media translate --input /tmp/asr.json --target-language zh-CN --output /tmp/asr.zh.json\r\n  $ lyra-cli media understand --path /tmp/in.mp4 --prompt \"analyze the main subjects and visual style\"\r\nLEARN MORE\r\n  Use `lyra-cli media <subcommand> --help` for more information.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 494,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "media",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791604830607,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791604830,\"timestamp_str\":\"2026-10-10 12:00:30.607\",\"trace_index\":11,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791604830922,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791604830,\"timestamp_str\":\"2026-10-10 12:00:30.922\",\"trace_index\":12,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791604830926,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":59688,\"ppid\":9676,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791604830,\"timestamp_str\":\"2026-10-10 12:00:30.926\",\"trace_index\":13,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791604830993,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-np29w6g0\\__PSScriptPolicyTest_j55jj4uh.ewd.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791604830994,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604830,\"timestamp_str\":\"2026-10-10 12:00:30.993\",\"trace_index\":14,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791604830994,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-np29w6g0\\__PSScriptPolicyTest_knqzgl2c.le0.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791604830994,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604830,\"timestamp_str\":\"2026-10-10 12:00:30.994\",\"trace_index\":15,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791604831207,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-np29w6g0\\__PSScriptPolicyTest_czdpuiy0.akl.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791604831207,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.207\",\"trace_index\":16,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791604831208,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-np29w6g0\\__PSScriptPolicyTest_5i4a25fx.qyp.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791604831208,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.208\",\"trace_index\":17,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791604831317,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":9908,\"ppid\":59688,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.317\",\"trace_index\":18,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791604831465,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":63864,\"ppid\":9908,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.465\",\"trace_index\":19,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791604831613,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-91536742593600",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791604831613,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-91536742593600\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.613\",\"trace_index\":20,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791604831633,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791604831633,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.633\",\"trace_index\":21,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791604831635,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791604831635,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.635\",\"trace_index\":22,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791604831644,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791604831644,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.644\",\"trace_index\":23,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791604831646,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791604831646,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.646\",\"trace_index\":24,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791604831906,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\63864.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791604831910,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":469,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":63864,\"ppid\":9908,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.910\",\"trace_index\":25,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791604831910,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604830596",
+      "processId": 63864,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791604831924,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":625,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":9908,\"ppid\":59688,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.924\",\"trace_index\":26,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791604831924,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604830596",
+      "processId": 9908,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791604831939,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791604831946,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1031,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":59688,\"ppid\":9676,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791604831,\"timestamp_str\":\"2026-10-10 12:00:31.946\",\"trace_index\":27,\"vm_id\":\"draftediting-1791604830596\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791604831946,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791604831954,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604830596",
+      "processId": 59688,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

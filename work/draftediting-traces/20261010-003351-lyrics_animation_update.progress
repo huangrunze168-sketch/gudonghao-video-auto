@@ -1,0 +1,5 @@
+{"stage":"start","at":1791563627722,"args":["draft","lyrics","animation","update","--ref","local://headless-official3","--seg-id","FC2444A6-DBE8-43ad-B845-9A57817FCB00","--resource","vimo://7591420714515844395","--language","zh-CN"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":42316}
+{"stage":"policy","at":1791563627723,"rules":9}
+{"stage":"create-process:begin","at":1791563627726,"vmId":"draftediting-1791563627722"}
+{"stage":"create-process:done","at":1791563628034,"processId":59604,"success":true}
+{"stage":"worker-ready","at":1791563628545}

@@ -1,0 +1,441 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791567736392",
+    "processId": 56920,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-79f6cc75907a8d9e",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Process declarative material operations (--search), including\r\nresource search, video-frame derivation, music-beat analysis,\r\nstandalone ASR, TTS generation, then import\r\na local media file (--import). Search-only processing can also\r\nreturn JSON without a workspace.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --workspace TEXT    Blueprint workspace directory. Optional for search-only --search\r\n                              requests; frame/beat/ASR/understand/SAM3 processing requires it.\r\n                              When omitted search results are returned without writing\r\n                              resource_map.json. The directory is created as needed for\r\n                              resource writes.\r\n          --search TEXT       JSON describing material operations (`search`, `generate`,\r\n                              `frame`, `beats`, `asr`, `understand`, `sam3_region_discover`,\r\n                              optional `concurrency`, and optional `doc_filter`). Concurrency\r\n                              values for each processing lane must be integers from 1 to 64.\r\n                              Template searches accept template_id for direct binding and\r\n                              return template:// references. See docs/blueprint.md for the\r\n                              schema.\r\n          --import TEXT       Import a local media file as a resource. Value MUST be a\r\n                              local:///<abs-path> URI.\r\n          --update TEXT       JSON resource updates. Existing records are merged; set\r\n                              create_missing=true to upsert host-owned records.\r\n          --sync              Read the current workspace resource_map.json and return Materials\r\n                              XML / JSON.\r\n          --format TEXT Needs: --sync \r\n                              Output format for --sync: json, xml, or both.\r\n          --asset-id TEXT Needs: --import \r\n                              Optional stable asset_id for --import. Existing path dedup\r\n                              entries are aliased atomically when safe.\r\n          --title TEXT Needs: --import \r\n                              Optional human-readable title for --import. Defaults to the\r\n                              generated asset_id when omitted.\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  # Resolve material search tasks (JSON returned; no workspace needed)\r\n  $ lyra-cli draft blueprint resource --search '{\"search\":[{\"type\":\"sticker\",\"keyword\":\"flower\"}]}'\r\n  # Same search, writing results into a workspace's resource_map.json\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"search\":[...]}'\r\n  # Bind a template by its native template ID (no generic resource_id needed)\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"search\":[{\"type\":\"template\",\"template_id\":\"7659082237807217944\"}]}'\r\n  # Search, derive frames, analyze beats, and run ASR in one call\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"concurrency\":{\"frame\":16,\"beats\":16,\"asr\":16,\"understand\":16},\"search\":[...],\"frame\":[{\"material_id\":\"video1\",\"time_ms\":1500,\"original_resolution\":false}],\"beats\":[{\"material_id\":\"music1\",\"level\":4}],\"asr\":[{\"material_id\":\"music1\",\"source_language_code\":\"ja-JP\",\"translate_language_code\":\"zh-CN\",\"subtitle_source\":3}]}'\r\n  # Discover semantic SAM3 masks and persist them as Blueprint resources\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"sam3_region_discover\":[{\"material_id\":\"image1\",\"prompt\":\"person\",\"regions\":[{\"id\":\"subject\"}],\"include_remainder\":true}]}'\r\n  # Import a local media file as a resource\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --import local:///abs/path/clip.mp4 --title my_clip\r\n  # Read the latest Materials XML / resource_map from a workspace\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --sync --format both\r\n\r\nNOTE: exactly one of --search / --import / --update / --sync. Generate/frame/beat/ASR/understand/SAM3 processing, import, update, and sync require --workspace. Material understanding and SAM3 also require an available runtime provider.\r\n\r\nLEARN MORE\r\n  Use this command to fill resource_map.json before `draft blueprint apply`.\r\n",
+      "stderr": "",
+      "output": "Process declarative material operations (--search), including\r\nresource search, video-frame derivation, music-beat analysis,\r\nstandalone ASR, TTS generation, then import\r\na local media file (--import). Search-only processing can also\r\nreturn JSON without a workspace.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --workspace TEXT    Blueprint workspace directory. Optional for search-only --search\r\n                              requests; frame/beat/ASR/understand/SAM3 processing requires it.\r\n                              When omitted search results are returned without writing\r\n                              resource_map.json. The directory is created as needed for\r\n                              resource writes.\r\n          --search TEXT       JSON describing material operations (`search`, `generate`,\r\n                              `frame`, `beats`, `asr`, `understand`, `sam3_region_discover`,\r\n                              optional `concurrency`, and optional `doc_filter`). Concurrency\r\n                              values for each processing lane must be integers from 1 to 64.\r\n                              Template searches accept template_id for direct binding and\r\n                              return template:// references. See docs/blueprint.md for the\r\n                              schema.\r\n          --import TEXT       Import a local media file as a resource. Value MUST be a\r\n                              local:///<abs-path> URI.\r\n          --update TEXT       JSON resource updates. Existing records are merged; set\r\n                              create_missing=true to upsert host-owned records.\r\n          --sync              Read the current workspace resource_map.json and return Materials\r\n                              XML / JSON.\r\n          --format TEXT Needs: --sync \r\n                              Output format for --sync: json, xml, or both.\r\n          --asset-id TEXT Needs: --import \r\n                              Optional stable asset_id for --import. Existing path dedup\r\n                              entries are aliased atomically when safe.\r\n          --title TEXT Needs: --import \r\n                              Optional human-readable title for --import. Defaults to the\r\n                              generated asset_id when omitted.\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  # Resolve material search tasks (JSON returned; no workspace needed)\r\n  $ lyra-cli draft blueprint resource --search '{\"search\":[{\"type\":\"sticker\",\"keyword\":\"flower\"}]}'\r\n  # Same search, writing results into a workspace's resource_map.json\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"search\":[...]}'\r\n  # Bind a template by its native template ID (no generic resource_id needed)\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"search\":[{\"type\":\"template\",\"template_id\":\"7659082237807217944\"}]}'\r\n  # Search, derive frames, analyze beats, and run ASR in one call\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"concurrency\":{\"frame\":16,\"beats\":16,\"asr\":16,\"understand\":16},\"search\":[...],\"frame\":[{\"material_id\":\"video1\",\"time_ms\":1500,\"original_resolution\":false}],\"beats\":[{\"material_id\":\"music1\",\"level\":4}],\"asr\":[{\"material_id\":\"music1\",\"source_language_code\":\"ja-JP\",\"translate_language_code\":\"zh-CN\",\"subtitle_source\":3}]}'\r\n  # Discover semantic SAM3 masks and persist them as Blueprint resources\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --search '{\"sam3_region_discover\":[{\"material_id\":\"image1\",\"prompt\":\"person\",\"regions\":[{\"id\":\"subject\"}],\"include_remainder\":true}]}'\r\n  # Import a local media file as a resource\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --import local:///abs/path/clip.mp4 --title my_clip\r\n  # Read the latest Materials XML / resource_map from a workspace\r\n  $ lyra-cli draft blueprint resource --workspace ./bp_ws --sync --format both\r\n\r\nNOTE: exactly one of --search / --import / --update / --sync. Generate/frame/beat/ASR/understand/SAM3 processing, import, update, and sync require --workspace. Material understanding and SAM3 also require an available runtime provider.\r\n\r\nLEARN MORE\r\n  Use this command to fill resource_map.json before `draft blueprint apply`.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 553,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "blueprint",
+        "resource",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791567736403,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791567736,\"timestamp_str\":\"2026-10-10 01:42:16.403\",\"trace_index\":11,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791567736927,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791567736,\"timestamp_str\":\"2026-10-10 01:42:16.927\",\"trace_index\":12,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791567736930,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":56920,\"ppid\":38972,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791567736,\"timestamp_str\":\"2026-10-10 01:42:16.930\",\"trace_index\":13,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791567737001,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-9nv72asj\\__PSScriptPolicyTest_r035xd5q.sgk.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791567737001,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.001\",\"trace_index\":14,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791567737002,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-9nv72asj\\__PSScriptPolicyTest_0j53c4jh.doa.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791567737002,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.002\",\"trace_index\":15,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791567737216,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-9nv72asj\\__PSScriptPolicyTest_orvuq05u.rn2.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791567737217,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.217\",\"trace_index\":16,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791567737217,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\cap-9nv72asj\\__PSScriptPolicyTest_xqdzbpj1.1es.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791567737217,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.217\",\"trace_index\":17,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791567737325,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":35480,\"ppid\":56920,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.325\",\"trace_index\":18,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791567737466,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":51164,\"ppid\":35480,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.466\",\"trace_index\":19,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791567737606,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-54442736618400",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791567737607,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-54442736618400\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.607\",\"trace_index\":20,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791567737625,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791567737625,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.625\",\"trace_index\":21,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791567737626,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791567737626,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.626\",\"trace_index\":22,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791567737634,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791567737634,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.634\",\"trace_index\":23,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791567737635,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791567737635,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.635\",\"trace_index\":24,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791567737969,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\51164.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791567737973,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":532,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":51164,\"ppid\":35480,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.973\",\"trace_index\":25,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791567737973,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567736392",
+      "processId": 51164,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791567737986,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":672,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":35480,\"ppid\":56920,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791567737,\"timestamp_str\":\"2026-10-10 01:42:17.986\",\"trace_index\":26,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791567737986,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567736392",
+      "processId": 35480,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791567738000,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791567738005,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1078,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":56920,\"ppid\":38972,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791567738,\"timestamp_str\":\"2026-10-10 01:42:18.005\",\"trace_index\":27,\"vm_id\":\"draftediting-1791567736392\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791567738005,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791567738012,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791567736392",
+      "processId": 56920,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

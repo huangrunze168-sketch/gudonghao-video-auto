@@ -1,0 +1,352 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "不再需要答案": {
+      "name": "不再需要答案",
+      "safe_name": "不再需要答案",
+      "source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\6b\\6b6c01719681c4a2a7984d5411965319f55d1b8cbd63733acd78d1123c56e4e6\\不再需要答案.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\lyrics-buneng.txt",
+      "chorus_at": null,
+      "source_duration_us": 178840000,
+      "start_us": 92750000,
+      "start_pick": "chorus-energy+target30s",
+      "audio_layout": "chorus",
+      "native_audio": false,
+      "main_gain_db": 3.0,
+      "intro_gain_db": -8.0,
+      "main_fade_in_us": 250000,
+      "main_fade_out_us": 1200000,
+      "window_us": 21415397,
+      "clip_us": 21415397,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\songs\\不再需要答案.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\jypack\\不再需要答案.jypack",
+      "jypack_bytes": 28653472,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 8584615,
+        "delta_us": 2151282,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 21415397,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 30000012,
+        "max_segment_end_us": 33717948
+      },
+      "lyric_cues": 0,
+      "status": "rendered",
+      "music_gain_processing": "原素材增益与段增益去重",
+      "tts_processing": "官方原始音频 + 官方段速率",
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 7,
+        "animation": "vimo://7414104429437209919",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": {
+          "segments": 7,
+          "replaced": 7,
+          "lines": 44,
+          "align": "ordered",
+          "spans": [
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "split_created": 0,
+          "word_samples": [
+            {
+              "text": "后来忙着生活 没空重来",
+              "gaps_ms": [
+                210,
+                210,
+                210,
+                210,
+                100,
+                100,
+                100,
+                100
+              ]
+            },
+            {
+              "text": "才发现我早已不再等待",
+              "gaps_ms": [
+                114,
+                113,
+                240,
+                240,
+                180,
+                180,
+                480,
+                640
+              ]
+            }
+          ],
+          "mean_similarity": 0.836,
+          "mean_cost": 0.164
+        },
+        "recognized": [
+          {
+            "start_us": 8600000,
+            "duration_us": 1933333,
+            "text": "生活没空重来"
+          },
+          {
+            "start_us": 10533333,
+            "duration_us": 4266667,
+            "text": "才发现我早已不再等待"
+          },
+          {
+            "start_us": 14866666,
+            "duration_us": 2900000,
+            "text": "突然某天我 不再需要答案"
+          },
+          {
+            "start_us": 17766666,
+            "duration_us": 3533334,
+            "text": "你爱没爱过都不必在身旁"
+          },
+          {
+            "start_us": 21300000,
+            "duration_us": 3400000,
+            "text": "那些没说完 就停在没说完"
+          },
+          {
+            "start_us": 24700000,
+            "duration_us": 3900000,
+            "text": "把困在门外的自己领会善变"
+          },
+          {
+            "start_us": 28866666,
+            "duration_us": 1166667,
+            "text": "突然某天我"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "transition": {
+        "name": "叠化",
+        "resource": "6724845717472416269",
+        "seg_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+      },
+      "video_effect": {
+        "name": "富士影片",
+        "resource": "7631600978600480036",
+        "seg_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "coverage_us": [
+          8600000,
+          21433333
+        ],
+        "引用已验证": true
+      },
+      "intro_gain": {
+        "segments": 5,
+        "db": 6.0
+      },
+      "lint": {
+        "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\不再需要答案-official-lint.json",
+        "passed": true,
+        "keys": [
+          "domain",
+          "draft_json_file",
+          "draft_ref",
+          "draft_root",
+          "execution_policy",
+          "facts",
+          "input",
+          "issues",
+          "schema_version",
+          "status",
+          "verdicts"
+        ],
+        "issues": [
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 1550769,
+              "time_overlap_us": 1550769,
+              "time_start_us": 0
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 3212307,
+              "time_overlap_us": 1661538,
+              "time_start_us": 1550769
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 4966153,
+              "time_overlap_us": 1753846,
+              "time_start_us": 3212307
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 6978461,
+              "time_overlap_us": 2012308,
+              "time_start_us": 4966153
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "BC3C8051-18C5-4d1a-AE35-A4B152E69178",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 8584615,
+              "time_overlap_us": 1606154,
+              "time_start_us": 6978461
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.030179430970248295,
+              "iou": 0.035775200462648496,
+              "left_coverage": 0.035775200462648496,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+              "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+              "time_end_us": 1550769,
+              "time_overlap_us": 1550769,
+              "time_start_us": 0
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          }
+        ]
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\render\\不再需要答案\\render.mp4",
+        "duration": 30.033333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "7bacee2a16ae640903eae3696ba3de61b5c4ad5fb63df9521943d0f1d86d6a7f",
+        "size": 8029216,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
+      },
+      "render_seconds": 189.7
+    }
+  },
+  "order": [
+    "不再需要答案"
+  ],
+  "intro": {
+    "lines": [
+      "有些问题 你问过很多次",
+      "后来就不问了 不是认输",
+      "是不想再拿自己 去换一个答案",
+      "门口那盏灯 一直是你自己开的",
+      "听懂的人 评论区留个句号"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 8584615
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

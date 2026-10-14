@@ -1,0 +1,6 @@
+{"stage":"start","at":1791884838987,"args":["media","asr","--input","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\final.mp4","--language","zh","--output","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-final-check\\asr.json"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-final-check","pid":18864}
+{"stage":"policy","at":1791884838988,"rules":9}
+{"stage":"policy-network","at":1791884838988,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791884838991,"vmId":"draftediting-1791884838987"}
+{"stage":"create-process:done","at":1791884839010,"processId":45924,"success":true}
+{"stage":"worker-ready","at":1791884839486}

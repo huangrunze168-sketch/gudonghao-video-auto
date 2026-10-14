@@ -1,0 +1,5 @@
+{"stage":"start","at":1791870224157,"args":["draft","lyrics","animation","update","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":16244}
+{"stage":"policy","at":1791870224158,"rules":7}
+{"stage":"create-process:begin","at":1791870224161,"vmId":"draftediting-1791870224157"}
+{"stage":"create-process:done","at":1791870224594,"processId":35184,"success":true}
+{"stage":"worker-ready","at":1791870225099}

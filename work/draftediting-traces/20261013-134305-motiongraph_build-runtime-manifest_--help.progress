@@ -1,0 +1,5 @@
+{"stage":"start","at":1791870183253,"args":["material","motiongraph","build-runtime-manifest","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":53860}
+{"stage":"policy","at":1791870183254,"rules":7}
+{"stage":"create-process:begin","at":1791870183257,"vmId":"draftediting-1791870183254"}
+{"stage":"create-process:done","at":1791870183664,"processId":19768,"success":true}
+{"stage":"worker-ready","at":1791870184156}

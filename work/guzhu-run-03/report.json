@@ -1,0 +1,146 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "问春风-auto": {
+      "name": "问春风-auto",
+      "safe_name": "问春风-auto",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\jypack-inspect\\extracted\\ImportedMaterials\\Used\\问春风_14495974825818550881.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\问春风.lrc",
+      "start_us": 118099093,
+      "start_pick": "lyrics+energy(10 句歌词)",
+      "window_us": 33194240,
+      "clip_us": 33194263,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-03\\songs\\问春风-auto.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-03\\jypack\\问春风-auto.jypack",
+      "jypack_bytes": 12948150,
+      "pruned_assets": 36,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 8060907,
+        "delta_us": 1627574,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "main_duration_us": 25133333,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "lyrics": 10,
+        "lyrics_dropped": 0,
+        "pruned_materials": {
+          "texts": 38,
+          "material_animations": 32
+        },
+        "duration_us": 33194240,
+        "max_segment_end_us": 33194240
+      },
+      "lyric_cues": 10,
+      "status": "rendered",
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风-auto",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-03\\render\\问春风-auto\\render.mp4",
+        "duration": 33.2,
+        "width": 1280,
+        "height": 720,
+        "sha256": "36c88c893a27f63bccc2bdd39af09e6c8bc360bd824f6b69944146a6e98cc80c",
+        "size": 3247083,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风-auto"
+      },
+      "render_seconds": 10.8
+    },
+    "问春风-119": {
+      "name": "问春风-119",
+      "safe_name": "问春风-119",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\jypack-inspect\\extracted\\ImportedMaterials\\Used\\问春风_14495974825818550881.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-test\\问春风.lrc",
+      "start_us": 119700000,
+      "start_pick": "manual",
+      "window_us": 33194240,
+      "clip_us": 33194263,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-03\\songs\\问春风-119.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-03\\jypack\\问春风-119.jypack",
+      "jypack_bytes": 12918131,
+      "pruned_assets": 36,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 8060907,
+        "delta_us": 1627574,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "main_duration_us": 25133333,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "lyrics": 8,
+        "lyrics_dropped": 0,
+        "pruned_materials": {
+          "texts": 38,
+          "material_animations": 32
+        },
+        "duration_us": 33194240,
+        "max_segment_end_us": 33194240
+      },
+      "lyric_cues": 8,
+      "status": "rendered",
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风-119",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-run-03\\render\\问春风-119\\render.mp4",
+        "duration": 33.2,
+        "width": 1280,
+        "height": 720,
+        "sha256": "90e1993bb8ba826ad3c004753b13d6816b9f8555e95abeb888f61032f9a6ba35",
+        "size": 3209999,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-问春风-119"
+      },
+      "render_seconds": 10.5
+    },
+    "问春风-90": {
+      "name": "问春风-90",
+      "status": "build-failed",
+      "error": "LRC 主歌段内没有任何可用歌词；请检查选段起点是否落在歌词区间"
+    }
+  },
+  "order": [
+    "问春风-auto",
+    "问春风-119",
+    "问春风-90"
+  ],
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "这首歌写给还在等的人",
+      "他把三年的心事都唱进去了",
+      "如果你也听懂了一句",
+      "评论区一个句号就是入股"
+    ],
+    "mode": "sapi",
+    "voice": "Microsoft Huihui Desktop",
+    "total_us": 8060907
+  },
+  "totals": {
+    "count": 3,
+    "rendered": 2,
+    "built": 0,
+    "failed": 1
+  }
+}

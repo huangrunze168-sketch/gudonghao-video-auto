@@ -1,0 +1,3520 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791949269689",
+    "processId": 42692,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-ac27e42d83219f8c",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": false,
+      "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: {\\\"lyra_err_code\\\":0,\\\"lyra_err_msg\\\":\\\"failed to download lyric animation dependency: 7497171321915183625, error: failed to download local material path for resource_id: 7410326723805319706, meta_type: font\\\"}\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+      "stderr": "",
+      "output": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: {\\\"lyra_err_code\\\":0,\\\"lyra_err_msg\\\":\\\"failed to download lyric animation dependency: 7497171321915183625, error: failed to download local material path for resource_id: 7410326723805319706, meta_type: font\\\"}\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+      "exitCode": 1,
+      "timedOut": false,
+      "durationMs": 30188,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "lyrics",
+        "animation",
+        "update",
+        "--ref",
+        "local://guzhu-animtest-work",
+        "--seg-id",
+        "C10EECB8-1A45-4f79-814A-F65209DCEBEB",
+        "--resource",
+        "vimo://7581443056113650963",
+        "--language",
+        "zh-CN"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791949269702,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.702\",\"trace_index\":11,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":1}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791949269712,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.712\",\"trace_index\":12,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791949269716,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":42692,\"ppid\":50280,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.716\",\"trace_index\":13,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791949269782,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-ntijx5tr\\__PSScriptPolicyTest_ij3qwlct.04q.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791949269782,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.782\",\"trace_index\":14,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791949269783,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-ntijx5tr\\__PSScriptPolicyTest_j4wlio0a.10a.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791949269783,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.783\",\"trace_index\":15,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791949269989,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-ntijx5tr\\__PSScriptPolicyTest_b0lgvpgt.kek.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791949269989,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.989\",\"trace_index\":16,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791949269990,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-ntijx5tr\\__PSScriptPolicyTest_1qovfuzy.vo5.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791949269990,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949269,\"timestamp_str\":\"2026-10-14 11:41:09.990\",\"trace_index\":17,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791949270100,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":21200,\"ppid\":42692,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.100\",\"trace_index\":18,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791949270224,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":44576,\"ppid\":21200,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.224\",\"trace_index\":19,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791949270373,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-67652059044600",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791949270373,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-67652059044600\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.373\",\"trace_index\":20,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791949270390,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791949270390,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.390\",\"trace_index\":21,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791949270392,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791949270392,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.392\",\"trace_index\":22,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791949270399,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791949270399,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.399\",\"trace_index\":23,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791949270400,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791949270400,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.400\",\"trace_index\":24,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791949270589,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\logs\\lyra-cli-20261013230230.log",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791949270737,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":47340,\"ppid\":44576,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.737\",\"trace_index\":25,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791949270844,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":125,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":47340,\"ppid\":44576,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791949270,\"timestamp_str\":\"2026-10-14 11:41:10.844\",\"trace_index\":26,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791949270844,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791949269689",
+      "processId": 47340,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791949271085,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791949271087,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.087\",\"trace_index\":27,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791949271086,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791949271087,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data_low\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.087\",\"trace_index\":28,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791949271087,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-35",
+      "sequence": 35,
+      "timestamp": 1791949271087,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.087\",\"trace_index\":29,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-36",
+      "sequence": 36,
+      "timestamp": 1791949271087,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-37",
+      "sequence": 37,
+      "timestamp": 1791949271087,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data_low\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.087\",\"trace_index\":30,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-38",
+      "sequence": 38,
+      "timestamp": 1791949271088,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-39",
+      "sequence": 39,
+      "timestamp": 1791949271088,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"acl_type\":\"default_read_only\",\"action_class\":\"create\",\"aiep_system\":\"Windows\",\"asset_class\":\"user_common\",\"asset_sub_class\":\"local_app_data\",\"ext\":\"nvph\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"target_kind\":\"File\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.088\",\"trace_index\":31,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_block_info_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-40",
+      "sequence": 40,
+      "timestamp": 1791949271089,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-41",
+      "sequence": 41,
+      "timestamp": 1791949271089,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-42",
+      "sequence": 42,
+      "timestamp": 1791949271090,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-43",
+      "sequence": 43,
+      "timestamp": 1791949271091,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-44",
+      "sequence": 44,
+      "timestamp": 1791949271091,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-45",
+      "sequence": 45,
+      "timestamp": 1791949271092,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-46",
+      "sequence": 46,
+      "timestamp": 1791949271093,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-47",
+      "sequence": 47,
+      "timestamp": 1791949271094,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-48",
+      "sequence": 48,
+      "timestamp": 1791949271094,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-49",
+      "sequence": 49,
+      "timestamp": 1791949271095,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-50",
+      "sequence": 50,
+      "timestamp": 1791949271096,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-51",
+      "sequence": 51,
+      "timestamp": 1791949271096,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-52",
+      "sequence": 52,
+      "timestamp": 1791949271097,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-53",
+      "sequence": 53,
+      "timestamp": 1791949271098,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-54",
+      "sequence": 54,
+      "timestamp": 1791949271098,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-55",
+      "sequence": 55,
+      "timestamp": 1791949271317,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 17,
+        "sourcePort": 0,
+        "destinationPort": 53,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "8.8.8.8",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-56",
+      "sequence": 56,
+      "timestamp": 1791949271318,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 17,
+        "sourcePort": 0,
+        "destinationPort": 53,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "2001:4860:4860::8888",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-57",
+      "sequence": 57,
+      "timestamp": 1791949271404,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\14695981039346656037\\rp.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-58",
+      "sequence": 58,
+      "timestamp": 1791949271404,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.404\",\"trace_index\":32,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-59",
+      "sequence": 59,
+      "timestamp": 1791949271406,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\14695981039346656037\\rp.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-60",
+      "sequence": 60,
+      "timestamp": 1791949271406,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.406\",\"trace_index\":33,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-61",
+      "sequence": 61,
+      "timestamp": 1791949271413,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-62",
+      "sequence": 62,
+      "timestamp": 1791949271413,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.413\",\"trace_index\":34,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-63",
+      "sequence": 63,
+      "timestamp": 1791949271414,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-64",
+      "sequence": 64,
+      "timestamp": 1791949271415,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949271,\"timestamp_str\":\"2026-10-14 11:41:11.414\",\"trace_index\":35,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-65",
+      "sequence": 65,
+      "timestamp": 1791949271436,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 3365,
+        "destinationPort": 443,
+        "sourceIpAddress": "0.0.0.0",
+        "destinationIpAddress": "198.18.0.35",
+        "domainName": "lv-qos-api-sinfonlineb.ulikecam.com"
+      }
+    },
+    {
+      "eventId": "sandbox-event-66",
+      "sequence": 66,
+      "timestamp": 1791949271467,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-67",
+      "sequence": 67,
+      "timestamp": 1791949271468,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-68",
+      "sequence": 68,
+      "timestamp": 1791949271469,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-69",
+      "sequence": 69,
+      "timestamp": 1791949271469,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-70",
+      "sequence": 70,
+      "timestamp": 1791949271470,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-71",
+      "sequence": 71,
+      "timestamp": 1791949271471,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-72",
+      "sequence": 72,
+      "timestamp": 1791949271471,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-73",
+      "sequence": 73,
+      "timestamp": 1791949271472,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-74",
+      "sequence": 74,
+      "timestamp": 1791949271473,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-75",
+      "sequence": 75,
+      "timestamp": 1791949271474,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-76",
+      "sequence": 76,
+      "timestamp": 1791949271475,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-77",
+      "sequence": 77,
+      "timestamp": 1791949271476,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-78",
+      "sequence": 78,
+      "timestamp": 1791949271477,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-79",
+      "sequence": 79,
+      "timestamp": 1791949271478,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-80",
+      "sequence": 80,
+      "timestamp": 1791949271479,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-81",
+      "sequence": 81,
+      "timestamp": 1791949271480,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-82",
+      "sequence": 82,
+      "timestamp": 1791949271481,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-83",
+      "sequence": 83,
+      "timestamp": 1791949271482,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-84",
+      "sequence": 84,
+      "timestamp": 1791949271483,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-85",
+      "sequence": 85,
+      "timestamp": 1791949271484,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 5,
+      "payload": {
+        "action": 1,
+        "sourcePermission": 2,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\LocalLow\\NVIDIA\\DXCache\\000000000000ae20.nvph",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-86",
+      "sequence": 86,
+      "timestamp": 1791949272704,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 0,
+        "destinationPort": 7897,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "127.0.0.1",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-87",
+      "sequence": 87,
+      "timestamp": 1791949274710,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 0,
+        "destinationPort": 7897,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "127.0.0.1",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-88",
+      "sequence": 88,
+      "timestamp": 1791949276117,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-89",
+      "sequence": 89,
+      "timestamp": 1791949276117,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949276,\"timestamp_str\":\"2026-10-14 11:41:16.117\",\"trace_index\":36,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-90",
+      "sequence": 90,
+      "timestamp": 1791949276118,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-91",
+      "sequence": 91,
+      "timestamp": 1791949276118,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949276,\"timestamp_str\":\"2026-10-14 11:41:16.118\",\"trace_index\":37,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-92",
+      "sequence": 92,
+      "timestamp": 1791949276775,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-93",
+      "sequence": 93,
+      "timestamp": 1791949276776,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949276,\"timestamp_str\":\"2026-10-14 11:41:16.775\",\"trace_index\":38,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-94",
+      "sequence": 94,
+      "timestamp": 1791949276777,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-95",
+      "sequence": 95,
+      "timestamp": 1791949276777,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949276,\"timestamp_str\":\"2026-10-14 11:41:16.777\",\"trace_index\":39,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-96",
+      "sequence": 96,
+      "timestamp": 1791949277438,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 6893,
+        "destinationPort": 443,
+        "sourceIpAddress": "0.0.0.0",
+        "destinationIpAddress": "198.18.0.37",
+        "domainName": "lf26-faceu-file-sign.bytecdn.com"
+      }
+    },
+    {
+      "eventId": "sandbox-event-97",
+      "sequence": 97,
+      "timestamp": 1791949280270,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7497171321915183625\\7497171321915183625\\a45802e303e5d148d7338172607bebde_WSKJLTTUIYQK1LIYSNPO6IZJ.temp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-98",
+      "sequence": 98,
+      "timestamp": 1791949280270,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"temp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949280,\"timestamp_str\":\"2026-10-14 11:41:20.270\",\"trace_index\":40,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-99",
+      "sequence": 99,
+      "timestamp": 1791949280364,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-100",
+      "sequence": 100,
+      "timestamp": 1791949280364,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949280,\"timestamp_str\":\"2026-10-14 11:41:20.364\",\"trace_index\":41,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-101",
+      "sequence": 101,
+      "timestamp": 1791949280366,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-102",
+      "sequence": 102,
+      "timestamp": 1791949280366,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949280,\"timestamp_str\":\"2026-10-14 11:41:20.366\",\"trace_index\":42,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-103",
+      "sequence": 103,
+      "timestamp": 1791949281031,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-104",
+      "sequence": 104,
+      "timestamp": 1791949281031,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949281,\"timestamp_str\":\"2026-10-14 11:41:21.031\",\"trace_index\":43,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-105",
+      "sequence": 105,
+      "timestamp": 1791949281032,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-106",
+      "sequence": 106,
+      "timestamp": 1791949281032,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949281,\"timestamp_str\":\"2026-10-14 11:41:21.032\",\"trace_index\":44,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-107",
+      "sequence": 107,
+      "timestamp": 1791949281688,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 5298,
+        "destinationPort": 443,
+        "sourceIpAddress": "0.0.0.0",
+        "destinationIpAddress": "198.18.0.36",
+        "domainName": "p26-artist-file-sign.byteimg.com"
+      }
+    },
+    {
+      "eventId": "sandbox-event-108",
+      "sequence": 108,
+      "timestamp": 1791949282967,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\ModuleAnalysisCache",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-109",
+      "sequence": 109,
+      "timestamp": 1791949283562,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7054482687297327630\\7054482687297327630\\cd8ac5827c30cb0322b90bcfaaf2f741_UDBERYWILC2FWFDBH9YP9X9G.temp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-110",
+      "sequence": 110,
+      "timestamp": 1791949283562,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"temp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949283,\"timestamp_str\":\"2026-10-14 11:41:23.562\",\"trace_index\":45,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-111",
+      "sequence": 111,
+      "timestamp": 1791949283626,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-112",
+      "sequence": 112,
+      "timestamp": 1791949283626,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949283,\"timestamp_str\":\"2026-10-14 11:41:23.626\",\"trace_index\":46,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-113",
+      "sequence": 113,
+      "timestamp": 1791949283627,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-114",
+      "sequence": 114,
+      "timestamp": 1791949283627,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949283,\"timestamp_str\":\"2026-10-14 11:41:23.627\",\"trace_index\":47,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-115",
+      "sequence": 115,
+      "timestamp": 1791949284440,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-116",
+      "sequence": 116,
+      "timestamp": 1791949284440,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949284,\"timestamp_str\":\"2026-10-14 11:41:24.440\",\"trace_index\":48,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-117",
+      "sequence": 117,
+      "timestamp": 1791949284442,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-118",
+      "sequence": 118,
+      "timestamp": 1791949284442,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949284,\"timestamp_str\":\"2026-10-14 11:41:24.442\",\"trace_index\":49,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-119",
+      "sequence": 119,
+      "timestamp": 1791949285513,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7574330194018700607\\7574330194018700607\\4e42452f569a19f91a1c5d6e44b670c4_YFN32T5AGZ684HZ7I6Y6G08U.temp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-120",
+      "sequence": 120,
+      "timestamp": 1791949285514,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"temp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949285,\"timestamp_str\":\"2026-10-14 11:41:25.513\",\"trace_index\":50,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-121",
+      "sequence": 121,
+      "timestamp": 1791949285583,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-122",
+      "sequence": 122,
+      "timestamp": 1791949285583,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949285,\"timestamp_str\":\"2026-10-14 11:41:25.583\",\"trace_index\":51,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-123",
+      "sequence": 123,
+      "timestamp": 1791949285584,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-124",
+      "sequence": 124,
+      "timestamp": 1791949285584,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949285,\"timestamp_str\":\"2026-10-14 11:41:25.584\",\"trace_index\":52,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-125",
+      "sequence": 125,
+      "timestamp": 1791949286821,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-126",
+      "sequence": 126,
+      "timestamp": 1791949286821,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949286,\"timestamp_str\":\"2026-10-14 11:41:26.821\",\"trace_index\":53,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-127",
+      "sequence": 127,
+      "timestamp": 1791949286822,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-128",
+      "sequence": 128,
+      "timestamp": 1791949286823,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949286,\"timestamp_str\":\"2026-10-14 11:41:26.823\",\"trace_index\":54,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-129",
+      "sequence": 129,
+      "timestamp": 1791949288681,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_8DURWXSMIHIAVCTZ1JMNWZ77.temp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-130",
+      "sequence": 130,
+      "timestamp": 1791949288681,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"temp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949288,\"timestamp_str\":\"2026-10-14 11:41:28.681\",\"trace_index\":55,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-131",
+      "sequence": 131,
+      "timestamp": 1791949288685,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\AETools.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-132",
+      "sequence": 132,
+      "timestamp": 1791949288685,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"lua\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949288,\"timestamp_str\":\"2026-10-14 11:41:28.685\",\"trace_index\":56,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-133",
+      "sequence": 133,
+      "timestamp": 1791949288686,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\algorithmConfig.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-134",
+      "sequence": 134,
+      "timestamp": 1791949288686,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"json\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949288,\"timestamp_str\":\"2026-10-14 11:41:28.686\",\"trace_index\":57,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-135",
+      "sequence": 135,
+      "timestamp": 1791949288688,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\anim.prefab",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-136",
+      "sequence": 136,
+      "timestamp": 1791949288688,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"prefab\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949288,\"timestamp_str\":\"2026-10-14 11:41:28.688\",\"trace_index\":58,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-137",
+      "sequence": 137,
+      "timestamp": 1791949288690,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\bowen.png.meta",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-138",
+      "sequence": 138,
+      "timestamp": 1791949288690,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"meta\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949288,\"timestamp_str\":\"2026-10-14 11:41:28.690\",\"trace_index\":59,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-139",
+      "sequence": 139,
+      "timestamp": 1791949288692,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\config.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-140",
+      "sequence": 140,
+      "timestamp": 1791949288693,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\content.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-141",
+      "sequence": 141,
+      "timestamp": 1791949288695,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\data_val.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-142",
+      "sequence": 142,
+      "timestamp": 1791949288697,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\effect_platform_children.tag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-143",
+      "sequence": 143,
+      "timestamp": 1791949288699,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\js-meta.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-144",
+      "sequence": 144,
+      "timestamp": 1791949288705,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\Library\\ShaderData",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-145",
+      "sequence": 145,
+      "timestamp": 1791949288708,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\Library",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-146",
+      "sequence": 146,
+      "timestamp": 1791949288710,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\lua-meta.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-147",
+      "sequence": 147,
+      "timestamp": 1791949288711,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\LuaRTTI.MarkGen.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-148",
+      "sequence": 148,
+      "timestamp": 1791949288713,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\main.scene",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-149",
+      "sequence": 149,
+      "timestamp": 1791949288715,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\noise.png",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-150",
+      "sequence": 150,
+      "timestamp": 1791949288716,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\noise.png.meta",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-151",
+      "sequence": 151,
+      "timestamp": 1791949288718,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\raw_summary.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-152",
+      "sequence": 152,
+      "timestamp": 1791949288720,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\rt.frag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-153",
+      "sequence": 153,
+      "timestamp": 1791949288722,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\rt.material",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-154",
+      "sequence": 154,
+      "timestamp": 1791949288723,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\rt.rt",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-155",
+      "sequence": 155,
+      "timestamp": 1791949288725,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\rt.vert",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-156",
+      "sequence": 156,
+      "timestamp": 1791949288727,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\rt.xshader",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-157",
+      "sequence": 157,
+      "timestamp": 1791949288728,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\sticker.config",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-158",
+      "sequence": 158,
+      "timestamp": 1791949288730,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\TextAnim.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-159",
+      "sequence": 159,
+      "timestamp": 1791949288731,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp\\Util.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-160",
+      "sequence": 160,
+      "timestamp": 1791949288733,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\198b59c8113194a83767f86c0e1526ba_SNEZONVJQD7J74JZP3UIPU6X_unzip.tmp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-161",
+      "sequence": 161,
+      "timestamp": 1791949288737,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 0,
+        "destinationPort": 7897,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "127.0.0.1",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-162",
+      "sequence": 162,
+      "timestamp": 1791949291140,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-ntijx5tr\\lyz9AAE.tmp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-163",
+      "sequence": 163,
+      "timestamp": 1791949291141,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"tmp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949291,\"timestamp_str\":\"2026-10-14 11:41:31.140\",\"trace_index\":60,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-164",
+      "sequence": 164,
+      "timestamp": 1791949291228,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\AETools.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-165",
+      "sequence": 165,
+      "timestamp": 1791949291228,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"lua\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949291,\"timestamp_str\":\"2026-10-14 11:41:31.228\",\"trace_index\":61,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-166",
+      "sequence": 166,
+      "timestamp": 1791949291230,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\algorithmConfig.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-167",
+      "sequence": 167,
+      "timestamp": 1791949291230,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"json\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949291,\"timestamp_str\":\"2026-10-14 11:41:31.230\",\"trace_index\":62,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-168",
+      "sequence": 168,
+      "timestamp": 1791949291232,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\anim.prefab",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-169",
+      "sequence": 169,
+      "timestamp": 1791949291232,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"prefab\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949291,\"timestamp_str\":\"2026-10-14 11:41:31.232\",\"trace_index\":63,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-170",
+      "sequence": 170,
+      "timestamp": 1791949291234,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\bowen.png.meta",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-171",
+      "sequence": 171,
+      "timestamp": 1791949291234,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"meta\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949291,\"timestamp_str\":\"2026-10-14 11:41:31.234\",\"trace_index\":64,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-172",
+      "sequence": 172,
+      "timestamp": 1791949291236,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\config.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-173",
+      "sequence": 173,
+      "timestamp": 1791949291238,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\content.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-174",
+      "sequence": 174,
+      "timestamp": 1791949291240,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\data_val.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-175",
+      "sequence": 175,
+      "timestamp": 1791949291242,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\effect_platform_children.tag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-176",
+      "sequence": 176,
+      "timestamp": 1791949291244,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\js-meta.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-177",
+      "sequence": 177,
+      "timestamp": 1791949291254,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2\\shaderGLES\\3d8f94a82b24c2b87df0f4e5d1c37f7e.frag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-178",
+      "sequence": 178,
+      "timestamp": 1791949291257,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2\\shaderGLES\\3d8f94a82b24c2b87df0f4e5d1c37f7e.vert",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-179",
+      "sequence": 179,
+      "timestamp": 1791949291260,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2\\shaderGLES",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-180",
+      "sequence": 180,
+      "timestamp": 1791949291265,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2\\shaderMetal\\3d8f94a82b24c2b87df0f4e5d1c37f7e.frag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-181",
+      "sequence": 181,
+      "timestamp": 1791949291267,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2\\shaderMetal\\3d8f94a82b24c2b87df0f4e5d1c37f7e.vert",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-182",
+      "sequence": 182,
+      "timestamp": 1791949291270,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2\\shaderMetal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-183",
+      "sequence": 183,
+      "timestamp": 1791949291272,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\6cd66e4e65fdda98b4695a71a2d49aa2",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-184",
+      "sequence": 184,
+      "timestamp": 1791949291279,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937\\shaderGLES\\0fadedfaa6688d18191b5d466bab65e9.frag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-185",
+      "sequence": 185,
+      "timestamp": 1791949291281,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937\\shaderGLES\\0fadedfaa6688d18191b5d466bab65e9.vert",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-186",
+      "sequence": 186,
+      "timestamp": 1791949291284,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937\\shaderGLES",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-187",
+      "sequence": 187,
+      "timestamp": 1791949291288,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937\\shaderMetal\\0fadedfaa6688d18191b5d466bab65e9.frag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-188",
+      "sequence": 188,
+      "timestamp": 1791949291290,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937\\shaderMetal\\0fadedfaa6688d18191b5d466bab65e9.vert",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-189",
+      "sequence": 189,
+      "timestamp": 1791949291293,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937\\shaderMetal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-190",
+      "sequence": 190,
+      "timestamp": 1791949291295,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData\\ce41dc734e38d2d6c642ff1e27f62937",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-191",
+      "sequence": 191,
+      "timestamp": 1791949291298,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library\\ShaderData",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-192",
+      "sequence": 192,
+      "timestamp": 1791949291300,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Library",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-193",
+      "sequence": 193,
+      "timestamp": 1791949291302,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\lua-meta.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-194",
+      "sequence": 194,
+      "timestamp": 1791949291304,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\LuaRTTI.MarkGen.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-195",
+      "sequence": 195,
+      "timestamp": 1791949291306,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\main.scene",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-196",
+      "sequence": 196,
+      "timestamp": 1791949291308,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\noise.png",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-197",
+      "sequence": 197,
+      "timestamp": 1791949291311,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\noise.png.meta",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-198",
+      "sequence": 198,
+      "timestamp": 1791949291313,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\raw_summary.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-199",
+      "sequence": 199,
+      "timestamp": 1791949291317,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt\\outputTex.rt",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-200",
+      "sequence": 200,
+      "timestamp": 1791949291319,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-201",
+      "sequence": 201,
+      "timestamp": 1791949291322,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt.frag",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-202",
+      "sequence": 202,
+      "timestamp": 1791949291324,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt.material",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-203",
+      "sequence": 203,
+      "timestamp": 1791949291326,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt.rt",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-204",
+      "sequence": 204,
+      "timestamp": 1791949291328,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt.vert",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-205",
+      "sequence": 205,
+      "timestamp": 1791949291330,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\rt.xshader",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-206",
+      "sequence": 206,
+      "timestamp": 1791949291332,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\sticker.config",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-207",
+      "sequence": 207,
+      "timestamp": 1791949291335,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\TextAnim.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-208",
+      "sequence": 208,
+      "timestamp": 1791949291337,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted\\Util.lua",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-209",
+      "sequence": 209,
+      "timestamp": 1791949291339,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\extracted",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-210",
+      "sequence": 210,
+      "timestamp": 1791949291341,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000\\package.zip",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-211",
+      "sequence": 211,
+      "timestamp": 1791949291343,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\anim_text\\7090122015603954189\\7090122015603954189\\.lyra-cli-unzip-67670423190000",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-212",
+      "sequence": 212,
+      "timestamp": 1791949291403,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-213",
+      "sequence": 213,
+      "timestamp": 1791949291404,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-214",
+      "sequence": 214,
+      "timestamp": 1791949292091,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-215",
+      "sequence": 215,
+      "timestamp": 1791949292092,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\db\\ressdk_db\\rp_master.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-216",
+      "sequence": 216,
+      "timestamp": 1791949293133,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 4193,
+        "destinationPort": 443,
+        "sourceIpAddress": "0.0.0.0",
+        "destinationIpAddress": "198.18.0.75",
+        "domainName": "p9-artist-file-sign.byteimg.com"
+      }
+    },
+    {
+      "eventId": "sandbox-event-217",
+      "sequence": 217,
+      "timestamp": 1791949295393,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\e4d44cca5db89d96f63fd943ae948a32_Y6YMDPZ31IJ6SLMXATLJO46A.temp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-218",
+      "sequence": 218,
+      "timestamp": 1791949295393,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"temp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949295,\"timestamp_str\":\"2026-10-14 11:41:35.393\",\"trace_index\":65,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-219",
+      "sequence": 219,
+      "timestamp": 1791949295398,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\e4d44cca5db89d96f63fd943ae948a32_7JPUD8IOK39GZ0HY3J8XUPZN_unzip.tmp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-220",
+      "sequence": 220,
+      "timestamp": 1791949295398,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"tmp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949295,\"timestamp_str\":\"2026-10-14 11:41:35.398\",\"trace_index\":66,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-221",
+      "sequence": 221,
+      "timestamp": 1791949299037,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-ntijx5tr\\lyzB9A0.tmp",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-222",
+      "sequence": 222,
+      "timestamp": 1791949299037,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"tmp\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949299,\"timestamp_str\":\"2026-10-14 11:41:39.037\",\"trace_index\":67,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-223",
+      "sequence": 223,
+      "timestamp": 1791949299043,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\extracted\\config.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-224",
+      "sequence": 224,
+      "timestamp": 1791949299043,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"json\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949299,\"timestamp_str\":\"2026-10-14 11:41:39.043\",\"trace_index\":68,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-225",
+      "sequence": 225,
+      "timestamp": 1791949299047,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\extracted\\__MACOSX\\._config.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-226",
+      "sequence": 226,
+      "timestamp": 1791949299047,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"json\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949299,\"timestamp_str\":\"2026-10-14 11:41:39.047\",\"trace_index\":69,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-227",
+      "sequence": 227,
+      "timestamp": 1791949299049,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\extracted\\__MACOSX\\._华光中长宋.TTF",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-228",
+      "sequence": 228,
+      "timestamp": 1791949299049,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ttf\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949299,\"timestamp_str\":\"2026-10-14 11:41:39.049\",\"trace_index\":70,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-229",
+      "sequence": 229,
+      "timestamp": 1791949299051,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\extracted\\__MACOSX",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-230",
+      "sequence": 230,
+      "timestamp": 1791949299051,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949299,\"timestamp_str\":\"2026-10-14 11:41:39.051\",\"trace_index\":71,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-231",
+      "sequence": 231,
+      "timestamp": 1791949299053,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\extracted\\华光中长宋.TTF",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-232",
+      "sequence": 232,
+      "timestamp": 1791949299055,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\extracted",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-233",
+      "sequence": 233,
+      "timestamp": 1791949299057,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600\\package.zip",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-234",
+      "sequence": 234,
+      "timestamp": 1791949299059,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\font\\7410326723805319706\\7410326723805319706\\.lyra-cli-unzip-67677088097600",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-235",
+      "sequence": 235,
+      "timestamp": 1791949299062,
+      "type": "NET_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 7,
+        "permission": 1,
+        "protocol": 6,
+        "sourcePort": 0,
+        "destinationPort": 7897,
+        "sourceIpAddress": "",
+        "destinationIpAddress": "127.0.0.1",
+        "domainName": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-236",
+      "sequence": 236,
+      "timestamp": 1791949300282,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\44576.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-237",
+      "sequence": 237,
+      "timestamp": 1791949300282,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"marker\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791949300,\"timestamp_str\":\"2026-10-14 11:41:40.282\",\"trace_index\":72,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-238",
+      "sequence": 238,
+      "timestamp": 1791949300344,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":30141,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":44576,\"ppid\":21200,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791949300,\"timestamp_str\":\"2026-10-14 11:41:40.344\",\"trace_index\":73,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-239",
+      "sequence": 239,
+      "timestamp": 1791949300344,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791949269689",
+      "processId": 44576,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-240",
+      "sequence": 240,
+      "timestamp": 1791949300382,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":30296,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":21200,\"ppid\":42692,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791949300,\"timestamp_str\":\"2026-10-14 11:41:40.382\",\"trace_index\":74,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-241",
+      "sequence": 241,
+      "timestamp": 1791949300382,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791949269689",
+      "processId": 21200,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-242",
+      "sequence": 242,
+      "timestamp": 1791949300395,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-243",
+      "sequence": 243,
+      "timestamp": 1791949300402,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":30703,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":42692,\"ppid\":50280,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791949300,\"timestamp_str\":\"2026-10-14 11:41:40.402\",\"trace_index\":75,\"vm_id\":\"draftediting-1791949269689\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-244",
+      "sequence": 244,
+      "timestamp": 1791949300402,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-245",
+      "sequence": 245,
+      "timestamp": 1791949300409,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791949269689",
+      "processId": 42692,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

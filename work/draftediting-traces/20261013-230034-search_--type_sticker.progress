@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903630419,"args":["material","search","--type","sticker","--prompt","点赞 狗 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\af4d215768ab49f7974244e911c6843d","pid":43392}
+{"stage":"policy","at":1791903630420,"rules":9}
+{"stage":"policy-network","at":1791903630420,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903630424,"vmId":"draftediting-1791903630420"}
+{"stage":"create-process:done","at":1791903630442,"processId":18048,"success":true}
+{"stage":"worker-ready","at":1791903630938}

@@ -1,0 +1,123 @@
+{
+  "templates": [
+    {
+      "id": "7407448729785093414",
+      "name": "黑胶唱片机",
+      "font_ids": [
+        "6740498577912500749",
+        "6740512665455563272",
+        "7078971008769593887",
+        "7194703888736326146",
+        "7203638485670957629",
+        "7215808497844228609",
+        "7230715372683399740",
+        "7265596846465094199",
+        "7265942661473767938",
+        "7290485261836751418",
+        "7298970759601345026",
+        "7311913734081876506",
+        "7311977487469122049",
+        "7312719287796371978",
+        "7330160852353421825"
+      ]
+    }
+  ],
+  "fonts": {
+    "6740498577912500749": {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "font",
+        "--resource-id",
+        "6740498577912500749",
+        "--resource-dir",
+        "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740498577912500749"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\fabb6538495241f092bee9bc7ae9ee72",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "font",
+          "--resource-id",
+          "6740498577912500749",
+          "--resource-dir",
+          "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740498577912500749"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740498577912500749\\6740498577912500749\\3bd3fe9a9464df4555335393bb266aba",
+            "resource_dir": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740498577912500749",
+            "resource_id": "6740498577912500749",
+            "resource_platform": 1,
+            "type": "font"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-font-verify\\\\6740498577912500749\\\\6740498577912500749\\\\3bd3fe9a9464df4555335393bb266aba\",\"resource_dir\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-font-verify\\\\6740498577912500749\",\"resource_id\":\"6740498577912500749\",\"resource_platform\":1,\"type\":\"font\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 1455
+      },
+      "files": [],
+      "font_entities": [
+        {
+          "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740498577912500749\\6740498577912500749\\3bd3fe9a9464df4555335393bb266aba\\Modern.ttf",
+          "bytes": 85368
+        }
+      ]
+    },
+    "6740512665455563272": {
+      "command": [
+        "material",
+        "download",
+        "--type",
+        "font",
+        "--resource-id",
+        "6740512665455563272",
+        "--resource-dir",
+        "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740512665455563272"
+      ],
+      "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\b34c0445aa2344fbbda046fb682fa0ee",
+      "status": "官方返回成功",
+      "envelope": {
+        "command": [
+          "material",
+          "download",
+          "--type",
+          "font",
+          "--resource-id",
+          "6740512665455563272",
+          "--resource-dir",
+          "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740512665455563272"
+        ],
+        "result": {
+          "err_code": 0,
+          "err_msg": "success",
+          "result": {
+            "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740512665455563272\\6740512665455563272\\3b07cb67067658d6a1c6e24fe501da8d",
+            "resource_dir": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740512665455563272",
+            "resource_id": "6740512665455563272",
+            "resource_platform": 1,
+            "type": "font"
+          }
+        },
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-font-verify\\\\6740512665455563272\\\\6740512665455563272\\\\3b07cb67067658d6a1c6e24fe501da8d\",\"resource_dir\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\jy-font-verify\\\\6740512665455563272\",\"resource_id\":\"6740512665455563272\",\"resource_platform\":1,\"type\":\"font\"}}\r\n",
+        "stderr": "",
+        "host_pid": 42840,
+        "duration_ms": 1507
+      },
+      "files": [],
+      "font_entities": [
+        {
+          "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-font-verify\\6740512665455563272\\6740512665455563272\\3b07cb67067658d6a1c6e24fe501da8d\\Paint.ttf",
+          "bytes": 736820
+        }
+      ]
+    }
+  }
+}

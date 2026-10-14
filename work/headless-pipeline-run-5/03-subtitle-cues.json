@@ -1,0 +1,95 @@
+{
+  "schema": "jianying-lyric-subtitles/v1",
+  "blocked_windows": [
+    [
+      0,
+      866
+    ],
+    [
+      866,
+      2399
+    ],
+    [
+      2400,
+      3833
+    ],
+    [
+      3833,
+      5433
+    ],
+    [
+      5433,
+      6433
+    ]
+  ],
+  "kept": 11,
+  "dropped": 1,
+  "cues": [
+    {
+      "id": "lyric_0002",
+      "text": "于是不觉可问春风",
+      "start_ms": 6433,
+      "end_ms": 8300
+    },
+    {
+      "id": "lyric_0003",
+      "text": "它掠过我空袖口春风",
+      "start_ms": 8300,
+      "end_ms": 10460
+    },
+    {
+      "id": "lyric_0004",
+      "text": "添我十万八千梦",
+      "start_ms": 10460,
+      "end_ms": 12760
+    },
+    {
+      "id": "lyric_0005",
+      "text": "走向没有你的岸",
+      "start_ms": 13130,
+      "end_ms": 15100
+    },
+    {
+      "id": "lyric_0006",
+      "text": "各起重山各起重梦",
+      "start_ms": 15100,
+      "end_ms": 16940
+    },
+    {
+      "id": "lyric_0007",
+      "text": "终于不问归程",
+      "start_ms": 16940,
+      "end_ms": 19480
+    },
+    {
+      "id": "lyric_0008",
+      "text": "还会等到有理想",
+      "start_ms": 20010,
+      "end_ms": 21860
+    },
+    {
+      "id": "lyric_0009",
+      "text": "缺陷天边一番红人",
+      "start_ms": 21860,
+      "end_ms": 23920
+    },
+    {
+      "id": "lyric_0010",
+      "text": "长大后才知晓",
+      "start_ms": 23920,
+      "end_ms": 26140
+    },
+    {
+      "id": "lyric_0011",
+      "text": "这一程虚有我",
+      "start_ms": 26800,
+      "end_ms": 28900
+    },
+    {
+      "id": "lyric_0012",
+      "text": "自访",
+      "start_ms": 28900,
+      "end_ms": 31200
+    }
+  ]
+}

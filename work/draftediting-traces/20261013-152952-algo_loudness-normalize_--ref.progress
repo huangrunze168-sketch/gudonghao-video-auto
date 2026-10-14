@@ -1,0 +1,5 @@
+{"stage":"start","at":1791876588183,"args":["draft","algo","loudness-normalize","--ref","local://guzhu-01","--seg-id","A37F062D-4365-4aba-A819-C0EFD9E8300B","--enable","true","--target-loudness","-14.0"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":24044}
+{"stage":"policy","at":1791876588183,"rules":8}
+{"stage":"create-process:begin","at":1791876588187,"vmId":"draftediting-1791876588183"}
+{"stage":"create-process:done","at":1791876588518,"processId":40888,"success":true}
+{"stage":"worker-ready","at":1791876589081}

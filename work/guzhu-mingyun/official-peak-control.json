@@ -1,0 +1,62 @@
+{
+  "method": "官方响度归一；true-peak-ceiling检测器报错，未启用该参数",
+  "result": {
+    "affected_segments": [
+      {
+        "applied_target_loudness": -16.0,
+        "average_loudness": -15.070028305053711,
+        "ceiling_applied": false,
+        "ceiling_limited": false,
+        "detection_used": true,
+        "effective_target_loudness": -16.0,
+        "enabled": true,
+        "loudness_unit": "LUFS",
+        "operator": "update",
+        "peak_loudness": -4.00935173034668,
+        "peak_unit": "SDK detector value",
+        "requested_target_loudness": -16.0,
+        "segment_id": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "segment_type": "segment_audio",
+        "source_duration_us": 23095384,
+        "source_path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-mingyun-new\\ImportedMaterials\\Used\\guzhu-song.wav",
+        "source_start_us": 58280000,
+        "target_loudness": -16.0,
+        "target_time_range": {
+          "duration": 23066667,
+          "start": 6933333
+        },
+        "track_index": 5
+      }
+    ],
+    "extras": [
+      {
+        "applied_target_loudness": -16.0,
+        "average_loudness": -15.070028305053711,
+        "ceiling_applied": false,
+        "ceiling_limited": false,
+        "detection_used": true,
+        "effective_target_loudness": -16.0,
+        "enabled": true,
+        "loudness_unit": "LUFS",
+        "name": "loudness_normalize",
+        "operate_result": {
+          "status": "succeed"
+        },
+        "peak_loudness": -4.00935173034668,
+        "peak_unit": "SDK detector value",
+        "requested_target_loudness": -16.0,
+        "segment_id": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "segment_ids": [
+          "27247D95-1F6F-490d-851F-E3830E55552E"
+        ],
+        "source_duration_us": 23095384,
+        "source_path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-mingyun-new\\ImportedMaterials\\Used\\guzhu-song.wav",
+        "source_start_us": 58280000,
+        "target_loudness": -16.0
+      }
+    ],
+    "segment_ids": [
+      "27247D95-1F6F-490d-851F-E3830E55552E"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791894208610,"args":["material","search","--type","effect","--prompt","电影感 轻微 胶片颗粒 光斑","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\66503809260b43cbb523b7de8562a222","pid":42976}
+{"stage":"policy","at":1791894208611,"rules":9}
+{"stage":"policy-network","at":1791894208611,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791894208614,"vmId":"draftediting-1791894208611"}
+{"stage":"create-process:done","at":1791894208635,"processId":49864,"success":true}
+{"stage":"worker-ready","at":1791894209195}

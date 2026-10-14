@@ -1,0 +1,5 @@
+{"stage":"start","at":1791869708457,"args":["media","change-video-speed","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":28748}
+{"stage":"policy","at":1791869708457,"rules":7}
+{"stage":"create-process:begin","at":1791869708462,"vmId":"draftediting-1791869708457"}
+{"stage":"create-process:done","at":1791869708779,"processId":58872,"success":true}
+{"stage":"worker-ready","at":1791869709270}

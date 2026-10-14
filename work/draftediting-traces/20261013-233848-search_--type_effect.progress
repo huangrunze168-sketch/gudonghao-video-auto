@@ -1,0 +1,6 @@
+{"stage":"start","at":1791905925137,"args":["material","search","--type","effect","--prompt","光斑 漏光 柔和","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\7901e5be56414a9ba6a8aa6fa5ee171e","pid":48804}
+{"stage":"policy","at":1791905925137,"rules":9}
+{"stage":"policy-network","at":1791905925137,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791905925140,"vmId":"draftediting-1791905925137"}
+{"stage":"create-process:done","at":1791905925158,"processId":47496,"success":true}
+{"stage":"worker-ready","at":1791905925666}

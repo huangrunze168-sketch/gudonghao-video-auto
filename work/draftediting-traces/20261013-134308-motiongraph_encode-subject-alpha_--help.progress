@@ -1,0 +1,5 @@
+{"stage":"start","at":1791870186484,"args":["material","motiongraph","encode-subject-alpha","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":24188}
+{"stage":"policy","at":1791870186484,"rules":7}
+{"stage":"create-process:begin","at":1791870186489,"vmId":"draftediting-1791870186484"}
+{"stage":"create-process:done","at":1791870186905,"processId":46300,"success":true}
+{"stage":"worker-ready","at":1791870187402}

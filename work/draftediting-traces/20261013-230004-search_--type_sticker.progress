@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903599916,"args":["material","search","--type","sticker","--prompt","释怀 搞笑 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\8106d841098747b6bc4d1235fc6ab335","pid":25652}
+{"stage":"policy","at":1791903599917,"rules":9}
+{"stage":"policy-network","at":1791903599917,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903599921,"vmId":"draftediting-1791903599916"}
+{"stage":"create-process:done","at":1791903599939,"processId":50720,"success":true}
+{"stage":"worker-ready","at":1791903600440}

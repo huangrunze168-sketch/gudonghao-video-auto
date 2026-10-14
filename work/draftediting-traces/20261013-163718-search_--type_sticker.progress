@@ -1,0 +1,6 @@
+{"stage":"start","at":1791880635016,"args":["material","search","--type","sticker","--prompt","悲伤","--limit","3"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online-check","pid":37068}
+{"stage":"policy","at":1791880635017,"rules":8}
+{"stage":"policy-network","at":1791880635017,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791880635021,"vmId":"draftediting-1791880635016"}
+{"stage":"create-process:done","at":1791880635562,"processId":48296,"success":true}
+{"stage":"worker-ready","at":1791880636155}

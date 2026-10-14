@@ -1,0 +1,32 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "running",
+  "started_at": 1791561130.8625407,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-14",
+  "steps": {
+    "recognize": {
+      "status": "reused",
+      "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8\\01-recognize\\lyrics.json",
+      "cue_count": 12,
+      "recognizer": {
+        "detected_language": "zh",
+        "language_probability": 1.0,
+        "model": "large-v3",
+        "device": "cpu",
+        "compute_type": "int8",
+        "clip_start_seconds": 119.7,
+        "clip_end_seconds": 151.266666
+      },
+      "at": 1791561130.8634357
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-glow-20261009-235210",
+      "ref": "local://headless-glow-20261009-235210",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-235210",
+      "segment_count": 25,
+      "at": 1791561138.3957183
+    }
+  }
+}

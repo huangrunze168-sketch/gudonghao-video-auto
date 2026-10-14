@@ -1,0 +1,48 @@
+{
+  "speaker": "ICL_zh_female_xinmanbo",
+  "lines": [
+    {
+      "text": "有些问题 你问过很多次",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-01.mp3",
+      "source_duration_us": 2016000,
+      "duration_us": 1550769
+    },
+    {
+      "text": "后来就不问了 不是认输",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-02.mp3",
+      "source_duration_us": 2160000,
+      "duration_us": 1661538
+    },
+    {
+      "text": "是不想再拿自己 去换一个答案",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-03.mp3",
+      "source_duration_us": 2280000,
+      "duration_us": 1753846
+    },
+    {
+      "text": "门口那盏灯 一直是你自己开的",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-04.mp3",
+      "source_duration_us": 2616000,
+      "duration_us": 2012308
+    },
+    {
+      "text": "听懂的人 评论区留个句号",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-05.mp3",
+      "source_duration_us": 2088000,
+      "duration_us": 1606154
+    }
+  ],
+  "files": [
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-01.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-02.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-03.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-04.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-buneng-v2\\tts\\official\\official-line-05.mp3"
+  ],
+  "pipeline": "official-raw-native-v1",
+  "duration_us": 8584615,
+  "mode": "official",
+  "voice": "ICL_zh_female_xinmanbo",
+  "speed": 1.3,
+  "text_key": "[\"有些问题 你问过很多次\", \"后来就不问了 不是认输\", \"是不想再拿自己 去换一个答案\", \"门口那盏灯 一直是你自己开的\", \"听懂的人 评论区留个句号\"]"
+}

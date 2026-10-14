@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902674655,"args":["material","search","--type","lyric_animation","--prompt","释怀 治愈 歌词","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\ae4b6de0b2e84b83a62a2f1c90449a1e","pid":48884}
+{"stage":"policy","at":1791902674656,"rules":9}
+{"stage":"policy-network","at":1791902674656,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902674659,"vmId":"draftediting-1791902674656"}
+{"stage":"create-process:done","at":1791902674678,"processId":51208,"success":true}
+{"stage":"worker-ready","at":1791902675216}

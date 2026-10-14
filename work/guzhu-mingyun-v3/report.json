@@ -1,0 +1,339 @@
+{
+  "schema": "guzhu-batch/v1",
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "songs": {
+    "有一些瞬间 我在命运之外": {
+      "name": "有一些瞬间 我在命运之外",
+      "safe_name": "有一些瞬间_我在命运之外",
+      "source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\28\\28aa1248353b84819d4e7fd8c78bc47fe26a20b85a16ba9fbe596d4683fe05bc\\有一些瞬间 我在命运之外（男）.wav",
+      "lyrics_source": "C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\7a\\7a0e011d24e5ff22fcf13ad0222bdbd682902e54aa7eefe526a0e3846fcf76a1\\新建 文本文档 (3).txt",
+      "chorus_at": 12,
+      "source_duration_us": 223600000,
+      "start_us": 58280000,
+      "start_pick": "chorus-given+target30s",
+      "audio_layout": "chorus",
+      "native_audio": false,
+      "main_gain_db": 3.0,
+      "intro_gain_db": -8.0,
+      "main_fade_in_us": 250000,
+      "main_fade_out_us": 1200000,
+      "window_us": 23095397,
+      "clip_us": 23095397,
+      "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\songs\\有一些瞬间_我在命运之外.wav",
+      "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\jypack\\有一些瞬间_我在命运之外.jypack",
+      "jypack_bytes": 28322755,
+      "pruned_assets": 35,
+      "repaired_media": [
+        {
+          "entry": "ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg",
+          "detected": null,
+          "action": "替换为纯色图片",
+          "size": [
+            1920,
+            1280
+          ]
+        }
+      ],
+      "timeline": {
+        "intro_before_us": 6433333,
+        "intro_after_us": 6904616,
+        "delta_us": 471283,
+        "intro_groups": 5,
+        "intro_groups_grown": 0,
+        "template_main_duration_us": 25133333,
+        "main_duration_us": 23095397,
+        "shifted_segments": 8,
+        "rescaled_intro_clips": 1,
+        "main_clip_resized": 1,
+        "background_replaced": 1,
+        "stickers_replaced": 5,
+        "pruned_materials": {
+          "texts": 38
+        },
+        "duration_us": 30000013,
+        "max_segment_end_us": 32037949
+      },
+      "lyric_cues": 0,
+      "status": "rendered",
+      "music_gain_processing": "原素材增益与段增益去重",
+      "tts_processing": "官方原始音频 + 官方段速率",
+      "lyrics_cli": {
+        "engine": "official",
+        "lyric_segments": 7,
+        "animation": "vimo://7431852391374392615",
+        "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
+        "language": "zh",
+        "text_override": {
+          "segments": 7,
+          "replaced": 7,
+          "lines": 52,
+          "align": "ordered",
+          "spans": [
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              18,
+              19
+            ]
+          ],
+          "split_created": 0,
+          "word_samples": [
+            {
+              "text": "有一些瞬间 我在命运之外",
+              "gaps_ms": [
+                94,
+                93,
+                180,
+                180,
+                260,
+                260,
+                120,
+                120
+              ]
+            },
+            {
+              "text": "楼下站着 一直在发呆",
+              "gaps_ms": [
+                200,
+                200,
+                200,
+                200,
+                20,
+                20,
+                680,
+                220
+              ]
+            }
+          ],
+          "mean_similarity": 0.834,
+          "mean_cost": 0.166
+        },
+        "recognized": [
+          {
+            "start_us": 6933333,
+            "duration_us": 3566667,
+            "text": "有一些瞬间 我在命运之外"
+          },
+          {
+            "start_us": 10800000,
+            "duration_us": 3266666,
+            "text": "楼下站着一直在发呆"
+          },
+          {
+            "start_us": 14100000,
+            "duration_us": 3633333,
+            "text": "屏幕聊起来我没理睬"
+          },
+          {
+            "start_us": 17733333,
+            "duration_us": 3633333,
+            "text": "那几分钟我才算存在"
+          },
+          {
+            "start_us": 21366666,
+            "duration_us": 3600000,
+            "text": "你也试过把互相伤害"
+          },
+          {
+            "start_us": 24966666,
+            "duration_us": 3633334,
+            "text": "他钥匙的手慢了半拍"
+          },
+          {
+            "start_us": 28600000,
+            "duration_us": 1433333,
+            "text": "呼一口气"
+          }
+        ],
+        "chorus_trim": null
+      },
+      "transition": {
+        "name": "叠化",
+        "resource": "6724845717472416269",
+        "seg_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E"
+      },
+      "video_effect": {
+        "name": "富士影片",
+        "resource": "7631600978600480036",
+        "seg_id": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+        "coverage_us": [
+          6933333,
+          23100000
+        ],
+        "引用已验证": true
+      },
+      "intro_gain": {
+        "segments": 5,
+        "db": 3.0
+      },
+      "lint": {
+        "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\有一些瞬间_我在命运之外-official-lint.json",
+        "passed": false,
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 2558,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "keys": [
+          "domain",
+          "draft_json_file",
+          "draft_ref",
+          "draft_root",
+          "execution_policy",
+          "facts",
+          "input",
+          "issues",
+          "schema_version",
+          "status",
+          "verdicts"
+        ],
+        "issues": [
+          {
+            "evidence": {
+              "left_segment_id": "4C59E2E1-49A4-4127-9DE2-2ADB9CE9BC49",
+              "overlap_us": 23115332,
+              "right_segment_id": "7AA51067-BF2C-4f92-9112-9070AB4F4ABF",
+              "track": "default"
+            },
+            "message": "segments overlap on the same track",
+            "rule_id": "result.draft-timeline-overlap.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "left_segment_id": "7AA51067-BF2C-4f92-9112-9070AB4F4ABF",
+              "overlap_us": 23115332,
+              "right_segment_id": "EA4D2D1A-DC8D-4a84-8C0D-247D81A055DA",
+              "track": "default"
+            },
+            "message": "segments overlap on the same track",
+            "rule_id": "result.draft-timeline-overlap.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2A34E39C-A289-4d4b-8903-39CBCB9003ED",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 1089231,
+              "time_overlap_us": 1089231,
+              "time_start_us": 0
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "2ACD226D-FB51-4709-8676-C67DF4F9C73B",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 2492308,
+              "time_overlap_us": 1403077,
+              "time_start_us": 1089231
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "004ABF8A-3AEF-473d-83A9-50F2BA968E5A",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 3544616,
+              "time_overlap_us": 1052308,
+              "time_start_us": 2492308
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          },
+          {
+            "evidence": {
+              "intersection_area": 0.0654350528998638,
+              "iou": 0.07756780229171355,
+              "left_coverage": 0.07756780229171355,
+              "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+              "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+              "right_coverage": 1.0,
+              "right_segment_id": "4FDF1578-F43B-4da2-9F2A-3092E310BA08",
+              "right_track": "769211B0-BC32-49c8-B837-7089E7FC5E60",
+              "time_end_us": 5040001,
+              "time_overlap_us": 1495385,
+              "time_start_us": 3544616
+            },
+            "message": "elements overlap in both timeline and normalized canvas space",
+            "rule_id": "result.draft-spatial-overlap.v1",
+            "severity": "warning"
+          }
+        ]
+      },
+      "draft_dir": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+      "render": {
+        "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\render\\有一些瞬间_我在命运之外\\render.mp4",
+        "duration": 30.033333,
+        "width": 1280,
+        "height": 720,
+        "sha256": "c44b98d1cf4e7108518c75cd0158dd1627257288c76970432a96810b16da8602",
+        "size": 5159451,
+        "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
+      },
+      "render_seconds": 184.3
+    }
+  },
+  "order": [
+    "有一些瞬间 我在命运之外"
+  ],
+  "intro": {
+    "lines": [
+      "有没有下班到家",
+      "却在楼下多站几分钟",
+      "不是不想回家",
+      "只是想把自己还给自己",
+      "懂这首歌的评论区留个句号"
+    ],
+    "mode": "official",
+    "voice": "ICL_zh_female_xinmanbo",
+    "total_us": 6904616
+  },
+  "totals": {
+    "count": 1,
+    "rendered": 1,
+    "built": 0,
+    "failed": 0
+  }
+}

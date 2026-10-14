@@ -1,0 +1,155 @@
+{
+  "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01\\Timelines\\1FE90FE2-EA04-4076-AF59-4ED7F27C5ACE\\draft_content.json",
+  "effects": [
+    {
+      "video_segment": "CEFDF797-ED0E-49af-93C4-9DCBB5297990",
+      "range": [
+        6933333,
+        23100000
+      ],
+      "effect": {
+        "adjust_params": [
+          {
+            "default_value": 1.0,
+            "name": "effects_adjust_filter",
+            "value": 1.0
+          }
+        ],
+        "category_id": "10865",
+        "effect_id": "7631600978600480036",
+        "id": "911FEDA4-6527-4ba6-8901-376327F0BF29",
+        "name": "富士影片",
+        "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\lyra-cli\\material-cache\\effect\\7631600978600480036\\7631600978600480036\\abee7f281984e82b135431de17def48d",
+        "render_index": 11000,
+        "resource_id": "7631600978600480036",
+        "source_platform": 1,
+        "type": "video_effect",
+        "value": 1.0
+      }
+    }
+  ],
+  "tts": [
+    {
+      "text": "有没有下班到家",
+      "range": [
+        0,
+        1100000
+      ],
+      "source_range": {
+        "duration": 1416000
+      },
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "原始文件逐字节一致": true,
+      "source_duration_us": 1416000
+    },
+    {
+      "text": "不是不想回家",
+      "range": [
+        2500000,
+        1066666
+      ],
+      "source_range": {
+        "duration": 1368000
+      },
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "原始文件逐字节一致": true,
+      "source_duration_us": 1368000
+    },
+    {
+      "text": "懂这首歌的评论区留个句号",
+      "range": [
+        5066666,
+        1866667
+      ],
+      "source_range": {
+        "duration": 2424000
+      },
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "原始文件逐字节一致": true,
+      "source_duration_us": 2424000
+    },
+    {
+      "text": "却在楼下多站几分钟",
+      "range": [
+        1100000,
+        1400000
+      ],
+      "source_range": {
+        "duration": 1824000
+      },
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "原始文件逐字节一致": true,
+      "source_duration_us": 1824000
+    },
+    {
+      "text": "只是想把自己还给自己",
+      "range": [
+        3566666,
+        1500000
+      ],
+      "source_range": {
+        "duration": 1944000
+      },
+      "speed": 1.3,
+      "volume": 1.4125375446227544,
+      "原始文件逐字节一致": true,
+      "source_duration_us": 1944000
+    }
+  ],
+  "lyrics": [
+    {
+      "range": [
+        6833333,
+        3900000
+      ],
+      "text": "有一些瞬间我\n在命运之外"
+    },
+    {
+      "range": [
+        10733333,
+        3366667
+      ],
+      "text": "楼下站一\n一直在发呆"
+    },
+    {
+      "range": [
+        14100000,
+        3633333
+      ],
+      "text": "屏幕亮起来我没理睬"
+    },
+    {
+      "range": [
+        17733333,
+        3633333
+      ],
+      "text": "那分钟我\n才才算存在"
+    },
+    {
+      "range": [
+        21366666,
+        3600000
+      ],
+      "text": "你试过吧\n不想上上来"
+    },
+    {
+      "range": [
+        24966666,
+        3633334
+      ],
+      "text": "掏钥匙的\n手慢慢半拍"
+    },
+    {
+      "range": [
+        28600000,
+        1433333
+      ],
+      "text": "呼一口气锁打开"
+    }
+  ]
+}

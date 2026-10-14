@@ -1,0 +1,881 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791546149851",
+    "processId": 57576,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-e2ee04a663f404a7",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": false,
+      "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100707,\"err_msg\":\"blueprint: sub-command execution failed: {\\\"command_diagnostics\\\":{\\\"level\\\":\\\"summary\\\",\\\"xml_diff_enabled\\\":false},\\\"executed_count\\\":0,\\\"failed_command\\\":\\\"draft edit --update \\\\\\\"text=1;target=于是|不觉可|问春风\\\\\\\" --target seg_id=1668560B-2F7F-4fed-A871-D56BE1B2F579\\\",\\\"failed_index\\\":0,\\\"partial_apply_observed_state\\\":{\\\"actual_state_persisted\\\":true,\\\"observed_current_md5\\\":\\\"b6b474a98e8e24e5cde924390fcdc2e8\\\",\\\"segment_count\\\":0},\\\"performance\\\":{\\\"checkpoint_write_ms\\\":10,\\\"collect_after_minidraft_ms\\\":0,\\\"collect_before_minidraft_ms\\\":0,\\\"command_count\\\":1,\\\"command_framework_overhead_ms\\\":5,\\\"command_handler_ms\\\":57,\\\"command_iteration_ms\\\":69,\\\"command_prepare_ms\\\":7,\\\"commit_immediately\\\":true,\\\"convert_ms\\\":7,\\\"converter\\\":{\\\"aggregate\\\":{\\\"build_cli_plan\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":2188,\\\"elapsed_us_total\\\":2188,\\\"error_count_total\\\":0,\\\"warning_count_total\\\":0},\\\"build_plan_cleanup_missing\\\":{\\\"cleanup_count_total\\\":0,\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":0,\\\"elapsed_us_total\\\":0},\\\"build_plan_compounds\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":7,\\\"elapsed_us_total\\\":7},\\\"build_plan_lyric_recognize\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"directive_count_total\\\":0,\\\"elapsed_us_max\\\":0,\\\"elapsed_us_total\\\":0},\\\"build_plan_main_normalization\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":4,\\\"elapsed_us_total\\\":4,\\\"required_total\\\":0},\\\"build_plan_prepare_indexes\\\":{\\\"count\\\":1,\\\"current_compound_count_total\\\":0,\\\"current_segment_count_total\\\":26,\\\"elapsed_us_max\\\":45,\\\"elapsed_us_total\\\":45,\\\"target_compound_count_total\\\":0,\\\"target_segment_count_total\\\":26},\\\"build_plan_root_canvas\\\":{\\\"command_count_total\\\":0,\\\"count\\\":1,\\\"elapsed_us_max\\\":5,\\\"elapsed_us_total\\\":5},\\\"build_plan_sort_and_postprocess\\\":{\\\"coalesced_command_count_total\\\":0,\\\"coalesced_ordered_target_mutation_command_count_total\\\":0,\\\"coalesced_segment_add_command_count_total\\\":0,\\\"coalesced_target_update_command_count_total\\\":0,\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":19,\\\"elapsed_us_total\\\":19},\\\"build_plan_target_segments\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":2078,\\\"elapsed_us_total\\\":2078,\\\"target_add_count_total\\\":0,\\\"target_existing_count_total\\\":26,\\\"target_material_replacement_count_total\\\":0,\\\"target_segment_count_total\\\":26},\\\"build_plan_total\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":2184,\\\"elapsed_us_total\\\":2184,\\\"error_count_total\\\":0,\\\"warning_count_total\\\":0},\\\"build_plan_validate_existing_main\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":2,\\\"elapsed_us_total\\\":2,\\\"error_count_total\\\":0},\\\"build_plan_validate_relative_timeline\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":2,\\\"elapsed_us_total\\\":2,\\\"error_count_total\\\":0},\\\"build_plan_validate_transitions\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":0,\\\"elapsed_us_total\\\":0,\\\"error_count_total\\\":0},\\\"convert_total\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":3152,\\\"elapsed_us_total\\\":3152},\\\"make_planner_options\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":16,\\\"elapsed_us_total\\\":16,\\\"id_map_count_total\\\":25,\\\"resource_count_total\\\":11,\\\"resource_metadata_count_total\\\":11},\\\"normalize_current_xml\\\":{\\\"count\\\":1,\\\"current_segment_count_total\\\":26,\\\"elapsed_us_max\\\":169,\\\"elapsed_us_total\\\":169},\\\"normalize_target_xml\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":32,\\\"elapsed_us_total\\\":32,\\\"target_segment_count_total\\\":26},\\\"parse_current_xml\\\":{\\\"count\\\":1,\\\"current_xml_bytes_total\\\":16862,\\\"elapsed_us_max\\\":342,\\\"elapsed_us_total\\\":342},\\\"parse_target_xml\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":349,\\\"elapsed_us_total\\\":349,\\\"target_xml_bytes_total\\\":16198},\\\"static_layout_spec\\\":{\\\"count\\\":16,\\\"elapsed_us_max\\\":21,\\\"elapsed_us_total\\\":133,\\\"emitted_count_total\\\":6,\\\"has_current_total\\\":16,\\\"same_as_current_total\\\":10},\\\"validate_target_slider_params\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":9,\\\"elapsed_us_total\\\":9,\\\"error_count_total\\\":0}},\\\"command_count\\\":12,\\\"events\\\":[{\\\"elapsed_us\\\":349,\\\"metrics\\\":{\\\"target_xml_bytes\\\":16198},\\\"stage\\\":\\\"parse_target_xml\\\"},{\\\"elapsed_us\\\":342,\\\"metrics\\\":{\\\"current_xml_bytes\\\":16862},\\\"stage\\\":\\\"parse_current_xml\\\"},{\\\"elapsed_us\\\":16,\\\"metrics\\\":{\\\"id_map_count\\\":25,\\\"resource_count\\\":11,\\\"resource_metadata_count\\\":11},\\\"stage\\\":\\\"make_planner_options\\\"},{\\\"elapsed_us\\\":32,\\\"metrics\\\":{\\\"target_segment_count\\\":26},\\\"stage\\\":\\\"normalize_target_xml\\\"},{\\\"elapsed_us\\\":169,\\\"metrics\\\":{\\\"current_segment_count\\\":26},\\\"stage\\\":\\\"normalize_current_xml\\\"},{\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"validate_target_slider_params\\\"},{\\\"elapsed_us\\\":2188,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"error_count\\\":0,\\\"warning_count\\\":0},\\\"stage\\\":\\\"build_cli_plan\\\"},{\\\"elapsed_us\\\":45,\\\"metrics\\\":{\\\"current_compound_count\\\":0,\\\"current_segment_count\\\":26,\\\"target_compound_count\\\":0,\\\"target_segment_count\\\":26},\\\"stage\\\":\\\"build_plan_prepare_indexes\\\"},{\\\"elapsed_us\\\":0,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"build_plan_validate_transitions\\\"},{\\\"elapsed_us\\\":2,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"build_plan_validate_relative_timeline\\\"},{\\\"elapsed_us\\\":2,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"build_plan_validate_existing_main\\\"},{\\\"elapsed_us\\\":5,\\\"metrics\\\":{\\\"command_count\\\":0},\\\"stage\\\":\\\"build_plan_root_canvas\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":21,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":8,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":8,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":8,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"elapsed_us\\\":2078,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"target_add_count\\\":0,\\\"target_existing_count\\\":26,\\\"target_material_replacement_count\\\":0,\\\"target_segment_count\\\":26},\\\"stage\\\":\\\"build_plan_target_segments\\\"},{\\\"elapsed_us\\\":4,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"required\\\":0},\\\"stage\\\":\\\"build_plan_main_normalization\\\"},{\\\"elapsed_us\\\":0,\\\"metrics\\\":{\\\"cleanup_count\\\":0,\\\"command_count\\\":12},\\\"stage\\\":\\\"build_plan_cleanup_missing\\\"},{\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"command_count\\\":12},\\\"stage\\\":\\\"build_plan_compounds\\\"},{\\\"elapsed_us\\\":0,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"directive_count\\\":0},\\\"stage\\\":\\\"build_plan_lyric_recognize\\\"},{\\\"elapsed_us\\\":19,\\\"metrics\\\":{\\\"coalesced_command_count\\\":0,\\\"coalesced_ordered_target_mutation_command_count\\\":0,\\\"coalesced_segment_add_command_count\\\":0,\\\"coalesced_target_update_command_count\\\":0,\\\"command_count\\\":12},\\\"stage\\\":\\\"build_plan_sort_and_postprocess\\\"},{\\\"elapsed_us\\\":2184,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"error_count\\\":0,\\\"warning_count\\\":0},\\\"stage\\\":\\\"build_plan_total\\\"},{\\\"elapsed_us\\\":3152,\\\"metrics\\\":{\\\"command_count\\\":12},\\\"stage\\\":\\\"convert_total\\\"}],\\\"timing_count\\\":36},\\\"execute_ms\\\":111,\\\"hydrate_ms\\\":2,\\\"load_ms\\\":15,\\\"patch_request_execute_ms\\\":0,\\\"target_audit_ms\\\":1,\\\"total_ms\\\":162,\\\"xml_capture_ms\\\":0},\\\"planned_count\\\":12,\\\"skipped_count\\\":0,\\\"sub_detail\\\":\\\"{\\\\\\\"err_category\\\\\\\":\\\\\\\"usage\\\\\\\",\\\\\\\"err_code\\\\\\\":-100110,\\\\\\\"err_msg\\\\\\\":\\\\\\\"gen_patch: invalid action: segment not found: 1668560B-2F7F-4fed-A871-D56BE1B2F579\\\\\\\",\\\\\\\"recovery\\\\\\\":\\\\\\\"fix_input\\\\\\\",\\\\\\\"result\\\\\\\":null,\\\\\\\"severity\\\\\\\":\\\\\\\"failed\\\\\\\"}\\\\n\\\"}\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+      "stderr": "",
+      "output": "{\"err_category\":\"runtime\",\"err_code\":-100707,\"err_msg\":\"blueprint: sub-command execution failed: {\\\"command_diagnostics\\\":{\\\"level\\\":\\\"summary\\\",\\\"xml_diff_enabled\\\":false},\\\"executed_count\\\":0,\\\"failed_command\\\":\\\"draft edit --update \\\\\\\"text=1;target=于是|不觉可|问春风\\\\\\\" --target seg_id=1668560B-2F7F-4fed-A871-D56BE1B2F579\\\",\\\"failed_index\\\":0,\\\"partial_apply_observed_state\\\":{\\\"actual_state_persisted\\\":true,\\\"observed_current_md5\\\":\\\"b6b474a98e8e24e5cde924390fcdc2e8\\\",\\\"segment_count\\\":0},\\\"performance\\\":{\\\"checkpoint_write_ms\\\":10,\\\"collect_after_minidraft_ms\\\":0,\\\"collect_before_minidraft_ms\\\":0,\\\"command_count\\\":1,\\\"command_framework_overhead_ms\\\":5,\\\"command_handler_ms\\\":57,\\\"command_iteration_ms\\\":69,\\\"command_prepare_ms\\\":7,\\\"commit_immediately\\\":true,\\\"convert_ms\\\":7,\\\"converter\\\":{\\\"aggregate\\\":{\\\"build_cli_plan\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":2188,\\\"elapsed_us_total\\\":2188,\\\"error_count_total\\\":0,\\\"warning_count_total\\\":0},\\\"build_plan_cleanup_missing\\\":{\\\"cleanup_count_total\\\":0,\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":0,\\\"elapsed_us_total\\\":0},\\\"build_plan_compounds\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":7,\\\"elapsed_us_total\\\":7},\\\"build_plan_lyric_recognize\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"directive_count_total\\\":0,\\\"elapsed_us_max\\\":0,\\\"elapsed_us_total\\\":0},\\\"build_plan_main_normalization\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":4,\\\"elapsed_us_total\\\":4,\\\"required_total\\\":0},\\\"build_plan_prepare_indexes\\\":{\\\"count\\\":1,\\\"current_compound_count_total\\\":0,\\\"current_segment_count_total\\\":26,\\\"elapsed_us_max\\\":45,\\\"elapsed_us_total\\\":45,\\\"target_compound_count_total\\\":0,\\\"target_segment_count_total\\\":26},\\\"build_plan_root_canvas\\\":{\\\"command_count_total\\\":0,\\\"count\\\":1,\\\"elapsed_us_max\\\":5,\\\"elapsed_us_total\\\":5},\\\"build_plan_sort_and_postprocess\\\":{\\\"coalesced_command_count_total\\\":0,\\\"coalesced_ordered_target_mutation_command_count_total\\\":0,\\\"coalesced_segment_add_command_count_total\\\":0,\\\"coalesced_target_update_command_count_total\\\":0,\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":19,\\\"elapsed_us_total\\\":19},\\\"build_plan_target_segments\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":2078,\\\"elapsed_us_total\\\":2078,\\\"target_add_count_total\\\":0,\\\"target_existing_count_total\\\":26,\\\"target_material_replacement_count_total\\\":0,\\\"target_segment_count_total\\\":26},\\\"build_plan_total\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":2184,\\\"elapsed_us_total\\\":2184,\\\"error_count_total\\\":0,\\\"warning_count_total\\\":0},\\\"build_plan_validate_existing_main\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":2,\\\"elapsed_us_total\\\":2,\\\"error_count_total\\\":0},\\\"build_plan_validate_relative_timeline\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":2,\\\"elapsed_us_total\\\":2,\\\"error_count_total\\\":0},\\\"build_plan_validate_transitions\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":0,\\\"elapsed_us_total\\\":0,\\\"error_count_total\\\":0},\\\"convert_total\\\":{\\\"command_count_total\\\":12,\\\"count\\\":1,\\\"elapsed_us_max\\\":3152,\\\"elapsed_us_total\\\":3152},\\\"make_planner_options\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":16,\\\"elapsed_us_total\\\":16,\\\"id_map_count_total\\\":25,\\\"resource_count_total\\\":11,\\\"resource_metadata_count_total\\\":11},\\\"normalize_current_xml\\\":{\\\"count\\\":1,\\\"current_segment_count_total\\\":26,\\\"elapsed_us_max\\\":169,\\\"elapsed_us_total\\\":169},\\\"normalize_target_xml\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":32,\\\"elapsed_us_total\\\":32,\\\"target_segment_count_total\\\":26},\\\"parse_current_xml\\\":{\\\"count\\\":1,\\\"current_xml_bytes_total\\\":16862,\\\"elapsed_us_max\\\":342,\\\"elapsed_us_total\\\":342},\\\"parse_target_xml\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":349,\\\"elapsed_us_total\\\":349,\\\"target_xml_bytes_total\\\":16198},\\\"static_layout_spec\\\":{\\\"count\\\":16,\\\"elapsed_us_max\\\":21,\\\"elapsed_us_total\\\":133,\\\"emitted_count_total\\\":6,\\\"has_current_total\\\":16,\\\"same_as_current_total\\\":10},\\\"validate_target_slider_params\\\":{\\\"count\\\":1,\\\"elapsed_us_max\\\":9,\\\"elapsed_us_total\\\":9,\\\"error_count_total\\\":0}},\\\"command_count\\\":12,\\\"events\\\":[{\\\"elapsed_us\\\":349,\\\"metrics\\\":{\\\"target_xml_bytes\\\":16198},\\\"stage\\\":\\\"parse_target_xml\\\"},{\\\"elapsed_us\\\":342,\\\"metrics\\\":{\\\"current_xml_bytes\\\":16862},\\\"stage\\\":\\\"parse_current_xml\\\"},{\\\"elapsed_us\\\":16,\\\"metrics\\\":{\\\"id_map_count\\\":25,\\\"resource_count\\\":11,\\\"resource_metadata_count\\\":11},\\\"stage\\\":\\\"make_planner_options\\\"},{\\\"elapsed_us\\\":32,\\\"metrics\\\":{\\\"target_segment_count\\\":26},\\\"stage\\\":\\\"normalize_target_xml\\\"},{\\\"elapsed_us\\\":169,\\\"metrics\\\":{\\\"current_segment_count\\\":26},\\\"stage\\\":\\\"normalize_current_xml\\\"},{\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"validate_target_slider_params\\\"},{\\\"elapsed_us\\\":2188,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"error_count\\\":0,\\\"warning_count\\\":0},\\\"stage\\\":\\\"build_cli_plan\\\"},{\\\"elapsed_us\\\":45,\\\"metrics\\\":{\\\"current_compound_count\\\":0,\\\"current_segment_count\\\":26,\\\"target_compound_count\\\":0,\\\"target_segment_count\\\":26},\\\"stage\\\":\\\"build_plan_prepare_indexes\\\"},{\\\"elapsed_us\\\":0,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"build_plan_validate_transitions\\\"},{\\\"elapsed_us\\\":2,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"build_plan_validate_relative_timeline\\\"},{\\\"elapsed_us\\\":2,\\\"metrics\\\":{\\\"error_count\\\":0},\\\"stage\\\":\\\"build_plan_validate_existing_main\\\"},{\\\"elapsed_us\\\":5,\\\"metrics\\\":{\\\"command_count\\\":0},\\\"stage\\\":\\\"build_plan_root_canvas\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":21,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"sticker\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"subtitle\\\",\\\"elapsed_us\\\":6,\\\"metrics\\\":{\\\"emitted_count\\\":0,\\\"has_current\\\":1,\\\"same_as_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":8,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":8,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":9,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":8,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"detail\\\":\\\"text\\\",\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"emitted_count\\\":1,\\\"has_current\\\":1},\\\"stage\\\":\\\"static_layout_spec\\\"},{\\\"elapsed_us\\\":2078,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"target_add_count\\\":0,\\\"target_existing_count\\\":26,\\\"target_material_replacement_count\\\":0,\\\"target_segment_count\\\":26},\\\"stage\\\":\\\"build_plan_target_segments\\\"},{\\\"elapsed_us\\\":4,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"required\\\":0},\\\"stage\\\":\\\"build_plan_main_normalization\\\"},{\\\"elapsed_us\\\":0,\\\"metrics\\\":{\\\"cleanup_count\\\":0,\\\"command_count\\\":12},\\\"stage\\\":\\\"build_plan_cleanup_missing\\\"},{\\\"elapsed_us\\\":7,\\\"metrics\\\":{\\\"command_count\\\":12},\\\"stage\\\":\\\"build_plan_compounds\\\"},{\\\"elapsed_us\\\":0,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"directive_count\\\":0},\\\"stage\\\":\\\"build_plan_lyric_recognize\\\"},{\\\"elapsed_us\\\":19,\\\"metrics\\\":{\\\"coalesced_command_count\\\":0,\\\"coalesced_ordered_target_mutation_command_count\\\":0,\\\"coalesced_segment_add_command_count\\\":0,\\\"coalesced_target_update_command_count\\\":0,\\\"command_count\\\":12},\\\"stage\\\":\\\"build_plan_sort_and_postprocess\\\"},{\\\"elapsed_us\\\":2184,\\\"metrics\\\":{\\\"command_count\\\":12,\\\"error_count\\\":0,\\\"warning_count\\\":0},\\\"stage\\\":\\\"build_plan_total\\\"},{\\\"elapsed_us\\\":3152,\\\"metrics\\\":{\\\"command_count\\\":12},\\\"stage\\\":\\\"convert_total\\\"}],\\\"timing_count\\\":36},\\\"execute_ms\\\":111,\\\"hydrate_ms\\\":2,\\\"load_ms\\\":15,\\\"patch_request_execute_ms\\\":0,\\\"target_audit_ms\\\":1,\\\"total_ms\\\":162,\\\"xml_capture_ms\\\":0},\\\"planned_count\\\":12,\\\"skipped_count\\\":0,\\\"sub_detail\\\":\\\"{\\\\\\\"err_category\\\\\\\":\\\\\\\"usage\\\\\\\",\\\\\\\"err_code\\\\\\\":-100110,\\\\\\\"err_msg\\\\\\\":\\\\\\\"gen_patch: invalid action: segment not found: 1668560B-2F7F-4fed-A871-D56BE1B2F579\\\\\\\",\\\\\\\"recovery\\\\\\\":\\\\\\\"fix_input\\\\\\\",\\\\\\\"result\\\\\\\":null,\\\\\\\"severity\\\\\\\":\\\\\\\"failed\\\\\\\"}\\\\n\\\"}\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+      "exitCode": 1,
+      "timedOut": false,
+      "durationMs": 885,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "blueprint",
+        "apply",
+        "--workspace",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2",
+        "--dir",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting-project-copy\\draft-apply",
+        "--ref",
+        "local://draft-apply",
+        "--selection-file",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\edit.selection",
+        "--allow-existing-main-deletion",
+        "--allow-existing-subtitle-changes"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791546149863,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791546149,\"timestamp_str\":\"2026-10-09 19:42:29.863\",\"trace_index\":11,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":9,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791546150269,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.269\",\"trace_index\":12,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791546150273,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":57576,\"ppid\":47604,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.273\",\"trace_index\":13,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791546150340,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-k_v81ury\\__PSScriptPolicyTest_ntievavu.bg3.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791546150340,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.340\",\"trace_index\":14,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791546150342,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-k_v81ury\\__PSScriptPolicyTest_2wmjrayy.he4.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791546150342,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.342\",\"trace_index\":15,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791546150556,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-k_v81ury\\__PSScriptPolicyTest_zvrh50sq.unh.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791546150556,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.556\",\"trace_index\":16,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791546150557,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-k_v81ury\\__PSScriptPolicyTest_ifi5vzsz.mpk.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791546150557,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.557\",\"trace_index\":17,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791546150670,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":58244,\"ppid\":57576,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.670\",\"trace_index\":18,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791546150812,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":56472,\"ppid\":58244,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.812\",\"trace_index\":19,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791546150962,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-32856091804500",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791546150962,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-32856091804500\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.962\",\"trace_index\":20,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791546150981,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791546150981,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.981\",\"trace_index\":21,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791546150983,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791546150983,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.983\",\"trace_index\":22,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791546150994,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791546150994,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.994\",\"trace_index\":23,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791546150995,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791546150995,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791546150,\"timestamp_str\":\"2026-10-09 19:42:30.995\",\"trace_index\":24,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791546151121,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":56308,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.121\",\"trace_index\":25,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791546151184,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\apply_execution_checkpoint.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791546151212,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\external_root_meta_info.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791546151215,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\external_root_meta_info.json.lock",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791546151217,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\apply_execution_checkpoint.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791546151225,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\apply_execution_checkpoint.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791546151227,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":125,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":56308,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.227\",\"trace_index\":26,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791546151227,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56308,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791546151287,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\apply_execution_checkpoint.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-35",
+      "sequence": 35,
+      "timestamp": 1791546151309,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":57584,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.309\",\"trace_index\":27,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-36",
+      "sequence": 36,
+      "timestamp": 1791546151313,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\id_map.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-37",
+      "sequence": 37,
+      "timestamp": 1791546151315,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\resource_map.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-38",
+      "sequence": 38,
+      "timestamp": 1791546151317,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\current_draft.xml",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-39",
+      "sequence": 39,
+      "timestamp": 1791546151322,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\id_map.json.apply-post.bak",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-40",
+      "sequence": 40,
+      "timestamp": 1791546151325,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\resource_map.json.apply-post.bak",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-41",
+      "sequence": 41,
+      "timestamp": 1791546151326,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\current_draft.xml.apply-post.bak",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-42",
+      "sequence": 42,
+      "timestamp": 1791546151330,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\resource_map.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-43",
+      "sequence": 43,
+      "timestamp": 1791546151333,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\current_draft.xml",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-44",
+      "sequence": 44,
+      "timestamp": 1791546151337,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\id_map.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-45",
+      "sequence": 45,
+      "timestamp": 1791546151342,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting-project-copy\\draft-apply\\draft-apply\\draft_meta_info.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-46",
+      "sequence": 46,
+      "timestamp": 1791546151344,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting-project-copy\\draft-apply\\draft-apply\\draft_content.json",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-47",
+      "sequence": 47,
+      "timestamp": 1791546151347,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":53188,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.347\",\"trace_index\":28,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-48",
+      "sequence": 48,
+      "timestamp": 1791546151383,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":55760,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.383\",\"trace_index\":29,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-49",
+      "sequence": 49,
+      "timestamp": 1791546151419,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":50244,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.419\",\"trace_index\":30,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-50",
+      "sequence": 50,
+      "timestamp": 1791546151457,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":46688,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.457\",\"trace_index\":31,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-51",
+      "sequence": 51,
+      "timestamp": 1791546151496,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":50968,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.496\",\"trace_index\":32,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-52",
+      "sequence": 52,
+      "timestamp": 1791546151538,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":52708,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.538\",\"trace_index\":33,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-53",
+      "sequence": 53,
+      "timestamp": 1791546151586,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":57264,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.586\",\"trace_index\":34,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-54",
+      "sequence": 54,
+      "timestamp": 1791546151632,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\56472.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-55",
+      "sequence": 55,
+      "timestamp": 1791546151639,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":860,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":56472,\"ppid\":58244,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.639\",\"trace_index\":35,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-56",
+      "sequence": 56,
+      "timestamp": 1791546151639,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 56472,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-57",
+      "sequence": 57,
+      "timestamp": 1791546151664,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1000,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":58244,\"ppid\":57576,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.664\",\"trace_index\":36,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-58",
+      "sequence": 58,
+      "timestamp": 1791546151664,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 58244,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-59",
+      "sequence": 59,
+      "timestamp": 1791546151684,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-60",
+      "sequence": 60,
+      "timestamp": 1791546151691,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1437,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":57576,\"ppid\":47604,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.691\",\"trace_index\":37,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-61",
+      "sequence": 61,
+      "timestamp": 1791546151691,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-62",
+      "sequence": 62,
+      "timestamp": 1791546151698,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 57576,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-63",
+      "sequence": 63,
+      "timestamp": 1791546151721,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":266,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":50968,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.721\",\"trace_index\":38,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-64",
+      "sequence": 64,
+      "timestamp": 1791546151721,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 50968,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    },
+    {
+      "eventId": "sandbox-event-65",
+      "sequence": 65,
+      "timestamp": 1791546151805,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":1,\"crash_tid\":0,\"duration_ms\":297,\"flags\":0,\"name\":\"ttdaemon.exe\",\"name_version\":\"\",\"pid\":52708,\"ppid\":56472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791546151,\"timestamp_str\":\"2026-10-09 19:42:31.805\",\"trace_index\":39,\"vm_id\":\"draftediting-1791546149851\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-66",
+      "sequence": 66,
+      "timestamp": 1791546151805,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791546149851",
+      "processId": 52708,
+      "errorCode": 1,
+      "processState": 4,
+      "processErrorCode": 1,
+      "exitCode": 1,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 1,
+        "exitCode": 1
+      }
+    }
+  ]
+}

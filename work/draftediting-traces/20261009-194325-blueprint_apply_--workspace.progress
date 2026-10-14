@@ -1,0 +1,5 @@
+{"stage":"start","at":1791546203270,"args":["draft","blueprint","apply","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2","--dir","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting-project-copy\\source-copy","--ref","local://source-copy","--selection-file","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\apply2\\edit.selection","--allow-existing-main-deletion","--allow-existing-subtitle-changes"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting-project-copy","pid":38856}
+{"stage":"policy","at":1791546203270,"rules":9}
+{"stage":"create-process:begin","at":1791546203273,"vmId":"draftediting-1791546203270"}
+{"stage":"create-process:done","at":1791546203719,"processId":44508,"success":true}
+{"stage":"worker-ready","at":1791546204216}

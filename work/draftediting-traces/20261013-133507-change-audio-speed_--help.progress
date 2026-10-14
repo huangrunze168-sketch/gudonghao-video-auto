@@ -1,0 +1,5 @@
+{"stage":"start","at":1791869705227,"args":["media","change-audio-speed","--help"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":22276}
+{"stage":"policy","at":1791869705228,"rules":7}
+{"stage":"create-process:begin","at":1791869705231,"vmId":"draftediting-1791869705227"}
+{"stage":"create-process:done","at":1791869705559,"processId":30464,"success":true}
+{"stage":"worker-ready","at":1791869706051}

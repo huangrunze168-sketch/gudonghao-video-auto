@@ -1,0 +1,47 @@
+{
+  "template": "C:/Users/Administrator/.dsh/attachments/v1/files/1b/1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2/测试.jypack",
+  "out": "C:/Users/Administrator/Documents/剪映/work/guzhu-mingyun-v2",
+  "media": {
+    "background": "C:/Users/Administrator/Documents/剪映/work/guzhu-mingyun/background.png",
+    "effect": "film",
+    "transition": "dissolve",
+    "transition_ms": 500,
+    "loudness_normalize": "off",
+    "intro_volume_db": 3
+  },
+  "intro": {
+    "lines": [
+      "有没有下班到家",
+      "却在楼下多站几分钟",
+      "不是不想回家",
+      "只是想把自己还给自己",
+      "懂这首歌的评论区留个句号"
+    ],
+    "tts": {
+      "mode": "official",
+      "speed": 1.3
+    }
+  },
+  "lyrics": {
+    "engine": "official",
+    "animation": "7413413547289464100"
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "bitrate": 6000000,
+    "timeout": 1800
+  },
+  "songs": [
+    {
+      "name": "有一些瞬间 我在命运之外",
+      "file": "C:/Users/Administrator/.dsh/attachments/v1/files/28/28aa1248353b84819d4e7fd8c78bc47fe26a20b85a16ba9fbe596d4683fe05bc/有一些瞬间 我在命运之外（男）.wav",
+      "lyrics": "C:/Users/Administrator/.dsh/attachments/v1/files/7a/7a0e011d24e5ff22fcf13ad0222bdbd682902e54aa7eefe526a0e3846fcf76a1/新建 文本文档 (3).txt",
+      "audio_layout": "chorus",
+      "chorus_start_us": 58280000,
+      "target_seconds": 30,
+      "main_fade_out_ms": 1200
+    }
+  ]
+}

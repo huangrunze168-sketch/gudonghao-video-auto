@@ -1,5 +1,13 @@
 # Runtime and audit artifacts remain local.
-/work/
+# 注意：/work/ 下的脚本、文档与索引要入库（完整推送），
+# 其中的媒体与大体积中间产物由下面的全局规则排除。
+/work/**/*.bak
+/work/**/*.bin
+/work/**/*.runtime.json
+/work/**/extracted/
+# 设备码登录待处理态，含 device_code / user_code，不得入库
+/work/auth-pending.json
+rename-body.json
 /outputs/
 .DS_Store
 __pycache__/

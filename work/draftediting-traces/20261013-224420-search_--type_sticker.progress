@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902655409,"args":["material","search","--type","sticker","--prompt","一个人 走开 背影","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\819eaf8d39274c96b27b9e240e02ea5f","pid":36600}
+{"stage":"policy","at":1791902655410,"rules":9}
+{"stage":"policy-network","at":1791902655410,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902655413,"vmId":"draftediting-1791902655409"}
+{"stage":"create-process:done","at":1791902655432,"processId":33672,"success":true}
+{"stage":"worker-ready","at":1791902655938}

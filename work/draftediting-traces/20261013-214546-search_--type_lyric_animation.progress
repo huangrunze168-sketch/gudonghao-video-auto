@@ -1,0 +1,6 @@
+{"stage":"start","at":1791899143293,"args":["material","search","--type","lyric_animation","--prompt","抖音 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\4844b77bdd874e109c3262c3cc770474","pid":51036}
+{"stage":"policy","at":1791899143293,"rules":9}
+{"stage":"policy-network","at":1791899143293,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791899143296,"vmId":"draftediting-1791899143293"}
+{"stage":"create-process:done","at":1791899143314,"processId":9644,"success":true}
+{"stage":"worker-ready","at":1791899143827}

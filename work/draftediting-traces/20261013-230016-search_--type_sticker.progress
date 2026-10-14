@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903612317,"args":["material","search","--type","sticker","--prompt","加油 狗 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\b46ab14e1db84278a7831d16b359fc9c","pid":34860}
+{"stage":"policy","at":1791903612318,"rules":9}
+{"stage":"policy-network","at":1791903612318,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903612323,"vmId":"draftediting-1791903612318"}
+{"stage":"create-process:done","at":1791903612342,"processId":47380,"success":true}
+{"stage":"worker-ready","at":1791903612831}

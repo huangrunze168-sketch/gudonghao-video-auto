@@ -1,0 +1,41 @@
+{
+  "stickers": {
+    "placed": [
+      {
+        "name": "疑惑的猫咪",
+        "segment": "B1EA1670-481E-440F-8D10-228BFAF1F5AA",
+        "start_us": 0
+      },
+      {
+        "name": "外星小猫-无语",
+        "segment": "6F4486AE-7764-418E-9C1D-7AE728451AE4",
+        "start_us": 1566666
+      },
+      {
+        "name": "笑哭",
+        "segment": "73D54144-266C-40B3-B127-F1501FCF8349",
+        "start_us": 3233333
+      },
+      {
+        "name": "线条小狗-加油",
+        "segment": "807B18DC-E072-4A49-A228-01D4DF69EDE7",
+        "start_us": 4966666
+      },
+      {
+        "name": "猫咪竖大拇指",
+        "segment": "A07A6A51-127F-468A-827F-AE15F71F85AA",
+        "start_us": 7000000
+      }
+    ],
+    "scaled_to": 0.5,
+    "count": 5
+  },
+  "effects": {
+    "segment": "梦幻漏光",
+    "globals": [
+      "细雨",
+      "婆娑光斑"
+    ],
+    "intensity": 0.1
+  }
+}

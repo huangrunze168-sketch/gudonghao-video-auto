@@ -1,0 +1,15 @@
+{"stage":"start","at":1791603377513,"args":["draft","algo","wait","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\help-probe","pid":23632}
+{"stage":"policy","at":1791603377514,"rules":8}
+{"stage":"create-process:begin","at":1791603377518,"vmId":"draftediting-1791603377514"}
+{"stage":"create-process:done","at":1791603378835,"processId":31600,"success":true}
+{"stage":"worker-ready","at":1791603379346}
+{"stage":"start","at":1791604554552,"args":["draft","algo","wait","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\help-probe","pid":55088}
+{"stage":"policy","at":1791604554552,"rules":8}
+{"stage":"create-process:begin","at":1791604554556,"vmId":"draftediting-1791604554552"}
+{"stage":"create-process:done","at":1791604554862,"processId":63040,"success":true}
+{"stage":"worker-ready","at":1791604555403}
+{"stage":"start","at":1791604895490,"args":["draft","algo","wait","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\help-probe","pid":63312}
+{"stage":"policy","at":1791604895491,"rules":8}
+{"stage":"create-process:begin","at":1791604895495,"vmId":"draftediting-1791604895491"}
+{"stage":"create-process:done","at":1791604895827,"processId":15872,"success":true}
+{"stage":"worker-ready","at":1791604896342}

@@ -1,0 +1,272 @@
+TOP: ['canvas_config', 'color_space', 'config', 'duration', 'extra_info', 'function_assistant_info', 'id', 'keyframes', 'last_modified_platform', 'lyrics_effects', 'materials', 'new_version', 'path', 'platform', 'render_index_track_mode_on', 'smart_ads_info', 'tracks', 'uneven_animation_template_info', 'version']
+id E1C00739-59E5-47cd-9600-7668519B6E7E duration_us 31566666 fps None canvas {'height': 1280, 'ratio': '16:9', 'width': 2276} ratio None
+config keys ['combination_max_index', 'lyrics_taskinfo', 'original_sound_last_index', 'subtitle_taskinfo', 'video_mute']
+platform {"app_id": 3704, "app_source": "lv", "app_version": "10.4.0", "device_id": "59e39409b7e90bdb5d17440cfa2b2bfd", "hard_disk_id": "928d38763586701ca2708f9f2f6ac5a2", "mac_address": "87992fef79577e2a04fb6a5a8c261017", "os": "windows", "os_version": "10.0.26200"}
+last_modified_platform {"app_id": 3704, "app_source": "lv", "app_version": "11.5.0", "device_id": "59e39409b7e90bdb5d17440cfa2b2bfd", "mac_address": "87992fef79577e2a04fb6a5a8c261017", "os": "windows", "os_version": "10.0.26200"}
+
+MATERIAL KEYS: ['audio_fades', 'audios', 'beats', 'canvases', 'loudnesses', 'material_animations', 'material_colors', 'placeholder_infos', 'sound_channel_mappings', 'speeds', 'stickers', 'text_templates', 'texts', 'videos', 'vocal_separations']
+  audio_fades 0
+  audios 7
+  beats 0
+  canvases 0
+  loudnesses 0
+  material_animations 32
+  material_colors 0
+  placeholder_infos 9
+  sound_channel_mappings 9
+  speeds 0
+  stickers 5
+  text_templates 6
+  texts 43
+  videos 2
+  vocal_separations 0
+
+========== AUDIOS ==========
+  CEB65D32-4058-4d78-8C64-01F511C79FF2 |type= text_to_audio |name= 家人们别划走 |dur= 1366666 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/textReading/6a8fe587f4a1c001b6ef8b0a_8_2_1ea5b400-7ad4-484d-94ca-30027e4928cf.wav
+       tone_type = 曼波讲故事
+       tone_speaker = ICL_zh_female_xinmanbo
+       resource_id = 7481554487442674186
+  C9DCF49A-858A-4ebd-B69C-075C19B5FD29 |type= text_to_audio |name= 主播认为家产从未易主 |dur= 2333333 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/textReading/6a8fe587f4a1c001b6ef8b0a_8_2_72c1ce39-e9bb-466b-8b4c-c17145ebe829.wav
+       tone_type = 曼波讲故事
+       tone_speaker = ICL_zh_female_xinmanbo
+       resource_id = 7481554487442674186
+  0F8B437D-31F1-4f58-9661-2312306FFAB4 |type= text_to_audio |name= 只是双方都有难言的苦... |dur= 2066666 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/textReading/6a8fe587f4a1c001b6ef8b0a_8_2_4c268c3a-4ab2-4542-bf7e-29b210c9aab5.wav
+       tone_type = 曼波讲故事
+       tone_speaker = ICL_zh_female_xinmanbo
+       resource_id = 7481554487442674186
+  8CDBF701-3706-4e5f-AB69-88E2BB0C5F36 |type= text_to_audio |name= 于是主播哭着写了这首... |dur= 2333333 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/textReading/6a8fe587f4a1c001b6ef8b0a_8_2_57c7302c-44d7-4add-b67e-876a4f34abe1.wav
+       tone_type = 曼波讲故事
+       tone_speaker = ICL_zh_female_xinmanbo
+       resource_id = 7481554487442674186
+  3A809DC7-3BEE-4572-8A15-2A2D84F6A248 |type= text_to_audio |name= 一个句号就是入股 |dur= 1566666 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/textReading/6a8fe587f4a1c001b6ef8b0a_8_2_576b5512-b063-4809-b204-f3b6d428910e.wav
+       tone_type = 曼波讲故事
+       tone_speaker = ICL_zh_female_xinmanbo
+       resource_id = 7481554487442674186
+  F1FFB83E-FB32-48d4-A362-9EACF37D3690 |type= extract_music |name= 问春风.wav |dur= 164933333 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/问春风_14495974825818550881.wav
+  DD3023F1-0BA2-416d-91BB-BACBA7B3FDA9 |type= extract_music |name= 问春风.wav |dur= 164933333 |music_id= None
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/问春风_14495974825818550881.wav
+
+========== VIDEOS ==========
+  AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F |type= photo |dur= 10800000000 |w/h= 1920 1280 |mat= 黑暗，黑色，黑屏背景
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg
+      extra_keys= ['beauty_face_auto_preset', 'category_id', 'category_name', 'check_flag', 'crop', 'has_audio', 'is_copyright', 'is_set_beauty_mode', 'is_unified_beauty_mode', 'material_id', 'matting', 'source', 'source_platform', 'stable', 'video_algorithm', 'video_mask_shadow', 'video_mask_stroke']
+  1AC9C35C-DD28-463a-BFCE-43A990DF7D82 |type= video |dur= 17600000 |w/h= 1170 1024 |mat= 86679859db6e6818c319e580de22852e.mp4
+      path= ##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/86679859db6e6818c319e580de22852e_4182395636855440780.mp4
+      extra_keys= ['beauty_face_auto_preset', 'check_flag', 'crop', 'is_set_beauty_mode', 'is_unified_beauty_mode', 'material_id', 'matting', 'stable', 'unique_id', 'video_algorithm', 'video_mask_shadow', 'video_mask_stroke']
+
+========== TEXTS ==========
+  3B1370D4-E32C-41df-BC7B-A72C3C780353 |type= subtitle |text= '家人们别划走'
+      keys= ['add_type', 'background_color', 'base_content', 'border_color', 'border_width', 'caption_template_info', 'check_flag', 'combo_info', 'content', 'current_words', 'font_path', 'font_resource_id', 'font_size', 'font_source_platform', 'group_id', 'id', 'initial_scale', 'layer_weight', 'line_spacing', 'lyrics_template', 'recognize_model', 'recognize_task_id', 'recognize_text', 'shadow_alpha']
+  F66AB2D0-8799-4a20-93D0-AA8524654C94 |type= subtitle |text= '主播认为家产从未易主'
+      keys= ['add_type', 'background_color', 'base_content', 'border_color', 'border_width', 'caption_template_info', 'check_flag', 'combo_info', 'content', 'current_words', 'font_path', 'font_resource_id', 'font_size', 'font_source_platform', 'group_id', 'id', 'initial_scale', 'layer_weight', 'line_spacing', 'lyrics_template', 'recognize_model', 'recognize_task_id', 'recognize_text', 'shadow_alpha']
+  18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26 |type= subtitle |text= '只是双方都有难言的苦衷'
+      keys= ['add_type', 'background_color', 'base_content', 'border_color', 'border_width', 'caption_template_info', 'check_flag', 'combo_info', 'content', 'current_words', 'font_path', 'font_resource_id', 'font_size', 'font_source_platform', 'group_id', 'id', 'initial_scale', 'layer_weight', 'line_spacing', 'lyrics_template', 'recognize_model', 'recognize_task_id', 'recognize_text', 'shadow_alpha']
+  2D0B96E7-CB57-485b-B97A-FA710EE4A9C3 |type= subtitle |text= '于是主播哭着写了这首demo'
+      keys= ['add_type', 'background_color', 'base_content', 'border_color', 'border_width', 'caption_template_info', 'check_flag', 'combo_info', 'content', 'current_words', 'font_path', 'font_resource_id', 'font_size', 'font_source_platform', 'group_id', 'id', 'initial_scale', 'layer_weight', 'line_spacing', 'lyrics_template', 'recognize_model', 'recognize_task_id', 'recognize_text', 'shadow_alpha']
+  E794DF70-7C4D-4427-904D-30F45C19A8FE |type= subtitle |text= '一个句号就是入股'
+      keys= ['add_type', 'background_color', 'base_content', 'border_color', 'border_width', 'caption_template_info', 'check_flag', 'combo_info', 'content', 'current_words', 'font_path', 'font_resource_id', 'font_size', 'font_source_platform', 'group_id', 'id', 'initial_scale', 'layer_weight', 'line_spacing', 'lyrics_template', 'recognize_model', 'recognize_task_id', 'recognize_text', 'shadow_alpha']
+  3C03705E-CF4D-4b34-8F65-75A9F29F6C68 |type= lyrics |text= '遇事'
+  2DA015C7-1412-4998-B094-DE04B89B4420 |type= lyrics |text= '不决 '
+  0425DEB5-B30F-430a-A31C-BD49DDB45E7D |type= lyrics |text= '可问春风'
+  1E0449CA-46DC-4056-9795-24F131ED1051 |type= none |text= '遇事不决 可问春风'
+      keys= ['border_width', 'caption_template_info', 'combo_info', 'content', 'current_words', 'id', 'initial_scale', 'language', 'layer_weight', 'lyrics_template', 'name', 'recognize_task_id', 'recognize_text', 'shadow_angle', 'shadow_distance', 'shadow_point', 'subtitle_keywords', 'type', 'words']
+  A5546F91-FA98-457f-8267-521E41CF4836 |type= lyrics |text= '它掠过'
+  7CDDCD4D-0AD2-445a-9D5D-E4AD9B9E7E90 |type= lyrics |text= '我空'
+  87A5E848-E869-4eff-9D3D-C0DF7ADC2151 |type= lyrics |text= '袖口'
+  DA11D5AF-1B63-43fd-8E72-7F924AE02FCA |type= none |text= '它掠过我空袖口'
+      keys= ['border_width', 'caption_template_info', 'combo_info', 'content', 'current_words', 'id', 'initial_scale', 'language', 'layer_weight', 'lyrics_template', 'name', 'recognize_task_id', 'recognize_text', 'shadow_angle', 'shadow_distance', 'shadow_point', 'subtitle_keywords', 'type', 'words']
+  3D11A838-E33B-4d02-8C92-AFAA1454D6BB |type= lyrics |text= '春风填我 十'
+  1E1252C4-B989-42c9-9367-67E7FB0D84AB |type= lyrics |text= '万八'
+  4742A131-010E-4055-B174-DA51D6787292 |type= lyrics |text= '千梦'
+  95C24EF6-57AA-4aef-B547-BFA4A82E3BF6 |type= lyrics |text= '\n走向没'
+  DC6894CB-C8D2-4eb2-B022-75B05D8E1963 |type= lyrics |text= '有你'
+  FBD3E1BC-584D-434f-8357-04E760951A1F |type= lyrics |text= '的岸'
+  16254C38-C797-4b9d-9C07-93853B6EA1FA |type= none |text= '春风填我 十万八千梦\n走向没有你的岸'
+      keys= ['border_width', 'caption_template_info', 'combo_info', 'content', 'current_words', 'id', 'initial_scale', 'language', 'layer_weight', 'lyrics_template', 'name', 'recognize_task_id', 'recognize_text', 'shadow_angle', 'shadow_distance', 'shadow_point', 'subtitle_keywords', 'type', 'words']
+  DB8DEF63-B589-4646-919A-0D66FFEC8FDB |type= lyrics |text= '隔几'
+  3B68B367-9BB5-42ad-B4BF-043C398D8A9E |type= lyrics |text= '隔几'
+  4F8B2A94-9965-4374-A85F-82C91BAAD635 |type= lyrics |text= '重山隔'
+  EF7F130D-FF18-4ecc-95EE-24A6939180CA |type= lyrics |text= '重山隔'
+  F70BCA33-5A6B-45c0-9E03-504E530CD64E |type= lyrics |text= '几重梦'
+  D2747806-EE75-4d54-B07E-C3686B65D65B |type= lyrics |text= '几重梦'
+  ED85118D-0F6C-41f4-9DF0-C4F267854627 |type= lyrics |text= '几重梦'
+  BD66FA65-0DE1-41f3-BC4B-A6A84C1917D5 |type= lyrics |text= '\n终于'
+  75B92C7F-CEBD-4f0c-A824-F271AF835E8D |type= lyrics |text= '不问'
+  D9760E47-BEE0-4f83-A52D-648BD604BD03 |type= lyrics |text= '归程'
+  76A4E08B-2160-4acb-9D01-DBBA5711CC9B |type= none |text= '隔几重山隔几重梦\n终于不问归程'
+      keys= ['border_width', 'caption_template_info', 'combo_info', 'content', 'current_words', 'id', 'initial_scale', 'language', 'layer_weight', 'lyrics_template', 'name', 'recognize_task_id', 'recognize_text', 'shadow_angle', 'shadow_distance', 'shadow_point', 'subtitle_keywords', 'type', 'words']
+  C1C12A0A-1784-47e1-B756-B3F73ADFC045 |type= lyrics |text= '还未等'
+  6F238D9C-9979-4981-ADBC-915136971756 |type= lyrics |text= '到檐铃响\n'
+  8F8CB70D-DC08-4e03-AC41-BCFB3B7AA98D |type= lyrics |text= ''
+  73F20826-F660-4dbd-B3CB-03E6E89A0EE9 |type= lyrics |text= '却见天边'
+  CE60AF03-50E5-48fa-892F-92AAF7D2D144 |type= lyrics |text= '已放红'
+  312F7328-2C3C-4d7b-9DF3-9B7FF39B21AD |type= none |text= '还未等到檐铃响\n却见天边已放红'
+      keys= ['border_width', 'caption_template_info', 'combo_info', 'content', 'current_words', 'id', 'initial_scale', 'language', 'layer_weight', 'lyrics_template', 'name', 'recognize_task_id', 'recognize_text', 'shadow_angle', 'shadow_distance', 'shadow_point', 'subtitle_keywords', 'type', 'words']
+  5B9EA1E2-2E73-4cac-B534-09340E95A1BC |type= lyrics |text= ' 人长大'
+  EA350BE8-B674-4b3d-854C-821548FFDCDA |type= lyrics |text= '后才'
+  546655E1-F775-4b5b-9DD9-5C071DD9C533 |type= lyrics |text= '知晓'
+  CC57FE48-435A-4f43-934B-A2AA6677F6B5 |type= lyrics |text= '\n这一程须'
+  0A93EF8E-D098-484f-B2F5-5797EF127924 |type= lyrics |text= '由我自封'
+  24A27E80-147E-45a1-B9FA-9908E44CEF75 |type= none |text= ' 人长大后才知晓\n这一程须由我自封'
+      keys= ['border_width', 'caption_template_info', 'combo_info', 'content', 'current_words', 'id', 'initial_scale', 'language', 'layer_weight', 'lyrics_template', 'name', 'recognize_task_id', 'recognize_text', 'shadow_angle', 'shadow_distance', 'shadow_point', 'subtitle_keywords', 'type', 'words']
+
+========== TEXT_TEMPLATES ==========
+  114C6B44-684D-48b3-9958-C85CFF027E5F |type= text_template_lyrics |res= 7591420714515844395
+      keys= ['category_id', 'category_name', 'current_word_info', 'effect_id', 'id', 'is_lyric_effect', 'lyric_group_id', 'name', 'origin_word_info', 'path', 'request_id', 'resource_id', 'resources', 'source_platform', 'text_info_resources', 'text_template_resource_type', 'type', 'version']
+      json= {"category_id": "11878", "category_name": "歌词动效", "current_word_info": {"end_time": 7906, "start_time": 6466, "text": "遇事不决 可问春风", "words": [{"end_time": 441, "start_time": 1, "text": "遇事"}, {"end_time": 441, "start_time": 221}, {"end_time": 661, "start_time": 441, "text": "不"}, {"end_time": 881, "start_time": 661, "text": "决 "}, {"end_time": 1121, "start_time": 881, "text": "可"}, {"end_time": 144
+  9A8A314F-4EEE-4b74-B952-62FB979B1D9B |type= text_template_lyrics |res= 7591420714515844395
+      keys= ['category_id', 'category_name', 'current_word_info', 'effect_id', 'id', 'is_lyric_effect', 'lyric_group_id', 'name', 'origin_word_info', 'path', 'request_id', 'resource_id', 'resources', 'source_platform', 'text_info_resources', 'text_template_resource_type', 'type', 'version']
+      json= {"category_id": "11878", "category_name": "歌词动效", "current_word_info": {"end_time": 10100, "start_time": 7900, "text": "它掠过我空袖口", "words": [{"end_time": 261, "start_time": 1}, {"end_time": 521, "start_time": 261}, {"end_time": 761, "start_time": 521, "text": "它"}, {"end_time": 981, "start_time": 761, "text": "掠"}, {"end_time": 1201, "start_time": 981, "text": "过"}, {"end_time": 1361, "start_time":
+  40E78946-DD76-4030-9640-23EE4139CAD4 |type= text_template_lyrics |res= 7591420714515844395
+      keys= ['category_id', 'category_name', 'current_word_info', 'effect_id', 'id', 'is_lyric_effect', 'lyric_group_id', 'name', 'origin_word_info', 'path', 'request_id', 'resource_id', 'resources', 'source_platform', 'text_info_resources', 'text_template_resource_type', 'type', 'version']
+      json= {"category_id": "11878", "category_name": "歌词动效", "current_word_info": {"end_time": 15220, "start_time": 10100, "text": "春风填我 十万八千梦\n走向没有你的岸", "words": [{"end_time": 241, "start_time": 1, "text": "春"}, {"end_time": 481, "start_time": 241, "text": "风"}, {"end_time": 681, "start_time": 481, "text": "填"}, {"end_time": 841, "start_time": 681, "text": "我"}, {"end_time": 1211, "start_time": 841, "text":
+  788E4647-1678-4b47-A077-8677FA271E4E |type= text_template_lyrics |res= 7591420714515844395
+      keys= ['category_id', 'category_name', 'current_word_info', 'effect_id', 'id', 'is_lyric_effect', 'lyric_group_id', 'name', 'origin_word_info', 'path', 'request_id', 'resource_id', 'resources', 'source_platform', 'text_info_resources', 'text_template_resource_type', 'type', 'version']
+      json= {"category_id": "11878", "category_name": "歌词动效", "current_word_info": {"end_time": 20113, "start_time": 15233, "text": "隔几重山隔几重梦\n终于不问归程", "words": [{"end_time": 321, "start_time": 1, "text": "隔"}, {"end_time": 481, "start_time": 321, "text": "几"}, {"end_time": 701, "start_time": 481, "text": "重"}, {"end_time": 921, "start_time": 701, "text": "山"}, {"end_time": 1161, "start_time": 921, "text": "隔
+  735C1168-A4C6-4b2d-9BB4-D4C4E45A93FB |type= text_template_lyrics |res= 7591420714515844395
+      keys= ['category_id', 'category_name', 'current_word_info', 'effect_id', 'id', 'is_lyric_effect', 'lyric_group_id', 'name', 'origin_word_info', 'path', 'request_id', 'resource_id', 'resources', 'source_platform', 'text_info_resources', 'text_template_resource_type', 'type', 'version']
+      json= {"category_id": "11878", "category_name": "歌词动效", "current_word_info": {"end_time": 23780, "start_time": 20500, "text": "还未等到檐铃响\n却见天边已放红", "words": [{"end_time": 161, "start_time": 1, "text": "还未"}, {"end_time": 401, "start_time": 161, "text": "等"}, {"end_time": 641, "start_time": 401, "text": "到"}, {"end_time": 1561, "start_time": 641, "text": "檐铃响\n"}, {"end_time": 1201, "start_time": 921}, {"e
+  7B6392A9-06AE-417a-93C5-42D0139D5741 |type= text_template_lyrics |res= 7591420714515844395
+      keys= ['category_id', 'category_name', 'current_word_info', 'effect_id', 'id', 'is_lyric_effect', 'lyric_group_id', 'name', 'origin_word_info', 'path', 'request_id', 'resource_id', 'resources', 'source_platform', 'text_info_resources', 'text_template_resource_type', 'type', 'version']
+      json= {"category_id": "11878", "category_name": "歌词动效", "current_word_info": {"end_time": 31566, "start_time": 23766, "text": " 人长大后才知晓\n这一程须由我自封", "words": [{"end_time": 281, "start_time": 1, "text": " 人"}, {"end_time": 481, "start_time": 281, "text": "长"}, {"end_time": 681, "start_time": 481, "text": "大"}, {"end_time": 841, "start_time": 681, "text": "后"}, {"end_time": 1401, "start_time": 841, "text":
+
+========== STICKERS ==========
+  {"category_id": "123456", "category_name": "贴纸素材", "combo_info": {}, "icon_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/def71cbdc1384c2298f61cf27fb3e0ed~tplv-3jr8j4ixpe-resize:200:200.gif?x-expires=1819351117&x-signature=yoKSGo75b%2BmTs42bbSUcajg%2FSp4%3D", "id": "96233B82-1481-4
+  {"category_id": "100000", "category_name": "收藏", "combo_info": {}, "icon_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/09311bc81e034d71afa1e17ab3dc6217~tplv-3jr8j4ixpe-resize:200:200.jpeg?x-expires=1816426144&x-signature=a5bHe%2BQpiH5LBshkgD8X7zrBn2Y%3D", "id": "96A528DE-2687-4326
+  {"category_id": "100000", "category_name": "收藏", "combo_info": {}, "icon_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/061578e40474455e9503ade0dc20dade~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1816426144&x-signature=JAxzRZ09MZLMy12TtvLrAQTVdT0%3D", "id": "7AAB0035-E800-4d1f-B8
+  {"category_id": "100000", "category_name": "default", "combo_info": {}, "icon_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/64ba4441adbf450384c97873fc035464~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1816426181&x-signature=IdQADXzsyVs352PwyASKVpZeaZs%3D", "id": "DA729333-5BBA-40
+  {"category_id": "100000", "category_name": "default", "combo_info": {}, "icon_url": "https://p3-heycan-jy-sign.byteimg.com/tos-cn-i-3jr8j4ixpe/6105dd735ab341fe9f00a7e23c89c29d~tplv-3jr8j4ixpe-resize:200:200.png?x-expires=1816426188&x-signature=bW%2B9CPMexT707tgn5V6rusWAn7g%3D", "id": "D761E739-C064-
+
+========== MATERIAL_ANIMATIONS ==========
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"id": "42A93478-7B64-411d-8091-287F934AC0B5", "type": "sticker_animation"}
+  {"id": "6F1A039E-5712-4ddc-A89E-549F9F544ED3", "type": "sticker_animation"}
+  {"id": "45650022-E58B-44ee-AC38-C2817D06ECEF", "type": "sticker_animation"}
+  {"id": "C2C80A28-AB38-423a-9511-1F4A3CEC7584", "type": "sticker_animation"}
+  {"id": "C853D3B2-5DB6-4950-A7E7-BC4027E8D101", "type": "sticker_animation"}
+  {"id": "BC1B843D-373E-4342-90F8-CFD71CFB2041", "type": "sticker_animation"}
+  {"id": "9919AA9F-F879-4542-BEF3-C0383A2A12CB", "type": "sticker_animation"}
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+  {"animations": [{"category_id": "chuchang", "category_name": "Out", "duration": 150000, "id": "", "material_type": "sticker", "panel": "text", "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d8
+
+========== PLACEHOLDER_INFOS ==========
+  {"id": "0BC6D005-FA34-4ae5-B9C6-6C614B082A2B", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "9CEA973C-BF19-4990-8180-C2D2E19E81FA", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "6E0C1DAD-F42B-4297-980D-F83E18471D2E", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "5FF49F99-BE7A-47ff-8DFB-D9BE4217ECA5", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "067F98F1-9146-4295-92D0-AE9866870DD9", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "CE6D2077-664A-45e7-9398-C0778A76BC50", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "54550C7D-91E5-427c-A749-52E58A4045A9", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "F7FC5AE8-BB3E-4f0c-A311-5A6184B06B24", "meta_type": "none", "type": "placeholder_info"}
+  {"id": "DEA479BA-EC44-42fc-9D4B-D2C4AD87B0D7", "meta_type": "none", "type": "placeholder_info"}
+
+========== TRACKS ==========
+TRACK video |id= 54E641D5-42DE-443c-B1CF-DC1B8AA45FD6 |segs= 2 |flag= None |attr= 1
+   seg AC3E3EC6-2FC6-4815-95E8-E10F21C5FD4F videos video:36ea9308f6a3fdd85f710b40cc214a35_1599292156611985603.jpeg
+      target= {"duration": 6433333} source= {"duration": 6433333}
+      extra= {"clip": {"flip": {}, "scale": {"x": 1, "y": 1}, "transform": {"x": 0, "y": 0}}, "enable_adjust_mask": false, "enable_hsl": false, "extra_material_refs": ["D42936DF-6483-4c43-BE82-ECB45EAB5735", "0BC6D005-FA34-4ae5-B9C6-6C614B082A2B", "5807096B-D2DF-4150-BFA6-79CC99ADCE28", "B0DEF3F0-4FC8-4347-B106-50BD15FA4D0F", "EB178A8C-F403-499f-99E8-7FDE413E8CA3", "2F7B8B18-A623-4db9-AC50-BCF9C9C68097", "9C2C
+   seg 1AC9C35C-DD28-463a-BFCE-43A990DF7D82 videos video:86679859db6e6818c319e580de22852e_4182395636855440780.mp4
+      target= {"duration": 25133333, "start": 6433333} source= {"duration": 16588000}
+      extra= {"clip": {"flip": {}, "scale": {"x": 1, "y": 1}, "transform": {"x": 0, "y": 0}}, "enable_adjust_mask": false, "enable_hsl": false, "extra_material_refs": ["F2928FDF-0ACC-45be-A6C9-08DE367EA017", "9CEA973C-BF19-4990-8180-C2D2E19E81FA", "719CE965-6B82-4015-900C-5FD299661156", "99E6D482-6E07-4396-AF83-726A68C1B638", "AA121358-A5D4-44a2-A9A9-6BAD34E060A6", "DF899E87-05E7-41ce-BC57-A40A160C5239", "CDAD
+TRACK sticker |id= 769211B0-BC32-49c8-B837-7089E7FC5E60 |segs= 5 |flag= None |attr= None
+   seg 96233B82-1481-4b90-A7D6-8003E6EF43EA stickers sticker:7265921185492389176
+      target= {"duration": 866666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 0.5755400061607361, "y": 0.5755400061607361}, "transform": {"x": 0, "y": 0}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg 96A528DE-2687-4326-BF31-F959C03088E1 stickers sticker:7102187995175914765
+      target= {"duration": 1533334, "start": 866666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.0124298912285594, "y": 2.0124298912285594}, "transform": {"x": 0, "y": 0}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg 7AAB0035-E800-4d1f-B8B1-CF052BA7C62D stickers sticker:7103507688797015303
+      target= {"duration": 1466666, "start": 2400000} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 0.573248028755188, "y": 0.573248028755188}, "transform": {"x": 0, "y": 0}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg DA729333-5BBA-40e0-B493-90DF997E84AA stickers sticker:7257911667403574591
+      target= {"duration": 1566667, "start": 3866666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 0.573248028755188, "y": 0.573248028755188}, "transform": {"x": 0, "y": 0.2707006369426752}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg D761E739-C064-4720-881F-AF4433063C17 stickers sticker:7006668354597571848
+      target= {"duration": 1000000, "start": 5433333} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.211125695934342, "y": 2.211125695934342}, "transform": {"x": 0, "y": 0}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+TRACK text |id= 7A810613-854C-4cb6-91F0-0DDE17FFB23A |segs= 5 |flag= 1 |attr= None
+   seg 3B1370D4-E32C-41df-BC7B-A72C3C780353 texts '家人们别划走'
+      target= {"duration": 866666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.1546072292595393, "y": 2.1546072292595393}, "transform": {"x": 0, "y": -0.5007006369426752}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["FA1A1CE2-0EF1-4182-ADD2-E8A36EC5EBFE"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg F66AB2D0-8799-4a20-93D0-AA8524654C94 texts '主播认为家产从未易主'
+      target= {"duration": 1533334, "start": 866666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.1546072292595393, "y": 2.1546072292595393}, "transform": {"x": 0, "y": -0.5007006369426752}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["96B13BAA-BA60-47af-8FED-8D7DD5D0E3A1"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg 18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26 texts '只是双方都有难言的苦衷'
+      target= {"duration": 1433333, "start": 2400000} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.1546072292595393, "y": 2.1546072292595393}, "transform": {"x": 0, "y": -0.5007006369426752}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["DDEE48B8-4DA0-44bf-8367-AB9170A29287"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg 2D0B96E7-CB57-485b-B97A-FA710EE4A9C3 texts '于是主播哭着写了这首demo'
+      target= {"duration": 1600000, "start": 3833333} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.1546072292595393, "y": 2.1546072292595393}, "transform": {"x": 0, "y": -0.5007006369426752}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["7BA24FBD-AB11-4268-89DA-D8A53DE4DBD6"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+   seg E794DF70-7C4D-4427-904D-30F45C19A8FE texts '一个句号就是入股'
+      target= {"duration": 1000000, "start": 5433333} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 2.1546072292595393, "y": 2.1546072292595393}, "transform": {"x": 0, "y": -0.5007006369426752}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["406732D1-53FC-4b7b-82EA-5D1A82D4A71D"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal", "uniform_scale": {}}
+TRACK text |id= 8284ED41-F367-4e53-9A46-C3D624A0901F |segs= 6 |flag= None |attr= None
+   seg 114C6B44-684D-48b3-9958-C85CFF027E5F text_templates tpl:7591420714515844395
+      target= {"duration": 1433334, "start": 6466666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 1.213899963177724, "y": 1.213899963177724}, "transform": {"x": 0, "y": -0.4964788732394365}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["8690D40E-7354-4a3c-87FB-05C94EA41A1E", "BB0BDCED-1566-4f3d-91E4-8007BB9185E2", "FF102CD7-3AA4-4504-B867-4F9F9D6DE04B"], "render_timerange": {"duratio
+   seg 9A8A314F-4EEE-4b74-B952-62FB979B1D9B text_templates tpl:7591420714515844395
+      target= {"duration": 2200000, "start": 7900000} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 1.213899963177724, "y": 1.213899963177724}, "transform": {"x": 0, "y": -0.4964788732394365}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["8D990683-B734-4e00-8CA1-70955398C433", "35A3F490-5193-45cc-BA59-F6DA3AA3DE75", "2DC03146-CEC3-44d1-B165-59A335A89CB9"], "render_timerange": {"duratio
+   seg 40E78946-DD76-4030-9640-23EE4139CAD4 text_templates tpl:7591420714515844395
+      target= {"duration": 5133333, "start": 10100000} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 1.213899963177724, "y": 1.213899963177724}, "transform": {"x": 0, "y": -0.4964788732394365}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["A9139480-1250-498d-BC24-9C996D641AEA", "98DA714B-A425-48f4-AE0F-FCD936A8821E", "4D48F1CA-C9A4-4c20-B15C-1E6030BC0324", "F750BD08-E9BD-4875-A496-F3806
+   seg 788E4647-1678-4b47-A077-8677FA271E4E text_templates tpl:7591420714515844395
+      target= {"duration": 4866667, "start": 15233333} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 1.213899963177724, "y": 1.213899963177724}, "transform": {"x": 0, "y": -0.4964788732394365}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["42A93478-7B64-411d-8091-287F934AC0B5", "6F1A039E-5712-4ddc-A89E-549F9F544ED3", "45650022-E58B-44ee-AC38-C2817D06ECEF", "C2C80A28-AB38-423a-9511-1F4A3
+   seg 735C1168-A4C6-4b2d-9BB4-D4C4E45A93FB text_templates tpl:7591420714515844395
+      target= {"duration": 3266666, "start": 20500000} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 1.213899963177724, "y": 1.213899963177724}, "transform": {"x": 0, "y": -0.4964788732394365}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["781386B6-F1AE-43a1-AE06-6AE33D6B5ADE", "7C250ECE-6786-4686-BDB5-30BD83FB5A7F", "4F324D4A-4C94-4042-8329-EA20F790CB5C", "1021BBA3-E7AC-4add-B4BD-E3D32
+   seg 7B6392A9-06AE-417a-93C5-42D0139D5741 text_templates tpl:7591420714515844395
+      target= {"duration": 7800000, "start": 23766666} source= null
+      extra= {"clip": {"flip": {}, "scale": {"x": 1.213899963177724, "y": 1.213899963177724}, "transform": {"x": 0, "y": -0.4964788732394365}}, "enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["C68D94A6-08B7-4830-BA9D-56A60E8C6212", "6297EFA9-1C29-4ee4-9CD5-DFC84C794BE3", "299C89FC-8F97-4c6f-B675-B257D547EC1E", "1266899C-BDB8-4ce7-95E5-D099E
+TRACK audio |id= BE56020F-D922-4664-A5C2-86A0BF6D3697 |segs= 6 |flag= None |attr= None
+   seg CEB65D32-4058-4d78-8C64-01F511C79FF2 audios audio:家人们别划走
+      target= {"duration": 866666} source= {"duration": 1186667, "start": 179999}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["F0A3E111-87B7-4a4e-BC82-6DBC344D073B", "6E0C1DAD-F42B-4297-980D-F83E18471D2E", "C537775C-E778-44d0-854F-69F3B9746096", "2633D4E7-C354-41f9-AF83-F7A832594182", "18D79A84-5D9B-4b5c-8E2C-8371826DDC1F"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal
+   seg C9DCF49A-858A-4ebd-B69C-075C19B5FD29 audios audio:主播认为家产从未易主
+      target= {"duration": 1533334, "start": 866666} source= {"duration": 2063334, "start": 269999}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["16D937B9-6551-4914-BC0B-E50A78B5683B", "5FF49F99-BE7A-47ff-8DFB-D9BE4217ECA5", "20E3007A-7B87-43f6-B7F2-87240F7C7BE0", "760D7B9E-C81D-4ea5-B383-2E94147D8F87", "D07A35A5-73DC-47d9-97DB-20843EDA9C49"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal
+   seg 0F8B437D-31F1-4f58-9661-2312306FFAB4 audios audio:只是双方都有难言的苦...
+      target= {"duration": 1433333, "start": 2400000} source= {"duration": 1931666, "start": 135000}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["C55D0EBA-28E2-4498-9F2F-0609E41175AE", "067F98F1-9146-4295-92D0-AE9866870DD9", "A34DF3C3-549C-4626-8600-F92EBD61F24E", "3A10845B-281E-43c4-90B4-43F51C03DE6C", "3C0C9961-53E8-4911-BDD2-1EDD7BEB9C9E"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal
+   seg 8CDBF701-3706-4e5f-AB69-88E2BB0C5F36 audios audio:于是主播哭着写了这首...
+      target= {"duration": 1600000, "start": 3833333} source= {"duration": 2153334, "start": 179999}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["3EDB3538-664D-445b-93E0-4F370358AD4F", "CE6D2077-664A-45e7-9398-C0778A76BC50", "A7F2602E-A55D-4d63-9286-5694E42170D2", "22A03DB3-A1AD-4423-8192-E2C7DD6B56D8", "6BF5D3C7-D119-4d15-888F-9A527BFC9FC0"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal
+   seg 3A809DC7-3BEE-4572-8A15-2A2D84F6A248 audios audio:一个句号就是入股
+      target= {"duration": 1000000, "start": 5433333} source= {"duration": 1341666, "start": 225000}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["7C5C3E85-A9C7-4883-A583-9A7B5B85BF6F", "54550C7D-91E5-427c-A749-52E58A4045A9", "EBC5E829-7A47-4fe4-9301-05F630956018", "FB02E5D4-2A4B-4719-A067-246D213679DB", "E06ECC7A-37F1-4da7-B8EB-786B80D4E0C5"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal
+   seg F1FFB83E-FB32-48d4-A362-9EACF37D3690 audios audio:问春风.wav
+      target= {"duration": 25133333, "start": 6433333} source= {"duration": 25133333, "start": 126133333}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["30D63ED0-0B31-4dc1-80A2-E88189A2F149", "F7FC5AE8-BB3E-4f0c-A311-5A6184B06B24", "00B27A35-A9FE-4c71-80B2-346227514C83", "7261EA78-0628-4517-A0F8-C25233EA78F8", "F24EB133-1ED1-46fd-AB7C-C807110F3B7A", "E413D7C1-4914-453b-9F4A-6EE215CB8D4D"], "render_timerange": {}, "responsive_lay
+TRACK audio |id= 1105CE1B-9793-4bc6-AD77-FDBEC26B1AA1 |segs= 1 |flag= None |attr= None
+   seg DD3023F1-0BA2-416d-91BB-BACBA7B3FDA9 audios audio:问春风.wav
+      target= {"duration": 6433333} source= {"duration": 6433333, "start": 119700000}
+      extra= {"enable_adjust": false, "enable_adjust_mask": false, "enable_hsl": false, "enable_lut": false, "extra_material_refs": ["C453F98D-DB04-49fb-82A3-8811BF9A2E9F", "DEA479BA-EC44-42fc-9D4B-D2C4AD87B0D7", "AA9E0D99-1D36-4fea-929D-749BFF93304F", "805D9BB1-5FA4-4da9-AC23-FA00B7084FB3", "42ED473B-E43C-40bb-930C-0D3942FB60A0"], "render_timerange": {}, "responsive_layout": {}, "source": "segmentsourcenormal

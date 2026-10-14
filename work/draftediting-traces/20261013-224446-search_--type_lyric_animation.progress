@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902680360,"args":["material","search","--type","lyric_animation","--prompt","清冷 夜晚 歌词","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\0bae1042693f446da7813971f9ac8aef","pid":50264}
+{"stage":"policy","at":1791902680361,"rules":9}
+{"stage":"policy-network","at":1791902680361,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902680365,"vmId":"draftediting-1791902680361"}
+{"stage":"create-process:done","at":1791902680385,"processId":51796,"success":true}
+{"stage":"worker-ready","at":1791902680895}

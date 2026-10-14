@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887394364,"args":["material","search","--type","lyric_animation","--prompt","你笑起来真好看 甜甜的夏天 心动瞬间","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\19a7ecf7af3549ca90fa736909b24150","pid":26676}
+{"stage":"policy","at":1791887394364,"rules":9}
+{"stage":"policy-network","at":1791887394364,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887394368,"vmId":"draftediting-1791887394364"}
+{"stage":"create-process:done","at":1791887394386,"processId":12348,"success":true}
+{"stage":"worker-ready","at":1791887394865}

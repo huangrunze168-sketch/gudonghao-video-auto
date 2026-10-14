@@ -1,0 +1,613 @@
+{
+  "schema": "jianying-auto-lyrics/v1",
+  "source_audio": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-lyrics-apply\\ImportedMaterials\\Used\\问春风_14495974825818550881.wav",
+  "source_audio_sha256": "6dcabfe17559d3b2e54d43373872ba05e8a6bc729632c35322e077f0c2a645e7",
+  "mapping": [
+    {
+      "material_id": "DD3023F1-0BA2-416d-91BB-BACBA7B3FDA9",
+      "source_start": 119.7,
+      "source_end": 126.133333,
+      "target_start": 0.0,
+      "target_end": 6.433333,
+      "speed": 1.0
+    },
+    {
+      "material_id": "F1FFB83E-FB32-48d4-A362-9EACF37D3690",
+      "source_start": 126.133333,
+      "source_end": 151.266666,
+      "target_start": 6.433333,
+      "target_end": 31.566666,
+      "speed": 1.0
+    }
+  ],
+  "recognizer": {
+    "detected_language": "zh",
+    "language_probability": 1.0,
+    "model": "large-v3",
+    "device": "cpu",
+    "compute_type": "int8",
+    "clip_start_seconds": 119.7,
+    "clip_end_seconds": 151.266666
+  },
+  "cue_count": 12,
+  "cues": [
+    {
+      "id": "lyric_0001",
+      "text": "有些旧约不必再封",
+      "start_ms": 0,
+      "end_ms": 2820,
+      "words": [
+        {
+          "text": "有",
+          "start_ms": 0,
+          "end_ms": 80,
+          "confidence": 0.043939
+        },
+        {
+          "text": "些",
+          "start_ms": 80,
+          "end_ms": 100,
+          "confidence": 0.931778
+        },
+        {
+          "text": "旧",
+          "start_ms": 100,
+          "end_ms": 440,
+          "confidence": 0.524054
+        },
+        {
+          "text": "约",
+          "start_ms": 440,
+          "end_ms": 600,
+          "confidence": 0.807725
+        },
+        {
+          "text": "不",
+          "start_ms": 600,
+          "end_ms": 800,
+          "confidence": 0.926272
+        },
+        {
+          "text": "必",
+          "start_ms": 800,
+          "end_ms": 1540,
+          "confidence": 0.907284
+        },
+        {
+          "text": "再",
+          "start_ms": 1540,
+          "end_ms": 1940,
+          "confidence": 0.933713
+        },
+        {
+          "text": "封",
+          "start_ms": 1940,
+          "end_ms": 2820,
+          "confidence": 0.734291
+        }
+      ]
+    },
+    {
+      "id": "lyric_0002",
+      "text": "于是不觉可问春风",
+      "start_ms": 6080,
+      "end_ms": 8300,
+      "words": [
+        {
+          "text": "于",
+          "start_ms": 6080,
+          "end_ms": 6580,
+          "confidence": 0.549629
+        },
+        {
+          "text": "是",
+          "start_ms": 6580,
+          "end_ms": 6680,
+          "confidence": 0.930962
+        },
+        {
+          "text": "不",
+          "start_ms": 6680,
+          "end_ms": 7000,
+          "confidence": 0.988801
+        },
+        {
+          "text": "觉",
+          "start_ms": 7000,
+          "end_ms": 7220,
+          "confidence": 0.747016
+        },
+        {
+          "text": "可",
+          "start_ms": 7220,
+          "end_ms": 7460,
+          "confidence": 0.46069
+        },
+        {
+          "text": "问",
+          "start_ms": 7460,
+          "end_ms": 7660,
+          "confidence": 0.343582
+        },
+        {
+          "text": "春",
+          "start_ms": 7660,
+          "end_ms": 8040,
+          "confidence": 0.897817
+        },
+        {
+          "text": "风",
+          "start_ms": 8040,
+          "end_ms": 8300,
+          "confidence": 0.997865
+        }
+      ]
+    },
+    {
+      "id": "lyric_0003",
+      "text": "它掠过我空袖口春风",
+      "start_ms": 8300,
+      "end_ms": 10460,
+      "words": [
+        {
+          "text": "它",
+          "start_ms": 8300,
+          "end_ms": 8520,
+          "confidence": 0.383826
+        },
+        {
+          "text": "掠",
+          "start_ms": 8520,
+          "end_ms": 8700,
+          "confidence": 0.773956
+        },
+        {
+          "text": "过",
+          "start_ms": 8700,
+          "end_ms": 8940,
+          "confidence": 0.974259
+        },
+        {
+          "text": "我",
+          "start_ms": 8940,
+          "end_ms": 9200,
+          "confidence": 0.992039
+        },
+        {
+          "text": "空",
+          "start_ms": 9200,
+          "end_ms": 9360,
+          "confidence": 0.888998
+        },
+        {
+          "text": "袖",
+          "start_ms": 9360,
+          "end_ms": 9760,
+          "confidence": 0.683106
+        },
+        {
+          "text": "口",
+          "start_ms": 9760,
+          "end_ms": 10020,
+          "confidence": 0.955032
+        },
+        {
+          "text": "春",
+          "start_ms": 10020,
+          "end_ms": 10220,
+          "confidence": 0.952952
+        },
+        {
+          "text": "风",
+          "start_ms": 10220,
+          "end_ms": 10460,
+          "confidence": 0.995589
+        }
+      ]
+    },
+    {
+      "id": "lyric_0004",
+      "text": "添我十万八千梦",
+      "start_ms": 10460,
+      "end_ms": 12760,
+      "words": [
+        {
+          "text": "添",
+          "start_ms": 10460,
+          "end_ms": 10700,
+          "confidence": 0.788645
+        },
+        {
+          "text": "我",
+          "start_ms": 10700,
+          "end_ms": 10840,
+          "confidence": 0.166622
+        },
+        {
+          "text": "十",
+          "start_ms": 10840,
+          "end_ms": 11160,
+          "confidence": 0.94797
+        },
+        {
+          "text": "万",
+          "start_ms": 11160,
+          "end_ms": 11540,
+          "confidence": 0.996024
+        },
+        {
+          "text": "八",
+          "start_ms": 11540,
+          "end_ms": 11720,
+          "confidence": 0.761693
+        },
+        {
+          "text": "千",
+          "start_ms": 11720,
+          "end_ms": 12180,
+          "confidence": 0.998917
+        },
+        {
+          "text": "梦",
+          "start_ms": 12180,
+          "end_ms": 12760,
+          "confidence": 0.984248
+        }
+      ]
+    },
+    {
+      "id": "lyric_0005",
+      "text": "走向没有你的岸",
+      "start_ms": 13130,
+      "end_ms": 15100,
+      "words": [
+        {
+          "text": "走",
+          "start_ms": 13130,
+          "end_ms": 13380,
+          "confidence": 0.93269
+        },
+        {
+          "text": "向",
+          "start_ms": 13380,
+          "end_ms": 13680,
+          "confidence": 0.999496
+        },
+        {
+          "text": "没有",
+          "start_ms": 13680,
+          "end_ms": 13920,
+          "confidence": 0.994068
+        },
+        {
+          "text": "你的",
+          "start_ms": 13920,
+          "end_ms": 14360,
+          "confidence": 0.966588
+        },
+        {
+          "text": "岸",
+          "start_ms": 14360,
+          "end_ms": 15100,
+          "confidence": 0.995417
+        }
+      ]
+    },
+    {
+      "id": "lyric_0006",
+      "text": "各起重山各起重梦",
+      "start_ms": 15100,
+      "end_ms": 16940,
+      "words": [
+        {
+          "text": "各",
+          "start_ms": 15100,
+          "end_ms": 15380,
+          "confidence": 0.700795
+        },
+        {
+          "text": "起",
+          "start_ms": 15380,
+          "end_ms": 15560,
+          "confidence": 0.284743
+        },
+        {
+          "text": "重",
+          "start_ms": 15560,
+          "end_ms": 15820,
+          "confidence": 0.69638
+        },
+        {
+          "text": "山",
+          "start_ms": 15820,
+          "end_ms": 16000,
+          "confidence": 0.923355
+        },
+        {
+          "text": "各",
+          "start_ms": 16000,
+          "end_ms": 16200,
+          "confidence": 0.952096
+        },
+        {
+          "text": "起",
+          "start_ms": 16200,
+          "end_ms": 16440,
+          "confidence": 0.993498
+        },
+        {
+          "text": "重",
+          "start_ms": 16440,
+          "end_ms": 16680,
+          "confidence": 0.911498
+        },
+        {
+          "text": "梦",
+          "start_ms": 16680,
+          "end_ms": 16940,
+          "confidence": 0.890361
+        }
+      ]
+    },
+    {
+      "id": "lyric_0007",
+      "text": "终于不问归程",
+      "start_ms": 16940,
+      "end_ms": 19480,
+      "words": [
+        {
+          "text": "终",
+          "start_ms": 16940,
+          "end_ms": 17360,
+          "confidence": 0.999134
+        },
+        {
+          "text": "于",
+          "start_ms": 17360,
+          "end_ms": 17580,
+          "confidence": 0.997907
+        },
+        {
+          "text": "不",
+          "start_ms": 17580,
+          "end_ms": 17700,
+          "confidence": 0.948221
+        },
+        {
+          "text": "问",
+          "start_ms": 17700,
+          "end_ms": 18020,
+          "confidence": 0.738562
+        },
+        {
+          "text": "归",
+          "start_ms": 18020,
+          "end_ms": 19040,
+          "confidence": 0.97441
+        },
+        {
+          "text": "程",
+          "start_ms": 19040,
+          "end_ms": 19480,
+          "confidence": 0.979637
+        }
+      ]
+    },
+    {
+      "id": "lyric_0008",
+      "text": "还会等到有理想",
+      "start_ms": 20010,
+      "end_ms": 21860,
+      "words": [
+        {
+          "text": "还",
+          "start_ms": 20010,
+          "end_ms": 20260,
+          "confidence": 0.980483
+        },
+        {
+          "text": "会",
+          "start_ms": 20260,
+          "end_ms": 20500,
+          "confidence": 0.821088
+        },
+        {
+          "text": "等",
+          "start_ms": 20500,
+          "end_ms": 20740,
+          "confidence": 0.978842
+        },
+        {
+          "text": "到",
+          "start_ms": 20740,
+          "end_ms": 20980,
+          "confidence": 0.944892
+        },
+        {
+          "text": "有",
+          "start_ms": 20980,
+          "end_ms": 21140,
+          "confidence": 0.969696
+        },
+        {
+          "text": "理",
+          "start_ms": 21140,
+          "end_ms": 21340,
+          "confidence": 0.989756
+        },
+        {
+          "text": "想",
+          "start_ms": 21340,
+          "end_ms": 21860,
+          "confidence": 0.987465
+        }
+      ]
+    },
+    {
+      "id": "lyric_0009",
+      "text": "缺陷天边一番红人",
+      "start_ms": 21860,
+      "end_ms": 23920,
+      "words": [
+        {
+          "text": "缺",
+          "start_ms": 21860,
+          "end_ms": 22300,
+          "confidence": 0.620109
+        },
+        {
+          "text": "陷",
+          "start_ms": 22300,
+          "end_ms": 22460,
+          "confidence": 0.835279
+        },
+        {
+          "text": "天",
+          "start_ms": 22460,
+          "end_ms": 22680,
+          "confidence": 0.966967
+        },
+        {
+          "text": "边",
+          "start_ms": 22680,
+          "end_ms": 22860,
+          "confidence": 0.971629
+        },
+        {
+          "text": "一",
+          "start_ms": 22860,
+          "end_ms": 23120,
+          "confidence": 0.919752
+        },
+        {
+          "text": "番",
+          "start_ms": 23120,
+          "end_ms": 23300,
+          "confidence": 0.601136
+        },
+        {
+          "text": "红",
+          "start_ms": 23300,
+          "end_ms": 23600,
+          "confidence": 0.982845
+        },
+        {
+          "text": "人",
+          "start_ms": 23600,
+          "end_ms": 23920,
+          "confidence": 0.819402
+        }
+      ]
+    },
+    {
+      "id": "lyric_0010",
+      "text": "长大后才知晓",
+      "start_ms": 23920,
+      "end_ms": 26140,
+      "words": [
+        {
+          "text": "长",
+          "start_ms": 23920,
+          "end_ms": 24160,
+          "confidence": 0.988458
+        },
+        {
+          "text": "大",
+          "start_ms": 24160,
+          "end_ms": 24360,
+          "confidence": 0.998365
+        },
+        {
+          "text": "后",
+          "start_ms": 24360,
+          "end_ms": 24540,
+          "confidence": 0.998603
+        },
+        {
+          "text": "才",
+          "start_ms": 24540,
+          "end_ms": 24760,
+          "confidence": 0.995958
+        },
+        {
+          "text": "知",
+          "start_ms": 24760,
+          "end_ms": 25420,
+          "confidence": 0.769151
+        },
+        {
+          "text": "晓",
+          "start_ms": 25420,
+          "end_ms": 26140,
+          "confidence": 0.998165
+        }
+      ]
+    },
+    {
+      "id": "lyric_0011",
+      "text": "这一程虚有我",
+      "start_ms": 26800,
+      "end_ms": 28900,
+      "words": [
+        {
+          "text": "这",
+          "start_ms": 26800,
+          "end_ms": 27300,
+          "confidence": 0.976135
+        },
+        {
+          "text": "一",
+          "start_ms": 27300,
+          "end_ms": 27560,
+          "confidence": 0.990309
+        },
+        {
+          "text": "程",
+          "start_ms": 27560,
+          "end_ms": 27780,
+          "confidence": 0.889369
+        },
+        {
+          "text": "虚",
+          "start_ms": 27780,
+          "end_ms": 28060,
+          "confidence": 0.788109
+        },
+        {
+          "text": "有",
+          "start_ms": 28060,
+          "end_ms": 28460,
+          "confidence": 0.823028
+        },
+        {
+          "text": "我",
+          "start_ms": 28460,
+          "end_ms": 28900,
+          "confidence": 0.971435
+        }
+      ]
+    },
+    {
+      "id": "lyric_0012",
+      "text": "只望",
+      "start_ms": 28900,
+      "end_ms": 31180,
+      "words": [
+        {
+          "text": "只",
+          "start_ms": 28900,
+          "end_ms": 30240,
+          "confidence": 0.001842
+        },
+        {
+          "text": "望",
+          "start_ms": 30240,
+          "end_ms": 31180,
+          "confidence": 0.016057
+        }
+      ]
+    }
+  ],
+  "timeline_id": "E1C00739-59E5-47cd-9600-7668519B6E7E",
+  "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-lyrics-apply"
+}

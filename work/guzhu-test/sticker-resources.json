@@ -1,0 +1,2782 @@
+[
+  {
+    "id": "6895923117412093191",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6895937522036247822",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "3.1.1"
+    }
+  },
+  {
+    "id": "6895937720632298765",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "3.1.1"
+    }
+  },
+  {
+    "id": "6895941551172701454",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "3.1.1"
+    }
+  },
+  {
+    "id": "6913767418078891271",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6915326116811132173",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6915326141750381837",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6915329043512528142",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6915973018753780999",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6924658815610719495",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6938735686019206437",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6938735686019206437\\75e3cdf58a8b87f1f164aceadb4540dc\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6939386967574547720",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6939386967574547720\\dec0b18ff807cbbad0fc88d7d5407591\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6939792844106337549",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6939792844106337549\\e64c5f12fbcc7ea1e23dda12c4d1b005\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6940482951054363917",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6940482951054363917\\68177b99b38141bca3e2d924a7bb9c29\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6940485831043943694",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6940485831043943694\\d7c559df09c701f0d154a75758527cd2\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6941311063514189093",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6943168332476452103",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6957999818727755016",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "bigPng",
+      "singleWidth": 280,
+      "singleHeight": 209,
+      "bigWidth": 1680,
+      "bigHeight": 1463,
+      "frameCount": 39
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6969864404561087758",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6969864404561087758\\6b22151ead6072d9b2106cbd54d26322\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6972865089229589768",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6972865089229589768\\e3f47f138fbc6aede058d2259fe6c728\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6973463053882985758",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6973463053882985758\\4993775a68411939e95309516b3691ef\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6979191001323687199",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6979868142424182046",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6979868887357738247",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6982068482720533791",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "6990569938889100580",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\6990569938889100580\\4155dd338f1b034a50fc540f20d0ef51\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7006668354597571848",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7006960705421249805",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7006960705421249805\\4b255579ae43df31db3e4d268be11a8d\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7008039835801750814",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7008039835801750814\\5a8f0a2baad29a2a778037a79b364e9e\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7013008271736851726",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7013008271736851726\\6561ded89e9a11b67106712ad2f5e643\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7017099991730638117",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7017099991730638117\\6dfc4e78d26e0b9b55b1955faef34382\\singleImage.png",
+    "has_lua": true,
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7024062704692333860",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7024062704692333860\\fc672890947d297cdcbfb21c86e1a51f\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 437,
+      "singleHeight": 438,
+      "bigWidth": 437,
+      "bigHeight": 438,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7024126909583854885",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7024126909583854885\\cfd550bb840caf7d5ab1646add2d4872\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7099739762604412200",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7099739762604412200\\f41821c15c725e46f0b7e5cb3bce3bbb\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7100078830605438244",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7100078830605438244\\02110bd9cef94038cafbabc827ce4156\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 480,
+      "singleHeight": 540,
+      "bigWidth": 480,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7100124358319836451",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7100124358319836451\\757ffd1e6438e27a47c8aa9473c85a59\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 440,
+      "singleHeight": 440,
+      "bigWidth": 440,
+      "bigHeight": 440,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7102187995175914765",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7102187995175914765\\080110476618bc7ea23caa414f453707\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 84,
+      "singleHeight": 78,
+      "bigWidth": 84,
+      "bigHeight": 78,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7103708033750011175",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7103708033750011175\\3270071ca65342c8d035c4f93061c9a7\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7163512605259123998",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "bigPng",
+      "singleWidth": 599,
+      "singleHeight": 109,
+      "bigWidth": 1797,
+      "bigHeight": 1744,
+      "frameCount": 48
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7169660951212330276",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7169660951212330276\\fac45c87d8409f5caf66f1cd00dc170d\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 500,
+      "singleHeight": 500,
+      "bigWidth": 500,
+      "bigHeight": 500,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7170924600128326950",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7170924600128326950\\e34c8072f468276a243d9880b48e7a25\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 533,
+      "bigWidth": 540,
+      "bigHeight": 533,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7171065827993701643",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7171065827993701643\\2aa02919013fdf239b184eabda8c4911\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7200730268406172940",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7200730268406172940\\12e784e39fdaeeda865be98fbf7f0383\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 353,
+      "singleHeight": 345,
+      "bigWidth": 353,
+      "bigHeight": 345,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7206207728157543717",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7206207728157543717\\07e49c3f89c826513a8a3ced56815300\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7212392694008614199",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7212392694008614199\\55c6bf8e9b109af5777ffab7774605a7\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 343,
+      "singleHeight": 343,
+      "bigWidth": 343,
+      "bigHeight": 343,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7213263404889328933",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7213263404889328933\\66fa03d141a72861a9fa5c35f2bc2362\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 343,
+      "singleHeight": 343,
+      "bigWidth": 343,
+      "bigHeight": 343,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7219937979362594060",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7219937979362594060\\7c7891374470fd2512b0c78777db4a34\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 296,
+      "singleHeight": 252,
+      "bigWidth": 296,
+      "bigHeight": 252,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7232642626724302113",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7232642626724302113\\805b192e3b309f15ca073b7c7cb0835c\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 416,
+      "singleHeight": 540,
+      "bigWidth": 416,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7233796752590015803",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7233796752590015803\\a62745e4351fa7a8c19851c60fad6544\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 343,
+      "singleHeight": 344,
+      "bigWidth": 343,
+      "bigHeight": 344,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7245143995330891065",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7245143995330891065\\24859e01b87dc9d965bb0a24d6d7f6cf\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7247521185502711092",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7247521185502711092\\fd9a7922ea8fc574e412cc75c0b85274\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7248997594326781217",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7248997594326781217\\8f2e5770586d4714e719e42dbddad6df\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 218,
+      "singleHeight": 216,
+      "bigWidth": 218,
+      "bigHeight": 216,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7257911667403574591",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7257911667403574591\\9b00bb0d209413eba9e9225d633f3d1f\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 526,
+      "singleHeight": 540,
+      "bigWidth": 526,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7265921185492389176",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7265921185492389176\\cb6778f0ffe0ad80bed8dc1cd91c4f97\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 240,
+      "singleHeight": 240,
+      "bigWidth": 240,
+      "bigHeight": 240,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7265950042068962619",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7265950042068962619\\ec9578211b3a901fac920ba8507120eb\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 240,
+      "singleHeight": 240,
+      "bigWidth": 240,
+      "bigHeight": 240,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7296396350139141417",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7296396350139141417\\b552456b0445b37f64f75fb718f20a9e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 393,
+      "singleHeight": 344,
+      "bigWidth": 393,
+      "bigHeight": 344,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7354087813605838107",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7354087813605838107\\402311de0fe09264992daec559365143\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7357376831466589459",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7357376831466589459\\f435261c5560505de56977026aaf0445\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 477,
+      "singleHeight": 477,
+      "bigWidth": 477,
+      "bigHeight": 477,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7366111732915391781",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7366111732915391781\\00e293c63972927b30b81fb3c783abfd\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 360,
+      "singleHeight": 360,
+      "bigWidth": 360,
+      "bigHeight": 360,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405040959118904603",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405040959118904603\\57ae8c953ae72c44f1315c0716f4df61\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041160290454835",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041160290454835\\1a507f1be0cdaf6c5b43a563830000fc\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041206981430537",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041206981430537\\08d9fd7f837e707b516856812aca26aa\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041213864152358",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041213864152358\\c8681e25e0869f9d745a474c18678ed2\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041219522366747",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041219522366747\\bc719103fbf445e5b61eb3f58900dd76\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041231463468339",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041231463468339\\78ad11eb40d94f7ce3f1621ced06fd9c\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041337139072282",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041337139072282\\497b69b8699b083ff64e27b82ee4798e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041411055242547",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041411055242547\\0474d8b0c3a956f11e36e0d626c050a5\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041463215541554",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041463215541554\\7b43d21ce5efd55f2b2af08524c20c3b\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041465568562470",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041465568562470\\0dff17a937e8864261b473109aca712c\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041470371155209",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041470371155209\\bc0f98f0aa91b68b81ae3834bdd5ef2c\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041478319263027",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041478319263027\\44b1a414d09a1f634b1079af9fb50fba\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041482354150693",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041482354150693\\a5a346f895649f2b9899bb972ec9ce95\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041603036876058",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041603036876058\\b7560873cd29d10ba034ab99dc5cdd06\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041603036974362",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041603036974362\\fc5e7c7fab2b4ce33f8411910ffca32e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041613711346971",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041613711346971\\ce09517705f504b5595ac94163ccaac1\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041686969126153",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041686969126153\\95846e0012cefb53fa903bb213f2765c\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041871912717606",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041871912717606\\19974ceb618f81315e61b9c98b031d96\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041952854527241",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041952854527241\\0254bd0bd41a638d09a3380fa2ea7652\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041967635205403",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041967635205403\\6e29839080a1a34d9a287adc413b1d80\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405041967635221787",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405041967635221787\\444cf4f9ada822bfdc236a4d9d7c48ca\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042021037067570",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042021037067570\\926526b0afd5d92e88b28749c3ce8962\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042021037116722",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042021037116722\\f9d33f2b0d661071b4e451c8bee58186\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042026221292809",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042026221292809\\1d306041e29d4af9e6d466b2b24bdf4d\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042030092487974",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042030092487974\\2fd9edbf4da9640c63c880d17c27e07a\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042035058560266",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042035058560266\\b19fc39090c708c19bd7d74c564c076b\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042035058642186",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042035058642186\\b401bac44baabe65e45680b51e2f69ce\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042044684553498",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042044684553498\\d0491c181eb9238917fe8b76bb6794ec\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042097352477990",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042097352477990\\5d2b9de920d738e9d7cb642f62c45acd\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042101437697289",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042101437697289\\a1b55bbbc2dc6c1b3a0b35023c845f3d\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042101437713673",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042101437713673\\77af0ec76a54224cf61b0c50773e591e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042106965740826",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042106965740826\\b3a70ffef3425de922d4c8b10f60d024\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042107414531379",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042107414531379\\c8b4b3cd63e695888e3a8f754ea21e41\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042155787521307",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042155787521307\\d3f0c801e7b11cbb6d0fe86c7bf21cd2\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042169070783794",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042169070783794\\b2173542c442061b24c843c84042e968\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042226633477426",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042226633477426\\d8300bcd7efb42f06481fb0b0db83946\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042229141572902",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042229141572902\\15660142ad8b0d3e322d2d568d3877ec\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042280379321609",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042280379321609\\873c3b30765519b847b42b14e3da297e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042326332067122",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042326332067122\\3ca1fbdb8205f699abfe2754c80f27fb\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042333596585266",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042333596585266\\b95b7e482e75e64976b1946d4a468aab\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042333596601650",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042333596601650\\9253a3aeba6c8cd329ad7ea00ddf2466\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042381181013258",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042381181013258\\afcffab5943bc362189617052caced68\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042385534651699",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042385534651699\\447b4c1875b89a6e5c9fee5e88c52955\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042385534733619",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042385534733619\\e78255190a54dac87889961f6db3daee\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042387635981577",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042387635981577\\771925c7c97926ca9c8eab6239212ec4\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042438831705395",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042438831705395\\025d47054ab9f066aca6c9c41c3bf37a\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042440094223667",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042440094223667\\b583bfc326f5c7a831aae5dddad2a88e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042446565936410",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042446565936410\\9ceabe1fb648ea09c4042bd0b4f97619\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7405042487020047626",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7405042487020047626\\974ac005c996c0800e2eaee8fc493684\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 512,
+      "singleHeight": 512,
+      "bigWidth": 512,
+      "bigHeight": 512,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7450071034947996953",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "bigPng",
+      "singleWidth": 280,
+      "singleHeight": 280,
+      "bigWidth": 840,
+      "bigHeight": 840,
+      "frameCount": 8
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7510637447315983678",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7510637447315983678\\10f018fbb186a97b7fe88893e870caf2\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 304,
+      "bigWidth": 540,
+      "bigHeight": 304,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7535016224724602174",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7535016224724602174\\54750e7e37583a50fe2ca2eb48488073\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 800,
+      "singleHeight": 800,
+      "bigWidth": 800,
+      "bigHeight": 800,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7535019606973615385",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7535019606973615385\\6f463111b929331520a6e421820cfda3\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 90,
+      "singleHeight": 94,
+      "bigWidth": 90,
+      "bigHeight": 94,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7535028246015102270",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7535028246015102270\\42038ed279a42ec7cd47467fd040f9f4\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 90,
+      "singleHeight": 94,
+      "bigWidth": 90,
+      "bigHeight": 94,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7535050949287644478",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7535050949287644478\\c153fef1c36f71bbe5272c9dd5bd6f83\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 800,
+      "singleHeight": 800,
+      "bigWidth": 800,
+      "bigHeight": 800,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7566269175874866456",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7566269175874866456\\84e9eb3be3b990d1f8859a94a8de9588\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 51,
+      "singleHeight": 36,
+      "bigWidth": 51,
+      "bigHeight": 36,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7566279197581380889",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7566279197581380889\\80e68f9fca194748441a0922c2c9db3e\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 51,
+      "singleHeight": 36,
+      "bigWidth": 51,
+      "bigHeight": 36,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7582469620502646041",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7582469620502646041\\c1e42d3700258ad774dffc7a8d209211\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7589472891134151961",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7589472891134151961\\1d40547f7a3175a4279c43abd7698820\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7596968189897248024",
+    "name": null,
+    "image": null,
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "bigPng",
+      "singleWidth": 800,
+      "singleHeight": 800,
+      "bigWidth": 4800,
+      "bigHeight": 4000,
+      "frameCount": 26
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7601105991362579737",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7601105991362579737\\ba3f80414a66354034002b084208dbf0\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 694,
+      "singleHeight": 55,
+      "bigWidth": 694,
+      "bigHeight": 55,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7601367838707699006",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7601367838707699006\\84e23009c27588a61cb35c908b3c51dd\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 141,
+      "singleHeight": 72,
+      "bigWidth": 141,
+      "bigHeight": 72,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  },
+  {
+    "id": "7631443525711777049",
+    "name": null,
+    "image": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7631443525711777049\\5d4132cfe4bef3b63f3074b107a51358\\singleImage.png",
+    "has_lua": true,
+    "heycan": {
+      "platform": 1,
+      "type": "png",
+      "singleWidth": 540,
+      "singleHeight": 540,
+      "bigWidth": 540,
+      "bigHeight": 540,
+      "frameCount": 1
+    },
+    "config": {
+      "effect": {
+        "Link": [
+          {
+            "type": "InfoSticker"
+          }
+        ]
+      },
+      "version": "4.0.0"
+    }
+  }
+]

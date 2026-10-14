@@ -1,0 +1,78 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791564654.923619,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\run-official-engine",
+  "steps": {
+    "recognize": {
+      "status": "ok",
+      "engine": "official",
+      "language": "zh",
+      "cue_count": 10,
+      "sentences": [
+        "九月不必再逢",
+        "于是不觉可闻",
+        "春风它掠过我空袖口",
+        "春风添我十万八千梦",
+        "走向没有你的岸",
+        "隔几重山隔几重梦",
+        "终于不问归程",
+        "还未等到远离乡 却见天边已泛红",
+        "人长大后才知晓",
+        "这一程序由我自封"
+      ],
+      "lyrics_json": "C:\\Users\\Administrator\\Documents\\剪映\\work\\run-official-engine\\01-recognize\\lyrics.json",
+      "at": 1791564671.7723374
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-engine-20261010-005054",
+      "ref": "local://headless-engine-20261010-005054",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261010-005055",
+      "segment_count": 25,
+      "at": 1791564663.0305953
+    },
+    "selection": {
+      "status": "skipped",
+      "reason": "official 引擎不使用 Selection",
+      "at": 1791564686.006619
+    },
+    "apply": {
+      "status": "ok",
+      "engine": "official",
+      "resource": "vimo://7591420714515844395",
+      "executed_count": 1,
+      "applied": [
+        "九月不必再逢"
+      ],
+      "failed": [],
+      "applied_count": 1,
+      "failed_count": 0,
+      "at": 1791564686.0129142
+    },
+    "slots": {
+      "status": "skipped",
+      "reason": "official 引擎由官方命令落地动效",
+      "at": 1791564686.0182917
+    },
+    "mirrors": {
+      "status": "ok",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-engine-20261010-005054\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+      "written": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-engine-20261010-005054\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-engine-20261010-005054\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-engine-20261010-005054\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791564686.026176
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\run-official-engine\\06-render\\render.mp4",
+      "output_size": 5352590,
+      "video_duration": 31.6,
+      "at": 1791564703.9457397
+    }
+  },
+  "finished_at": 1791564703.9531364
+}

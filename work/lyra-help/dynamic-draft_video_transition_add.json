@@ -1,0 +1,80 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791604692384",
+    "processId": 24532,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-808823e80a9fa558",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Add a transition to a video segment.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --ref TEXT          Unified draft reference\r\n          --seg-id <SEG_ID[,SEG_ID...]> ... \r\n                              Target segment id; repeat --seg-id or pass a comma-separated list\r\n          --seg-type <TYPE[,TYPE...]> \r\n                              Target segment type; must match this typed shortcut\r\n          --target-track <INDEX[,INDEX...]> \r\n                              Target track index(es)\r\n          --seg-index <INDEX[,INDEX...]> \r\n                              Comma-separated segment indexes within one target track, e.g.\r\n                              0,2,-1\r\n          --time-window <START,END> \r\n                              Select segments overlapping the half-open timeline window\r\n                              [start,end); start must be less than end\r\n          --resource TEXT REQUIRED \r\n                              Transition resource: vimo://<id> / local://<path>\r\n          --duration <duration> \r\n                              Transition duration; use us, ms, or s (e.g. 2s). Explicit unit\r\n                              required: us, ms, s, or min; bare numbers and m are invalid.\r\n          --is-overlap TEXT   Overlap transition (true/false)\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  # Add a 2-second transition to a segment\r\n  $ lyra-cli draft video transition add --seg-id <UUID> --resource vimo://123 --duration 2s\r\n  # Add an overlap-style transition\r\n  $ lyra-cli draft video transition add --seg-id <UUID> --resource vimo://123 --is-overlap true\r\n",
+      "stderr": "",
+      "output": "Add a transition to a video segment.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --ref TEXT          Unified draft reference\r\n          --seg-id <SEG_ID[,SEG_ID...]> ... \r\n                              Target segment id; repeat --seg-id or pass a comma-separated list\r\n          --seg-type <TYPE[,TYPE...]> \r\n                              Target segment type; must match this typed shortcut\r\n          --target-track <INDEX[,INDEX...]> \r\n                              Target track index(es)\r\n          --seg-index <INDEX[,INDEX...]> \r\n                              Comma-separated segment indexes within one target track, e.g.\r\n                              0,2,-1\r\n          --time-window <START,END> \r\n                              Select segments overlapping the half-open timeline window\r\n                              [start,end); start must be less than end\r\n          --resource TEXT REQUIRED \r\n                              Transition resource: vimo://<id> / local://<path>\r\n          --duration <duration> \r\n                              Transition duration; use us, ms, or s (e.g. 2s). Explicit unit\r\n                              required: us, ms, s, or min; bare numbers and m are invalid.\r\n          --is-overlap TEXT   Overlap transition (true/false)\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  # Add a 2-second transition to a segment\r\n  $ lyra-cli draft video transition add --seg-id <UUID> --resource vimo://123 --duration 2s\r\n  # Add an overlap-style transition\r\n  $ lyra-cli draft video transition add --seg-id <UUID> --resource vimo://123 --is-overlap true\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 594,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft",
+        "video",
+        "transition",
+        "add",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791604692402,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791604692,\"timestamp_str\":\"2026-10-10 11:58:12.401\",\"trace_index\":11,\"vm_id\":\"draftediting-1791604692384\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791604692690,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791604692,\"timestamp_str\":\"2026-10-10 11:58:12.690\",\"trace_index\":12,\"vm_id\":\"draftediting-1791604692384\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791604693997,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791604692384",
+      "processId": 24532,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

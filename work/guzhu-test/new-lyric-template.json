@@ -1,0 +1,38 @@
+{
+  "command": [
+    "material",
+    "download",
+    "--type",
+    "lyric_animation",
+    "--resource-id",
+    "7513861835175546166"
+  ],
+  "workspace": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-online\\4322c15415d14fc9ac23f1b740c586b0",
+  "status": "官方返回成功",
+  "envelope": {
+    "command": [
+      "material",
+      "download",
+      "--type",
+      "lyric_animation",
+      "--resource-id",
+      "7513861835175546166"
+    ],
+    "result": {
+      "err_code": 0,
+      "err_msg": "success",
+      "result": {
+        "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7513861835175546166\\f42b8847704bc422808dd065b7b8f1cb",
+        "resource_dir": "",
+        "resource_id": "7513861835175546166",
+        "resource_platform": 1,
+        "type": "lyric_animation"
+      }
+    },
+    "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Cache\\\\artistEffect\\\\7513861835175546166\\\\f42b8847704bc422808dd065b7b8f1cb\",\"resource_dir\":\"\",\"resource_id\":\"7513861835175546166\",\"resource_platform\":1,\"type\":\"lyric_animation\"}}\r\n",
+    "stderr": "",
+    "host_pid": 42840,
+    "duration_ms": 4600
+  },
+  "files": []
+}

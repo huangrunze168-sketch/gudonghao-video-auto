@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903606110,"args":["material","search","--type","sticker","--prompt","想开 猫 表情包","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\bb36a6a68adb4a23bb8342701dfa727d","pid":45844}
+{"stage":"policy","at":1791903606111,"rules":9}
+{"stage":"policy-network","at":1791903606111,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903606115,"vmId":"draftediting-1791903606110"}
+{"stage":"create-process:done","at":1791903606133,"processId":44268,"success":true}
+{"stage":"worker-ready","at":1791903606629}

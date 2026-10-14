@@ -1,0 +1,5 @@
+{"stage":"start","at":1791607210879,"args":["draft","algo","object-matting-track","--help"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\help-probe","pid":34628}
+{"stage":"policy","at":1791607210879,"rules":8}
+{"stage":"create-process:begin","at":1791607210882,"vmId":"draftediting-1791607210879"}
+{"stage":"create-process:done","at":1791607211950,"processId":62268,"success":true}
+{"stage":"worker-ready","at":1791607212464}

@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560733878,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"发光字幕\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\catalog","pid":56084}
+{"stage":"policy","at":1791560733879,"rules":8}
+{"stage":"create-process:begin","at":1791560733882,"vmId":"draftediting-1791560733878"}
+{"stage":"create-process:done","at":1791560734260,"processId":54604,"success":true}
+{"stage":"worker-ready","at":1791560734742}

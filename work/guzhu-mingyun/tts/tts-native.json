@@ -1,0 +1,43 @@
+{
+  "speaker": "ICL_zh_female_xinmanbo",
+  "lines": [
+    {
+      "text": "有没有下班到家",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-01.mp3",
+      "source_duration_us": 1416000,
+      "duration_us": 1089231
+    },
+    {
+      "text": "却在楼下多站几分钟",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-02.mp3",
+      "source_duration_us": 1824000,
+      "duration_us": 1403077
+    },
+    {
+      "text": "不是不想回家",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-03.mp3",
+      "source_duration_us": 1368000,
+      "duration_us": 1052308
+    },
+    {
+      "text": "只是想把自己还给自己",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-04.mp3",
+      "source_duration_us": 1944000,
+      "duration_us": 1495385
+    },
+    {
+      "text": "懂这首歌的评论区留个句号",
+      "path": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-05.mp3",
+      "source_duration_us": 2424000,
+      "duration_us": 1864615
+    }
+  ],
+  "files": [
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-01.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-02.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-03.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-04.mp3",
+    "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun\\tts\\official-line-05.mp3"
+  ],
+  "native_playback_speed": 1.3
+}

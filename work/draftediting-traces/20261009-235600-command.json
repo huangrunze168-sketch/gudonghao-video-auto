@@ -1,0 +1,438 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791561358655",
+    "processId": 51168,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-b7cc768eeb909a62",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": false,
+      "stdout": "Manage / Edit Jianying/Capcut drafts.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nSUBCOMMANDS:\r\n  project                     Manage draft projects (create / list / focus / ...).\r\n  cover                       Set or clear the draft cover\r\n  extract                     Read draft structure information as JSON (read-only).\r\n  template                    Add, inspect, and replace draft template packages in a draft.\r\n  algo                        Draft algorithm capabilities.\r\n  history                     Undo or redo the most recent draft edits.\r\n  deform                      Apply high-level deformation intent using existing edit/algo\r\n                              capabilities.\r\n  edit                        FROZEN LEGACY RAW COMPATIBILITY FOR EXISTING INTEGRATIONS.\r\n                              This surface no longer evolves. New Agent edits must use typed\r\n                              `draft <domain> ...` commands.\r\n                              \r\n                              ACTIONS:\r\n                              --remove [expr] Remove segment(s) or segment properties\r\n                              --add <expr> Add segment(s) to draft\r\n                              --move <expr> Move target segment(s)\r\n                              --update <expr> Update properties of target segment(s)\r\n                              --op <name> Run split / duplicate / freeze_frame / extract_frames\r\n                              / extract_music / group / ungroup\r\n                              --params <expr> Parameters for --op\r\n                              --target <selector> Select target segment(s) for current action\r\n                              --scope <expr> Select sub-range/object within target(s)\r\n                              \r\n                              COMBINATION RULES:\r\n                              --remove must be used alone with --target\r\n                              --op must be used alone with --params/--target optional\r\n                              others can be chained: add/update/move\r\n  video                       video shortcuts.\r\n  sticker                     sticker shortcuts.\r\n  text                        text shortcuts.\r\n  text-template               text-template shortcuts.\r\n  audio                       audio shortcuts.\r\n  segment                     segment shortcuts.\r\n  timeline                    timeline shortcuts.\r\n  compound-clip               compound-clip shortcuts.\r\n  filter                      filter shortcuts.\r\n  effect                      effect shortcuts.\r\n  adjust                      adjust shortcuts.\r\n  subtitle                    subtitle shortcuts.\r\n  lyrics                      lyrics shortcuts.\r\n  keyframe                    keyframe shortcuts.\r\n  config                      Configure draft-level settings (no target).\r\n  blueprint                   Manage declarative draft blueprints.\r\n\r\nEXAMPLES\r\n  $ lyra-cli draft project create --ref local://example\r\n  $ lyra-cli draft project focus --ref local://example\r\n  $ lyra-cli draft config --ref local://example --ratio 16:9\r\n  $ lyra-cli draft video add --ref local://example --resource local:///xx/yy/test.mp4\r\n  $ lyra-cli draft extract summary --ref local://example\r\n\r\n  $ lyra-cli draft --ref local://example --action video alpha --seg-id v1 --alpha 80% --action text style --seg-id t1 --color '#FFFFFF'\r\n\r\nACTION CHAINING\r\n  Same object, shared target:\r\n    lyra-cli draft video --seg-id v1 --action alpha --alpha 80% --action scale --scale 1.2\r\n  Same object, per-block targets:\r\n    lyra-cli draft video --action alpha --seg-id v1 --alpha 80% --action scale --seg-id v2 --scale 1.2\r\n  Cross object, per-block targets:\r\n    lyra-cli draft --action video alpha --seg-id v1 --alpha 80% --action text style --seg-id t1 --color '#FFFFFF'\r\n  Public selectors:\r\n    --seg-id, --seg-type, --target-track, --seg-index, --time-window\r\n  Shared and per-block targets cannot be mixed. Shortcut paths use spaces, not dots.\r\n\r\nLEARN MORE\r\n  Use `lyra-cli draft <subcommand> --help` for more information.\r\n",
+      "stderr": "",
+      "output": "Manage / Edit Jianying/Capcut drafts.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nSUBCOMMANDS:\r\n  project                     Manage draft projects (create / list / focus / ...).\r\n  cover                       Set or clear the draft cover\r\n  extract                     Read draft structure information as JSON (read-only).\r\n  template                    Add, inspect, and replace draft template packages in a draft.\r\n  algo                        Draft algorithm capabilities.\r\n  history                     Undo or redo the most recent draft edits.\r\n  deform                      Apply high-level deformation intent using existing edit/algo\r\n                              capabilities.\r\n  edit                        FROZEN LEGACY RAW COMPATIBILITY FOR EXISTING INTEGRATIONS.\r\n                              This surface no longer evolves. New Agent edits must use typed\r\n                              `draft <domain> ...` commands.\r\n                              \r\n                              ACTIONS:\r\n                              --remove [expr] Remove segment(s) or segment properties\r\n                              --add <expr> Add segment(s) to draft\r\n                              --move <expr> Move target segment(s)\r\n                              --update <expr> Update properties of target segment(s)\r\n                              --op <name> Run split / duplicate / freeze_frame / extract_frames\r\n                              / extract_music / group / ungroup\r\n                              --params <expr> Parameters for --op\r\n                              --target <selector> Select target segment(s) for current action\r\n                              --scope <expr> Select sub-range/object within target(s)\r\n                              \r\n                              COMBINATION RULES:\r\n                              --remove must be used alone with --target\r\n                              --op must be used alone with --params/--target optional\r\n                              others can be chained: add/update/move\r\n  video                       video shortcuts.\r\n  sticker                     sticker shortcuts.\r\n  text                        text shortcuts.\r\n  text-template               text-template shortcuts.\r\n  audio                       audio shortcuts.\r\n  segment                     segment shortcuts.\r\n  timeline                    timeline shortcuts.\r\n  compound-clip               compound-clip shortcuts.\r\n  filter                      filter shortcuts.\r\n  effect                      effect shortcuts.\r\n  adjust                      adjust shortcuts.\r\n  subtitle                    subtitle shortcuts.\r\n  lyrics                      lyrics shortcuts.\r\n  keyframe                    keyframe shortcuts.\r\n  config                      Configure draft-level settings (no target).\r\n  blueprint                   Manage declarative draft blueprints.\r\n\r\nEXAMPLES\r\n  $ lyra-cli draft project create --ref local://example\r\n  $ lyra-cli draft project focus --ref local://example\r\n  $ lyra-cli draft config --ref local://example --ratio 16:9\r\n  $ lyra-cli draft video add --ref local://example --resource local:///xx/yy/test.mp4\r\n  $ lyra-cli draft extract summary --ref local://example\r\n\r\n  $ lyra-cli draft --ref local://example --action video alpha --seg-id v1 --alpha 80% --action text style --seg-id t1 --color '#FFFFFF'\r\n\r\nACTION CHAINING\r\n  Same object, shared target:\r\n    lyra-cli draft video --seg-id v1 --action alpha --alpha 80% --action scale --scale 1.2\r\n  Same object, per-block targets:\r\n    lyra-cli draft video --action alpha --seg-id v1 --alpha 80% --action scale --seg-id v2 --scale 1.2\r\n  Cross object, per-block targets:\r\n    lyra-cli draft --action video alpha --seg-id v1 --alpha 80% --action text style --seg-id t1 --color '#FFFFFF'\r\n  Public selectors:\r\n    --seg-id, --seg-type, --target-track, --seg-index, --time-window\r\n  Shared and per-block targets cannot be mixed. Shortcut paths use spaces, not dots.\r\n\r\nLEARN MORE\r\n  Use `lyra-cli draft <subcommand> --help` for more information.\r\n",
+      "exitCode": 2,
+      "timedOut": false,
+      "durationMs": 518,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "draft"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791561358668,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791561358,\"timestamp_str\":\"2026-10-09 23:55:58.668\",\"trace_index\":11,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791561358959,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791561358,\"timestamp_str\":\"2026-10-09 23:55:58.959\",\"trace_index\":12,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791561358962,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":51168,\"ppid\":50624,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791561358,\"timestamp_str\":\"2026-10-09 23:55:58.962\",\"trace_index\":13,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791561359029,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-r284x49n\\__PSScriptPolicyTest_vp4re0kh.l3t.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791561359029,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.029\",\"trace_index\":14,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791561359030,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-r284x49n\\__PSScriptPolicyTest_0r4rhs2c.1pw.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791561359030,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.030\",\"trace_index\":15,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791561359243,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-r284x49n\\__PSScriptPolicyTest_0zm2vd5s.c2j.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791561359243,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.243\",\"trace_index\":16,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791561359244,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\draftediting-r284x49n\\__PSScriptPolicyTest_wtcq3szk.ay2.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791561359244,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.244\",\"trace_index\":17,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791561359352,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":57216,\"ppid\":51168,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.352\",\"trace_index\":18,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791561359488,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":60272,\"ppid\":57216,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.487\",\"trace_index\":19,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791561359632,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-48064762661300",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791561359633,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-48064762661300\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.632\",\"trace_index\":20,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791561359652,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791561359652,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.652\",\"trace_index\":21,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791561359653,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791561359653,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.653\",\"trace_index\":22,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791561359662,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791561359662,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.662\",\"trace_index\":23,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791561359663,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791561359663,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.663\",\"trace_index\":24,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791561359955,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\60272.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791561359959,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":2,\"crash_tid\":0,\"duration_ms\":500,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":60272,\"ppid\":57216,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.959\",\"trace_index\":25,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791561359959,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791561358655",
+      "processId": 60272,
+      "errorCode": 2,
+      "processState": 4,
+      "processErrorCode": 2,
+      "exitCode": 2,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 2,
+        "exitCode": 2
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791561359974,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":625,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":57216,\"ppid\":51168,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.974\",\"trace_index\":26,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791561359974,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791561358655",
+      "processId": 57216,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791561359988,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791561359993,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1047,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":51168,\"ppid\":50624,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791561359,\"timestamp_str\":\"2026-10-09 23:55:59.993\",\"trace_index\":27,\"vm_id\":\"draftediting-1791561358655\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791561359993,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791561360001,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791561358655",
+      "processId": 51168,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

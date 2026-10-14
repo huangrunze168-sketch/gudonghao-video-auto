@@ -1,0 +1,5 @@
+{"stage":"start","at":1791876018158,"args":["draft","blueprint","sync","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\guzhu-effect-03bec3fb","--ref","local://guzhu-01"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":52628}
+{"stage":"policy","at":1791876018158,"rules":8}
+{"stage":"create-process:begin","at":1791876018162,"vmId":"draftediting-1791876018158"}
+{"stage":"create-process:done","at":1791876018504,"processId":46108,"success":true}
+{"stage":"worker-ready","at":1791876019054}

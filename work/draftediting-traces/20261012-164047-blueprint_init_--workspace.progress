@@ -1,0 +1,5 @@
+{"stage":"start","at":1791794445654,"args":["draft","blueprint","init","--workspace","C:\\Temp\\anim-ws"],"cwd":"C:\\Temp","pid":54860}
+{"stage":"policy","at":1791794445654,"rules":9}
+{"stage":"create-process:begin","at":1791794445659,"vmId":"draftediting-1791794445654"}
+{"stage":"create-process:done","at":1791794446258,"processId":50700,"success":true}
+{"stage":"worker-ready","at":1791794446781}

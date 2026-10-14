@@ -1,0 +1,6 @@
+{"stage":"start","at":1791902661692,"args":["material","search","--type","sticker","--prompt","句号 结束 评论区","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\8ac18cd0e17845d29cec8a4e8faff7e1","pid":48748}
+{"stage":"policy","at":1791902661692,"rules":9}
+{"stage":"policy-network","at":1791902661693,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791902661696,"vmId":"draftediting-1791902661692"}
+{"stage":"create-process:done","at":1791902661716,"processId":22816,"success":true}
+{"stage":"worker-ready","at":1791902662256}

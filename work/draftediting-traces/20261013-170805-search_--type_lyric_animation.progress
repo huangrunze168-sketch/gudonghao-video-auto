@@ -1,0 +1,6 @@
+{"stage":"start","at":1791882481755,"args":["material","search","--type","lyric_animation","--prompt","独处 抒情 手写 简约","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\62781c7631e24875a6e34b2b278c7bbb","pid":33692}
+{"stage":"policy","at":1791882481755,"rules":9}
+{"stage":"policy-network","at":1791882481755,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791882481759,"vmId":"draftediting-1791882481755"}
+{"stage":"create-process:done","at":1791882482162,"processId":27664,"success":true}
+{"stage":"worker-ready","at":1791882482688}

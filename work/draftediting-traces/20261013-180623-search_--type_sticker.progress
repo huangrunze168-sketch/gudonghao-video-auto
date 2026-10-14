@@ -1,0 +1,6 @@
+{"stage":"start","at":1791885980011,"args":["material","search","--type","sticker","--prompt","叹气 无奈 生活","--limit","4"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\44e7940428ab4da6814e256085669b9c","pid":43232}
+{"stage":"policy","at":1791885980012,"rules":9}
+{"stage":"policy-network","at":1791885980012,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791885980015,"vmId":"draftediting-1791885980011"}
+{"stage":"create-process:done","at":1791885980036,"processId":24520,"success":true}
+{"stage":"worker-ready","at":1791885980552}

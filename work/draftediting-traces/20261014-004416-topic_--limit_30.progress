@@ -1,0 +1,6 @@
+{"stage":"start","at":1791909855146,"args":["material","topic","--limit","30"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\e67af5fc940e44fb9337d2e1c6fa7cc0","pid":26876}
+{"stage":"policy","at":1791909855147,"rules":9}
+{"stage":"policy-network","at":1791909855147,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791909855150,"vmId":"draftediting-1791909855147"}
+{"stage":"create-process:done","at":1791909855169,"processId":47052,"success":true}
+{"stage":"worker-ready","at":1791909855676}

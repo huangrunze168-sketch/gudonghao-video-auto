@@ -1,0 +1,124 @@
+{
+  "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "fades": [
+    {
+      "track": "intro",
+      "seg": "4D201827-7DC5-4fd3-9807-311C18BAE1B9",
+      "out": "600ms"
+    },
+    {
+      "track": "main",
+      "seg": "27247D95-1F6F-490d-851F-E3830E55552E",
+      "in": "500ms",
+      "out": "1200ms"
+    }
+  ],
+  "verify": [
+    {
+      "name": "有些问题 你问过很多次",
+      "range": [
+        0,
+        1566666
+      ],
+      "fade": null
+    },
+    {
+      "name": "是不想再拿自己 去换一个答案",
+      "range": [
+        3233333,
+        1733333
+      ],
+      "fade": null
+    },
+    {
+      "name": "听懂的人 评论区留个句号",
+      "range": [
+        7000000,
+        1600000
+      ],
+      "fade": null
+    },
+    {
+      "name": "guzhu-song.wav",
+      "range": [
+        8600000,
+        21000000
+      ],
+      "fade": null
+    },
+    {
+      "name": "后来就不问了 不是认输",
+      "range": [
+        1566666,
+        1666667
+      ],
+      "fade": null
+    },
+    {
+      "name": "门口那盏灯 一直是你自己开的",
+      "range": [
+        4966666,
+        2033334
+      ],
+      "fade": null
+    },
+    {
+      "name": "intro-bgm.wav",
+      "range": [
+        0,
+        8600000
+      ],
+      "fade": null
+    }
+  ],
+  "lyrics": [
+    {
+      "start_us": 9033333,
+      "text": "突然某我不再"
+    },
+    {
+      "start_us": 10300000,
+      "text": "需需要答案"
+    },
+    {
+      "start_us": 12166666,
+      "text": "你没爱过都"
+    },
+    {
+      "start_us": 13766666,
+      "text": "不必再审判"
+    },
+    {
+      "start_us": 15700000,
+      "text": "那些没说完"
+    },
+    {
+      "start_us": 17566666,
+      "text": "停在没说完"
+    },
+    {
+      "start_us": 19066666,
+      "text": "把困在门外的"
+    },
+    {
+      "start_us": 20533333,
+      "text": "自己领回身边"
+    },
+    {
+      "start_us": 23166666,
+      "text": "突然某我不再"
+    },
+    {
+      "start_us": 24333333,
+      "text": "需需要答案"
+    },
+    {
+      "start_us": 26300000,
+      "text": "承认有些人只"
+    },
+    {
+      "start_us": 27700000,
+      "text": "陪一一段"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791909449514",
+    "processId": 51024,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-c00c70a9038a1135",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Download an asset file by type and resource ID.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h, --help                            Print this help message and exit\r\n      --type TEXT REQUIRED              Material asset type key. Use `music` for music; use supported\r\n                                        visual/audio asset keys such as `sticker`, `effect`,\r\n                                        `transition`, `text_template`, or `sound` for other materials.\r\n      --resource-id TEXT REQUIRED       Material resource ID returned by `material search`, `material\r\n                                        topic`, or `material query`.\r\n      --resource-platform <vimo|heycan|loki|music> \r\n                                        Material source. Use `vimo`, `heycan`, or `loki` for visual/audio\r\n                                        assets; use `music` for music. Numeric values `1`, `2`, `3` are\r\n                                        kept for compatibility.\r\n      --resource-dir TEXT               Target directory for the downloaded asset. Uses the platform\r\n                                        default material cache when omitted.\r\n      --channel <online|test|local_test> \r\n                                        Material request channel. Use `test` or `local_test` for internal\r\n                                        test resources.\r\n  -v, --version                         Show version information and exit.\r\n      --jq TEXT                         Pretty-print JSON output; with an optional selector like\r\n                                        .result.items[0].id, output the selected JSON value instead of\r\n                                        the full schema envelope.\r\n\r\nWHEN TO USE\r\n  - A downstream workflow needs a local file instead of a platform resource ID.\r\n  - Music downloads save the preview audio; visual/audio assets use their material package or file.\r\n\r\nINPUT\r\n  Use resource_id from material search, material topic, or material query.\r\n\r\nEXAMPLES\r\n  $ lyra-cli material download --type sticker --resource-id \"7586591573920664856\"\r\n  $ lyra-cli material download --type music --resource-id \"6944678306690085633\" --resource-platform music\r\n  $ lyra-cli material download --type transition --resource-id \"7602154462643375402\" --resource-dir /tmp/materials\r\n\r\nOUTPUT\r\n  Returns result.path with the downloaded local path.\r\n",
+      "stderr": "",
+      "output": "Download an asset file by type and resource ID.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h, --help                            Print this help message and exit\r\n      --type TEXT REQUIRED              Material asset type key. Use `music` for music; use supported\r\n                                        visual/audio asset keys such as `sticker`, `effect`,\r\n                                        `transition`, `text_template`, or `sound` for other materials.\r\n      --resource-id TEXT REQUIRED       Material resource ID returned by `material search`, `material\r\n                                        topic`, or `material query`.\r\n      --resource-platform <vimo|heycan|loki|music> \r\n                                        Material source. Use `vimo`, `heycan`, or `loki` for visual/audio\r\n                                        assets; use `music` for music. Numeric values `1`, `2`, `3` are\r\n                                        kept for compatibility.\r\n      --resource-dir TEXT               Target directory for the downloaded asset. Uses the platform\r\n                                        default material cache when omitted.\r\n      --channel <online|test|local_test> \r\n                                        Material request channel. Use `test` or `local_test` for internal\r\n                                        test resources.\r\n  -v, --version                         Show version information and exit.\r\n      --jq TEXT                         Pretty-print JSON output; with an optional selector like\r\n                                        .result.items[0].id, output the selected JSON value instead of\r\n                                        the full schema envelope.\r\n\r\nWHEN TO USE\r\n  - A downstream workflow needs a local file instead of a platform resource ID.\r\n  - Music downloads save the preview audio; visual/audio assets use their material package or file.\r\n\r\nINPUT\r\n  Use resource_id from material search, material topic, or material query.\r\n\r\nEXAMPLES\r\n  $ lyra-cli material download --type sticker --resource-id \"7586591573920664856\"\r\n  $ lyra-cli material download --type music --resource-id \"6944678306690085633\" --resource-platform music\r\n  $ lyra-cli material download --type transition --resource-id \"7602154462643375402\" --resource-dir /tmp/materials\r\n\r\nOUTPUT\r\n  Returns result.path with the downloaded local path.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 1113,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "material",
+        "download",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791909449528,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.528\",\"trace_index\":11,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791909449538,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.538\",\"trace_index\":12,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791909449541,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":51024,\"ppid\":48164,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.541\",\"trace_index\":13,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791909449613,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-h8q1a0o2\\__PSScriptPolicyTest_lf2pr3mx.u5i.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791909449613,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.613\",\"trace_index\":14,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791909449614,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-h8q1a0o2\\__PSScriptPolicyTest_r3m113sg.fch.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791909449614,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.614\",\"trace_index\":15,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791909449826,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-h8q1a0o2\\__PSScriptPolicyTest_0vabauu1.y1c.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791909449826,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.826\",\"trace_index\":16,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791909449827,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-h8q1a0o2\\__PSScriptPolicyTest_non523cg.ulc.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791909449827,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.827\",\"trace_index\":17,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791909449942,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":51280,\"ppid\":51024,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791909449,\"timestamp_str\":\"2026-10-14 00:37:29.942\",\"trace_index\":18,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791909450104,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":3592,\"ppid\":51280,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791909450,\"timestamp_str\":\"2026-10-14 00:37:30.104\",\"trace_index\":19,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791909450258,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-27831943933900",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791909450258,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-27831943933900\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909450,\"timestamp_str\":\"2026-10-14 00:37:30.258\",\"trace_index\":20,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791909450274,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791909450274,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909450,\"timestamp_str\":\"2026-10-14 00:37:30.274\",\"trace_index\":21,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791909450276,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791909450276,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909450,\"timestamp_str\":\"2026-10-14 00:37:30.276\",\"trace_index\":22,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791909450282,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791909450282,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909450,\"timestamp_str\":\"2026-10-14 00:37:30.282\",\"trace_index\":23,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791909450284,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791909450284,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791909450,\"timestamp_str\":\"2026-10-14 00:37:30.284\",\"trace_index\":24,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791909451168,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\3592.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791909451172,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1094,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":3592,\"ppid\":51280,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791909451,\"timestamp_str\":\"2026-10-14 00:37:31.172\",\"trace_index\":25,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791909451172,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791909449514",
+      "processId": 3592,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791909451181,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1250,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":51280,\"ppid\":51024,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791909451,\"timestamp_str\":\"2026-10-14 00:37:31.181\",\"trace_index\":26,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791909451181,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51280,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791909451195,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791909451201,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1672,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":51024,\"ppid\":48164,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791909451,\"timestamp_str\":\"2026-10-14 00:37:31.201\",\"trace_index\":27,\"vm_id\":\"draftediting-1791909449514\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791909451201,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791909451209,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791909449514",
+      "processId": 51024,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

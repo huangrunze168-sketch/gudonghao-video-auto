@@ -1,0 +1,5 @@
+{"stage":"start","at":1791561003114,"args":["draft","blueprint","resource","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\lyric-probe","--search","{\"mode\": \"knowledge_then_vimo\", \"search\": [{\"type\": \"subtitle_template\", \"keyword\": \"浪漫氛围\"}]}"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\lyric-probe","pid":59800}
+{"stage":"policy","at":1791561003115,"rules":8}
+{"stage":"create-process:begin","at":1791561003118,"vmId":"draftediting-1791561003115"}
+{"stage":"create-process:done","at":1791561003431,"processId":38164,"success":true}
+{"stage":"worker-ready","at":1791561003913}

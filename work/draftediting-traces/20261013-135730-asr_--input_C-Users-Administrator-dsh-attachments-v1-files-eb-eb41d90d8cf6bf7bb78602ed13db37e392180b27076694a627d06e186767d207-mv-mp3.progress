@@ -1,0 +1,5 @@
+{"stage":"start","at":1791871048004,"args":["media","asr","--input","C:\\Users\\Administrator\\.dsh\\attachments\\v1\\files\\eb\\eb41d90d8cf6bf7bb78602ed13db37e392180b27076694a627d06e186767d207\\mv测试.mp3","--language","zh"],"cwd":"C:\\Users\\Administrator\\Documents\\剪映\\engine","pid":55188}
+{"stage":"policy","at":1791871048005,"rules":8}
+{"stage":"create-process:begin","at":1791871048008,"vmId":"draftediting-1791871048004"}
+{"stage":"create-process:done","at":1791871048365,"processId":37756,"success":true}
+{"stage":"worker-ready","at":1791871048856}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791884010810,"args":["material","search","--type","sticker","--prompt","下班 疲惫 发呆 治愈 简约","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\bec69c13cdcd49738a08433fa4aa7a2e","pid":12180}
+{"stage":"policy","at":1791884010810,"rules":9}
+{"stage":"policy-network","at":1791884010810,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791884010813,"vmId":"draftediting-1791884010810"}
+{"stage":"create-process:done","at":1791884010832,"processId":7948,"success":true}
+{"stage":"worker-ready","at":1791884011299}

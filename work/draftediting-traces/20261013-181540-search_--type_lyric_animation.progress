@@ -1,0 +1,6 @@
+{"stage":"start","at":1791886536269,"args":["material","search","--type","lyric_animation","--prompt","黑体 大标题 歌词","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\6b0a10ac8f1842ab9ae06cbdbc8e260c","pid":41688}
+{"stage":"policy","at":1791886536269,"rules":9}
+{"stage":"policy-network","at":1791886536270,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791886536273,"vmId":"draftediting-1791886536269"}
+{"stage":"create-process:done","at":1791886536293,"processId":33668,"success":true}
+{"stage":"worker-ready","at":1791886536799}

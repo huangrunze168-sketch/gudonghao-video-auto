@@ -1,0 +1,38 @@
+{
+  "schema": "jianying-jypack-native-render/v1",
+  "status": "rendered",
+  "source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\jypack\\有一些瞬间_我在命运之外.jypack",
+  "source_sha256": "1927c965ef6aceed9f3ec7840e908a5635709080a266c2786df885196cce391a",
+  "timeline_id": "AC9F8AE4-5E10-4FFE-97A5-F023C4E82AB2",
+  "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "imported_draft_written": false,
+  "runtime_profile": "jy14-headless-windows-11.5.0.14471",
+  "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\render\\有一些瞬间_我在命运之外\\render.mp4",
+  "output_sha256": "c44b98d1cf4e7108518c75cd0158dd1627257288c76970432a96810b16da8602",
+  "output_size": 5159451,
+  "width": 1280,
+  "height": 720,
+  "video_codec": "h264",
+  "video_duration": 30.033333,
+  "audio_codec": "aac",
+  "audio_duration": 30.046009,
+  "toolchain": {
+    "compiler": "clang version 23.1.1 (https://github.com/llvm/llvm-project 6dfe1677ab8dffbc6ec13d53a1e0215d75147689)",
+    "clang_cl": "C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+    "vcvars64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat",
+    "command": [
+      "C:\\Program Files\\LLVM\\bin\\clang-cl.exe",
+      "/nologo",
+      "/std:c++17",
+      "/EHsc",
+      "/MD",
+      "/O2",
+      "/D_CRT_SECURE_NO_WARNINGS",
+      "/utf-8",
+      "C:\\Users\\Administrator\\Documents\\剪映\\engine\\native_export_windows.cpp",
+      "/Fe:C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-mingyun-v3\\render\\有一些瞬间_我在命运之外\\native-export-helper.exe"
+    ]
+  },
+  "runtime_token_used": false,
+  "renderer": "Jianying native ExportService"
+}

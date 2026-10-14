@@ -1,0 +1,5103 @@
+{
+  "generated_from": "recursive lyra-cli <path> --help",
+  "count": 195,
+  "commands": [
+    {
+      "path": [
+        "draft",
+        "edit"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--minidraft",
+        "--add",
+        "--remove",
+        "--move",
+        "--update",
+        "--op",
+        "--target",
+        "--scope",
+        "--params",
+        "--version",
+        "--jq"
+      ],
+      "summary": "FROZEN LEGACY RAW COMPATIBILITY FOR EXISTING INTEGRATIONS.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "config"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--ratio",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Configure draft-level settings (no target).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "create"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--dir",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Create a new draft project",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "list"
+      ],
+      "options": [
+        "--help",
+        "--version",
+        "--jq"
+      ],
+      "summary": "List draft projects",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "focus"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Focus a draft project, so that the subsequent commands without `--ref` will use",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "delete"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Delete a draft project",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "cover",
+        "set"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--minidraft",
+        "--image",
+        "--url",
+        "--frame",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set the draft cover from an image URL, local image, or timeline frame",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "cover",
+        "clear"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--minidraft",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Clear the draft cover",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "extract",
+        "summary"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--dir",
+        "--seg-id",
+        "--protocol"
+      ],
+      "summary": "Read a compact draft overview for locating segment ids.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "template",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--title",
+        "--start",
+        "--track-index",
+        "--scene",
+        "--duration",
+        "--muted",
+        "--is-ae",
+        "--new-track",
+        "--category-id",
+        "--category-name",
+        "--resource-dir",
+        "--material-options-json",
+        "--slot-overrides",
+        "--slot-overrides-hex",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a draft template package as a template segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "template",
+        "publish"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--slot",
+        "--dir",
+        "--source-mode",
+        "--source-json",
+        "--source-root",
+        "--selection-start-ms",
+        "--selection-duration-ms",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Publish the current designer draft as a standard local template package.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "template",
+        "render"
+      ],
+      "options": [
+        "--help",
+        "--config",
+        "--ref",
+        "--output",
+        "--dir",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Compile template_config.json through Blueprint XML, apply it, and export MP4.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "template",
+        "slots"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--template-seg-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "List replaceable slots inside an added template segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "template",
+        "replace"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--template-seg-id",
+        "--slot",
+        "--resource",
+        "--content",
+        "--inherit",
+        "--sync-group",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Replace one slot inside an added template segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "query"
+      ],
+      "options": [
+        "--help",
+        "--task-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Query a persistent video-tracking task.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "wait"
+      ],
+      "options": [
+        "--help",
+        "--task-id",
+        "--timeout",
+        "--poll-interval",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Wait for a persistent video-tracking task.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "quality-enhance"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--level",
+        "--from",
+        "--wait",
+        "--timeout",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Enhance video/image quality for target segment(s).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "upscale-resolution"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--mode",
+        "--from",
+        "--input-path",
+        "--output-path",
+        "--history-node-id",
+        "--task-id",
+        "--is-complete",
+        "--skip-re-run",
+        "--wait",
+        "--timeout",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Upscale target segment resolution.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "ai-frame-interpolation"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--wait",
+        "--timeout",
+        "--fps",
+        "--model",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Run AI frame interpolation for a target video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "ai-matting"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--feather",
+        "--expansion",
+        "--reverse",
+        "--wait",
+        "--workspace",
+        "--config-path",
+        "--cancel",
+        "--video-new-use-model",
+        "--photo-new-use-model",
+        "--use-algorithm-path",
+        "--face-detect-interval",
+        "--face-detect-limit",
+        "--face-threshold",
+        "--commit-immediately",
+        "--reuse-existing",
+        "--reuse-from-segment-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Run AI matting on a video or photo segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "ai-transition"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--after-seg-id",
+        "--video-path",
+        "--effect-path",
+        "--resource",
+        "--duration",
+        "--overlap",
+        "--prompt",
+        "--name",
+        "--effect-id",
+        "--category-id",
+        "--category-name",
+        "--request-id",
+        "--third-resource-id",
+        "--task-id",
+        "--source-platform",
+        "--skip-transtime-required",
+        "--poll",
+        "--video-resolution",
+        "--ratio",
+        "--provider-params-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Generate or write back an AI transition between adjacent videos.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "custom-matting"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--feather",
+        "--expansion",
+        "--reverse",
+        "--wait",
+        "--timeout",
+        "--disable",
+        "--workspace",
+        "--config-path",
+        "--mask-video-path",
+        "--custom-matting-id",
+        "--matting-tag",
+        "--blend-mode",
+        "--blend-color",
+        "--interactive-time",
+        "--brush-type",
+        "--brush-size",
+        "--brush-size-relative",
+        "--brush-points",
+        "--brush-shape",
+        "--rect",
+        "--ellipse",
+        "--circle",
+        "--center",
+        "--line",
+        "--cloud-product-fps",
+        "--ai-smart-matting",
+        "--use-quick-brush",
+        "--has-use-quick-eraser",
+        "--run-task",
+        "--commit-immediately",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Run custom matting and validate its mask result when waiting.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "chroma-color-matting"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--color",
+        "--intensity",
+        "--shadow",
+        "--edge-smooth",
+        "--spill",
+        "--path",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Run chroma color matting on a target segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "video-tracking"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--follower-seg-id",
+        "--source-seg-id",
+        "--tracker-type",
+        "--center-x",
+        "--center-y",
+        "--width",
+        "--height",
+        "--rotation",
+        "--left-up-x",
+        "--left-up-y",
+        "--left-down-x",
+        "--left-down-y",
+        "--right-up-x",
+        "--right-up-y",
+        "--right-down-x",
+        "--right-down-y",
+        "--content-u-min",
+        "--content-u-max",
+        "--content-v-min",
+        "--content-v-max",
+        "--surface-name",
+        "--second-edit-media-time",
+        "--coordinate-space",
+        "--config-path",
+        "--mode",
+        "--tracking-time-range",
+        "--begin-time",
+        "--end-time",
+        "--start-time",
+        "--wait",
+        "--timeout",
+        "--poll-interval",
+        "--enable-scale",
+        "--enable-relative-distance",
+        "--commit-immediately",
+        "--extension-json",
+        "--output-track-data",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Run video tracking for a target segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "sound-separation"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--mode",
+        "--keep",
+        "--sounds",
+        "--apply",
+        "--output-dir",
+        "--format",
+        "--production-path",
+        "--timeout",
+        "--poll-interval",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Run vocal/instrument sound separation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "loudness-normalize"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--target-loudness",
+        "--average-loudness",
+        "--peak-loudness",
+        "--true-peak-ceiling",
+        "--enable",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Normalize one audio or video segment to a target loudness.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "denoise"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--enable",
+        "--denoise-mode",
+        "--rate",
+        "--path",
+        "--sami-name",
+        "--sami-version",
+        "--sami-type",
+        "--from-hd-sounds",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply realtime denoising to one audio or video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "voice-enhance"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--enable",
+        "--ambient-sound-level",
+        "--production-path",
+        "--from-hd-sounds",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Enhance human voice on one audio or video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "video-stabilize"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--timeout",
+        "--level",
+        "--disable",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Stabilize one video segment and persist its motion matrix.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "tts"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--text",
+        "--speed",
+        "--speaker",
+        "--audio-path",
+        "--resource-id",
+        "--network-mode",
+        "--output-dir",
+        "--audio-format",
+        "--write-to-draft",
+        "--copy-to-draft",
+        "--start-time",
+        "--duration",
+        "--source-start-time",
+        "--source-duration",
+        "--target-track-index",
+        "--replace",
+        "--provider-params-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Synthesize speech for a text segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "subtitle-recognize"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--language",
+        "--recognize-type",
+        "--mode",
+        "--timeout",
+        "--poll-interval",
+        "--clear-previous",
+        "--translate-language-code",
+        "--only-request-subtitles",
+        "--subtitle-source",
+        "--clear-talking-head",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Recognize subtitles or lyrics from the draft or a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "text-add-tone"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--text",
+        "--speed",
+        "--emotion",
+        "--audio-path",
+        "--resource-id",
+        "--network-mode",
+        "--output-dir",
+        "--audio-format",
+        "--write-to-draft",
+        "--copy-to-draft",
+        "--start-time",
+        "--duration",
+        "--source-start-time",
+        "--source-duration",
+        "--target-track-index",
+        "--replace",
+        "--provider-params-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add tone/voice metadata to a text segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "music-beats"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--level",
+        "--mode",
+        "--level-count",
+        "--apply",
+        "--return-beats-info",
+        "--need-audio-has-music",
+        "--music-id",
+        "--music-beat-query",
+        "--upload-vid",
+        "--output-dir",
+        "--timeout",
+        "--poll-interval",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Detect music beats or melody points.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "material-understand"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--prompt",
+        "--analysis-module",
+        "--analysis-level",
+        "--frame-interval",
+        "--timeout",
+        "--content-fingerprint",
+        "--expected-record-revision",
+        "--refresh",
+        "--allow-partial-cache",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Understand one draft video segment and persist a reusable sidecar snapshot.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "subtitle-keywords"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--language",
+        "--apply",
+        "--replace",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Detect and apply intelligent subtitle keyword highlights.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "crop"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--ratio",
+        "--box",
+        "--rotation",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Crop a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "speed"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--speed",
+        "--curve-name",
+        "--curve-resource-id",
+        "--curve-points",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Change a video segment playback speed, or apply a curve speed.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "stabilize"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--level",
+        "--disable",
+        "--timeout",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply or disable video stabilization.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "scale"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--scale",
+        "--x",
+        "--y",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Scale a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "rotate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--rotation",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Rotate a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "translate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--x",
+        "--y",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move a video segment on the canvas.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "alpha"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--alpha",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set a video segment opacity.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "flip"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--horizontal",
+        "--vertical",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Flip a video segment horizontally and/or vertically.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "layer"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--z-order",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set a video segment render layer.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "volume"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--linear",
+        "--db",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set a video segment volume.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "freeze"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--time",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Freeze a frame of a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--track",
+        "--start",
+        "--duration",
+        "--width",
+        "--height",
+        "--is-photo",
+        "--render-index",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a video (or photo) segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "adjust"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--brightness",
+        "--contrast",
+        "--saturation",
+        "--natural-saturation",
+        "--color-temperature",
+        "--light-sensation",
+        "--fade",
+        "--hue",
+        "--sharpening",
+        "--particle",
+        "--vignetting",
+        "--highlight",
+        "--shadow",
+        "--white",
+        "--black",
+        "--hsl-hue",
+        "--hsl-saturation",
+        "--hsl-lightness",
+        "--color-type",
+        "--custom-color",
+        "--resource",
+        "--enable",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Adjust picture parameters of a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "background"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--type",
+        "--color",
+        "--blur",
+        "--image",
+        "--image-id",
+        "--image-name",
+        "--resource",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set the background canvas of a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "matting-stroke"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--enable",
+        "--disable",
+        "--resource",
+        "--color",
+        "--stroke",
+        "--alpha",
+        "--distance",
+        "--shadow",
+        "--texture",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply / update / cancel matting stroke on a video or photo segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "mix-mode"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--enable",
+        "--disable",
+        "--resource",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply / cancel PIP blend (mix) mode on a picture-in-picture video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "face-beauty"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--skin",
+        "--shape",
+        "--feature",
+        "--makeup",
+        "--body",
+        "--makeup-root",
+        "--preset",
+        "--resource",
+        "--item",
+        "--amount",
+        "--skin-tone-warmth",
+        "--preset-intensity",
+        "--face-mode",
+        "--face-id",
+        "--subject-ref",
+        "--makeup-root-resource",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply or clear one face-beauty category, or apply one preset package.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "extract-frames"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--output-path",
+        "--timestamp",
+        "--start",
+        "--duration",
+        "--interval",
+        "--max-frames",
+        "--short-side",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Extract frame image(s) from the draft or a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "extract-music"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--start",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Extract music/audio from a local resource or a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "sticker",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--track",
+        "--start",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a sticker segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "sticker",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a sticker segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "translate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--x",
+        "--y",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move a text segment on the canvas.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "content"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--content",
+        "--find",
+        "--replace-with",
+        "--prefix",
+        "--suffix",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update text content with one atomic shortcut operation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "wrap-width"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--width",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set a text segment's fixed text-box width (auto-wrap on overflow).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--content",
+        "--track",
+        "--start",
+        "--duration",
+        "--text-type",
+        "--wrap-width",
+        "--background",
+        "--no-background",
+        "--background-color",
+        "--background-alpha",
+        "--background-width",
+        "--background-height",
+        "--background-radius",
+        "--background-x-offset",
+        "--background-y-offset",
+        "--background-style",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a plain text segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a text segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "style"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--size",
+        "--color",
+        "--alpha",
+        "--outline-color",
+        "--outline-width",
+        "--font",
+        "--bold",
+        "--italic",
+        "--underline",
+        "--shadow",
+        "--shadow-color",
+        "--shadow-alpha",
+        "--shadow-angle",
+        "--shadow-distance",
+        "--shadow-diffuse",
+        "--shadow-smoothing",
+        "--curve",
+        "--curve-angle",
+        "--alignment",
+        "--typesetting",
+        "--letter-spacing",
+        "--line-spacing",
+        "--fixed-width",
+        "--fixed-height",
+        "--background",
+        "--no-background",
+        "--background-color",
+        "--background-alpha",
+        "--background-width",
+        "--background-height",
+        "--background-radius",
+        "--background-x-offset",
+        "--background-y-offset",
+        "--background-style",
+        "--glow-resource",
+        "--glow-color",
+        "--glow-range",
+        "--glow-strength",
+        "--range",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update one or more text style parameters in a single command.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "audio",
+        "volume"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--linear",
+        "--db",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set an audio segment volume.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "audio",
+        "fade"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--in",
+        "--out",
+        "--type",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set audio segment fade in/out.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "audio",
+        "speed"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--speed",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Change an audio segment playback speed.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "audio",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--kind",
+        "--resource",
+        "--track",
+        "--start",
+        "--duration",
+        "--source-from",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add an audio segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "audio",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove an audio segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "segment",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "segment",
+        "split"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--points",
+        "--absolute",
+        "--no-absolute",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Split a segment at given time point(s).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "segment",
+        "duplicate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--start",
+        "--track",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Duplicate a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "segment",
+        "move"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--track",
+        "--start",
+        "--offset",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "compound-clip",
+        "create"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--name",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Create a compound clip (a.k.a. group segments) from one or more segments.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "filter",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--track",
+        "--start",
+        "--duration",
+        "--intensity",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a global (track) filter segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "filter",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a filter segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "filter",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--intensity",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a global filter segment intensity.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "effect",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--type",
+        "--track",
+        "--start",
+        "--duration",
+        "--apply-type",
+        "--dir",
+        "--name",
+        "--video-scope",
+        "--operation-id",
+        "--application-params",
+        "--application-params-json",
+        "--package-download-type",
+        "--package-platform",
+        "--package-test",
+        "--runtime-data-manifest",
+        "--runtime-data-source",
+        "--runtime-data-source-format",
+        "--runtime-key",
+        "--runtime-data-output-dir",
+        "--runtime-data-kind",
+        "--runtime-data-schema",
+        "--runtime-coordinate-space",
+        "--runtime-source-timebase",
+        "--runtime-output-timebase",
+        "--runtime-material",
+        "--runtime-data-file-name",
+        "--runtime-effect-start",
+        "--runtime-fps",
+        "--runtime-target-json",
+        "--target-material-id",
+        "--target-segment-id",
+        "--target-duration-us",
+        "--runtime-application-offset-us",
+        "--materials-xml",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a global (track) effect segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "effect",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove an effect segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "effect",
+        "generate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--dir",
+        "--type",
+        "--provider",
+        "--execution",
+        "--prompt",
+        "--start",
+        "--duration",
+        "--name",
+        "--video-scope",
+        "--operation-id",
+        "--application-params",
+        "--runtime-data-manifest",
+        "--runtime-data-source",
+        "--runtime-data-source-format",
+        "--runtime-key",
+        "--runtime-data-output-dir",
+        "--runtime-data-kind",
+        "--runtime-data-schema",
+        "--runtime-coordinate-space",
+        "--runtime-source-timebase",
+        "--runtime-output-timebase",
+        "--runtime-material",
+        "--runtime-data-file-name",
+        "--runtime-effect-start",
+        "--runtime-fps",
+        "--runtime-target-json",
+        "--target-material-id",
+        "--materials-xml",
+        "--timeout",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Generate a MotionGraph effect in the cloud and apply it to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "adjust",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--brightness",
+        "--contrast",
+        "--saturation",
+        "--color-temperature",
+        "--highlight",
+        "--shadow",
+        "--sharpening",
+        "--track",
+        "--start",
+        "--duration",
+        "--resource",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a global picture-adjust segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "adjust",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove an adjust segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "subtitle",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--content",
+        "--track",
+        "--start",
+        "--duration",
+        "--wrap-width",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a subtitle (plain text) segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "subtitle",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a subtitle segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "subtitle",
+        "recognize"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--language",
+        "--mode",
+        "--timeout",
+        "--poll-interval",
+        "--clear-previous",
+        "--translate-language-code",
+        "--only-request-subtitles",
+        "--subtitle-source",
+        "--clear-talking-head",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Recognize subtitles from the draft or a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "lyrics",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--content",
+        "--track",
+        "--start",
+        "--duration",
+        "--wrap-width",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a lyrics (plain text) segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "lyrics",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a lyrics segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "lyrics",
+        "recognize"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--language",
+        "--mode",
+        "--timeout",
+        "--poll-interval",
+        "--clear-previous",
+        "--translate-language-code",
+        "--only-request-subtitles",
+        "--subtitle-source",
+        "--clear-talking-head",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Recognize lyrics from the draft or a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "keyframe",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animated-property",
+        "--keyframe-type",
+        "--type",
+        "--points",
+        "--curve",
+        "--easing",
+        "--ease",
+        "--curve-type",
+        "--material-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add keyframe point(s) to a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "keyframe",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animated-property",
+        "--keyframe-type",
+        "--type",
+        "--time",
+        "--value",
+        "--values",
+        "--material-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update the value of an existing keyframe point.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "keyframe",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animated-property",
+        "--keyframe-type",
+        "--type",
+        "--time",
+        "--times",
+        "--indexes",
+        "--timeline-index",
+        "--all",
+        "--material-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove keyframe point(s) from a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "init"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--protocol",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Create an empty blueprint workspace skeleton.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "sync"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--ref",
+        "--current-only",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Reverse-sync a real draft back into blueprint XML.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "apply"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--ref",
+        "--selection",
+        "--selection-file",
+        "--base-revision",
+        "--require-material-understanding",
+        "--allow-existing-main-deletion",
+        "--allow-existing-subtitle-changes",
+        "--allow-segment-deletion",
+        "--delete-reason",
+        "--allow-subtitle-delete-ids",
+        "--delete-target-id",
+        "--disable-xmldraft-validation",
+        "--dir",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply the blueprint workspace onto a real draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "resource"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--search",
+        "--import",
+        "--update",
+        "--sync",
+        "--format",
+        "--asset-id",
+        "--title",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Process declarative material operations (--search), including",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "search"
+      ],
+      "options": [
+        "--help",
+        "--type",
+        "--prompt",
+        "--limit",
+        "--need-recommend",
+        "--filter-commercial",
+        "--filter-ai-transition",
+        "--search-scene",
+        "--category-list",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Search assets by type and natural-language intent.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "download"
+      ],
+      "options": [
+        "--help",
+        "--type",
+        "--resource-id",
+        "--resource-platform",
+        "--resource-dir",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Download an asset file by type and resource ID.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "query"
+      ],
+      "options": [
+        "--help",
+        "--resource-id",
+        "--type",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Inspect metadata for a known material resource ID.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "topic"
+      ],
+      "options": [
+        "--help",
+        "--type",
+        "--resource-platform",
+        "--scene",
+        "--id",
+        "--topic-key",
+        "--list-source",
+        "--limit",
+        "--cursor",
+        "--template-id",
+        "--seed-resource-id",
+        "--seed-clip-id",
+        "--request-id",
+        "--filter-commercial",
+        "--intelligence-reorder",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Browse material topic collections, or list assets inside a specific topic.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "recommend"
+      ],
+      "options": [
+        "--help",
+        "--type",
+        "--limit",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Fetch a recommended / hot material list for the given asset type. (WIP)",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "similar"
+      ],
+      "options": [
+        "--help",
+        "--type",
+        "--by",
+        "--limit",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Fetch similar materials seeded by an existing resource ID. (WIP)",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "transcode-image"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--format",
+        "--quality",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Convert a local image to a web-safe JPEG/PNG file.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "crop-image"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--left",
+        "--top",
+        "--width",
+        "--height",
+        "--format",
+        "--quality",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Crop a display-oriented pixel rectangle from a local image.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "resize-image"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--width",
+        "--height",
+        "--format",
+        "--quality",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Resize a local image, preserving aspect ratio when one dimension is omitted.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "compress"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--width",
+        "--height",
+        "--bitrate",
+        "--codec",
+        "--quality",
+        "--fps",
+        "--no-auto-orient",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Compress a video file to a target resolution. Bitrate auto-derives from",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "trim-video"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--start",
+        "--end",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Keep the source video interval [start,end), including synchronized audio.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "trim-audio"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--start",
+        "--end",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Keep the source audio interval [start,end).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "change-video-speed"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--speed",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Change a whole local video's playback speed and create a new video.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "change-audio-speed"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--speed",
+        "--preserve-pitch",
+        "--no-preserve-pitch",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Change a whole local audio file's playback speed and create a new file.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "rotate"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--degrees",
+        "--bitrate",
+        "--codec",
+        "--quality",
+        "--fps",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Physically rotate the displayed input video by 0, 90, 180, or 270 degrees and",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "extract-frames"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output-dir",
+        "--start",
+        "--end",
+        "--duration",
+        "--timestamp",
+        "--interval",
+        "--format",
+        "--width",
+        "--height",
+        "--short-side",
+        "--jpg-quality",
+        "--max-frames",
+        "--backend",
+        "--no-auto-orient",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Extract display-oriented JPEG/PNG frames at exact timestamps or a fixed",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "extract-audio"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--bitrate",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Extract the audio track from a video file.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "probe"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--field",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Probe a local audio, image, or video file and return stable technical metadata.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "loudness"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--start",
+        "--end",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Detect average and peak loudness of a local audio or video file.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "measure-box"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--type",
+        "--element-type",
+        "--resource-dir",
+        "--canvas-width",
+        "--canvas-height",
+        "--longest-edge",
+        "--clip-scale",
+        "--scale-x",
+        "--scale-y",
+        "--rotation",
+        "--center",
+        "--crop",
+        "--allow-video-decode",
+        "--layout-json",
+        "--text",
+        "--content",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Measure a sticker or picture-in-picture media layout box without creating a VE",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "beats"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--mode",
+        "--level",
+        "--level-count",
+        "--upload-vid",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Detect music beat positions in a local audio or video file. Video inputs are",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "object-matting-track"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--seed-time",
+        "--output-dir",
+        "--seed-mask-rle-json",
+        "--mask-rle-json",
+        "--target-object-desc",
+        "--sam3-target-object-desc",
+        "--feather",
+        "--edge-size",
+        "--expansion",
+        "--expand",
+        "--reverse",
+        "--sam3-debug-artifacts",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Track an object in a local video and generate a complete timestamped mask",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "asr"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--language",
+        "--output",
+        "--clear-talking-head",
+        "--timeout",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Recognize speech from a local audio or video file and return ASR sentences.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "vad"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--output",
+        "--start",
+        "--end",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Detect voice-active segments in a local audio or video file (VAD).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "feature"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--frame",
+        "--module",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Extract deterministic L2 visual features from local media or prepared image",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "translate"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--source-language",
+        "--target-language",
+        "--output",
+        "--timeout",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Translate sentence-level JSON produced by media asr without rerunning ASR.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "understand"
+      ],
+      "options": [
+        "--help",
+        "--path",
+        "--input",
+        "--prompt",
+        "--asset-id",
+        "--material-id",
+        "--segment-id",
+        "--type",
+        "--start-time",
+        "--duration",
+        "--frame-interval",
+        "--analysis-level",
+        "--analysis-module",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Analyze a local media file and return material understanding metadata.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "lint",
+        "command"
+      ],
+      "options": [
+        "--help",
+        "--repo-root",
+        "--binary",
+        "--cards-root",
+        "--execution-plan",
+        "--acceptance-type",
+        "--protected-repo",
+        "--suite",
+        "--capability",
+        "--surface",
+        "--acceptance-level",
+        "--case",
+        "--output",
+        "--artifacts",
+        "--fail-on",
+        "--fuzz-cases",
+        "--repeat",
+        "--concurrency",
+        "--seed",
+        "--run",
+        "--preflight",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Validate command contracts and declarative Acceptance Cards for lyra-cli.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "lint",
+        "media"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--expected-kind",
+        "--expected-format",
+        "--expected-orientation",
+        "--suite",
+        "--min-duration",
+        "--max-duration",
+        "--min-width",
+        "--min-height",
+        "--max-width",
+        "--max-height",
+        "--reference",
+        "--dimension-relation",
+        "--duration-tolerance",
+        "--black-min-duration",
+        "--black-pixel-threshold",
+        "--freeze-min-duration",
+        "--freeze-noise-db",
+        "--silence-min-duration",
+        "--silence-noise-db",
+        "--artifacts",
+        "--vision-analyzer",
+        "--output",
+        "--fail-on",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Screen media with CCCreator metadata/quality probes and an optional",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "lint",
+        "algorithm-effect"
+      ],
+      "options": [
+        "--help",
+        "--algorithm",
+        "--comparison-mode",
+        "--baseline",
+        "--candidate",
+        "--prompt",
+        "--analyzer",
+        "--artifacts",
+        "--output",
+        "--fail-on",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Measure a supported algorithm's observable effect through the configured",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "lint",
+        "draft"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--input",
+        "--suite",
+        "--require-segment",
+        "--require-contiguous",
+        "--require-timeline-evidence",
+        "--local-resource-root",
+        "--spatial-overlap-threshold",
+        "--occlusion-threshold",
+        "--spatial-overlap-severity",
+        "--occlusion-severity",
+        "--require-spatial-evidence",
+        "--output",
+        "--fail-on",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Screen a real lv-draft or offline lv-draft JSON snapshot for structural validity",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "lint",
+        "trace"
+      ],
+      "options": [
+        "--help",
+        "--trace",
+        "--suite",
+        "--workflow",
+        "--expect-step",
+        "--expect-order",
+        "--target-policy",
+        "--material-policy",
+        "--material-check",
+        "--postcheck",
+        "--recovery-policy",
+        "--require-evidence",
+        "--evidence-scope",
+        "--output",
+        "--fail-on",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Evaluate an existing command/workflow trace without executing or repairing it.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "upgrade"
+      ],
+      "options": [
+        "--help",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Upgrade lyra-cli to the latest version.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "duplicate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--to",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Duplicate a draft project",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "import"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move an external draft project (created with `draft project create --dir`) back",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "history",
+        "undo"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--steps",
+        "--minidraft",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Undo the most recent edit(s)",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "history",
+        "redo"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--steps",
+        "--minidraft",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Redo the most recently undone edit(s)",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "deform",
+        "apply"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--mode",
+        "--deform-seg-id",
+        "--follower-seg-id",
+        "--tracked-video-seg-id",
+        "--corner-top-left",
+        "--corner-bottom-left",
+        "--corner-top-right",
+        "--corner-bottom-right",
+        "--plane-top-left",
+        "--plane-bottom-left",
+        "--plane-top-right",
+        "--plane-bottom-right",
+        "--content-u-min",
+        "--content-u-max",
+        "--content-v-min",
+        "--content-v-max",
+        "--tracking-begin-time",
+        "--tracking-end-time",
+        "--tracking-seed-time",
+        "--scale",
+        "--scale-x",
+        "--scale-y",
+        "--position-x",
+        "--position-y",
+        "--rotation",
+        "--alpha",
+        "--wait-for-tracking",
+        "--no-wait-for-tracking",
+        "--tracking-timeout",
+        "--tracking-poll-interval",
+        "--enable-scale-tracking",
+        "--enable-relative-distance-tracking",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply stretch, corner-pin (video/sticker), or surface-track deformation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "sticker",
+        "translate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--x",
+        "--y",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move a sticker segment on the canvas.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text-template",
+        "translate"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--x",
+        "--y",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move a text-template segment on the canvas.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text-template",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--content",
+        "--start",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a text-template segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text-template",
+        "replace"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--apply-to-all",
+        "--no-apply-to-all",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Replace a text-template segment's template resource.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text-template",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a text-template segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "segment",
+        "time-range"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--in",
+        "--out",
+        "--in-offset",
+        "--out-offset",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a segment time range or duration.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "segment",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--type",
+        "--resource",
+        "--track",
+        "--start",
+        "--duration",
+        "--width",
+        "--height",
+        "--is-photo",
+        "--render-index",
+        "--source-from",
+        "--content",
+        "--text-type",
+        "--wrap-width",
+        "--name",
+        "--category-id",
+        "--intensity",
+        "--apply-type",
+        "--brightness",
+        "--contrast",
+        "--saturation",
+        "--color-temperature",
+        "--highlight",
+        "--shadow",
+        "--sharpening",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a segment to the draft (flat alias of `draft <type> add`).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "compound-clip",
+        "break-apart"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Break apart a compound clip back into its constituent segments.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "plan"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--require-material-understanding",
+        "--allow-existing-main-deletion",
+        "--allow-existing-subtitle-changes",
+        "--allow-segment-deletion",
+        "--delete-reason",
+        "--allow-subtitle-delete-ids",
+        "--delete-target-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Show the cmd_list a future apply would execute (dry-run).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "cancel"
+      ],
+      "options": [
+        "--help",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Request cancellation of the active blueprint apply for this client session.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "commerce"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--selection",
+        "--selection-file",
+        "--target-xml",
+        "--target-xml-file",
+        "--current-xml-file",
+        "--allow-existing-main-deletion",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Extract XML-only atomic capability keys for commerce precheck. This command",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "blueprint",
+        "patch"
+      ],
+      "options": [
+        "--help",
+        "--workspace",
+        "--patch-file",
+        "--dry-run",
+        "--allow-existing-main-deletion",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply a Node Patch to the latest synchronized Draft XML and write the result to",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "transition",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--duration",
+        "--is-overlap",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a transition to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "transition",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--duration",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a video segment transition (resource / duration).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "transition",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a video segment transition.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "filter",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--intensity",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a filter to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "filter",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--intensity",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a video segment filter intensity.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "filter",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a video segment filter.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "effect",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--type",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add an effect to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "effect",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource-id",
+        "--params-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a video segment effect adjust parameters.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "effect",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a video segment effect.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "mask",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--resource-type",
+        "--name",
+        "--category",
+        "--category-name",
+        "--category-id",
+        "--width",
+        "--height",
+        "--center-x",
+        "--center-y",
+        "--rotation",
+        "--feather",
+        "--round-corner",
+        "--invert",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a mask to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "mask",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--width",
+        "--height",
+        "--center-x",
+        "--center-y",
+        "--rotation",
+        "--feather",
+        "--round-corner",
+        "--invert",
+        "--mask-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a video segment mask geometry.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "mask",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--mask-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a video segment mask.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "animation",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--animation-type",
+        "--duration",
+        "--start",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add an animation to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "animation",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animation-type",
+        "--duration",
+        "--start",
+        "--resource",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a video segment animation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "animation",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animation-type",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a video segment animation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "beat",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--times",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add beat marker(s) to a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "beat",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--all",
+        "--times",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove beat marker(s) from a segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "audio-effect",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--source-from",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add an audio effect (voice change) to a video or audio segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "color",
+        "smart-color"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--enable",
+        "--resource",
+        "--intensity",
+        "--mode",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply smart color to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "video",
+        "color",
+        "correct"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--enable",
+        "--resource",
+        "--intensity",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply color correction to a video segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "effect",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update a text segment's text-effect (a.k.a. flower / text effect) resource.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "effect",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--content",
+        "--resource",
+        "--name",
+        "--category-id",
+        "--track",
+        "--start",
+        "--duration",
+        "--text-type",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a text-effect (a.k.a. flower / text effect) segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "animation",
+        "set"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--animation-type",
+        "--duration",
+        "--start",
+        "--slot-index",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set a text segment animation of one type (upsert/replace).",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "text",
+        "animation",
+        "remove"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animation-type",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Remove a text segment animation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "subtitle",
+        "template",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--content",
+        "--start",
+        "--duration",
+        "--keyword-range",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Add a subtitle-template segment to the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "subtitle",
+        "template",
+        "replace"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--apply-to-all",
+        "--no-apply-to-all",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Replace a subtitle-template segment's template resource.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "lyrics",
+        "animation",
+        "add"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--resource",
+        "--cover-old",
+        "--language",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Apply a lyrics animation resource to recognized lyrics in the draft.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "lyrics",
+        "animation",
+        "update"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--language",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Update the lyrics animation resource on an existing lyrics segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "lyrics",
+        "animation",
+        "replace"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--resource",
+        "--language",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Replace the lyrics animation resource on an existing lyrics segment.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "keyframe",
+        "curve",
+        "set"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--animated-property",
+        "--keyframe-type",
+        "--at",
+        "--curve",
+        "--curve-type",
+        "--material-id",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Set the interpolation curve of an existing keyframe point.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "motiongraph",
+        "build-runtime-manifest"
+      ],
+      "options": [
+        "--help",
+        "--package",
+        "--target-material-id",
+        "--target-seg-id",
+        "--output-dir",
+        "--recipe-json",
+        "--materials-xml",
+        "--runtime-target-json",
+        "--ref",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Orchestrate MG runtime data strictly from the package",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "motiongraph",
+        "track-subject-mask"
+      ],
+      "options": [
+        "--help",
+        "--input",
+        "--ref",
+        "--seg-id",
+        "--target-object-desc",
+        "--seed-mask-rle-json",
+        "--seed-time",
+        "--output-dir",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Atomic: subject mask/VOS. Uses draft-aware mask_tracking_matting when --ref +",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "motiongraph",
+        "encode-subject-alpha"
+      ],
+      "options": [
+        "--help",
+        "--mask-dir",
+        "--maskinfo-path",
+        "--output-dir",
+        "--effect-start-us",
+        "--fps",
+        "--runtime-key",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Atomic: encode mask frames into subject_alpha.v1 (RLE) + subject_transform.v1",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "material",
+        "motiongraph",
+        "track-plane-quad"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--target-seg-id",
+        "--object-desc",
+        "--plane-desc",
+        "--seed-time",
+        "--initial-quad-json",
+        "--duration-us",
+        "--output-dir",
+        "--channel",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Atomic: plane seed + in-memory video-tracking into plane_quad.v1",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "aigc",
+        "text2image"
+      ],
+      "options": [
+        "--help",
+        "--prompt",
+        "--ratio",
+        "--resolution-type",
+        "--provider",
+        "--provider-params-json",
+        "--model-version",
+        "--download-dir",
+        "--download-format",
+        "--poll",
+        "--wait",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Submit a provider text-to-image asset task. Default is async; use --wait/--poll",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "aigc",
+        "image2image"
+      ],
+      "options": [
+        "--help",
+        "--images",
+        "--image",
+        "--prompt",
+        "--ratio",
+        "--resolution-type",
+        "--provider",
+        "--provider-params-json",
+        "--model-version",
+        "--download-dir",
+        "--download-format",
+        "--poll",
+        "--wait",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Submit a provider image-to-image asset task with one or more reference images.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "aigc",
+        "text2video"
+      ],
+      "options": [
+        "--help",
+        "--prompt",
+        "--duration",
+        "--video-resolution",
+        "--ratio",
+        "--provider",
+        "--provider-params-json",
+        "--model-version",
+        "--download-dir",
+        "--download-format",
+        "--poll",
+        "--wait",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Submit a provider text-to-video asset task. Default is async; use --wait/--poll",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "aigc",
+        "image2video"
+      ],
+      "options": [
+        "--help",
+        "--first-image",
+        "--image",
+        "--end-image",
+        "--reference-image",
+        "--prompt",
+        "--duration",
+        "--video-resolution",
+        "--ratio",
+        "--provider",
+        "--provider-params-json",
+        "--model-version",
+        "--download-dir",
+        "--download-format",
+        "--poll",
+        "--wait",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Submit an image-to-video task using explicit first/end frames or repeatable",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "media",
+        "aigc",
+        "query"
+      ],
+      "options": [
+        "--help",
+        "--submit-id",
+        "--download-dir",
+        "--download-format",
+        "--poll",
+        "--wait",
+        "--provider",
+        "--provider-params-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Query one AIGC async task by submit id and optionally download artifacts.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "login"
+      ],
+      "options": [
+        "--help",
+        "--require-jianying-app",
+        "--qr-code",
+        "--link-url",
+        "--no-wait",
+        "--device-code",
+        "--user-code",
+        "--session-handoff",
+        "--qr-token",
+        "--qr-device-id",
+        "--credential-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Log in with Jianying desktop app first, or use QR/link URL login.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "relogin"
+      ],
+      "options": [
+        "--help",
+        "--require-jianying-app",
+        "--qr-code",
+        "--link-url",
+        "--no-wait",
+        "--device-code",
+        "--user-code",
+        "--session-handoff",
+        "--qr-token",
+        "--qr-device-id",
+        "--credential-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Log in again and replace the current credential after validation.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "qrcode"
+      ],
+      "options": [
+        "--help",
+        "--output",
+        "--ascii",
+        "--size",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Generate a QR code file or terminal rendering for an authorization URL.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "status"
+      ],
+      "options": [
+        "--help",
+        "--profile",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Show current authentication status",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "me"
+      ],
+      "options": [
+        "--help",
+        "--profile",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Show current account profile",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "check"
+      ],
+      "options": [
+        "--help",
+        "--profile",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Check whether the current login is usable",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "auth",
+        "logout"
+      ],
+      "options": [
+        "--help",
+        "--profile",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Log out of current account",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "version",
+        "upgrade"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Upgrade a draft in place and save it back (not implemented yet)",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "project",
+        "version",
+        "downgrade"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Downgrade a draft in place and save it back",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "timeline",
+        "segment",
+        "copy"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--source-timeline",
+        "--target-timeline",
+        "--start",
+        "--track",
+        "--source-in",
+        "--source-out",
+        "--start-offset",
+        "--preserve-start",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Copy one or more segments between timelines.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "timeline",
+        "segment",
+        "move"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--seg-type",
+        "--target-track",
+        "--seg-index",
+        "--time-window",
+        "--source-timeline",
+        "--target-timeline",
+        "--start",
+        "--track",
+        "--start-offset",
+        "--preserve-start",
+        "--placement-json",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Move one or more complete segments between timelines in one batch.",
+      "help_state": "ok"
+    },
+    {
+      "path": [
+        "draft",
+        "algo",
+        "object-matting-track"
+      ],
+      "options": [
+        "--help",
+        "--ref",
+        "--seg-id",
+        "--segment-time",
+        "--seed-mask-rle-json",
+        "--mask-rle-json",
+        "--target-object-desc",
+        "--sam3-target-object-desc",
+        "--feather",
+        "--expansion",
+        "--expand",
+        "--edge-size",
+        "--reverse",
+        "--sam3-debug-artifacts",
+        "--version",
+        "--jq"
+      ],
+      "summary": "Track object matting from a seed mask or a target description.",
+      "help_state": "ok"
+    }
+  ],
+  "discovery": {
+    "probed": 241,
+    "groups": [
+      {
+        "path": [],
+        "children": [
+          "auth",
+          "upgrade",
+          "draft",
+          "material",
+          "media",
+          "lint"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project"
+        ],
+        "children": [
+          "create",
+          "list",
+          "focus",
+          "duplicate",
+          "version",
+          "delete",
+          "import"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover"
+        ],
+        "children": [
+          "set",
+          "clear"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "extract"
+        ],
+        "children": [
+          "summary"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template"
+        ],
+        "children": [
+          "add",
+          "publish",
+          "render",
+          "slots",
+          "replace"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "algo"
+        ],
+        "children": [
+          "query",
+          "wait",
+          "quality-enhance",
+          "upscale-resolution",
+          "ai-frame-interpolation",
+          "ai-matting",
+          "object-matting-track",
+          "mask-tracking-mattingTrack",
+          "ai-transition",
+          "custom-matting",
+          "chroma-color-matting",
+          "video-tracking",
+          "sound-separation",
+          "loudness-normalize",
+          "denoise",
+          "voice-enhance",
+          "video-stabilize",
+          "tts",
+          "subtitle-recognize",
+          "text-add-tone",
+          "music-beats",
+          "material-understand",
+          "subtitle-keywords"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "history"
+        ],
+        "children": [
+          "undo",
+          "redo"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "deform"
+        ],
+        "children": [
+          "apply"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video"
+        ],
+        "children": [
+          "crop",
+          "speed",
+          "stabilize",
+          "scale",
+          "rotate",
+          "translate",
+          "alpha",
+          "flip",
+          "layer",
+          "volume",
+          "freeze",
+          "add",
+          "remove",
+          "transition",
+          "filter",
+          "effect",
+          "mask",
+          "animation",
+          "beat",
+          "audio-effect",
+          "color",
+          "adjust",
+          "background",
+          "matting-stroke",
+          "mix-mode",
+          "face-beauty",
+          "extract-frames",
+          "extract-music"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "sticker"
+        ],
+        "children": [
+          "translate",
+          "add",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "text"
+        ],
+        "children": [
+          "translate",
+          "content",
+          "effect",
+          "wrap-width",
+          "add",
+          "remove",
+          "animation",
+          "style"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "text-template"
+        ],
+        "children": [
+          "translate",
+          "add",
+          "replace",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "audio"
+        ],
+        "children": [
+          "volume",
+          "fade",
+          "speed",
+          "add",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "segment"
+        ],
+        "children": [
+          "time-range",
+          "move",
+          "remove",
+          "split",
+          "duplicate",
+          "add"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "timeline"
+        ],
+        "children": [
+          "segment"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "compound-clip"
+        ],
+        "children": [
+          "create",
+          "break-apart"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "filter"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "effect"
+        ],
+        "children": [
+          "add",
+          "remove",
+          "generate"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "adjust"
+        ],
+        "children": [
+          "add",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "subtitle"
+        ],
+        "children": [
+          "add",
+          "template",
+          "remove",
+          "recognize"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "lyrics"
+        ],
+        "children": [
+          "add",
+          "animation",
+          "remove",
+          "recognize"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "keyframe"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove",
+          "curve"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "blueprint"
+        ],
+        "children": [
+          "init",
+          "plan",
+          "apply",
+          "cancel",
+          "commerce",
+          "patch",
+          "sync",
+          "resource"
+        ]
+      },
+      {
+        "path": [
+          "auth"
+        ],
+        "children": [
+          "login",
+          "relogin",
+          "qrcode",
+          "status",
+          "me",
+          "check",
+          "logout"
+        ]
+      },
+      {
+        "path": [
+          "draft"
+        ],
+        "children": [
+          "project",
+          "cover",
+          "extract",
+          "template",
+          "algo",
+          "history",
+          "deform",
+          "edit",
+          "video",
+          "sticker",
+          "text",
+          "text-template",
+          "audio",
+          "segment",
+          "timeline",
+          "compound-clip",
+          "filter",
+          "effect",
+          "adjust",
+          "subtitle",
+          "lyrics",
+          "keyframe",
+          "config",
+          "blueprint"
+        ]
+      },
+      {
+        "path": [
+          "material"
+        ],
+        "children": [
+          "search",
+          "download",
+          "query",
+          "topic",
+          "recommend",
+          "similar",
+          "motiongraph"
+        ]
+      },
+      {
+        "path": [
+          "media"
+        ],
+        "children": [
+          "aigc",
+          "transcode-image",
+          "crop-image",
+          "resize-image",
+          "compress",
+          "trim-video",
+          "trim-audio",
+          "change-video-speed",
+          "change-audio-speed",
+          "rotate",
+          "extract-frames",
+          "extract-audio",
+          "probe",
+          "loudness",
+          "measure-box",
+          "beats",
+          "object-matting-track",
+          "asr",
+          "vad",
+          "feature",
+          "translate",
+          "understand"
+        ]
+      },
+      {
+        "path": [
+          "lint"
+        ],
+        "children": [
+          "command",
+          "media",
+          "algorithm-effect",
+          "draft",
+          "trace"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "version"
+        ],
+        "children": [
+          "upgrade",
+          "downgrade"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "transition"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "filter"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "effect"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "mask"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "animation"
+        ],
+        "children": [
+          "add",
+          "update",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "beat"
+        ],
+        "children": [
+          "add",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "audio-effect"
+        ],
+        "children": [
+          "add"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "video",
+          "color"
+        ],
+        "children": [
+          "smart-color",
+          "correct"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "text",
+          "effect"
+        ],
+        "children": [
+          "update",
+          "add"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "text",
+          "animation"
+        ],
+        "children": [
+          "set",
+          "remove"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "timeline",
+          "segment"
+        ],
+        "children": [
+          "copy",
+          "move"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "subtitle",
+          "template"
+        ],
+        "children": [
+          "add",
+          "replace"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "lyrics",
+          "animation"
+        ],
+        "children": [
+          "add",
+          "update",
+          "replace"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "keyframe",
+          "curve"
+        ],
+        "children": [
+          "set"
+        ]
+      },
+      {
+        "path": [
+          "material",
+          "motiongraph"
+        ],
+        "children": [
+          "build-runtime-manifest",
+          "track-subject-mask",
+          "encode-subject-alpha",
+          "track-plane-quad"
+        ]
+      },
+      {
+        "path": [
+          "media",
+          "aigc"
+        ],
+        "children": [
+          "text2image",
+          "image2image",
+          "text2video",
+          "image2video",
+          "query"
+        ]
+      }
+    ],
+    "failures": [],
+    "unsupported": [
+      {
+        "path": [
+          "draft",
+          "algo",
+          "mask-tracking-mattingTrack"
+        ],
+        "state": "unsupported",
+        "error": "{\"response_ok\": true, \"result_ok\": false, \"exit_code\": 2, \"stderr\": \"\", \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ExtrasError: The following arguments were not expected: mask-tracking-mattingTrack\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\"}"
+      }
+    ]
+  }
+}

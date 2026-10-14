@@ -1,0 +1,6 @@
+{"stage":"start","at":1791905934568,"args":["material","search","--type","effect","--prompt","轻微 呼吸感 氛围","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\6832640d23aa4041b0acbfb475bcb57d","pid":7356}
+{"stage":"policy","at":1791905934568,"rules":9}
+{"stage":"policy-network","at":1791905934569,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791905934571,"vmId":"draftediting-1791905934568"}
+{"stage":"create-process:done","at":1791905934590,"processId":48892,"success":true}
+{"stage":"worker-ready","at":1791905935102}

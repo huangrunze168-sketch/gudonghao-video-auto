@@ -1,0 +1,45 @@
+{
+  "schema": "jianying-draft-editing-request/v1",
+  "tool": "DraftEditing",
+  "arguments": {
+    "selection_expression": "draft.select(\"multi\").appendXml(\"<text id=\\\"narration_intro\\\"><content><sub text=\\\"欢迎来到今天的视频\\\"></sub></content><speech ref=\\\"tone1\\\"></speech></text><subtitle id=\\\"lyric_1\\\"><time start=\\\"0\\\" duration=\\\"2400\\\"></time><transform justify-self=\\\"center\\\" align-self=\\\"end\\\" padding-bottom=\\\"16%\\\" rotation=\\\"0\\\"></transform><content><sub text=\\\"风吹过山海\\\" size=\\\"10\\\" color=\\\"#FFFFFF\\\"></sub></content><animation ref=\\\"anim_text1\\\" animation_type=\\\"caption\\\" duration=\\\"800\\\"></animation></subtitle><subtitle id=\\\"lyric_2\\\"><time start=\\\"2400\\\" duration=\\\"2800\\\"></time><transform justify-self=\\\"center\\\" align-self=\\\"end\\\" padding-bottom=\\\"16%\\\" rotation=\\\"0\\\"></transform><content><sub text=\\\"也吹进我的梦\\\" size=\\\"10\\\" color=\\\"#FFFFFF\\\"></sub></content><animation ref=\\\"anim_text1\\\" animation_type=\\\"caption\\\" duration=\\\"800\\\"></animation></subtitle><template_package id=\\\"official_intro\\\" ref=\\\"template1\\\" title=\\\"官方片头模板\\\"><time start=\\\"0\\\" duration=\\\"6533\\\"></time><slot source_slot_id=\\\"SOURCE_MEDIA_SLOT_ID\\\" kind=\\\"media\\\" ref=\\\"video1\\\"></slot><slot source_slot_id=\\\"SOURCE_TEXT_SLOT_ID\\\" kind=\\\"text\\\" content=\\\"新的标题文案\\\"></slot></template_package>\");"
+  },
+  "features": {
+    "tts": 1,
+    "lyrics": 2,
+    "templates": 1
+  },
+  "required_refs": [
+    {
+      "ref": "tone1",
+      "asset_type": "tone",
+      "used_by": "narration_intro"
+    },
+    {
+      "ref": "anim_text1",
+      "asset_type": "anim_text",
+      "role": "lyric_animation",
+      "used_by": "lyric_1"
+    },
+    {
+      "ref": "anim_text1",
+      "asset_type": "anim_text",
+      "role": "lyric_animation",
+      "used_by": "lyric_2"
+    },
+    {
+      "ref": "template1",
+      "asset_type": "template",
+      "used_by": "official_intro"
+    },
+    {
+      "ref": "video1",
+      "asset_type": "local_media",
+      "used_by": "official_intro",
+      "source_slot_id": "SOURCE_MEDIA_SLOT_ID"
+    }
+  ],
+  "resource_policy": "MaterialRecall blueprint_ref 或当前草稿真实 ref",
+  "time_unit": "milliseconds",
+  "source_plan_sha256": "e5a1d23310454b1505e129aa2509dcd4aa81d8e26bff134429ad729c332af90c"
+}

@@ -1,0 +1,440 @@
+{
+  "created": {
+    "success": true,
+    "code": "OK",
+    "message": "",
+    "sdkErrorCode": 0,
+    "platformErrorCode": 0,
+    "vmId": "draftediting-1791605532731",
+    "processId": 53604,
+    "standardInputFd": -1,
+    "standardOutputFd": -1,
+    "standardErrorFd": -1,
+    "ptyMasterFd": -1
+  },
+  "responseMessage": {
+    "type": "response",
+    "protocolVersion": 2,
+    "requestId": "command-1",
+    "sandboxSessionId": "session-6152e93d98135150",
+    "runId": "draftediting-run",
+    "toolCallId": "draftediting-command",
+    "workerGeneration": 1,
+    "policyVersion": 1,
+    "ok": true,
+    "result": {
+      "ok": true,
+      "stdout": "Log in with Jianying desktop app first, or use QR/link URL login.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --require-jianying-app \r\n                              Require installed Jianying desktop app for login.\r\n          --qr-code           Use terminal QR-code scan login flow.\r\n          --link-url          Print a browser login URL and wait for authorization.\r\n          --no-wait           Agent/LLM split-flow: return URL/QR metadata immediately without\r\n                              polling. Defaults to QR scan; combine with --link-url for browser\r\n                              link flow.\r\n          --device-code TEXT  Poll and complete a previous --no-wait link login device code.\r\n          --user-code TEXT    User code returned by a previous --no-wait link login.\r\n          --session-handoff TEXT \r\n                              Session handoff returned by a previous --no-wait link login.\r\n          --qr-token TEXT     Poll and complete a previous --qr-code --no-wait login token.\r\n          --qr-device-id TEXT Device id returned by a previous --qr-code --no-wait login.\r\n          --credential-json TEXT \r\n                              Inline credential JSON, or @path to read external credential.json\r\n                              injected by the caller (Jianying app, IDE, agent, etc.).\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  # Terminal/manual login: finish in-place without split-flow.\r\n  $ lyra-cli auth login\r\n  $ lyra-cli auth login --require-jianying-app\r\n  $ lyra-cli auth login --qr-code\r\n  $ lyra-cli auth login --link-url\r\n  $ lyra-cli auth login --credential-json @/tmp/credential.json\r\n\r\n  # Agent/LLM login: use split-flow, show the QR and fallback link, then finish after the user replies \"authorized\".\r\n  $ lyra-cli auth login --qr-code --no-wait\r\n  $ lyra-cli auth login --qr-token <token> --qr-device-id <device_id> --device-code <device_code> --user-code <user_code> --session-handoff <handoff>\r\n  $ lyra-cli auth login --link-url --no-wait\r\n  $ lyra-cli auth login --device-code <device_code> --user-code <user_code> --session-handoff <handoff>\r\n\r\nLEARN MORE\r\n  Terminal users should not pass --no-wait for QR/link flows; the CLI prints QR/link output and waits.\r\n  Agents/LLMs should pass --no-wait. For QR login, render qr_image_markdown\r\n  as an inline image and print fallback_login_url; tell the user QR may expire.\r\n  For link login, display the returned login_url.\r\n  Tell the user: \"Reply \\\"authorized\\\" after completing authorization, and I will continue the login flow.\",\r\n  then run the returned completion_command_args / completion_command.\r\n  Check the result with `lyra-cli auth status` or `lyra-cli auth me`.\r\n",
+      "stderr": "",
+      "output": "Log in with Jianying desktop app first, or use QR/link URL login.\r\n\r\nAGENT QUICKSTART (driving this as an agent? start here):\r\n  Browse commands:  lyra-cli <domain> --help\r\n\r\nUSAGE:\r\n  lyra-cli <domain> <[subdomain] ...> <action> [--flags] [--options]\r\n\r\n\r\nOPTIONS:\r\n  -h,     --help              Print this help message and exit\r\n          --require-jianying-app \r\n                              Require installed Jianying desktop app for login.\r\n          --qr-code           Use terminal QR-code scan login flow.\r\n          --link-url          Print a browser login URL and wait for authorization.\r\n          --no-wait           Agent/LLM split-flow: return URL/QR metadata immediately without\r\n                              polling. Defaults to QR scan; combine with --link-url for browser\r\n                              link flow.\r\n          --device-code TEXT  Poll and complete a previous --no-wait link login device code.\r\n          --user-code TEXT    User code returned by a previous --no-wait link login.\r\n          --session-handoff TEXT \r\n                              Session handoff returned by a previous --no-wait link login.\r\n          --qr-token TEXT     Poll and complete a previous --qr-code --no-wait login token.\r\n          --qr-device-id TEXT Device id returned by a previous --qr-code --no-wait login.\r\n          --credential-json TEXT \r\n                              Inline credential JSON, or @path to read external credential.json\r\n                              injected by the caller (Jianying app, IDE, agent, etc.).\r\n  -v,     --version           Show version information and exit.\r\n          --jq TEXT           Pretty-print JSON output; with an optional selector like\r\n                              .result.items[0].id, output the selected JSON value instead of\r\n                              the full schema envelope.\r\n\r\nEXAMPLES\r\n  # Terminal/manual login: finish in-place without split-flow.\r\n  $ lyra-cli auth login\r\n  $ lyra-cli auth login --require-jianying-app\r\n  $ lyra-cli auth login --qr-code\r\n  $ lyra-cli auth login --link-url\r\n  $ lyra-cli auth login --credential-json @/tmp/credential.json\r\n\r\n  # Agent/LLM login: use split-flow, show the QR and fallback link, then finish after the user replies \"authorized\".\r\n  $ lyra-cli auth login --qr-code --no-wait\r\n  $ lyra-cli auth login --qr-token <token> --qr-device-id <device_id> --device-code <device_code> --user-code <user_code> --session-handoff <handoff>\r\n  $ lyra-cli auth login --link-url --no-wait\r\n  $ lyra-cli auth login --device-code <device_code> --user-code <user_code> --session-handoff <handoff>\r\n\r\nLEARN MORE\r\n  Terminal users should not pass --no-wait for QR/link flows; the CLI prints QR/link output and waits.\r\n  Agents/LLMs should pass --no-wait. For QR login, render qr_image_markdown\r\n  as an inline image and print fallback_login_url; tell the user QR may expire.\r\n  For link login, display the returned login_url.\r\n  Tell the user: \"Reply \\\"authorized\\\" after completing authorization, and I will continue the login flow.\",\r\n  then run the returned completion_command_args / completion_command.\r\n  Check the result with `lyra-cli auth status` or `lyra-cli auth me`.\r\n",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 535,
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\lyra-cli.exe",
+      "args": [
+        "auth",
+        "login",
+        "--help"
+      ]
+    }
+  },
+  "events": [
+    {
+      "eventId": "sandbox-event-3",
+      "sequence": 3,
+      "timestamp": 1791605532744,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"create\":true,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"timestamp_ms\":1791605532,\"timestamp_str\":\"2026-10-10 12:12:12.744\",\"trace_index\":11,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_used_info\",\"metrics\":{\"file_counts\":8,\"net_counts\":0}}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-4",
+      "sequence": 4,
+      "timestamp": 1791605533123,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"step\":2,\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.123\",\"trace_index\":12,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_init_info\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-5",
+      "sequence": 5,
+      "timestamp": 1791605533126,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"10.0.26100.9549\",\"pid\":53604,\"ppid\":63472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.126\",\"trace_index\":13,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-6",
+      "sequence": 6,
+      "timestamp": 1791605533196,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-37d7862_\\__PSScriptPolicyTest_14rgc01a.3zg.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-7",
+      "sequence": 7,
+      "timestamp": 1791605533196,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.196\",\"trace_index\":14,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-8",
+      "sequence": 8,
+      "timestamp": 1791605533197,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-37d7862_\\__PSScriptPolicyTest_q3dkkvno.q0r.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-9",
+      "sequence": 9,
+      "timestamp": 1791605533197,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.197\",\"trace_index\":15,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-10",
+      "sequence": 10,
+      "timestamp": 1791605533409,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-37d7862_\\__PSScriptPolicyTest_pcr1pbkf.wqz.ps1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-11",
+      "sequence": 11,
+      "timestamp": 1791605533409,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"ps1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.409\",\"trace_index\":16,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-12",
+      "sequence": 12,
+      "timestamp": 1791605533410,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\lyra-enum-37d7862_\\__PSScriptPolicyTest_ygogkngf.uel.psm1",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-13",
+      "sequence": 13,
+      "timestamp": 1791605533410,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"psm1\",\"process_name\":\"powershell.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.410\",\"trace_index\":17,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-14",
+      "sequence": 14,
+      "timestamp": 1791605533524,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":61620,\"ppid\":53604,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.524\",\"trace_index\":18,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-15",
+      "sequence": 15,
+      "timestamp": 1791605533673,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":0,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":62852,\"ppid\":61620,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":2,\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.673\",\"trace_index\":19,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-16",
+      "sequence": 16,
+      "timestamp": 1791605533823,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\.lyra-cli-state-probe-92238952540100",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-17",
+      "sequence": 17,
+      "timestamp": 1791605533823,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\".lyra-cli-state-probe-92238952540100\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.823\",\"trace_index\":20,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-18",
+      "sequence": 18,
+      "timestamp": 1791605533843,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-19",
+      "sequence": 19,
+      "timestamp": 1791605533843,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.843\",\"trace_index\":21,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-20",
+      "sequence": 20,
+      "timestamp": 1791605533844,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-21",
+      "sequence": 21,
+      "timestamp": 1791605533844,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.844\",\"trace_index\":22,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-22",
+      "sequence": 22,
+      "timestamp": 1791605533854,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-shm",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-23",
+      "sequence": 23,
+      "timestamp": 1791605533854,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-shm\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.854\",\"trace_index\":23,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-24",
+      "sequence": 24,
+      "timestamp": 1791605533855,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\tracking_v2.db-wal",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-25",
+      "sequence": 25,
+      "timestamp": 1791605533855,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"dir_type\":\"\",\"ext\":\"db-wal\",\"process_name\":\"lyra-cli.exe\",\"product_name\":\"HUB\",\"timestamp_ms\":1791605533,\"timestamp_str\":\"2026-10-10 12:12:13.855\",\"trace_index\":24,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"sandbox_delete_to_recycle_item\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-26",
+      "sequence": 26,
+      "timestamp": 1791605534157,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "payload": {
+        "action": 4,
+        "sourcePermission": 4,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\.lyra-cli\\tracking\\process_exit_markers\\62852.marker",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-27",
+      "sequence": 27,
+      "timestamp": 1791605534161,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":515,\"flags\":0,\"name\":\"lyra-cli.exe\",\"name_version\":\"\",\"pid\":62852,\"ppid\":61620,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791605534,\"timestamp_str\":\"2026-10-10 12:12:14.161\",\"trace_index\":25,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-28",
+      "sequence": 28,
+      "timestamp": 1791605534161,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605532731",
+      "processId": 62852,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-29",
+      "sequence": 29,
+      "timestamp": 1791605534174,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":656,\"flags\":0,\"name\":\"bun-packaged-server.exe\",\"name_version\":\"\",\"pid\":61620,\"ppid\":53604,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791605534,\"timestamp_str\":\"2026-10-10 12:12:14.174\",\"trace_index\":26,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-30",
+      "sequence": 30,
+      "timestamp": 1791605534174,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605532731",
+      "processId": 61620,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-31",
+      "sequence": 31,
+      "timestamp": 1791605534188,
+      "type": "FILE_AUDIT",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "payload": {
+        "action": 6,
+        "sourcePermission": 3,
+        "destinationPermission": 0,
+        "sourcePath": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive",
+        "destinationPath": ""
+      }
+    },
+    {
+      "eventId": "sandbox-event-32",
+      "sequence": 32,
+      "timestamp": 1791605534193,
+      "type": "SDK_TRACE",
+      "payload": {
+        "traceJson": "{\"categories\":{\"aiep_system\":\"Windows\",\"code\":0,\"crash_tid\":0,\"duration_ms\":1078,\"flags\":0,\"name\":\"powershell.exe\",\"name_version\":\"\",\"pid\":53604,\"ppid\":63472,\"product_name\":\"HUB\",\"run_type\":\"run_task\",\"state\":4,\"timestamp_ms\":1791605534,\"timestamp_str\":\"2026-10-10 12:12:14.193\",\"trace_index\":27,\"vm_id\":\"draftediting-1791605532731\",\"vm_version\":\"1.13.6.0\"},\"event_name\":\"vm_process_state\"}"
+      }
+    },
+    {
+      "eventId": "sandbox-event-33",
+      "sequence": 33,
+      "timestamp": 1791605534193,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    },
+    {
+      "eventId": "sandbox-event-34",
+      "sequence": 34,
+      "timestamp": 1791605534201,
+      "type": "PROCESS_EXITED",
+      "vmId": "draftediting-1791605532731",
+      "processId": 53604,
+      "errorCode": 0,
+      "processState": 4,
+      "processErrorCode": 0,
+      "exitCode": 0,
+      "payload": {
+        "state": 4,
+        "processErrorCode": 0,
+        "exitCode": 0
+      }
+    }
+  ]
+}

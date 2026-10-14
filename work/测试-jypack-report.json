@@ -1,0 +1,248 @@
+{
+  "schema": "jianying-jypack-inspection/v1",
+  "source": {
+    "path": "C:\\Users\\Administrator\\Desktop\\剪映测试\\测试.jypack",
+    "size": 71751134,
+    "sha256": "1b4df543f999b6d91fd0b4e328a108a2c0bb320ea7474fc1bac469c9176a61f2"
+  },
+  "container": {
+    "entry_count": 88,
+    "unpacked_size": 91009468,
+    "crc_valid": true,
+    "jy_signature_counts": {
+      "4A590304": 88,
+      "4A590102": 88,
+      "4A590506": 1
+    },
+    "timeline_encrypted": true
+  },
+  "timeline": {
+    "duration_us": 31566666,
+    "duration_seconds": 31.567,
+    "track_count": 6,
+    "material_counts": {
+      "audios": 7,
+      "material_animations": 32,
+      "placeholder_infos": 9,
+      "sound_channel_mappings": 9,
+      "stickers": 5,
+      "text_templates": 6,
+      "texts": 43,
+      "videos": 2
+    }
+  },
+  "tts": {
+    "detected": true,
+    "count": 5,
+    "all_audio_present": true,
+    "speakers": [
+      "ICL_zh_female_xinmanbo"
+    ],
+    "items": [
+      {
+        "id": "CEB65D32-4058-4d78-8C64-01F511C79FF2",
+        "text": "家人们别划走",
+        "tone_type": "曼波讲故事",
+        "tone_speaker": "ICL_zh_female_xinmanbo",
+        "resource_id": "7481554487442674186",
+        "audio_path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_1ea5b400-7ad4-484d-94ca-30027e4928cf.wav",
+        "audio_in_package": true,
+        "path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_1ea5b400-7ad4-484d-94ca-30027e4928cf.wav",
+        "detected_format": "mp3",
+        "valid_audio_header": true,
+        "audio_decodable": true,
+        "codec": "mp3",
+        "sample_rate": 24000,
+        "channels": 1,
+        "duration_ms": null
+      },
+      {
+        "id": "C9DCF49A-858A-4ebd-B69C-075C19B5FD29",
+        "text": "主播认为家产从未易主",
+        "tone_type": "曼波讲故事",
+        "tone_speaker": "ICL_zh_female_xinmanbo",
+        "resource_id": "7481554487442674186",
+        "audio_path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_72c1ce39-e9bb-466b-8b4c-c17145ebe829.wav",
+        "audio_in_package": true,
+        "path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_72c1ce39-e9bb-466b-8b4c-c17145ebe829.wav",
+        "detected_format": "mp3",
+        "valid_audio_header": true,
+        "audio_decodable": true,
+        "codec": "mp3",
+        "sample_rate": 24000,
+        "channels": 1,
+        "duration_ms": null
+      },
+      {
+        "id": "0F8B437D-31F1-4f58-9661-2312306FFAB4",
+        "text": "只是双方都有难言的苦...",
+        "tone_type": "曼波讲故事",
+        "tone_speaker": "ICL_zh_female_xinmanbo",
+        "resource_id": "7481554487442674186",
+        "audio_path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_4c268c3a-4ab2-4542-bf7e-29b210c9aab5.wav",
+        "audio_in_package": true,
+        "path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_4c268c3a-4ab2-4542-bf7e-29b210c9aab5.wav",
+        "detected_format": "mp3",
+        "valid_audio_header": true,
+        "audio_decodable": true,
+        "codec": "mp3",
+        "sample_rate": 24000,
+        "channels": 1,
+        "duration_ms": null
+      },
+      {
+        "id": "8CDBF701-3706-4e5f-AB69-88E2BB0C5F36",
+        "text": "于是主播哭着写了这首...",
+        "tone_type": "曼波讲故事",
+        "tone_speaker": "ICL_zh_female_xinmanbo",
+        "resource_id": "7481554487442674186",
+        "audio_path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_57c7302c-44d7-4add-b67e-876a4f34abe1.wav",
+        "audio_in_package": true,
+        "path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_57c7302c-44d7-4add-b67e-876a4f34abe1.wav",
+        "detected_format": "mp3",
+        "valid_audio_header": true,
+        "audio_decodable": true,
+        "codec": "mp3",
+        "sample_rate": 24000,
+        "channels": 1,
+        "duration_ms": null
+      },
+      {
+        "id": "3A809DC7-3BEE-4572-8A15-2A2D84F6A248",
+        "text": "一个句号就是入股",
+        "tone_type": "曼波讲故事",
+        "tone_speaker": "ICL_zh_female_xinmanbo",
+        "resource_id": "7481554487442674186",
+        "audio_path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_576b5512-b063-4809-b204-f3b6d428910e.wav",
+        "audio_in_package": true,
+        "path": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_576b5512-b063-4809-b204-f3b6d428910e.wav",
+        "detected_format": "mp3",
+        "valid_audio_header": true,
+        "audio_decodable": true,
+        "codec": "mp3",
+        "sample_rate": 24000,
+        "channels": 1,
+        "duration_ms": null
+      }
+    ]
+  },
+  "lyrics": {
+    "detected": true,
+    "material_count": 32,
+    "texts": [
+      "遇事",
+      "不决 ",
+      "可问春风",
+      "它掠过",
+      "我空",
+      "袖口",
+      "春风填我 十",
+      "万八",
+      "千梦",
+      "\n走向没",
+      "有你",
+      "的岸",
+      "隔几",
+      "隔几",
+      "重山隔",
+      "重山隔",
+      "几重梦",
+      "几重梦",
+      "几重梦",
+      "\n终于",
+      "不问",
+      "归程",
+      "还未等",
+      "到檐铃响\n",
+      "",
+      "却见天边",
+      "已放红",
+      " 人长大",
+      "后才",
+      "知晓",
+      "\n这一程须",
+      "由我自封"
+    ],
+    "template_count": 6,
+    "template_resource_ids": [
+      "7591420714515844395"
+    ],
+    "recognition_tasks": [
+      {
+        "id": "6a8fe6a434d6c50197e08a73_8_2",
+        "language": "zh-CN",
+        "type": 115,
+        "utterance_count": 7,
+        "word_count": 56
+      },
+      {
+        "id": "6a8fe65ff4a1c001b6efb37d_8_2",
+        "language": "zh-CN",
+        "type": 115,
+        "utterance_count": 7,
+        "word_count": 56
+      },
+      {
+        "id": "6a8fe5fef4a1c001b6efa109_8_2",
+        "language": "zh-CN",
+        "type": 11,
+        "utterance_count": 34,
+        "word_count": 285
+      },
+      {
+        "id": "6a6346eec48e6201c71d57a3_8_2",
+        "language": "zh-CN",
+        "type": 115,
+        "utterance_count": 31,
+        "word_count": 253
+      },
+      {
+        "id": "6a6346a5400e2301c6d92a0c_8_2",
+        "language": "zh-CN",
+        "type": 115,
+        "utterance_count": 37,
+        "word_count": 306
+      },
+      {
+        "id": "6a6341f510b73001b2313059_8_2",
+        "language": "zh-CN",
+        "type": 115,
+        "utterance_count": 36,
+        "word_count": 218
+      },
+      {
+        "id": "6a6341c1f7b44e01c8e77206_8_2",
+        "language": "zh-CN",
+        "type": 115,
+        "utterance_count": 53,
+        "word_count": 334
+      }
+    ]
+  },
+  "official_template_package": {
+    "detected": false,
+    "draft_material_count": 0,
+    "resource_file_count": 0,
+    "note": "该包只有歌词文字模板，未包含可验证 template_package 渲染的官方模板包"
+  },
+  "render_readiness": {
+    "native_export_supported": false,
+    "native_export_blockers": [
+      "stickers",
+      "text_templates",
+      "material_animations.animations"
+    ],
+    "official_export_requires": [
+      "官方 Agent Runtime",
+      "JIANYING_AGENT_RUNTIME_TOKEN",
+      "已注册的当前 draft_ref"
+    ],
+    "jypack_is_draft_ref": false
+  },
+  "path_integrity": {
+    "placeholder_reference_count": 10,
+    "missing_reference_count": 0,
+    "missing_references": [],
+    "invalid_references": []
+  }
+}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887682765,"args":["material","search","--type","lyric_animation","--prompt","居中 醒目 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\3a36e91848f9442bb28df57fd38f1b2e","pid":27304}
+{"stage":"policy","at":1791887682766,"rules":9}
+{"stage":"policy-network","at":1791887682766,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887682769,"vmId":"draftediting-1791887682766"}
+{"stage":"create-process:done","at":1791887682789,"processId":43052,"success":true}
+{"stage":"worker-ready","at":1791887683266}

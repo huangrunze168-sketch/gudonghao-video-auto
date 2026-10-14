@@ -1,0 +1,6 @@
+{"stage":"start","at":1791903617514,"args":["material","search","--type","sticker","--prompt","得意 猫和老鼠","--limit","6"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\02a2162de9ac4b7fb36f3bd29992bb99","pid":53032}
+{"stage":"policy","at":1791903617514,"rules":9}
+{"stage":"policy-network","at":1791903617515,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791903617517,"vmId":"draftediting-1791903617514"}
+{"stage":"create-process:done","at":1791903617535,"processId":52804,"success":true}
+{"stage":"worker-ready","at":1791903618040}

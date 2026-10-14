@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887356608,"args":["material","search","--type","lyric_animation","--prompt","雨雾","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\1987a5bb71ec4cee8f964e790e30d9db","pid":30680}
+{"stage":"policy","at":1791887356609,"rules":9}
+{"stage":"policy-network","at":1791887356609,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887356612,"vmId":"draftediting-1791887356609"}
+{"stage":"create-process:done","at":1791887356630,"processId":34932,"success":true}
+{"stage":"worker-ready","at":1791887357117}

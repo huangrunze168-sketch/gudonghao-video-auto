@@ -1,0 +1,5 @@
+{"stage":"start","at":1791547560346,"args":["draft","blueprint","sync","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-200555","--ref","local://headless-full-20261009-200555"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":57776}
+{"stage":"policy","at":1791547560347,"rules":8}
+{"stage":"create-process:begin","at":1791547560351,"vmId":"draftediting-1791547560347"}
+{"stage":"create-process:done","at":1791547560812,"processId":56544,"success":true}
+{"stage":"worker-ready","at":1791547561272}

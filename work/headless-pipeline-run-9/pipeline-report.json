@@ -1,0 +1,171 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "running",
+  "started_at": 1791559046.025093,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-9",
+  "steps": {
+    "recognize": {
+      "status": "ok",
+      "model": "large-v3",
+      "detected_language": "zh",
+      "cue_count": 12,
+      "lyrics_json": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-9\\01-recognize\\lyrics.json",
+      "srt": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-9\\01-recognize\\lyrics.srt",
+      "official_plan": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-9\\01-recognize\\official-features.plan.json",
+      "at": 1791559091.6112318
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-orig-20261009-231811",
+      "ref": "local://headless-orig-20261009-231811",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-231811",
+      "segment_count": 25,
+      "at": 1791559099.312842
+    },
+    "align": {
+      "status": "skipped",
+      "reason": "改用检索到的可用官方模板逐句生成",
+      "replacement": {
+        "asset_id": "text_template_lyrics1",
+        "resource_id": "7591420714515844395",
+        "title": "浪漫氛围",
+        "source": "explicit",
+        "resource_readable": false
+      },
+      "at": 1791559103.8210828
+    },
+    "template-resources": {
+      "status": "incomplete",
+      "templates": 6,
+      "missing": [
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        }
+      ],
+      "replacement": {
+        "asset_id": "text_template_lyrics1",
+        "resource_id": "7591420714515844395",
+        "title": "浪漫氛围",
+        "source": "explicit",
+        "resource_readable": false
+      },
+      "at": 1791559103.8271155
+    },
+    "selection": {
+      "status": "ok",
+      "cards": [
+        "lyric_0002",
+        "lyric_0003",
+        "lyric_0004",
+        "lyric_0005",
+        "lyric_0006",
+        "lyric_0007",
+        "lyric_0008",
+        "lyric_0009",
+        "lyric_0010",
+        "lyric_0011",
+        "lyric_0012"
+      ],
+      "tts": false,
+      "lyric_target": "template",
+      "speech_ref": null,
+      "selection": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-231811\\edit.selection",
+      "subtitle_plan": {
+        "mode": "replacement-template",
+        "template_ref": "text_template_lyrics1",
+        "template_title": "浪漫氛围",
+        "kept": 11,
+        "dropped": 1
+      },
+      "at": 1791559103.835161
+    },
+    "normalize": {
+      "status": "ok",
+      "files": {
+        "target_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        },
+        "current_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        }
+      },
+      "at": 1791559103.8430228
+    }
+  }
+}

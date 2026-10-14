@@ -1,0 +1,6 @@
+{"stage":"start","at":1791914635022,"args":["draft","lyrics","animation","update","--ref","local://guzhu-01","--seg-id","9878A4D0-3C85-4e8f-9214-12F974AA55F3","--resource","vimo://7414104429437209919","--language","zh-CN"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":48184}
+{"stage":"policy","at":1791914635022,"rules":8}
+{"stage":"policy-network","at":1791914635022,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791914635025,"vmId":"draftediting-1791914635022"}
+{"stage":"create-process:done","at":1791914635044,"processId":42412,"success":true}
+{"stage":"worker-ready","at":1791914635547}

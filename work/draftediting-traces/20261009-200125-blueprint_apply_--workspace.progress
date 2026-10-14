@@ -1,0 +1,5 @@
+{"stage":"start","at":1791547281112,"args":["draft","blueprint","apply","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-200109","--dir","C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-lv3-20261009-200109","--ref","local://headless-lv3-20261009-200109","--selection-file","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-200109\\edit.selection","--allow-existing-main-deletion","--allow-existing-subtitle-changes"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":44212}
+{"stage":"policy","at":1791547281112,"rules":9}
+{"stage":"create-process:begin","at":1791547281117,"vmId":"draftediting-1791547281112"}
+{"stage":"create-process:done","at":1791547281816,"processId":18000,"success":true}
+{"stage":"worker-ready","at":1791547282281}

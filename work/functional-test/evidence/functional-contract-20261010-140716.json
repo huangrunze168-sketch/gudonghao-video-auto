@@ -1,0 +1,193 @@
+{
+  "command_count": 195,
+  "contract": {
+    "checked": 195,
+    "problems": [
+      {
+        "path": [
+          "draft",
+          "algo",
+          "video-tracking"
+        ],
+        "name": "algo_video_tracking",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--follower-seg-id']"
+      },
+      {
+        "path": [
+          "draft",
+          "text",
+          "add"
+        ],
+        "name": "text_add",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--no-background']"
+      },
+      {
+        "path": [
+          "draft",
+          "text",
+          "style"
+        ],
+        "name": "text_style",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--no-background']"
+      },
+      {
+        "path": [
+          "draft",
+          "segment",
+          "split"
+        ],
+        "name": "segment_split",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--no-absolute']"
+      },
+      {
+        "path": [
+          "draft",
+          "keyframe",
+          "add"
+        ],
+        "name": "keyframe_add",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--type', '--easing', '--ease']"
+      },
+      {
+        "path": [
+          "draft",
+          "keyframe",
+          "update"
+        ],
+        "name": "keyframe_update",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--type']"
+      },
+      {
+        "path": [
+          "draft",
+          "keyframe",
+          "remove"
+        ],
+        "name": "keyframe_remove",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--type', '--times']"
+      },
+      {
+        "path": [
+          "draft",
+          "blueprint",
+          "apply"
+        ],
+        "name": "blueprint_apply",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--delete-target-id']"
+      },
+      {
+        "path": [
+          "media",
+          "measure-box"
+        ],
+        "name": "media_measure_box",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--element-type', '--content']"
+      },
+      {
+        "path": [
+          "media",
+          "object-matting-track"
+        ],
+        "name": "media_object_matting_track",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--mask-rle-json', '--sam3-target-object-desc', '--expansion', '--expand']"
+      },
+      {
+        "path": [
+          "media",
+          "understand"
+        ],
+        "name": "media_understand",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--input']"
+      },
+      {
+        "path": [
+          "draft",
+          "text-template",
+          "replace"
+        ],
+        "name": "text_template_replace",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--no-apply-to-all']"
+      },
+      {
+        "path": [
+          "draft",
+          "blueprint",
+          "plan"
+        ],
+        "name": "blueprint_plan",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--delete-target-id']"
+      },
+      {
+        "path": [
+          "draft",
+          "subtitle",
+          "template",
+          "replace"
+        ],
+        "name": "subtitle_template_replace",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--no-apply-to-all']"
+      },
+      {
+        "path": [
+          "media",
+          "aigc",
+          "image2image"
+        ],
+        "name": "media_aigc_image2image",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--image']"
+      },
+      {
+        "path": [
+          "media",
+          "aigc",
+          "image2video"
+        ],
+        "name": "media_aigc_image2video",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--image']"
+      },
+      {
+        "path": [
+          "draft",
+          "algo",
+          "object-matting-track"
+        ],
+        "name": "algo_object_matting_track",
+        "installed": true,
+        "generated": true,
+        "problem": "清单有但实时 help 无: ['--mask-rle-json', '--sam3-target-object-desc', '--expand', '--edge-size']"
+      }
+    ]
+  }
+}

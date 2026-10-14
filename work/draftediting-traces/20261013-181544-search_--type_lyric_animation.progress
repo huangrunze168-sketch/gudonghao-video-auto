@@ -1,0 +1,6 @@
+{"stage":"start","at":1791886541433,"args":["material","search","--type","lyric_animation","--prompt","粗体 醒目 歌词排版","--limit","5"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\918d0540b00c4ff9a6baf9b8db687505","pid":45592}
+{"stage":"policy","at":1791886541434,"rules":9}
+{"stage":"policy-network","at":1791886541434,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791886541437,"vmId":"draftediting-1791886541433"}
+{"stage":"create-process:done","at":1791886541456,"processId":39224,"success":true}
+{"stage":"worker-ready","at":1791886541934}

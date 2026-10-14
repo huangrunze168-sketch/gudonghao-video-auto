@@ -1,0 +1,5 @@
+{"stage":"start","at":1791794597673,"args":["draft","blueprint","init","--workspace","C:\\Temp\\lyric-ws2"],"cwd":"C:\\Temp","pid":51140}
+{"stage":"policy","at":1791794597674,"rules":9}
+{"stage":"create-process:begin","at":1791794597679,"vmId":"draftediting-1791794597674"}
+{"stage":"create-process:done","at":1791794598059,"processId":58072,"success":true}
+{"stage":"worker-ready","at":1791794598532}

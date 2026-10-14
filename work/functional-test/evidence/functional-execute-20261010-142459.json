@@ -1,0 +1,343 @@
+{
+  "command_count": 12,
+  "context": {
+    "ref": "local://func-test-1010-142423",
+    "draft_root": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\func-test-1010-142423",
+    "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test",
+    "media": {
+      "video": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+      "audio": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.m4a",
+      "image": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+    },
+    "create": {
+      "state": "ok",
+      "message": "success"
+    },
+    "notes": [
+      "工程被上一条命令删除，已重建",
+      "工程被上一条命令删除，已重建"
+    ]
+  },
+  "execute": {
+    "rows": [
+      {
+        "path": [
+          "draft",
+          "edit"
+        ],
+        "args": [
+          "edit",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--op",
+          "split"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100110,
+        "err_category": "usage",
+        "message": "gen_patch: invalid action: gen_patch --op split requires --target",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100110,\"err_msg\":\"gen_patch: invalid action: gen_patch --op split requires --target\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 747,
+        "used_flags": [
+          "--ref",
+          "--op"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "config"
+        ],
+        "args": [
+          "config",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--ratio",
+          "16:9"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"affected_segments\":[],\"extras\":[]}}\r\n",
+        "duration_ms": 758,
+        "used_flags": [
+          "--ref",
+          "--ratio"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "create"
+        ],
+        "args": [
+          "project",
+          "create",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"draft_id\":\"056B9648-B93E-40cb-8530-41812C724068\",\"draft_name\":\"func-test-1010-142423\",\"ref\":\"local://func-test-1010-142423\"}}\r\n",
+        "duration_ms": 792,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "list"
+        ],
+        "args": [
+          "project",
+          "list"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"focused_ref\":null,\"projects\":[{\"draft_id\":\"44882863-FB8C-4d4a-AA40-F46EB759208A\",\"name\":\"测试 (1)\",\"ref\":\"local://测试 (1)\"},{\"draft_id\":\"A07A551A-CB42-4dd4-8692-B72F6732E68B\",\"name\":\"最怕你离开_0921_2226\",\"ref\":\"local://最怕你离开_0921_2226\"},{\"draft_id\":\"BCEE4B9F-DEED-4e14-92B6-7A4E348A9B4F\",\"name\":\"9月20日\",\"ref\":\"local://9月20日\"},{\"draft_id\":\"D8304EB7-93C1-416c-9EDC-FA1B22DFAA2A\",\"name\":\"9月16日 (4)\",\"ref\":\"local://9月16日 (4)\"},{\"draft_id\":\"B83E30C1-88D4-4b37-B146-B82316E51DFE\",\"name\":\"9月16日 (3)\",\"ref\":\"local://9月16日 (3)\"},{\"draft_id\":\"84CDB95A-2CF9-422b-8C18-8B698",
+        "duration_ms": 555,
+        "used_flags": []
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "focus"
+        ],
+        "args": [
+          "project",
+          "focus",
+          "--ref",
+          "local://func-test-1010-142423"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-142423\"}}\r\n",
+        "duration_ms": 553,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "delete"
+        ],
+        "args": [
+          "project",
+          "delete",
+          "--ref",
+          "local://func-test-1010-142423"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-142423\"}}\r\n",
+        "duration_ms": 594,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "set"
+        ],
+        "args": [
+          "cover",
+          "set",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--image",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"height\":320,\"source\":\"image\",\"thumbnail_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-142423\\\\draft_cover.jpg\",\"width\":320}}\r\n",
+        "duration_ms": 1326,
+        "used_flags": [
+          "--ref",
+          "--image"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "clear"
+        ],
+        "args": [
+          "cover",
+          "clear",
+          "--ref",
+          "local://func-test-1010-142423"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"cleared\":true,\"thumbnail_path\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\JianyingPro\\\\User Data\\\\Projects\\\\com.lveditor.draft\\\\func-test-1010-142423\\\\draft_cover.jpg\"}}\r\n",
+        "duration_ms": 771,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "extract",
+          "summary"
+        ],
+        "args": [
+          "extract",
+          "summary",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"json_result\":\"[{\\\"attributes\\\":{\\\"height\\\":0,\\\"width\\\":0},\\\"id\\\":\\\"59D9B320-CC9E-4960-BECD-46CD469FD3B5\\\",\\\"type\\\":\\\"draft\\\"}]\"}}\r\n",
+        "duration_ms": 732,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "add"
+        ],
+        "args": [
+          "template",
+          "add",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--resource",
+          "local:///C:/Users/Administrator/AppData/Local/Temp/jianying-func-test/media/sample.mp4",
+          "--title",
+          "func-test",
+          "--start",
+          "1s",
+          "--track-index",
+          "0",
+          "--duration",
+          "1s",
+          "--resource-dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "business_error",
+        "exit_code": 1,
+        "err_code": -100147,
+        "err_category": "runtime",
+        "message": "patch apply failed: template parse failed: code=-10011, msg=unzip failed",
+        "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: template parse failed: code=-10011, msg=unzip failed\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 776,
+        "used_flags": [
+          "--ref",
+          "--resource",
+          "--title",
+          "--start",
+          "--track-index",
+          "--duration",
+          "--resource-dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "publish"
+        ],
+        "args": [
+          "template",
+          "publish",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "business_error",
+        "exit_code": 1,
+        "err_code": -100147,
+        "err_category": "runtime",
+        "message": "patch apply failed: template: no editable video/text/sticker segments found in draft",
+        "stdout": "{\"err_category\":\"runtime\",\"err_code\":-100147,\"err_msg\":\"patch apply failed: template: no editable video/text/sticker segments found in draft\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 773,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "template",
+          "render"
+        ],
+        "args": [
+          "template",
+          "render",
+          "--config",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+          "--ref",
+          "local://func-test-1010-142423",
+          "--output",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out\\draft-template-render.mp4",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\out"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100001,
+        "err_category": "usage",
+        "message": "invalid argument: draft template render requires a fresh --ref whose workspace does not already exist",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100001,\"err_msg\":\"invalid argument: draft template render requires a fresh --ref whose workspace does not already exist\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 876,
+        "used_flags": [
+          "--config",
+          "--ref",
+          "--output",
+          "--dir"
+        ]
+      }
+    ],
+    "summary": {
+      "usage": 2,
+      "ok": 8,
+      "business_error": 2
+    }
+  }
+}

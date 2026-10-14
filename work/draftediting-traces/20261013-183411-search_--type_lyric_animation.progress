@@ -1,0 +1,6 @@
+{"stage":"start","at":1791887648395,"args":["material","search","--type","lyric_animation","--prompt","国风 书法 歌词","--limit","10"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\38510a63bb4148f099e2b261c023c85c","pid":41832}
+{"stage":"policy","at":1791887648395,"rules":9}
+{"stage":"policy-network","at":1791887648396,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791887648399,"vmId":"draftediting-1791887648395"}
+{"stage":"create-process:done","at":1791887648418,"processId":13296,"success":true}
+{"stage":"worker-ready","at":1791887648895}

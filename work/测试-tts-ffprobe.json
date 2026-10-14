@@ -1,0 +1,97 @@
+[
+  {
+    "text": "家人们别划走",
+    "file": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_1ea5b400-7ad4-484d-94ca-30027e4928cf.wav",
+    "ok": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.344000"
+      }
+    }
+  },
+  {
+    "text": "主播认为家产从未易主",
+    "file": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_72c1ce39-e9bb-466b-8b4c-c17145ebe829.wav",
+    "ok": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "2.304000"
+      }
+    }
+  },
+  {
+    "text": "只是双方都有难言的苦...",
+    "file": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_4c268c3a-4ab2-4542-bf7e-29b210c9aab5.wav",
+    "ok": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "2.064000"
+      }
+    }
+  },
+  {
+    "text": "于是主播哭着写了这首...",
+    "file": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_57c7302c-44d7-4add-b67e-876a4f34abe1.wav",
+    "ok": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "2.328000"
+      }
+    }
+  },
+  {
+    "text": "一个句号就是入股",
+    "file": "textReading/6a8fe587f4a1c001b6ef8b0a_8_2_576b5512-b063-4809-b204-f3b6d428910e.wav",
+    "ok": true,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "1.536000"
+      }
+    }
+  }
+]

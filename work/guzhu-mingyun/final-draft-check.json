@@ -1,0 +1,442 @@
+{
+  "duration_us": 30033333,
+  "fonts": [
+    [
+      "7514983489737936169",
+      12049392
+    ]
+  ],
+  "audio": [
+    {
+      "id": "A37F062D-4365-4aba-A819-C0EFD9E8300B",
+      "range": [
+        0,
+        1100000
+      ],
+      "source": {
+        "duration": 1416000
+      },
+      "speed": 1.3,
+      "volume": null,
+      "fades": [
+        "8D379F7D-FAF3-4036-BBC3-A60F275CDC64",
+        "6E0C1DAD-F42B-4297-980D-F83E18471D2E",
+        "2633D4E7-C354-41f9-AF83-F7A832594182",
+        "15405732-259C-478e-B6B3-67A87E13CF76"
+      ]
+    },
+    {
+      "id": "B7B69AB8-FAB7-4310-9799-F13155E26D58",
+      "range": [
+        2500000,
+        1066666
+      ],
+      "source": {
+        "duration": 1368000
+      },
+      "speed": 1.3,
+      "volume": null,
+      "fades": [
+        "E20D4742-4A5E-4334-9EB3-47DD68F29593",
+        "067F98F1-9146-4295-92D0-AE9866870DD9",
+        "3A10845B-281E-43c4-90B4-43F51C03DE6C",
+        "4DFC3F70-B718-4df0-A306-9C310BE396A3"
+      ]
+    },
+    {
+      "id": "A31A14CC-8D90-4244-9690-6776A91C61E0",
+      "range": [
+        5066666,
+        1866667
+      ],
+      "source": {
+        "duration": 2424000
+      },
+      "speed": 1.3,
+      "volume": null,
+      "fades": [
+        "502301F1-40E0-4696-BF5E-771E4B3E1E34",
+        "54550C7D-91E5-427c-A749-52E58A4045A9",
+        "FB02E5D4-2A4B-4719-A067-246D213679DB",
+        "AACCE30C-039F-4738-ADAE-1E1F0D344346"
+      ]
+    },
+    {
+      "id": "27247D95-1F6F-490d-851F-E3830E55552E",
+      "range": [
+        6933333,
+        23066667
+      ],
+      "source": {
+        "duration": 23095384,
+        "start": 58280000
+      },
+      "speed": null,
+      "volume": 1.4125375446227544,
+      "fades": [
+        "DC5F3F9F-2E63-45ce-8819-C7912C95957B",
+        "F7FC5AE8-BB3E-4f0c-A311-5A6184B06B24",
+        "69426CE1-8270-4c6b-B8D6-3F5FE2EBC501",
+        "F24EB133-1ED1-46fd-AB7C-C807110F3B7A",
+        "1DEFDCFB-B460-4f9b-966C-D38AE1F29677"
+      ]
+    },
+    {
+      "id": "B8D14971-9064-4abb-A31C-E8CCC437E178",
+      "range": [
+        1100000,
+        1400000
+      ],
+      "source": {
+        "duration": 1824000
+      },
+      "speed": 1.3,
+      "volume": null,
+      "fades": [
+        "7644E640-87EF-4e56-96EF-0FEBF1820453",
+        "5FF49F99-BE7A-47ff-8DFB-D9BE4217ECA5",
+        "760D7B9E-C81D-4ea5-B383-2E94147D8F87",
+        "C76E97A6-9DF8-474c-9445-88ECD26F09E2"
+      ]
+    },
+    {
+      "id": "478493DE-7EFA-44d4-866C-79B3E92B2487",
+      "range": [
+        3566666,
+        1500000
+      ],
+      "source": {
+        "duration": 1944000
+      },
+      "speed": 1.3,
+      "volume": null,
+      "fades": [
+        "2B61B8B9-8E02-42c6-8CFE-CE960D7F296A",
+        "CE6D2077-664A-45e7-9398-C0778A76BC50",
+        "22A03DB3-A1AD-4423-8192-E2C7DD6B56D8",
+        "4895598C-5FDA-4c7f-8503-F67A3A50C882"
+      ]
+    },
+    {
+      "id": "4D201827-7DC5-4fd3-9807-311C18BAE1B9",
+      "range": [
+        0,
+        6933333
+      ],
+      "source": {
+        "duration": 6904616,
+        "start": 51375384
+      },
+      "speed": null,
+      "volume": 0.3981071705534972,
+      "fades": [
+        "E427540C-7571-45f8-9B1A-82B51D97188E",
+        "DEA479BA-EC44-42fc-9D4B-D2C4AD87B0D7",
+        "45FAD074-3D43-4498-8AC2-A1977150FB09",
+        "805D9BB1-5FA4-4da9-AC23-FA00B7084FB3",
+        "4BEB42C0-CBC0-4a25-89B9-00C93C05CC92"
+      ]
+    }
+  ],
+  "lint_status": "fail",
+  "lint_issues": [
+    {
+      "evidence": {
+        "bbox": {
+          "height": 1.33359375,
+          "left": 0.125,
+          "top": -0.3767968749999999,
+          "width": 0.75
+        },
+        "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+        "material_id": "B6E8F204-99D8-4f10-A14A-3A5249BFD169",
+        "segment_id": "D8732715-32B2-4D1D-84BF-7C99410BC124",
+        "segment_type": "sticker"
+      },
+      "message": "visual segment bbox must remain inside canvas bounds",
+      "rule_id": "result.draft-bbox-bounds.v1",
+      "severity": "error"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.019720575314105038,
+        "iou": 0.023377098653595343,
+        "left_coverage": 0.023377098653595347,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 1089231,
+        "time_overlap_us": 1089231,
+        "time_start_us": 0
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.025842235274121893,
+        "iou": 0.03063381639786533,
+        "left_coverage": 0.03063381639786533,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 2492308,
+        "time_overlap_us": 1403077,
+        "time_start_us": 1089231
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.016659744602511135,
+        "iou": 0.01974873891422674,
+        "left_coverage": 0.01974873891422674,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 3544616,
+        "time_overlap_us": 1052308,
+        "time_start_us": 2492308
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.028903065985715796,
+        "iou": 0.03426217613723393,
+        "left_coverage": 0.03426217613723393,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "280EAF16-0D36-44f2-97F9-C8C8517D2EDC",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 5040001,
+        "time_overlap_us": 1495385,
+        "time_start_us": 3544616
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.03502472448256171,
+        "iou": 0.0415188921470367,
+        "left_coverage": 0.0415188921470367,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 1.0,
+        "right_segment_id": "9857A870-3A18-4905-A45F-CF7C61F65ED9",
+        "right_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "time_end_us": 6904616,
+        "time_overlap_us": 1864615,
+        "time_start_us": 5040001
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.7175976562499999,
+        "iou": 0.63719459813006,
+        "left_coverage": 0.8506522216796875,
+        "left_segment_id": "D2C0181F-737E-4102-91BC-408D47A2AB7E",
+        "left_track": "54E641D5-42DE-443c-B1CF-DC1B8AA45FD6",
+        "right_coverage": 0.7174575278265964,
+        "right_segment_id": "D8732715-32B2-4D1D-84BF-7C99410BC124",
+        "right_track": "46097C97-A5A1-413a-8580-8B716E32D06E",
+        "time_end_us": 2500000,
+        "time_overlap_us": 2500000,
+        "time_start_us": 0
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.019720575314105038,
+        "iou": 0.019716724391372353,
+        "left_coverage": 1.0,
+        "left_segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+        "left_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "right_coverage": 0.019716724391372353,
+        "right_segment_id": "D8732715-32B2-4D1D-84BF-7C99410BC124",
+        "right_track": "46097C97-A5A1-413a-8580-8B716E32D06E",
+        "time_end_us": 1089231,
+        "time_overlap_us": 1089231,
+        "time_start_us": 0
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.025842235274121893,
+        "iou": 0.02583718894815546,
+        "left_coverage": 1.0,
+        "left_segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+        "left_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "right_coverage": 0.02583718894815546,
+        "right_segment_id": "D8732715-32B2-4D1D-84BF-7C99410BC124",
+        "right_track": "46097C97-A5A1-413a-8580-8B716E32D06E",
+        "time_end_us": 2492308,
+        "time_overlap_us": 1403077,
+        "time_start_us": 1089231
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.016659744602511135,
+        "iou": 0.016656491381538182,
+        "left_coverage": 1.0,
+        "left_segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+        "left_track": "7A810613-854C-4cb6-91F0-0DDE17FFB23A",
+        "right_coverage": 0.016656491381538182,
+        "right_segment_id": "D8732715-32B2-4D1D-84BF-7C99410BC124",
+        "right_track": "46097C97-A5A1-413a-8580-8B716E32D06E",
+        "time_end_us": 2500000,
+        "time_overlap_us": 7692,
+        "time_start_us": 2492308
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.002074570019768004,
+        "iou": 0.06586008486172058,
+        "left_coverage": 0.20330302174589532,
+        "left_segment_id": "48347980-40EA-4955-BC61-6C1C0F4B82B6",
+        "left_track": "CCC61E2D-0AE8-4328-A60D-2777B7C497BE",
+        "right_coverage": 0.08877102116944874,
+        "right_segment_id": "A58998EB-A9A9-4ebf-AEFC-C3D4E2324329",
+        "right_track": "6A5F0380-68D7-47ec-9910-EC88B3732E11",
+        "time_end_us": 10666666,
+        "time_overlap_us": 3300000,
+        "time_start_us": 7366666
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0006656965039122348,
+        "iou": 0.025840939111433897,
+        "left_coverage": 0.05639095399752702,
+        "left_segment_id": "ABB3FC49-57C3-49e7-ACDB-155487120560",
+        "left_track": "CCC61E2D-0AE8-4328-A60D-2777B7C497BE",
+        "right_coverage": 0.04552709231359929,
+        "right_segment_id": "F6C1FD93-F619-4779-BC90-18E4F96F5BDB",
+        "right_track": "6A5F0380-68D7-47ec-9910-EC88B3732E11",
+        "time_end_us": 14000000,
+        "time_overlap_us": 2466667,
+        "time_start_us": 11533333
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0004214194992676973,
+        "iou": 0.020040235262256505,
+        "left_coverage": 0.03015109276632275,
+        "left_segment_id": "E8CF2E80-493B-4463-882C-331A05E7EAE7",
+        "left_track": "CCC61E2D-0AE8-4328-A60D-2777B7C497BE",
+        "right_coverage": 0.05639101973665759,
+        "right_segment_id": "8D43EEB3-3AD6-44b5-913D-1E269BEFBE01",
+        "right_track": "6A5F0380-68D7-47ec-9910-EC88B3732E11",
+        "time_end_us": 17600000,
+        "time_overlap_us": 2566667,
+        "time_start_us": 15033333
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0004163421942898454,
+        "iou": 0.02352303923540732,
+        "left_coverage": 0.03879247788732112,
+        "left_segment_id": "E0F0A58B-50FE-4962-BC21-8EC109858E42",
+        "left_track": "CCC61E2D-0AE8-4328-A60D-2777B7C497BE",
+        "right_coverage": 0.05639101973665758,
+        "right_segment_id": "35AEB6E6-B3D6-4d0c-BA72-D9A09C2DAFE6",
+        "right_track": "6A5F0380-68D7-47ec-9910-EC88B3732E11",
+        "time_end_us": 21300000,
+        "time_overlap_us": 3233334,
+        "time_start_us": 18066666
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.002225086540946314,
+        "iou": 0.08546227674892735,
+        "left_coverage": 0.21837441831091317,
+        "left_segment_id": "4E13E29B-9CF1-4698-97F0-6D963A2F0FED",
+        "left_track": "CCC61E2D-0AE8-4328-A60D-2777B7C497BE",
+        "right_coverage": 0.12312574797504953,
+        "right_segment_id": "758C0CB0-2883-46ba-9B66-03D302EA7F57",
+        "right_track": "6A5F0380-68D7-47ec-9910-EC88B3732E11",
+        "time_end_us": 24833333,
+        "time_overlap_us": 2833333,
+        "time_start_us": 22000000
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "intersection_area": 0.0006595813052318788,
+        "iou": 0.02597629423223258,
+        "left_coverage": 0.05639095399752453,
+        "left_segment_id": "51D0B76C-9924-45c7-86A1-F9FF8B8EF838",
+        "left_track": "CCC61E2D-0AE8-4328-A60D-2777B7C497BE",
+        "right_coverage": 0.045948919357166065,
+        "right_segment_id": "BA5A9736-D082-4b39-8575-0530F97D0F8D",
+        "right_track": "6A5F0380-68D7-47ec-9910-EC88B3732E11",
+        "time_end_us": 28600000,
+        "time_overlap_us": 2700000,
+        "time_start_us": 25900000
+      },
+      "message": "elements overlap in both timeline and normalized canvas space",
+      "rule_id": "result.draft-spatial-overlap.v1",
+      "severity": "warning"
+    },
+    {
+      "evidence": {
+        "overlap_pairs_missing_distinct_z_order": 6,
+        "overlap_pairs_missing_front_opacity": 0,
+        "segment_count": 34,
+        "segments_missing_time_or_bbox": 0
+      },
+      "message": "spatial or occlusion evaluation is incomplete; normalized time/bbox, distinct z-order, and front opacity evidence are required",
+      "rule_id": "result.draft-spatial-evidence-missing.v1",
+      "severity": "warning"
+    }
+  ]
+}

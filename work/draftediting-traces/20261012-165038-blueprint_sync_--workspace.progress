@@ -1,0 +1,5 @@
+{"stage":"start","at":1791795035191,"args":["draft","blueprint","sync","--workspace","C:\\Temp\\lyric-cli-ws2","--ref","local://guzhu-lyric-cli"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":35756}
+{"stage":"policy","at":1791795035192,"rules":8}
+{"stage":"create-process:begin","at":1791795035195,"vmId":"draftediting-1791795035191"}
+{"stage":"create-process:done","at":1791795035522,"processId":57156,"success":true}
+{"stage":"worker-ready","at":1791795036025}

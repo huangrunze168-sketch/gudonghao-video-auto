@@ -1,0 +1,421 @@
+===== subtitle material: 3B1370D4-E32C-41df-BC7B-A72C3C780353 bucket= texts
+{
+  "add_type": 1,
+  "background_color": "#000000",
+  "base_content": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha\":1.0,\"color\":[1.0,1.0,1.0]}}},\"font\":{\"id\":\"7504926415540817178\",\"path\":\"##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/font_14847753395871712537.ttf\"},\"range\":[0,6],\"size\":5.0,\"strokes\":[{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha\":1.0,\"color\":[0.0,0.0,0.0]}},\"width\":0.07999999821186066}]}],\"text\":\"家人们别划走\"}",
+  "border_color": "#000000",
+  "border_width": 0.08,
+  "caption_template_info": {
+    "path": "",
+    "resource_id": ""
+  },
+  "check_flag": 15,
+  "combo_info": {},
+  "content": "{\"text\":\"家人们别划走\",\"styles\":[{\"fill\":{\"content\":{\"render_type\":\"solid\",\"solid\":{\"color\":[1,1,1]}}},\"font\":{\"path\":\"##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/font_14847753395871712537.ttf\",\"id\":\"7504926415540817178\"},\"strokes\":[{\"content\":{\"render_type\":\"solid\",\"solid\":{\"color\":[0,0,0]}},\"width\":0.079999998211860657,\"mode\":0}],\"size\":5,\"useLetterColor\":true,\"range\":[0,6]}]}",
+  "current_words": {},
+  "font_path": "##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/font_14847753395871712537.ttf",
+  "font_resource_id": "7504926415540817178",
+  "font_size": 5,
+  "font_source_platform": 1,
+  "group_id": "Auto_1787815272437",
+  "id": "3B1370D4-E32C-41df-BC7B-A72C3C780353",
+  "initial_scale": 1,
+  "layer_weight": 1,
+  "line_spacing": 0.02,
+  "lyrics_template": {
+    "path": "",
+    "resource_id": ""
+  },
+  "recognize_model": "3.3b",
+  "recognize_task_id": "6a8fe3dfd4ee6901b7330ce1_8_2",
+  "recognize_text": "家人们别划走",
+  "shadow_alpha": 0.9,
+  "shadow_angle": -45,
+  "shadow_distance": 5,
+  "shadow_point": {
+    "x": 0.6363961030678928,
+    "y": -0.6363961030678928
+  },
+  "shadow_smoothing": 0.45,
+  "subtitle_keywords": {},
+  "text_color": "#ffffff",
+  "text_to_audio_ids": [
+    "A37F062D-4365-4aba-A819-C0EFD9E8300B"
+  ],
+  "type": "subtitle",
+  "words": {
+    "end_time": [
+      280,
+      360,
+      480,
+      600,
+      840
+    ],
+    "start_time": [
+      0,
+      280,
+      360,
+      480,
+      600
+    ],
+    "text": [
+      "家人",
+      "们",
+      "别",
+      "划",
+      "走"
+    ]
+  }
+}
+
+===== 该素材 content 解析后
+{
+  "text": "家人们别划走",
+  "styles": [
+    {
+      "fill": {
+        "content": {
+          "render_type": "solid",
+          "solid": {
+            "color": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "font": {
+        "path": "##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/font_14847753395871712537.ttf",
+        "id": "7504926415540817178"
+      },
+      "strokes": [
+        {
+          "content": {
+            "render_type": "solid",
+            "solid": {
+              "color": [
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "width": 0.07999999821186066,
+          "mode": 0
+        }
+      ],
+      "size": 5,
+      "useLetterColor": true,
+      "range": [
+        0,
+        6
+      ]
+    }
+  ]
+}
+
+===== segment in track text {
+  "clip": {
+    "flip": {},
+    "scale": {
+      "x": 2.1546072292595393,
+      "y": 2.1546072292595393
+    },
+    "transform": {
+      "x": 0,
+      "y": -0.5007006369426752
+    }
+  },
+  "enable_adjust": false,
+  "enable_adjust_mask": false,
+  "enable_hsl": false,
+  "enable_lut": false,
+  "extra_material_refs": [
+    "FA1A1CE2-0EF1-4182-ADD2-E8A36EC5EBFE"
+  ],
+  "id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+  "material_id": "3B1370D4-E32C-41df-BC7B-A72C3C780353",
+  "render_index": 14045,
+  "render_timerange": {},
+  "responsive_layout": {},
+  "source": "segmentsourcenormal",
+  "target_timerange": {
+    "duration": 866666
+  },
+  "track_render_index": 2,
+  "uniform_scale": {}
+}
+
+===== 歌词模板卡完整结构: 114C6B44-684D-48b3-9958-C85CFF027E5F
+{
+  "category_id": "11878",
+  "category_name": "歌词动效",
+  "current_word_info": {
+    "end_time": 7906,
+    "start_time": 6466,
+    "text": "遇事不决 可问春风",
+    "words": [
+      {
+        "end_time": 441,
+        "start_time": 1,
+        "text": "遇事"
+      },
+      {
+        "end_time": 441,
+        "start_time": 221
+      },
+      {
+        "end_time": 661,
+        "start_time": 441,
+        "text": "不"
+      },
+      {
+        "end_time": 881,
+        "start_time": 661,
+        "text": "决 "
+      },
+      {
+        "end_time": 1121,
+        "start_time": 881,
+        "text": "可"
+      },
+      {
+        "end_time": 1441,
+        "start_time": 1121,
+        "text": "问春风"
+      }
+    ]
+  },
+  "effect_id": "7591420714515844395",
+  "id": "114C6B44-684D-48b3-9958-C85CFF027E5F",
+  "is_lyric_effect": true,
+  "lyric_group_id": "950624B6-1AB5-4df0-989A-52998F53864A",
+  "name": "浪漫氛围",
+  "origin_word_info": {
+    "end_time": 7899,
+    "start_time": 6466,
+    "text": "于是不觉可闻",
+    "words": [
+      {
+        "end_time": 220,
+        "text": "于"
+      },
+      {
+        "end_time": 440,
+        "start_time": 220,
+        "text": "是"
+      },
+      {
+        "end_time": 660,
+        "start_time": 440,
+        "text": "不"
+      },
+      {
+        "end_time": 880,
+        "start_time": 660,
+        "text": "觉"
+      },
+      {
+        "end_time": 1120,
+        "start_time": 880,
+        "text": "可"
+      },
+      {
+        "end_time": 1440,
+        "start_time": 1120,
+        "text": "闻"
+      }
+    ]
+  },
+  "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/artistEffect/7591420714515844395/1a5679120e5f1a4e8db7f06d83f05378",
+  "request_id": "202608271512223E428124830623258DEB",
+  "resource_id": "7591420714515844395",
+  "resources": [
+    {
+      "panel": "fonts",
+      "path": "##_draftpath_placeholder_0E685133-18CE-45ED-8CB8-2904A212EC80_##/ImportedMaterials/Used/猫啃网烟波宋-B_10388839915873301436.ttf",
+      "resource_id": "7068531367386026526",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/7314291622525538843/6b4b5ca72bbd3f8e9b396967170fb557",
+      "resource_id": "7314291622525538843",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/7426691632168324367/7422f3de89f894522a0b45f3f2196131",
+      "resource_id": "7426691632168324367",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6923094735116571150/0e57ec99758f1e12636a73c6ec4fb6f5",
+      "resource_id": "6923094735116571150",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919767200698884/e818fb0699073a734ecead7c2768d827",
+      "resource_id": "6724919767200698884",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/7123116334677758501/28d9145ead32c23742082a37e511370e",
+      "resource_id": "7123116334677758501",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6872642354898014728/46389f9f5f72e1b58020a0b8293a23b9",
+      "resource_id": "6872642354898014728",
+      "source_platform": 1
+    },
+    {
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "source_platform": 1
+    }
+  ],
+  "source_platform": 1,
+  "text_info_resources": [
+    {
+      "attach_info": {
+        "clip": {
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "scale": {
+            "x": 1,
+      
+
+===== 模板卡 segment 完整结构
+{
+  "clip": {
+    "flip": {},
+    "scale": {
+      "x": 1.213899963177724,
+      "y": 1.213899963177724
+    },
+    "transform": {
+      "x": 0,
+      "y": -0.4964788732394365
+    }
+  },
+  "enable_adjust": false,
+  "enable_adjust_mask": false,
+  "enable_hsl": false,
+  "enable_lut": false,
+  "extra_material_refs": [
+    "8690D40E-7354-4a3c-87FB-05C94EA41A1E",
+    "BB0BDCED-1566-4f3d-91E4-8007BB9185E2",
+    "FF102CD7-3AA4-4504-B867-4F9F9D6DE04B"
+  ],
+  "id": "1668560B-2F7F-4fed-A871-D56BE1B2F579",
+  "material_id": "114C6B44-684D-48b3-9958-C85CFF027E5F",
+  "render_index": 14051,
+  "render_timerange": {
+    "duration": 1461321,
+    "start": 6408113
+  },
+  "responsive_layout": {},
+  "source": "segmentsourcenormal",
+  "target_timerange": {
+    "duration": 1433334,
+    "start": 6466666
+  },
+  "track_render_index": 3,
+  "uniform_scale": {}
+}
+--- ref 8690D40E-7354-4a3c-87FB-05C94EA41A1E bucket= material_animations
+{
+  "animations": [
+    {
+      "category_id": "chuchang",
+      "category_name": "Out",
+      "duration": 150000,
+      "id": "",
+      "material_type": "sticker",
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "type": "out"
+    },
+    {
+      "category_id": "chuchang",
+      "category_name": "Out",
+      "duration": 150000,
+      "id": "",
+      "material_type": "sticker",
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "type": "out"
+    }
+  ],
+  "id": "8690D40E-7354-4a3c-87FB-05C94EA41A1E",
+  "type": "sticker_animation"
+}
+--- ref BB0BDCED-1566-4f3d-91E4-8007BB9185E2 bucket= material_animations
+{
+  "animations": [
+    {
+      "category_id": "chuchang",
+      "category_name": "Out",
+      "duration": 150000,
+      "id": "",
+      "material_type": "sticker",
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "type": "out"
+    },
+    {
+      "category_id": "chuchang",
+      "category_name": "Out",
+      "duration": 150000,
+      "id": "",
+      "material_type": "sticker",
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "type": "out"
+    }
+  ],
+  "id": "BB0BDCED-1566-4f3d-91E4-8007BB9185E2",
+  "type": "sticker_animation"
+}
+--- ref FF102CD7-3AA4-4504-B867-4F9F9D6DE04B bucket= material_animations
+{
+  "animations": [
+    {
+      "category_id": "chuchang",
+      "category_name": "Out",
+      "duration": 150000,
+      "id": "",
+      "material_type": "sticker",
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "type": "out"
+    },
+    {
+      "category_id": "chuchang",
+      "category_name": "Out",
+      "duration": 150000,
+      "id": "",
+      "material_type": "sticker",
+      "panel": "text",
+      "path": "C:/Users/Administrator/AppData/Local/JianyingPro/User Data/Cache/effect/6724919382104871427/11004616098603d847593ce9ede05a62",
+      "resource_id": "6724919382104871427",
+      "type": "out"
+    }
+  ],
+  "id": "FF102CD7-3AA4-4504-B867-4F9F9D6DE04B",
+  "type": "sticker_animation"
+}

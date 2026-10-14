@@ -1,0 +1,5 @@
+{"stage":"start","at":1791560866981,"args":["draft","blueprint","sync","--workspace","C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-234742","--ref","local://headless-zigzag-20261009-234742"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft","pid":53820}
+{"stage":"policy","at":1791560866981,"rules":8}
+{"stage":"create-process:begin","at":1791560866984,"vmId":"draftediting-1791560866981"}
+{"stage":"create-process:done","at":1791560867306,"processId":55228,"success":true}
+{"stage":"worker-ready","at":1791560867765}

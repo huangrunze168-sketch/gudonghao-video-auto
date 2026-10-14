@@ -1,0 +1,6 @@
+{"stage":"start","at":1791885970711,"args":["material","search","--type","sticker","--prompt","下班 疲惫 发呆","--limit","4"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\f88101e897d6458bbd4f86325f726e1c","pid":32508}
+{"stage":"policy","at":1791885970711,"rules":9}
+{"stage":"policy-network","at":1791885970711,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791885970715,"vmId":"draftediting-1791885970711"}
+{"stage":"create-process:done","at":1791885970736,"processId":35168,"success":true}
+{"stage":"worker-ready","at":1791885971251}

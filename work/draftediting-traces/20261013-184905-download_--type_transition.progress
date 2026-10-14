@@ -1,0 +1,6 @@
+{"stage":"start","at":1791888542068,"args":["material","download","--type","transition","--resource-id","7265942661473767938"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\28d23e0f2e664cc28351f28be372ea3d","pid":41164}
+{"stage":"policy","at":1791888542068,"rules":9}
+{"stage":"policy-network","at":1791888542068,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791888542073,"vmId":"draftediting-1791888542068"}
+{"stage":"create-process:done","at":1791888542092,"processId":50084,"success":true}
+{"stage":"worker-ready","at":1791888542580}

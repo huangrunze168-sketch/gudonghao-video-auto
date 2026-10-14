@@ -1,0 +1,32 @@
+{
+  "global_effects": [
+    {
+      "name": "细雨",
+      "id": "7496779956345654552",
+      "result": "{'affected_segments': [{'operator': 'add', 'segment_id': '9FA08B07-2556-4CFF-9036-63D47151DE81', 'segment_type': 'segmen"
+    },
+    {
+      "name": "婆娑光斑",
+      "id": "7666032151833546008",
+      "result": "{'affected_segments': [{'operator': 'add', 'segment_id': '2191CCB1-2AE6-4742-978B-AC3FE784F069', 'segment_type': 'segmen"
+    }
+  ],
+  "effect_materials": [
+    "梦幻漏光",
+    "细雨",
+    "婆娑光斑",
+    "发光 II"
+  ],
+  "segment_effects": [
+    {
+      "segment": "CEFDF797",
+      "range": [
+        8600000,
+        21033333
+      ],
+      "effects": [
+        "梦幻漏光"
+      ]
+    }
+  ]
+}

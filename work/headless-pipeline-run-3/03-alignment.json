@@ -1,0 +1,129 @@
+{
+  "cards": [
+    {
+      "id": "t6",
+      "cues": [
+        1
+      ],
+      "slots": 3,
+      "words": 8,
+      "start_ms": 6466,
+      "end_ms": 7899,
+      "overlap_ratio": 1.0,
+      "status": "aligned",
+      "segments": [
+        "于是",
+        "不觉可",
+        "问春风"
+      ]
+    },
+    {
+      "id": "t7",
+      "cues": [
+        2
+      ],
+      "slots": 3,
+      "words": 9,
+      "start_ms": 7900,
+      "end_ms": 10100,
+      "overlap_ratio": 0.818,
+      "status": "aligned",
+      "segments": [
+        "它掠过我",
+        "空袖口",
+        "春风"
+      ]
+    },
+    {
+      "id": "t8",
+      "cues": [
+        3,
+        4
+      ],
+      "slots": 6,
+      "words": 12,
+      "start_ms": 10100,
+      "end_ms": 15233,
+      "overlap_ratio": 0.904,
+      "status": "aligned",
+      "segments": [
+        "添我十万",
+        "八千",
+        "梦",
+        "走向没有",
+        "你的",
+        "岸"
+      ]
+    },
+    {
+      "id": "t9",
+      "cues": [
+        5,
+        6
+      ],
+      "slots": 10,
+      "words": 14,
+      "start_ms": 15233,
+      "end_ms": 20099,
+      "overlap_ratio": 0.873,
+      "status": "aligned",
+      "segments": [
+        "各",
+        "起",
+        "重山",
+        "各起",
+        "重梦",
+        "终于",
+        "不",
+        "问",
+        "归",
+        "程"
+      ]
+    },
+    {
+      "id": "t10",
+      "cues": [
+        7,
+        8
+      ],
+      "slots": 4,
+      "words": 15,
+      "start_ms": 20500,
+      "end_ms": 23766,
+      "overlap_ratio": 1.0,
+      "status": "aligned",
+      "segments": [
+        "还会等",
+        "到有理想缺",
+        "陷天边一",
+        "番红人"
+      ]
+    },
+    {
+      "id": "t11",
+      "cues": [
+        9,
+        10,
+        11
+      ],
+      "slots": 5,
+      "words": 16,
+      "start_ms": 23766,
+      "end_ms": 31566,
+      "overlap_ratio": 0.941,
+      "status": "aligned",
+      "segments": [
+        "长大后才",
+        "知晓",
+        "这一",
+        "程虚有我",
+        "自讽之讽"
+      ]
+    }
+  ],
+  "outside_cue_indices": [
+    0
+  ],
+  "aligned_cards": 6,
+  "skipped_cards": 0
+}

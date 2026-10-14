@@ -1,0 +1,14 @@
+{
+  "status": "build-verified",
+  "name": "first-draft-xytzifx7",
+  "build": "C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\build",
+  "source_unchanged": true,
+  "draft_registered": false,
+  "video_exported": false,
+  "shell": "powershell",
+  "commands": {
+    "publish": "C:\\Python314\\python.exe C:\\Users\\Administrator\\Documents\\剪映\\skills\\yichen-jianying-edit\\scripts\\headless_draft.py publish --build C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\build --audit C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\publish-audit",
+    "verify": "C:\\Python314\\python.exe C:\\Users\\Administrator\\Documents\\剪映\\skills\\yichen-jianying-edit\\scripts\\headless_draft.py verify --build C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\build --report C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\after-native-save.json",
+    "export": "C:\\Python314\\python.exe C:\\Users\\Administrator\\Documents\\剪映\\skills\\yichen-jianying-edit\\scripts\\headless_draft.py export --build C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\build --out C:\\Users\\Administrator\\Documents\\剪映\\work\\onboarding-tests\\case-ih824crx\\work\\first-draft-xytzifx7\\export"
+  }
+}

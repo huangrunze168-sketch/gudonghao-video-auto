@@ -1,0 +1,216 @@
+{
+  "command_count": 8,
+  "context": {
+    "ref": "local://func-test-1010-141255",
+    "draft_root": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\func-test-1010-141255",
+    "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test",
+    "media": {
+      "video": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.mp4",
+      "audio": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.m4a",
+      "image": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+    },
+    "create": {
+      "state": "ok",
+      "message": "success"
+    },
+    "notes": []
+  },
+  "execute": {
+    "rows": [
+      {
+        "path": [
+          "draft",
+          "edit"
+        ],
+        "args": [
+          "edit",
+          "--ref",
+          "local://func-test-1010-141255",
+          "--op",
+          "func-test"
+        ],
+        "state": "usage",
+        "exit_code": 2,
+        "err_code": -100112,
+        "err_category": "usage",
+        "message": "gen_patch: verb not registered: no gen_patch handler registered for: op:func-test",
+        "stdout": "{\"err_category\":\"usage\",\"err_code\":-100112,\"err_msg\":\"gen_patch: verb not registered: no gen_patch handler registered for: op:func-test\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 755,
+        "used_flags": [
+          "--ref",
+          "--op"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "config"
+        ],
+        "args": [
+          "config",
+          "--ref",
+          "local://func-test-1010-141255",
+          "--ratio",
+          "func-test"
+        ],
+        "state": "worker_timeout",
+        "exit_code": null,
+        "err_code": null,
+        "err_category": "",
+        "message": "VMSDK worker 超时",
+        "stdout": "",
+        "duration_ms": 120012,
+        "used_flags": [
+          "--ref",
+          "--ratio"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "create"
+        ],
+        "args": [
+          "project",
+          "create",
+          "--ref",
+          "local://func-test-1010-141255",
+          "--dir",
+          "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft"
+        ],
+        "state": "exit_1",
+        "exit_code": 1,
+        "err_code": -100134,
+        "err_category": "conflict",
+        "message": "draft already exists: local://func-test-1010-141255",
+        "stdout": "{\"err_category\":\"conflict\",\"err_code\":-100134,\"err_msg\":\"draft already exists: local://func-test-1010-141255\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 620,
+        "used_flags": [
+          "--ref",
+          "--dir"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "list"
+        ],
+        "args": [
+          "project",
+          "list"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"focused_ref\":null,\"projects\":[{\"draft_id\":\"44882863-FB8C-4d4a-AA40-F46EB759208A\",\"name\":\"测试 (1)\",\"ref\":\"local://测试 (1)\"},{\"draft_id\":\"A07A551A-CB42-4dd4-8692-B72F6732E68B\",\"name\":\"最怕你离开_0921_2226\",\"ref\":\"local://最怕你离开_0921_2226\"},{\"draft_id\":\"BCEE4B9F-DEED-4e14-92B6-7A4E348A9B4F\",\"name\":\"9月20日\",\"ref\":\"local://9月20日\"},{\"draft_id\":\"D8304EB7-93C1-416c-9EDC-FA1B22DFAA2A\",\"name\":\"9月16日 (4)\",\"ref\":\"local://9月16日 (4)\"},{\"draft_id\":\"B83E30C1-88D4-4b37-B146-B82316E51DFE\",\"name\":\"9月16日 (3)\",\"ref\":\"local://9月16日 (3)\"},{\"draft_id\":\"84CDB95A-2CF9-422b-8C18-8B698",
+        "duration_ms": 592,
+        "used_flags": []
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "focus"
+        ],
+        "args": [
+          "project",
+          "focus",
+          "--ref",
+          "local://func-test-1010-141255"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-141255\"}}\r\n",
+        "duration_ms": 584,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "project",
+          "delete"
+        ],
+        "args": [
+          "project",
+          "delete",
+          "--ref",
+          "local://func-test-1010-141255"
+        ],
+        "state": "ok",
+        "exit_code": 0,
+        "err_code": 0,
+        "err_category": "",
+        "message": "success",
+        "stdout": "{\"err_code\":0,\"err_msg\":\"success\",\"result\":{\"ref\":\"local://func-test-1010-141255\"}}\r\n",
+        "duration_ms": 615,
+        "used_flags": [
+          "--ref"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "set"
+        ],
+        "args": [
+          "cover",
+          "set",
+          "--ref",
+          "local://func-test-1010-141255",
+          "--image",
+          "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-func-test\\media\\sample.png"
+        ],
+        "state": "exit_1",
+        "exit_code": 1,
+        "err_code": -100133,
+        "err_category": "not_found",
+        "message": "draft not found: local://func-test-1010-141255",
+        "stdout": "{\"err_category\":\"not_found\",\"err_code\":-100133,\"err_msg\":\"draft not found: local://func-test-1010-141255\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 587,
+        "used_flags": [
+          "--ref",
+          "--image"
+        ]
+      },
+      {
+        "path": [
+          "draft",
+          "cover",
+          "clear"
+        ],
+        "args": [
+          "cover",
+          "clear",
+          "--ref",
+          "local://func-test-1010-141255"
+        ],
+        "state": "exit_1",
+        "exit_code": 1,
+        "err_code": -100133,
+        "err_category": "not_found",
+        "message": "draft not found: local://func-test-1010-141255",
+        "stdout": "{\"err_category\":\"not_found\",\"err_code\":-100133,\"err_msg\":\"draft not found: local://func-test-1010-141255\",\"recovery\":\"fix_input\",\"result\":null,\"severity\":\"failed\"}\r\n",
+        "duration_ms": 597,
+        "used_flags": [
+          "--ref"
+        ]
+      }
+    ],
+    "summary": {
+      "usage": 1,
+      "worker_timeout": 1,
+      "exit_1": 3,
+      "ok": 3
+    }
+  }
+}

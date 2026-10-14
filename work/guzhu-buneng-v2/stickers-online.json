@@ -1,0 +1,84 @@
+{
+  "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01",
+  "pairs": [
+    [
+      "7537971070951918873",
+      "无奈"
+    ],
+    [
+      "7563857958946524440",
+      "无语无奈"
+    ],
+    [
+      "7266054014586981692",
+      "一半释然"
+    ],
+    [
+      "7141246767634369826",
+      "想开了"
+    ],
+    [
+      "7307617907427511563",
+      "评论区留言吧"
+    ]
+  ],
+  "added": [
+    {
+      "name": "无奈",
+      "resource_id": "7537971070951918873",
+      "segment": "BFFBD218-1067-432F-829A-C00A84CA0AA5",
+      "start_us": 0,
+      "duration_us": 1566666
+    },
+    {
+      "name": "无语无奈",
+      "resource_id": "7563857958946524440",
+      "segment": "F89E4F82-5C69-43CB-B561-48C61867C30D",
+      "start_us": 1566666,
+      "duration_us": 1666667
+    },
+    {
+      "name": "一半释然",
+      "resource_id": "7266054014586981692",
+      "segment": "F176E187-983F-4B56-8FFE-2BB614AB4C26",
+      "start_us": 3233333,
+      "duration_us": 1733333
+    },
+    {
+      "name": "想开了",
+      "resource_id": "7141246767634369826",
+      "segment": "D57A46E0-6F26-4113-AC67-38A2DE5961FA",
+      "start_us": 4966666,
+      "duration_us": 2033334
+    },
+    {
+      "name": "评论区留言吧",
+      "resource_id": "7307617907427511563",
+      "segment": "C59CB852-8793-4316-9CA9-E0D0C8B82BA7",
+      "start_us": 7000000,
+      "duration_us": 1600000
+    }
+  ],
+  "downloads": [
+    {
+      "id": "7537971070951918873",
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7537971070951918873\\b479e46aa0af45f8bddda7c3aeedc10e"
+    },
+    {
+      "id": "7563857958946524440",
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7563857958946524440\\12ee38678d8ca7b7ce797febc847f30d"
+    },
+    {
+      "id": "7266054014586981692",
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7266054014586981692\\f560b5a5d9649f905b28a00306c1e1b9"
+    },
+    {
+      "id": "7141246767634369826",
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7141246767634369826\\a94a683a97d22b5106d534d4ab4fcbce"
+    },
+    {
+      "id": "7307617907427511563",
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7307617907427511563\\5ac96d976cd7f80f3679bd841c1d3b88"
+    }
+  ]
+}

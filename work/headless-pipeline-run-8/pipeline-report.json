@@ -1,0 +1,213 @@
+{
+  "schema": "jianying-headless-pipeline/v1",
+  "status": "completed",
+  "started_at": 1791549084.4885018,
+  "source_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\测试 (1)",
+  "out": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8",
+  "steps": {
+    "recognize": {
+      "status": "ok",
+      "model": "large-v3",
+      "detected_language": "zh",
+      "cue_count": 12,
+      "lyrics_json": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8\\01-recognize\\lyrics.json",
+      "srt": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8\\01-recognize\\lyrics.srt",
+      "official_plan": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8\\01-recognize\\official-features.plan.json",
+      "at": 1791549140.0463243
+    },
+    "blueprint": {
+      "status": "ok",
+      "draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-tpl-20261009-203220",
+      "ref": "local://headless-tpl-20261009-203220",
+      "workspace": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-203220",
+      "segment_count": 25,
+      "at": 1791549148.1660554
+    },
+    "align": {
+      "status": "skipped",
+      "reason": "改用检索到的可用官方模板逐句生成",
+      "replacement": {
+        "asset_id": "subtitle_template1",
+        "resource_id": "7638543120313142553",
+        "title": "歌词-梦幻发光上滑字幕",
+        "source": "search",
+        "usable_count": 1,
+        "searched": 12
+      },
+      "at": 1791549152.1320667
+    },
+    "template-resources": {
+      "status": "incomplete",
+      "templates": 6,
+      "missing": [
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        },
+        {
+          "resource_id": "7591420714515844395",
+          "name": "浪漫氛围",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Cache\\artistEffect\\7591420714515844395\\1a5679120e5f1a4e8db7f06d83f05378",
+          "content_json": false
+        }
+      ],
+      "replacement": {
+        "asset_id": "subtitle_template1",
+        "resource_id": "7638543120313142553",
+        "title": "歌词-梦幻发光上滑字幕",
+        "source": "search",
+        "usable_count": 1,
+        "searched": 12
+      },
+      "at": 1791549152.1387472
+    },
+    "selection": {
+      "status": "ok",
+      "cards": [
+        "lyric_0002",
+        "lyric_0003",
+        "lyric_0004",
+        "lyric_0005",
+        "lyric_0006",
+        "lyric_0007",
+        "lyric_0008",
+        "lyric_0009",
+        "lyric_0010",
+        "lyric_0011",
+        "lyric_0012"
+      ],
+      "tts": false,
+      "lyric_target": "template",
+      "speech_ref": null,
+      "selection": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\jianying-draftediting\\ws-20261009-203220\\edit.selection",
+      "subtitle_plan": {
+        "mode": "replacement-template",
+        "template_ref": "subtitle_template1",
+        "template_title": "歌词-梦幻发光上滑字幕",
+        "kept": 11,
+        "dropped": 1
+      },
+      "at": 1791549152.1462812
+    },
+    "normalize": {
+      "status": "ok",
+      "files": {
+        "target_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        },
+        "current_draft.xml": {
+          "font_ref_handled": 5,
+          "main_splits": [
+            {
+              "segment": "v2",
+              "ref": "video1",
+              "original_duration_ms": 25133,
+              "limit_ms": 17600,
+              "pieces": [
+                {
+                  "id": "v2",
+                  "material_start_ms": 0,
+                  "duration_ms": 17600
+                },
+                {
+                  "id": "v2_b2",
+                  "material_start_ms": 10067,
+                  "duration_ms": 7533
+                }
+              ]
+            }
+          ],
+          "changed": true
+        }
+      },
+      "at": 1791549152.1544964
+    },
+    "apply": {
+      "status": "ok",
+      "executed_count": 12,
+      "planned_count": 12,
+      "commands": [
+        "draft edit --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"于是不觉可问春风\\\";start=6433ms;duration=1867ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"它掠过我空袖口春风\\\";start=8300ms;duration=2160ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"添我十万八千梦\\\";start=10460ms;duration=2300ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"走向没有你的岸\\\";start=13130ms;duration=1970ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"各起重山各起重梦\\\";start=15100ms;duration=1840ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"终于不问归程\\\";start=16940ms;duration=2540ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"还会等到有理想\\\";start=20010ms;duration=1850ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"缺陷天边一番红人\\\";start=21860ms;duration=2060ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"长大后才知晓\\\";start=23920ms;duration=2220ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"这一程虚有我\\\";start=26800ms;duration=2100ms\" --add \"type=subtitle_template;resource=vimo://7638543120313142553;content=\\\"只望\\\";start=28900ms;duration=2280ms\"",
+        "blueprint static-layout seg_id=0A56ADB2-0D23-4cca-97FB-7C95436B2E8B",
+        "blueprint static-layout seg_id=2C7A952E-6F84-4c4a-8F98-4D56E6000FC0",
+        "blueprint static-layout seg_id=416E4FD9-406B-4950-95D8-35280A0DBC66",
+        "blueprint static-layout seg_id=BBB742BE-A129-439d-BC6B-54B83FC19823",
+        "blueprint static-layout seg_id=09B8873A-9906-42d7-9941-DBCC38F9484D",
+        "blueprint static-layout seg_id=60391F40-7DDA-4506-A11D-A4D8C02D5E67",
+        "blueprint static-layout seg_id=318D2781-354B-4b83-AA67-1561751421B1",
+        "blueprint static-layout seg_id=143743AF-746E-4145-9923-D676AF96F664",
+        "blueprint static-layout seg_id=804CD56A-679E-409b-9DA1-CB5327224FBB",
+        "blueprint static-layout seg_id=AA3722FC-9941-4d3f-AD71-B0E32A54C53A",
+        "blueprint static-layout seg_id=C68078EB-501A-4a2d-9C32-2CA78994EC27"
+      ],
+      "validation": "Applied; live draft validation passed.",
+      "at": 1791549156.8856335
+    },
+    "mirrors": {
+      "status": "ok",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-tpl-20261009-203220\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\draft_content.json",
+      "written": [
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-tpl-20261009-203220\\draft_content.json",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-tpl-20261009-203220\\template-2.tmp",
+        "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-tpl-20261009-203220\\Timelines\\E1C00739-59E5-47cd-9600-7668519B6E7E\\template-2.tmp"
+      ],
+      "at": 1791549156.8953362
+    },
+    "render": {
+      "status": "ok",
+      "output": "C:\\Users\\Administrator\\Documents\\剪映\\work\\headless-pipeline-run-8\\06-render\\render.mp4",
+      "output_size": 2567334,
+      "video_duration": 31.6,
+      "at": 1791549172.0462232
+    }
+  },
+  "finished_at": 1791549172.0531945,
+  "working_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\headless-tpl-20261009-203220"
+}

@@ -1,0 +1,6 @@
+{"stage":"start","at":1791882464256,"args":["media","asr","--input","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-new-song\\song.wav","--language","zh","--output","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\jy-new-song\\asr.json"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-new-song","pid":35572}
+{"stage":"policy","at":1791882464257,"rules":9}
+{"stage":"policy-network","at":1791882464257,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791882464261,"vmId":"draftediting-1791882464257"}
+{"stage":"create-process:done","at":1791882464788,"processId":45556,"success":true}
+{"stage":"worker-ready","at":1791882465299}

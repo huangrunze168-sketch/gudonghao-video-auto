@@ -1,0 +1,6 @@
+{"stage":"start","at":1791882996432,"args":["material","search","--type","lyric_animation","--prompt","文艺 慢调 电影 温柔","--limit","8"],"cwd":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\jy-online\\05e2fbae5eea43c9bfc02f0bf3371599","pid":3664}
+{"stage":"policy","at":1791882996432,"rules":9}
+{"stage":"policy-network","at":1791882996432,"net_rules":[{"network_allow":"*"}]}
+{"stage":"create-process:begin","at":1791882996437,"vmId":"draftediting-1791882996432"}
+{"stage":"create-process:done","at":1791882996456,"processId":41716,"success":true}
+{"stage":"worker-ready","at":1791882996974}
