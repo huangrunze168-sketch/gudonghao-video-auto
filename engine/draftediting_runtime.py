@@ -300,6 +300,9 @@ def run_lyra(args, cwd, timeout=600, read_write_paths=(), read_only_paths=(),
         "readWritePaths": [_resolve(path) for path in read_write_paths],
     }
     scratch = tempfile.mkdtemp(prefix="draftediting-", dir=str(_scratch_root()))
+    # 官方下载的解压恢复会使用 TEMP；该目录由本次调用创建，最小范围授予读写。
+    # 不扩大到整个系统临时目录、Documents 或用户目录。
+    request["readWritePaths"].append(_resolve(scratch))
     result_path = Path(scratch) / "result.json"
     try:
         env = dict(os.environ)

@@ -1,0 +1,48 @@
+{
+  "template": "C:/path/to/股东号模板.jypack",
+  "out": "C:/path/to/work/guzhu-batch-1",
+  "media": {
+    "solid_color": "black"
+  },
+  "intro": {
+    "lines": [
+      "家人们别划走",
+      "主播认为家产从未易主",
+      "只是双方都有难言的苦...",
+      "于是主播哭着写了这首...",
+      "一个句号就是入股"
+    ],
+    "tts": {
+      "mode": "sapi",
+      "voice": "Microsoft Huihui Desktop",
+      "rate": 2,
+      "gap_ms": 0
+    }
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "bitrate": 6000000,
+    "timeout": 900
+  },
+  "songs": [
+    {
+      "name": "问春风",
+      "file": "D:/songs/问春风.mp3",
+      "lyrics": "D:/songs/问春风.lrc",
+      "start": "auto"
+    },
+    {
+      "name": "晚风",
+      "file": "D:/songs/晚风.mp3",
+      "lyrics": "D:/songs/晚风.lrc",
+      "start": 95.5
+    },
+    {
+      "name": "旧梦",
+      "file": "D:/songs/旧梦.wav",
+      "lyrics": "D:/songs/旧梦.txt"
+    }
+  ]
+}

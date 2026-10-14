@@ -1,0 +1,775 @@
+{
+ "counts": {
+  "usable": 192
+ },
+ "commands": {
+  "auth.check": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "auth.me": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 508,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "auth.qrcode": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 563,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "auth.relogin": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 547,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "auth.status": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 575,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "draft.config": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 841,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --ratio is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.edit": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1248,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134610-edit_--ref_local-__guzhu_probe_missing__.json"
+  },
+  "lint.algorithm-effect": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 492,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --algorithm is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "lint.command": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 524,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "lint.draft": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1247,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134620-draft_--ref_local-__guzhu_probe_missing__.json"
+  },
+  "lint.media": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 511,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "lint.trace": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 536,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --trace is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "material.download": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 472,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "material.query": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 505,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\""
+  },
+  "material.recommend": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 510,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "material.search": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 518,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "material.similar": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 513,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "material.topic": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 802,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "media.asr": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 600,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.beats": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.change-audio-speed": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 533,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.change-video-speed": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 545,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.compress": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 639,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.crop-image": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.extract-audio": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 543,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.extract-frames": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 643,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.feature": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 543,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.loudness": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 770,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.measure-box": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 507,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.object-matting-track": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 548,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.probe": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 514,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.resize-image": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 538,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.rotate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 537,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.transcode-image": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 655,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.translate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 540,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.trim-audio": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 503,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.trim-video": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 534,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "media.understand": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --path is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "media.vad": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 487,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --input is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.adjust.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1189,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134802-adjust_add_--ref.json"
+  },
+  "draft.adjust.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 463,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft adjust remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":"
+  },
+  "draft.algo.ai-frame-interpolation": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 537,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.ai-matting": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 535,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.ai-transition": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 543,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft algo ai-transition: --after-seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,"
+  },
+  "draft.algo.chroma-color-matting": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 527,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.custom-matting": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 552,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.denoise": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 547,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.loudness-normalize": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 605,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.material-understand": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 536,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.music-beats": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1264,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134835-algo_music-beats_--ref.json"
+  },
+  "draft.algo.object-matting-track": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 505,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.quality-enhance": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1361,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134843-algo_quality-enhance_--ref.json"
+  },
+  "draft.algo.query": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 556,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --task-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完"
+  },
+  "draft.algo.sound-separation": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1312,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134851-algo_sound-separation_--ref.json"
+  },
+  "draft.algo.subtitle-keywords": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1332,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134855-algo_subtitle-keywords_--ref.json"
+  },
+  "draft.algo.subtitle-recognize": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1315,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134859-algo_subtitle-recognize_--ref.json"
+  },
+  "draft.algo.text-add-tone": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1270,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134903-algo_text-add-tone_--ref.json"
+  },
+  "draft.algo.tts": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1292,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134908-algo_tts_--ref.json"
+  },
+  "draft.algo.upscale-resolution": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1325,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134912-algo_upscale-resolution_--ref.json"
+  },
+  "draft.algo.video-stabilize": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 562,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.video-tracking": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 540,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft algo video-tracking: --source-seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nul"
+  },
+  "draft.algo.voice-enhance": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 550,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.algo.wait": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 544,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --task-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完"
+  },
+  "draft.audio.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1277,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-134929-audio_add_--ref.json"
+  },
+  "draft.audio.fade": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 584,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft audio fade requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nul"
+  },
+  "draft.audio.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 516,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft audio remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "draft.audio.speed": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 535,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --speed is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.audio.volume": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 556,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft audio volume requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "draft.blueprint.apply": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 545,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --workspace is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "draft.blueprint.cancel": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 561,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "draft.blueprint.commerce": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 526,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "draft.blueprint.init": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 497,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --workspace is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "draft.blueprint.patch": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 549,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --workspace is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "draft.blueprint.plan": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 564,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --workspace is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "draft.blueprint.resource": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 559,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "draft.blueprint.sync": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1401,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135010-blueprint_sync_--ref.json"
+  },
+  "draft.compound-clip.break-apart": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 553,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.compound-clip.create": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 555,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft compound-clip create requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"re"
+  },
+  "draft.cover.clear": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1372,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135021-cover_clear_--ref.json"
+  },
+  "draft.cover.set": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1340,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135025-cover_set_--ref.json"
+  },
+  "draft.deform.apply": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 560,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --mode is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "draft.effect.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1339,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135033-effect_add_--ref.json"
+  },
+  "draft.effect.generate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "draft.effect.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 540,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft effect remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":"
+  },
+  "draft.extract.summary": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1279,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135043-extract_summary_--ref.json"
+  },
+  "draft.filter.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 554,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.filter.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 649,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft filter remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":"
+  },
+  "draft.filter.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 540,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --intensity is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "draft.history.redo": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1266,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135058-history_redo_--ref.json"
+  },
+  "draft.history.undo": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1260,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135103-history_undo_--ref.json"
+  },
+  "draft.keyframe.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 550,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --points is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.keyframe.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 542,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft keyframe remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\"
+  },
+  "draft.keyframe.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 535,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --time is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "draft.lyrics.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1328,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135118-lyrics_add_--ref.json"
+  },
+  "draft.lyrics.recognize": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1237,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135122-lyrics_recognize_--ref.json"
+  },
+  "draft.lyrics.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 552,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft lyrics remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":"
+  },
+  "draft.project.create": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1258,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135129-project_create_--ref.json"
+  },
+  "draft.project.delete": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1317,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135134-project_delete_--ref.json"
+  },
+  "draft.project.duplicate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 532,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --to is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据: "
+  },
+  "draft.project.focus": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1263,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135141-project_focus_--ref.json"
+  },
+  "draft.project.import": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1304,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135145-project_import_--ref.json"
+  },
+  "draft.project.list": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 546,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\AppData\\\\\\\\Local\\\\\\\\JianyingPro\\\\\\\\Apps\\\\\\\\11.5.0.14471\\\\\\\\lyra-cli.exe: The follow"
+  },
+  "draft.segment.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "draft.segment.duplicate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 531,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --start is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.segment.move": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 533,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft segment move requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "draft.segment.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 529,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft segment remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\""
+  },
+  "draft.segment.split": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 545,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --points is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.segment.time-range": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 552,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft segment time-range requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"resu"
+  },
+  "draft.sticker.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1405,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135213-sticker_add_--ref.json"
+  },
+  "draft.sticker.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 553,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft sticker remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\""
+  },
+  "draft.sticker.translate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft sticker translate requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"resul"
+  },
+  "draft.subtitle.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1330,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135224-subtitle_add_--ref.json"
+  },
+  "draft.subtitle.recognize": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1297,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135229-subtitle_recognize_--ref.json"
+  },
+  "draft.subtitle.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 542,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft subtitle remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\"
+  },
+  "draft.template.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 465,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.template.publish": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1219,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135240-template_publish_--ref.json"
+  },
+  "draft.template.render": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 523,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --config is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.template.replace": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 519,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --slot is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "draft.template.slots": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 538,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft template slots: --template-seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\"
+  },
+  "draft.text.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1260,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135254-text_add_--ref.json"
+  },
+  "draft.text.content": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 488,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text content requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "draft.text.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 558,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nu"
+  },
+  "draft.text.style": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text style requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nul"
+  },
+  "draft.text.translate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 536,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text translate requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\""
+  },
+  "draft.text.wrap-width": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 533,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --width is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.text-template.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1252,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135315-text-template_add_--ref.json"
+  },
+  "draft.text-template.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 545,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text-template remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"re"
+  },
+  "draft.text-template.replace": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 489,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.text-template.translate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text-template translate requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\"
+  },
+  "draft.video.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1275,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135330-video_add_--ref.json"
+  },
+  "draft.video.adjust": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video adjust requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "draft.video.alpha": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 507,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --alpha is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.video.background": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 532,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video background requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result"
+  },
+  "draft.video.crop": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 488,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video crop requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nul"
+  },
+  "draft.video.extract-frames": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 510,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --output-path is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\""
+  },
+  "draft.video.extract-music": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1248,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135350-video_extract-music_--ref.json"
+  },
+  "draft.video.face-beauty": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 585,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video face-beauty requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"resul"
+  },
+  "draft.video.flip": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 545,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video flip requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nul"
+  },
+  "draft.video.freeze": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 524,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --time is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据"
+  },
+  "draft.video.layer": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 540,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --z-order is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完"
+  },
+  "draft.video.matting-stroke": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 537,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video matting-stroke requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"re"
+  },
+  "draft.video.mix-mode": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 623,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video mix-mode requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\""
+  },
+  "draft.video.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 512,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "draft.video.rotate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 533,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --rotation is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.scale": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 473,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video scale requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nu"
+  },
+  "draft.video.speed": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 520,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video speed requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":nu"
+  },
+  "draft.video.stabilize": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 544,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.video.translate": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 548,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video translate requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\"
+  },
+  "draft.video.volume": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 540,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video volume requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":n"
+  },
+  "material.motiongraph.build-runtime-manifest": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 504,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --package is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完"
+  },
+  "material.motiongraph.encode-subject-alpha": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --mask-dir is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "material.motiongraph.track-plane-quad": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 491,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --target-seg-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\"
+  },
+  "material.motiongraph.track-subject-mask": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 531,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --output-dir is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" "
+  },
+  "media.aigc.image2image": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 484,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --images is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "media.aigc.image2video": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 548,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --prompt is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "media.aigc.query": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 547,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --submit-id is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "media.aigc.text2image": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 535,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --prompt is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "media.aigc.text2video": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --prompt is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整"
+  },
+  "draft.keyframe.curve.set": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 678,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --at is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证据: "
+  },
+  "draft.lyrics.animation.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 534,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.lyrics.animation.replace": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 532,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.lyrics.animation.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 543,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.project.version.downgrade": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1211,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135521-project_version_downgrade.json"
+  },
+  "draft.project.version.upgrade": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 9,   \"timedOut\": false,   \"durationMs\": 1322,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135525-project_version_upgrade.json"
+  },
+  "draft.subtitle.template.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 5,   \"timedOut\": false,   \"durationMs\": 1184,   \"stderr\": \"\",   \"stdout\": \"\" } 完整证据: C:\\Users\\Administrator\\Documents\\剪映\\work\\draftediting-traces\\20261013-135529-subtitle_template_add.json"
+  },
+  "draft.subtitle.template.replace": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 563,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.text.animation.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 634,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft text animation remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"r"
+  },
+  "draft.text.animation.set": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 550,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.text.effect.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 544,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.text.effect.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 484,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.timeline.segment.copy": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 537,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --source-timeline is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\"
+  },
+  "draft.timeline.segment.move": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 533,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --source-timeline is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\"
+  },
+  "draft.video.animation.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 534,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.animation.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 527,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video animation remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\""
+  },
+  "draft.video.animation.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 498,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --animation-type is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r"
+  },
+  "draft.video.audio-effect.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 892,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.beat.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 546,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --times is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } 完整证"
+  },
+  "draft.video.beat.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 534,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video beat remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"resul"
+  },
+  "draft.video.color.correct": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 575,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video color correct requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"res"
+  },
+  "draft.video.color.smart-color": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 548,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video color smart-color requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\"
+  },
+  "draft.video.effect.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 585,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.effect.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 535,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video effect remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"res"
+  },
+  "draft.video.effect.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video effect update requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"res"
+  },
+  "draft.video.filter.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 536,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.filter.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 531,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video filter remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"res"
+  },
+  "draft.video.filter.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 536,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --intensity is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" }"
+  },
+  "draft.video.mask.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 539,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.mask.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 581,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video mask remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"resul"
+  },
+  "draft.video.mask.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 608,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video mask update requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"resul"
+  },
+  "draft.video.transition.add": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 544,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: RequiredError: --resource is required\\\",\\\"recovery\\\":\\\"fix_input\\\",\\\"result\\\":null,\\\"severity\\\":\\\"failed\\\"}\\r\\n\" } "
+  },
+  "draft.video.transition.remove": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 495,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video transition remove requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\"
+  },
+  "draft.video.transition.update": {
+   "status": "usable",
+   "evidence": "lyra-cli 调用失败: {   \"exitCode\": 2,   \"timedOut\": false,   \"durationMs\": 541,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_category\\\":\\\"usage\\\",\\\"err_code\\\":-100003,\\\"err_msg\\\":\\\"cli parse error: ValidationError: draft video transition update requires --seg-id or a batch selector\\\",\\\"recovery\\\":\\\"fix_input\\\",\\"
+  }
+ }
+}

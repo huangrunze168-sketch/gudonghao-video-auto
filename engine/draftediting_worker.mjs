@@ -38,6 +38,15 @@ for (const [paths, type] of [[input.readOnlyPaths, "read_only"], [input.readWrit
 }
 note("policy", { rules: policy.rules.length });
 
+// 允许出网：官方沙箱默认 `net_rules: []`（拒绝一切网络），而沙箱本身是支持联网的
+// —— 官方给沙箱工具的 schema 里就有 `allowNetwork`，内部装 skill 时也用它做 git clone。
+// 这里按需放开：置 DSH_LYRA_ALLOW_NETWORK=1 即允许，否则维持官方默认。
+if (process.env.DSH_LYRA_ALLOW_NETWORK === "1") {
+  policy.net_rules = [{ network_allow: process.env.DSH_LYRA_NET_ALLOW || "*" }];
+  note("policy-network", { net_rules: policy.net_rules });
+}
+// 策略只通过本次进度日志留痕，不向硬编码的用户目录写诊断文件。
+
 // 兜底：无论桥接调用卡在哪一步，都要留下证据，不能让调用方只看到超时。
 const budget = Math.max(20000, Number(input.timeoutMs) + 20000);
 const guard = setTimeout(() => {

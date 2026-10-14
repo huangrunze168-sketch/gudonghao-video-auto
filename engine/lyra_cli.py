@@ -29,6 +29,11 @@ import lyra_commands
 DEV_APP_ENV = "LYRA_CLI_ALLOW_DEV_JIANYING_APP"
 # 默认沿用官方提示的开发开关；置 0 可整体关闭（库级可配置，避免隐式的进程级副作用）。
 ALLOW_DEV_APP = os.environ.get(DEV_APP_ENV, "1") not in ("0", "false", "False")
+# 允许沙箱出网：官方沙箱策略默认 net_rules=[]（拒绝一切网络），但沙箱本身支持联网
+# ——官方给沙箱工具的 schema 里就有 allowNetwork，内部装 skill 也用 git clone 出网。
+# 置 DSH_LYRA_ALLOW_NETWORK=1 即放开（实测 trace 里 net_counts 由 0 变 1）。
+NET_ENV = "DSH_LYRA_ALLOW_NETWORK"
+NET_ALLOW_ENV = "DSH_LYRA_NET_ALLOW"
 require = draftediting_runtime.require
 
 
@@ -36,13 +41,19 @@ def run(args, cwd, timeout=600, read_write=(), read_only=(), allow_dev_app=None)
     """执行一条官方命令，返回规整后的 ``result``。
 
     dev 开关通过 ``extra_env`` 注入子进程，**不再改写宿主进程的 os.environ**。
+    联网开关同理：只有显式设置 ``DSH_LYRA_ALLOW_NETWORK=1`` 才放开沙箱出网，
+    否则维持官方默认（拒绝全部网络）。
     """
     if allow_dev_app is None:
         allow_dev_app = ALLOW_DEV_APP
-    extra_env = {DEV_APP_ENV: "1"} if allow_dev_app else None
+    extra_env = {DEV_APP_ENV: "1"} if allow_dev_app else {}
+    if os.environ.get(NET_ENV) not in (None, "", "0", "false", "False"):
+        extra_env[NET_ENV] = "1"
+        if os.environ.get(NET_ALLOW_ENV):
+            extra_env[NET_ALLOW_ENV] = os.environ[NET_ALLOW_ENV]
     return _result(draftediting_runtime.run_lyra(list(args), Path(cwd).resolve(strict=True),
                                                  timeout, list(read_write), list(read_only),
-                                                 extra_env=extra_env))
+                                                 extra_env=extra_env or None))
 
 
 def _result(envelope):
