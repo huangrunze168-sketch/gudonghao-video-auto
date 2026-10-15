@@ -1739,10 +1739,26 @@ def correct_official_lyrics(project, root, folder, text, known_ids=()):
     def squeeze(value):
         return re.sub(r"\s+", "", str(value or ""))
 
+    def node_text(node):
+        """取段文本：优先用 parse_text_content（结构化解析），退回 _recognized_text。
+
+        直接用 `_recognized_text` 在个别段上会拿到 JSON 串（历史 bug：
+        纠错脚本把 `{"styles":...}` 写进了文本），这里走结构化解析更稳。
+        """
+        try:
+            content = parse_text_content(node.get("content"))
+            if isinstance(content, dict):
+                got = content.get("text")
+                if got is not None:
+                    return str(got)
+        except Exception:  # noqa: BLE001
+            pass
+        return str(_recognized_text(node) or "")
+
     spans = []
     cursor = 0
     for index, ((_start, _duration), _segment, node) in enumerate(rows):
-        official = squeeze(_recognized_text(node))
+        official = squeeze(node_text(node))
         spans.append((cursor, cursor + len(official), index, official))
         cursor += len(official)
     official_all = "".join(item[3] for item in spans)
@@ -1750,9 +1766,12 @@ def correct_official_lyrics(project, root, folder, text, known_ids=()):
     if not official_all or not target:
         fail("官方歌词或目标歌词为空，无法纠错")
 
-    # 逐字符建立"官方位置 -> 正确字符"的映射
+    # 逐字符建立"官方位置 -> 该位置应显示的文字"的映射。
+    # 官方识别是**逐词分段**（如"你"/"把"/"再见"/"说得太自然"），与演唱对齐，
+    # 所以按字符位置把用户歌词映射回来是最贴合时间轴的做法。
     mapping = {}
     matcher = difflib.SequenceMatcher(None, official_all, target, autojunk=False)
+    inserted = 0
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
         if tag == "equal":
             for offset in range(i2 - i1):
@@ -1763,12 +1782,25 @@ def correct_official_lyrics(project, root, folder, text, known_ids=()):
             piece = target[j1:j2]
             for offset in range(width):
                 mapping[i1 + offset] = piece[offset] if offset < len(piece) else ""
+            # 歌词比官方长：多出的字并到最后一位，**不能丢字**
+            if width and len(piece) > width:
+                mapping[i1 + width - 1] += piece[width:]
+                inserted += len(piece) - width
+        elif tag == "insert":
+            # 官方漏识别的字：并入前一位（否则用户歌词会缺字）
+            extra = target[j1:j2]
+            if i1 - 1 >= 0:
+                mapping[i1 - 1] = mapping.get(i1 - 1, official_all[i1 - 1]) + extra
+            elif i1 < len(official_all):
+                mapping[i1] = extra + mapping.get(i1, official_all[i1])
+            inserted += len(extra)
         elif tag == "delete":
-            # 官方多出来的字（碎片）：留空，避免与相邻段重复显示
+            # 官方多出来的字（识别错误）：留空，避免与相邻段重复显示
             for pos in range(i1, i2):
                 mapping[pos] = ""
 
     changed = 0
+    cleared = 0
     for start_at, end_at, _index, official in spans:
         new_text = "".join(mapping.get(pos, official_all[pos])
                            for pos in range(start_at, end_at))
@@ -1776,9 +1808,10 @@ def correct_official_lyrics(project, root, folder, text, known_ids=()):
         node = rows[_index][2]
         if new_text == official:
             continue
-        if not new_text:
-            # 整段是多余碎片：清空内容但不删段，避免动效算法崩
+        if not new_text.strip():
+            # 整段是官方多余的字：清成空白但不删段（动效算法遇到被删的歌词段会崩）
             retitle(node, " ")
+            cleared += 1
             changed += 1
             continue
         retitle(node, new_text)
@@ -1791,8 +1824,8 @@ def correct_official_lyrics(project, root, folder, text, known_ids=()):
     windows_runtime._encrypt_metadata_from_memory(payload, source)
     _mirror_draft(folder)
     return {"align": "official-preserved-corrected", "segments": len(rows),
-            "replaced": changed, "official_chars": len(official_all),
-            "target_chars": len(target)}
+            "replaced": changed, "cleared": cleared, "inserted_chars": inserted,
+            "official_chars": len(official_all), "target_chars": len(target)}
 
 
 def distribute_lyric_text(project, root, folder, text, known_ids=()):
@@ -1994,18 +2027,22 @@ def install_lyrics_via_cli(project, root, folder, timeline, settings, cues=None,
             timeout=int(settings.get("animation_timeout", 900)))
         _mirror_draft(folder)
 
-        # **套完模板后必须写入用户歌词**（这是必需步骤，不是可选优化）。
+        # **套完模板后写入用户歌词**（必需步骤）。
         #
-        # 顺序很关键：官方套模板时会重新识别并重建歌词文本段，所以必须**先套模板、
-        # 后写文本**；反过来写会被重建覆盖（实测出现"我我不再""在在"这类重复字）。
-        # 曾把这一步误改成"显式开关、默认关闭"，结果草稿里只剩官方识别段、
-        # 用户歌词根本没进片（实测成片没有歌词）——**不要再次关掉它**。
+        # 顺序：官方套模板会重建歌词段，所以必须**先套模板、后写文本**；
+        # 反过来会被重建覆盖（实测出现"我我不再""在在"这类重复字）。
         #
-        # 对齐方式：`overwrite_lyric_text` 按 cues（有时间）或 ordered（纯文本按顺序）
-        # 把歌词整句填进对应段，保留官方时间轴；填不进去的段保留官方文本。
+        # 写法：官方重建出的是**逐词段**（如"你"/"把"/"再见"/"说得太自然"），
+        # 时间与演唱逐字对齐。所以按**字符位置**把用户歌词映射回去最贴合时间轴：
+        #   - 官方多出的字 → 清空该位（避免与相邻段重叠显示）
+        #   - 歌词多出的字 → 并入相邻段（避免缺字）
+        # 不要用"整句塞进一个段"（段时长不变但文本变长 → 动画错位 + 碎片残留重叠，
+        # 实测"故作洒脱说句改天见"上头叠着残留的"句该听见"）。
         if cues or ordered:
-            text_report = overwrite_lyric_text(project, root, folder, cues,
-                                               known_ids=(), ordered=ordered)
+            lyric_text = "".join(str(cue.get("text") or "") for cue in (cues or []))
+            if not lyric_text and ordered:
+                lyric_text = "".join(str(line) for line in (ordered.get("lines") or []))
+            text_report = correct_official_lyrics(project, root, folder, lyric_text)
         return {"engine": "official", "lyric_segments": len(lyric_xml),
                 "animation": resource, "music_segment": music_segment,
                 "language": language, "text_override": text_report,

@@ -9,8 +9,8 @@
       "lyrics_source": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\input\\再也不见.txt",
       "chorus_at": 12,
       "source_duration_us": 193000000,
-      "start_us": 56000000,
-      "start_pick": "chorus-asr-cache+target30s",
+      "start_us": 53482564,
+      "start_pick": "chorus-official+target30s",
       "audio_layout": "chorus",
       "native_audio": false,
       "main_gain_db": 3.0,
@@ -21,7 +21,7 @@
       "clip_us": 19649252,
       "song_file": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\songs\\再也不见.wav",
       "jypack": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\jypack\\再也不见.jypack",
-      "jypack_bytes": 28604310,
+      "jypack_bytes": 28597156,
       "pruned_assets": 35,
       "repaired_media": [
         {
@@ -63,166 +63,44 @@
       "tts_processing": "官方原始音频 + 官方段速率",
       "lyrics_cli": {
         "engine": "official",
-        "lyric_segments": 6,
+        "lyric_segments": 5,
         "animation": "vimo://7602473145622072595",
         "music_segment": "27247D95-1F6F-490d-851F-E3830E55552E",
         "language": "zh",
         "text_override": {
-          "segments": 22,
-          "replaced": 16,
-          "cleared": 1,
-          "lines": 48,
-          "align": "ordered",
-          "spans": [
-            [
-              4,
-              5
-            ],
-            [
-              5,
-              9
-            ],
-            [
-              9,
-              10
-            ],
-            [
-              10,
-              11
-            ],
-            [
-              11,
-              12
-            ],
-            [
-              12,
-              12
-            ],
-            [
-              12,
-              12
-            ],
-            [
-              12,
-              13
-            ],
-            [
-              13,
-              13
-            ],
-            [
-              13,
-              14
-            ],
-            [
-              14,
-              15
-            ],
-            [
-              15,
-              15
-            ],
-            [
-              15,
-              15
-            ],
-            [
-              15,
-              16
-            ],
-            [
-              16,
-              38
-            ],
-            [
-              38,
-              40
-            ],
-            [
-              40,
-              41
-            ],
-            [
-              41,
-              44
-            ],
-            [
-              44,
-              45
-            ],
-            [
-              45,
-              46
-            ],
-            [
-              46,
-              46
-            ],
-            [
-              46,
-              47
-            ]
-          ],
-          "split_created": 27,
-          "word_samples": [
-            {
-              "text": "没说完的那句喜欢",
-              "gaps_ms": [
-                93,
-                94,
-                93,
-                20,
-                20,
-                20,
-                20
-              ]
-            },
-            {
-              "text": "和没还你的那把伞都还停在那个雨天从此",
-              "gaps_ms": [
-                100,
-                100,
-                100,
-                200,
-                140,
-                100,
-                260
-              ]
-            }
-          ],
-          "mean_similarity": 0.391,
-          "mean_cost": 0.716
+          "align": "official-preserved-corrected",
+          "segments": 18,
+          "replaced": 7,
+          "cleared": 2,
+          "inserted_chars": 344,
+          "official_chars": 114,
+          "target_chars": 426
         },
         "recognized": [
           {
-            "start_us": 9933333,
-            "duration_us": 3466667,
-            "text": "啊原来再见不是下次再见"
+            "start_us": 12500000,
+            "duration_us": 3400000,
+            "text": "原来再见不是下次再见"
           },
           {
-            "start_us": 13400000,
+            "start_us": 15900000,
             "duration_us": 3733333,
             "text": "把没说完的话往下咽"
           },
           {
-            "start_us": 17133333,
-            "duration_us": 2966667,
+            "start_us": 19666666,
+            "duration_us": 2933334,
             "text": "故作洒脱说句该听见"
           },
           {
-            "start_us": 20100000,
-            "duration_us": 3433333,
+            "start_us": 22600000,
+            "duration_us": 3400000,
             "text": "怕你回头我就不敢看"
           },
           {
-            "start_us": 23533333,
-            "duration_us": 3400000,
+            "start_us": 26000000,
+            "duration_us": 3633333,
             "text": "原来再见而是再也不见"
-          },
-          {
-            "start_us": 26933333,
-            "duration_us": 2700000,
-            "text": "那借给你的那把"
           }
         ],
         "chorus_trim": null
@@ -249,7 +127,7 @@
       "lint": {
         "report": "C:\\Users\\Administrator\\Documents\\剪映\\work\\guzhu-zaijian-v1\\再也不见-official-lint.json",
         "passed": false,
-        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1828,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
+        "exit": "lyra-cli 调用失败: {   \"exitCode\": 1,   \"timedOut\": false,   \"durationMs\": 1728,   \"stderr\": \"\",   \"stdout\": \"{\\\"err_code\\\":0,\\\"err_msg\\\":\\\"success\\\",\\\"result\\\":{\\\"",
         "keys": [
           "domain",
           "draft_json_file",
@@ -267,99 +145,99 @@
           {
             "evidence": {
               "bbox": {
+                "height": 0.08486571657413533,
+                "left": -0.3025399490770271,
+                "top": 0.7079174601842699,
+                "width": 1.6050798981540542
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "3B1370D4-E32C-41df-BC7B-A72C3C780353",
+              "segment_id": "F115244E-ED22-409a-91DC-4FBFD7627BAF",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.049095869994631336,
+                "left": -0.012557235721256998,
+                "top": 0.7258023834740219,
+                "width": 1.0251144714425138
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "F66AB2D0-8799-4a20-93D0-AA8524654C94",
+              "segment_id": "83E2C964-6C6B-4a5a-8C3E-B85597765742",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.08486571657413533,
+                "left": -0.3025399490770271,
+                "top": 0.7079174601842699,
+                "width": 1.6050798981540542
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "18A07E20-6C7A-4b8a-9FCE-8940DAFC4E26",
+              "segment_id": "D558DFE7-27EE-4818-87C1-2C1B18F66F6C",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "05DBCF72-37F7-43b9-A05D-F87BCADEDEB2",
+              "segment_id": "89442B54-9E90-469e-BBCB-9EDC10D1E442",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
+                "height": 0.666796863079071,
+                "left": -0.0013000145554542542,
+                "top": 0.047651566565036774,
+                "width": 0.19099999964237213
+              },
+              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
+              "material_id": "EA862F42-4F1C-4854-BDAB-3A101525DE5B",
+              "segment_id": "5CC281F1-503A-4b78-88B6-DE71E2B61FB5",
+              "segment_type": "text"
+            },
+            "message": "visual segment bbox must remain inside canvas bounds",
+            "rule_id": "result.draft-bbox-bounds.v1",
+            "severity": "error"
+          },
+          {
+            "evidence": {
+              "bbox": {
                 "height": 1.2322406768798828,
                 "left": 0.5828000009059906,
                 "top": -0.23322033882141113,
                 "width": 0.42100000381469727
               },
               "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "132C43BC-4562-40e4-8E79-E957A2976E58",
-              "segment_id": "E26F1401-A252-4a6b-9830-85C5E005CFB3",
-              "segment_type": "text"
-            },
-            "message": "visual segment bbox must remain inside canvas bounds",
-            "rule_id": "result.draft-bbox-bounds.v1",
-            "severity": "error"
-          },
-          {
-            "evidence": {
-              "bbox": {
-                "height": 0.666796863079071,
-                "left": -0.0013000145554542542,
-                "top": 0.047651566565036774,
-                "width": 0.19099999964237213
-              },
-              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "50D33D89-5D28-4594-B4BB-E062958C4E36",
-              "segment_id": "C7989D62-4172-4ee2-97C8-71ADA6F138C4",
-              "segment_type": "text"
-            },
-            "message": "visual segment bbox must remain inside canvas bounds",
-            "rule_id": "result.draft-bbox-bounds.v1",
-            "severity": "error"
-          },
-          {
-            "evidence": {
-              "bbox": {
-                "height": 0.666796863079071,
-                "left": -0.0013000145554542542,
-                "top": 0.047651566565036774,
-                "width": 0.19099999964237213
-              },
-              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "E8B6EF48-22FB-448d-8056-CA895630C16E",
-              "segment_id": "A880FA5D-00E7-4d90-978F-E92D51BE0403",
-              "segment_type": "text"
-            },
-            "message": "visual segment bbox must remain inside canvas bounds",
-            "rule_id": "result.draft-bbox-bounds.v1",
-            "severity": "error"
-          },
-          {
-            "evidence": {
-              "bbox": {
-                "height": 1.2322406768798828,
-                "left": 0.5828000009059906,
-                "top": -0.23322033882141113,
-                "width": 0.42100000381469727
-              },
-              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "B228E0B5-149F-4a2b-81E1-526CCA070B6E",
-              "segment_id": "1F7151FE-75FD-47a2-9C30-90BF14A92597",
-              "segment_type": "text"
-            },
-            "message": "visual segment bbox must remain inside canvas bounds",
-            "rule_id": "result.draft-bbox-bounds.v1",
-            "severity": "error"
-          },
-          {
-            "evidence": {
-              "bbox": {
-                "height": 0.666796863079071,
-                "left": -0.0013000145554542542,
-                "top": 0.047651566565036774,
-                "width": 0.19099999964237213
-              },
-              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "3BDCA84E-6881-493E-9A87-479F94547CCC",
-              "segment_id": "348A335D-7427-43EB-97BF-226C573887AF",
-              "segment_type": "text"
-            },
-            "message": "visual segment bbox must remain inside canvas bounds",
-            "rule_id": "result.draft-bbox-bounds.v1",
-            "severity": "error"
-          },
-          {
-            "evidence": {
-              "bbox": {
-                "height": 0.666796863079071,
-                "left": -0.0013000145554542542,
-                "top": 0.047651566565036774,
-                "width": 0.19099999964237213
-              },
-              "bbox_source": "runtime.computeSegmentProperty.boundingBox",
-              "material_id": "0D7E961B-BFD9-45E6-9B78-12E2A8CE03D6",
-              "segment_id": "F90149EA-2818-4EF4-A0A3-1B4B0A3849EA",
+              "material_id": "328413D1-20FF-46ed-8120-DED416F6E401",
+              "segment_id": "E41178C6-485A-475a-9DCA-03EDE0B52B99",
               "segment_type": "text"
             },
             "message": "visual segment bbox must remain inside canvas bounds",
@@ -374,11 +252,11 @@
         "duration": 29.633333,
         "width": 1280,
         "height": 720,
-        "sha256": "8194509ed7a9386569d5fd68c82f58393c0e02890c1a4105d240065eebfef9b4",
-        "size": 7748715,
+        "sha256": "c6a48e28b30a2ac553be0daf2a3b0fdc7de246d4d4cb1a854ce5c12c74473bce",
+        "size": 5925238,
         "imported_draft": "C:\\Users\\Administrator\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\guzhu-01"
       },
-      "render_seconds": 156.6
+      "render_seconds": 153.9
     }
   },
   "order": [

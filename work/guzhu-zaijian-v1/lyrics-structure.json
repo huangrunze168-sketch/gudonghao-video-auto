@@ -1,0 +1,2411 @@
+{
+  "before": [
+    {
+      "id": "817065F0",
+      "range": [
+        26.17,
+        2.8
+      ],
+      "recognized": "你把再见说得太自然",
+      "parsed_text": "你把再见说得太自然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5B0C0B55",
+      "range": [
+        28.97,
+        3.6
+      ],
+      "recognized": "我挥挥手笑得也很淡",
+      "parsed_text": "我挥挥手笑得也很淡",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D2D8FAC7",
+      "range": [
+        32.87,
+        3.13
+      ],
+      "recognized": "你转身挤进人群之前",
+      "parsed_text": "你转身挤进人群之前",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DF05FA1E",
+      "range": [
+        36.0,
+        3.4
+      ],
+      "recognized": "我们都没敢多看一眼",
+      "parsed_text": "我们都没敢多看一眼",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "8F33E43C",
+      "range": [
+        39.4,
+        3.17
+      ],
+      "recognized": "没说完的那句喜欢",
+      "parsed_text": "没说完的那句喜欢",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "91E06E25",
+      "range": [
+        42.57,
+        3.43
+      ],
+      "recognized": "和没外腻的那把伞",
+      "parsed_text": "和没外腻的那把伞",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "21EC4771",
+      "range": [
+        46.0,
+        3.37
+      ],
+      "recognized": "都还停在那个雨天",
+      "parsed_text": "都还停在那个雨天",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CCF3DA42",
+      "range": [
+        49.57,
+        3.0
+      ],
+      "recognized": "从此再没见上一面",
+      "parsed_text": "从此再没见上一面",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "7AD2D192",
+      "range": [
+        52.73,
+        2.03
+      ],
+      "recognized": "我总以为还能再见",
+      "parsed_text": "我总以为还能再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CFF6C739",
+      "range": [
+        54.77,
+        1.97
+      ],
+      "recognized": "把再见当成个逗点",
+      "parsed_text": "把再见当成个逗点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "0CB8775A",
+      "range": [
+        56.73,
+        2.77
+      ],
+      "recognized": "可你走的那么突然",
+      "parsed_text": "可你走的那么突然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "102863E1",
+      "range": [
+        59.5,
+        3.93
+      ],
+      "recognized": "我们的故事划上句点",
+      "parsed_text": "我们的故事划上句点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D1D65D72",
+      "range": [
+        65.93,
+        3.4
+      ],
+      "recognized": "原来再见不是下次再见",
+      "parsed_text": "原来再见不是下次再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "10CC3163",
+      "range": [
+        69.33,
+        3.77
+      ],
+      "recognized": "把没说完的话往下咽",
+      "parsed_text": "把没说完的话往下咽",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "981A95B8",
+      "range": [
+        73.13,
+        3.0
+      ],
+      "recognized": "故作洒脱说句该听见",
+      "parsed_text": "故作洒脱说句该听见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "902C59FB",
+      "range": [
+        76.13,
+        3.37
+      ],
+      "recognized": "怕你回头我就不敢看",
+      "parsed_text": "怕你回头我就不敢看",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CCF9E760",
+      "range": [
+        79.5,
+        3.4
+      ],
+      "recognized": "原来再见而是再也不见",
+      "parsed_text": "原来再见而是再也不见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "8D45A9DE",
+      "range": [
+        82.9,
+        3.77
+      ],
+      "recognized": "那借给你的那把伞",
+      "parsed_text": "那借给你的那把伞",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "48531532",
+      "range": [
+        86.9,
+        2.9
+      ],
+      "recognized": "耗尽我们最后那点缘",
+      "parsed_text": "耗尽我们最后那点缘",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "624BB91A",
+      "range": [
+        89.8,
+        5.1
+      ],
+      "recognized": "连再见都说得那么心酸",
+      "parsed_text": "连再见都说得那么心酸",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3856F3B8",
+      "range": [
+        97.5,
+        2.6
+      ],
+      "recognized": "你拉黑了我的来电",
+      "parsed_text": "你拉黑了我的来电",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DE89FAA9",
+      "range": [
+        100.17,
+        3.17
+      ],
+      "recognized": "删掉了合照那张照片",
+      "parsed_text": "删掉了合照那张照片",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "66F86295",
+      "range": [
+        103.33,
+        3.43
+      ],
+      "recognized": "原来你的离开不是突然",
+      "parsed_text": "原来你的离开不是突然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "511D6D0F",
+      "range": [
+        106.77,
+        3.5
+      ],
+      "recognized": "是你早就算好的句点",
+      "parsed_text": "是你早就算好的句点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FEDB0249",
+      "range": [
+        110.27,
+        3.23
+      ],
+      "recognized": "我还留着你的伞",
+      "parsed_text": "我还留着你的伞",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5A0673FE",
+      "range": [
+        113.5,
+        3.37
+      ],
+      "recognized": "和那句没寄出的晚安",
+      "parsed_text": "和那句没寄出的晚安",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FCA63D89",
+      "range": [
+        116.87,
+        3.0
+      ],
+      "recognized": "可流星划过了那个时间",
+      "parsed_text": "可流星划过了那个时间",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "EF5A7179",
+      "range": [
+        119.87,
+        3.53
+      ],
+      "recognized": "就再也没人想听我说完",
+      "parsed_text": "就再也没人想听我说完",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "ADC1B015",
+      "range": [
+        123.4,
+        3.27
+      ],
+      "recognized": "原来再见不是下次再见",
+      "parsed_text": "原来再见不是下次再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "A49ED857",
+      "range": [
+        126.67,
+        3.8
+      ],
+      "recognized": "把聊天框清空的那一晚",
+      "parsed_text": "把聊天框清空的那一晚",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "B38E1612",
+      "range": [
+        130.87,
+        2.53
+      ],
+      "recognized": "不做没事烦你的空间",
+      "parsed_text": "不做没事烦你的空间",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "4D430937",
+      "range": [
+        133.4,
+        3.57
+      ],
+      "recognized": "怕看到你身边有新欢",
+      "parsed_text": "怕看到你身边有新欢",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "C89CA903",
+      "range": [
+        136.97,
+        3.33
+      ],
+      "recognized": "原来再见而是再也不见",
+      "parsed_text": "原来再见而是再也不见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CD3BD6B3",
+      "range": [
+        140.3,
+        3.6
+      ],
+      "recognized": "那些没寄出的晚安",
+      "parsed_text": "那些没寄出的晚安",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "EBE4D9C0",
+      "range": [
+        144.3,
+        3.07
+      ],
+      "recognized": "耗尽我留你的那点暖",
+      "parsed_text": "耗尽我留你的那点暖",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "C807C54B",
+      "range": [
+        147.37,
+        3.5
+      ],
+      "recognized": "连想你都不敢太明显",
+      "parsed_text": "连想你都不敢太明显",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "60773FBE",
+      "range": [
+        151.93,
+        1.67
+      ],
+      "recognized": "其实你说再见",
+      "parsed_text": "其实你说再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DB9999C2",
+      "range": [
+        153.6,
+        3.9
+      ],
+      "recognized": "那晚我早听出你声音发展",
+      "parsed_text": "那晚我早听出你声音发展",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5750BAC2",
+      "range": [
+        157.5,
+        3.3
+      ],
+      "recognized": "只是我不敢拆穿",
+      "parsed_text": "只是我不敢拆穿",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "B3B26DF1",
+      "range": [
+        160.8,
+        3.77
+      ],
+      "recognized": "怕拆穿了就真的算完",
+      "parsed_text": "怕拆穿了就真的算完",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "F8E4E33A",
+      "range": [
+        165.33,
+        0.8
+      ],
+      "recognized": "哎哎",
+      "parsed_text": "哎哎",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "61AA6A46",
+      "range": [
+        167.4,
+        3.17
+      ],
+      "recognized": "原来再见不是下次再见",
+      "parsed_text": "原来再见不是下次再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D5D2522A",
+      "range": [
+        170.57,
+        3.9
+      ],
+      "recognized": "把从前都收进箱 里边",
+      "parsed_text": "把从前都收进箱 里边",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "4F61A964",
+      "range": [
+        174.53,
+        3.0
+      ],
+      "recognized": "故作释然说句别想念",
+      "parsed_text": "故作释然说句别想念",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "248D9E21",
+      "range": [
+        177.53,
+        3.4
+      ],
+      "recognized": "怕再多说就红着眼",
+      "parsed_text": "怕再多说就红着眼",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "9E1E8F1E",
+      "range": [
+        180.93,
+        3.37
+      ],
+      "recognized": "原来再见而是再也不见",
+      "parsed_text": "原来再见而是再也不见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "0946FA16",
+      "range": [
+        184.3,
+        3.87
+      ],
+      "recognized": "那场雨淋湿的那天",
+      "parsed_text": "那场雨淋湿的那天",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FD249A49",
+      "range": [
+        188.17,
+        3.2
+      ],
+      "recognized": "把欠你的那点甜 算完",
+      "parsed_text": "把欠你的那点甜 算完",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "26B05C78",
+      "range": [
+        191.37,
+        5.67
+      ],
+      "recognized": "这一次换我先说再见",
+      "parsed_text": "这一次换我先说再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"fill\":{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha",
+      "has_words": true,
+      "styles": 1
+    }
+  ],
+  "after": [
+    {
+      "id": "6E233198",
+      "range": [
+        26.17,
+        2.8
+      ],
+      "recognized": "你把",
+      "parsed_text": "你把",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "E36FAA44",
+      "range": [
+        26.73,
+        2.23
+      ],
+      "recognized": "再见说得太自然",
+      "parsed_text": "再见说得太自然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "70B1BE6B",
+      "range": [
+        28.97,
+        1.53
+      ],
+      "recognized": "我挥挥手",
+      "parsed_text": "我挥挥手",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "21F6BBB8",
+      "range": [
+        30.5,
+        2.07
+      ],
+      "recognized": "笑得也很淡",
+      "parsed_text": "笑得也很淡",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "74F54D54",
+      "range": [
+        32.87,
+        1.7
+      ],
+      "recognized": "你",
+      "parsed_text": "你",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1C923E44",
+      "range": [
+        33.1,
+        1.47
+      ],
+      "recognized": "转身挤进人群",
+      "parsed_text": "转身挤进人群",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5DEF6EDB",
+      "range": [
+        34.57,
+        1.43
+      ],
+      "recognized": "之前",
+      "parsed_text": "之前",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "81EBE057",
+      "range": [
+        36.0,
+        3.4
+      ],
+      "recognized": "我们都",
+      "parsed_text": "我们都",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CC7E0C79",
+      "range": [
+        36.7,
+        2.7
+      ],
+      "recognized": "没敢多看一眼",
+      "parsed_text": "没敢多看一眼",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "97BE1B65",
+      "range": [
+        39.4,
+        3.17
+      ],
+      "recognized": "没",
+      "parsed_text": "没",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3CB6CEAC",
+      "range": [
+        39.67,
+        2.9
+      ],
+      "recognized": "说完的",
+      "parsed_text": "说完的",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DD3E5FBF",
+      "range": [
+        40.33,
+        2.23
+      ],
+      "recognized": "那句喜欢",
+      "parsed_text": "那句喜欢",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "05DC9A95",
+      "range": [
+        42.57,
+        2.23
+      ],
+      "recognized": "和没",
+      "parsed_text": "和没",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "4BABEAE0",
+      "range": [
+        43.07,
+        1.73
+      ],
+      "recognized": "外腻的那把",
+      "parsed_text": "外腻的那把",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CD7D39A6",
+      "range": [
+        44.8,
+        1.2
+      ],
+      "recognized": "伞",
+      "parsed_text": "伞",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "7C261A9C",
+      "range": [
+        46.0,
+        1.07
+      ],
+      "recognized": "都",
+      "parsed_text": "都",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3854C0FA",
+      "range": [
+        46.4,
+        0.67
+      ],
+      "recognized": "还停在",
+      "parsed_text": "还停在",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DD92E2BE",
+      "range": [
+        47.07,
+        2.3
+      ],
+      "recognized": "那个",
+      "parsed_text": "那个",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "78168CF7",
+      "range": [
+        47.8,
+        1.57
+      ],
+      "recognized": "雨天",
+      "parsed_text": "雨天",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "90BB1657",
+      "range": [
+        49.57,
+        0.83
+      ],
+      "recognized": "从此再没",
+      "parsed_text": "从此再没",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "16202B35",
+      "range": [
+        50.4,
+        2.17
+      ],
+      "recognized": "见上一面",
+      "parsed_text": "见上一面",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "90D44FFE",
+      "range": [
+        52.73,
+        1.07
+      ],
+      "recognized": "我",
+      "parsed_text": "我",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "0E8B8BCB",
+      "range": [
+        52.97,
+        0.83
+      ],
+      "recognized": "总以为还",
+      "parsed_text": "总以为还",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "303BCB0D",
+      "range": [
+        53.8,
+        0.97
+      ],
+      "recognized": "能",
+      "parsed_text": "能",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FB51D5E0",
+      "range": [
+        54.13,
+        0.63
+      ],
+      "recognized": "再见",
+      "parsed_text": "再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "9EA33FD1",
+      "range": [
+        54.77,
+        1.17
+      ],
+      "recognized": "把再见当成",
+      "parsed_text": "把再见当成",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FF75B1BE",
+      "range": [
+        55.93,
+        0.8
+      ],
+      "recognized": "个逗点",
+      "parsed_text": "个逗点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "010AD1BA",
+      "range": [
+        56.73,
+        0.87
+      ],
+      "recognized": "可你走的",
+      "parsed_text": "可你走的",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CD8B1705",
+      "range": [
+        57.6,
+        1.9
+      ],
+      "recognized": "那么突然",
+      "parsed_text": "那么突然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "533354C2",
+      "range": [
+        59.5,
+        3.93
+      ],
+      "recognized": "我们",
+      "parsed_text": "我们",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3E18D9C8",
+      "range": [
+        60.0,
+        3.43
+      ],
+      "recognized": "的故事",
+      "parsed_text": "的故事",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "E176C316",
+      "range": [
+        61.3,
+        2.13
+      ],
+      "recognized": "划上句点",
+      "parsed_text": "划上句点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "C0BC26DB",
+      "range": [
+        65.93,
+        1.77
+      ],
+      "recognized": "原来再见",
+      "parsed_text": "原来再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "084292F8",
+      "range": [
+        67.7,
+        0.83
+      ],
+      "recognized": "不是下次",
+      "parsed_text": "不是下次",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1929494D",
+      "range": [
+        68.53,
+        0.8
+      ],
+      "recognized": "再见",
+      "parsed_text": "再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "E6B2A4F7",
+      "range": [
+        69.33,
+        3.77
+      ],
+      "recognized": "把没",
+      "parsed_text": "把没",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "885C9648",
+      "range": [
+        70.27,
+        2.83
+      ],
+      "recognized": "说完的话往下咽",
+      "parsed_text": "说完的话往下咽",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3F60FC9E",
+      "range": [
+        73.13,
+        1.6
+      ],
+      "recognized": "故作",
+      "parsed_text": "故作",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D0DDF3D1",
+      "range": [
+        73.6,
+        1.13
+      ],
+      "recognized": "洒脱说句",
+      "parsed_text": "洒脱说句",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "F87B9EDC",
+      "range": [
+        74.73,
+        1.4
+      ],
+      "recognized": "该",
+      "parsed_text": "该",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "38BC9190",
+      "range": [
+        75.17,
+        0.97
+      ],
+      "recognized": "听见",
+      "parsed_text": "听见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "A22CA364",
+      "range": [
+        76.13,
+        3.37
+      ],
+      "recognized": "怕",
+      "parsed_text": "怕",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "BCB67AF5",
+      "range": [
+        76.4,
+        3.1
+      ],
+      "recognized": "你回头",
+      "parsed_text": "你回头",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "6217740E",
+      "range": [
+        77.37,
+        2.13
+      ],
+      "recognized": "我就不敢看",
+      "parsed_text": "我就不敢看",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "F838A9DF",
+      "range": [
+        79.5,
+        3.4
+      ],
+      "recognized": "原来",
+      "parsed_text": "原来",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "93FCFD7D",
+      "range": [
+        80.33,
+        2.57
+      ],
+      "recognized": "再见而是",
+      "parsed_text": "再见而是",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "EDEC54F4",
+      "range": [
+        81.7,
+        1.2
+      ],
+      "recognized": "再也不见",
+      "parsed_text": "再也不见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "2CDB9D2D",
+      "range": [
+        82.9,
+        2.0
+      ],
+      "recognized": "那",
+      "parsed_text": "那",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CBEFDD3F",
+      "range": [
+        83.37,
+        1.53
+      ],
+      "recognized": "借给你的",
+      "parsed_text": "借给你的",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "96605EF8",
+      "range": [
+        84.9,
+        1.77
+      ],
+      "recognized": "那",
+      "parsed_text": "那",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "0341D918",
+      "range": [
+        85.2,
+        1.47
+      ],
+      "recognized": "把伞",
+      "parsed_text": "把伞",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "693C463D",
+      "range": [
+        86.9,
+        2.9
+      ],
+      "recognized": "耗尽我们",
+      "parsed_text": "耗尽我们",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "B588481B",
+      "range": [
+        87.57,
+        2.23
+      ],
+      "recognized": "最后那点缘",
+      "parsed_text": "最后那点缘",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "32037856",
+      "range": [
+        89.8,
+        5.1
+      ],
+      "recognized": "连",
+      "parsed_text": "连",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "B3D77402",
+      "range": [
+        90.07,
+        4.83
+      ],
+      "recognized": "再见都说",
+      "parsed_text": "再见都说",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "9DDB0723",
+      "range": [
+        91.33,
+        3.57
+      ],
+      "recognized": "得那么心酸",
+      "parsed_text": "得那么心酸",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "B232C5AC",
+      "range": [
+        97.5,
+        2.6
+      ],
+      "recognized": "你",
+      "parsed_text": "你",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "BEB244EA",
+      "range": [
+        97.67,
+        2.43
+      ],
+      "recognized": "拉黑了",
+      "parsed_text": "拉黑了",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1F5731D8",
+      "range": [
+        98.4,
+        1.7
+      ],
+      "recognized": "我的来电",
+      "parsed_text": "我的来电",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CAF354E1",
+      "range": [
+        100.17,
+        2.0
+      ],
+      "recognized": "删掉",
+      "parsed_text": "删掉",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "57D63EEE",
+      "range": [
+        100.77,
+        1.4
+      ],
+      "recognized": "了合照那",
+      "parsed_text": "了合照那",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "609D5351",
+      "range": [
+        102.17,
+        1.17
+      ],
+      "recognized": "张",
+      "parsed_text": "张",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "36B64D0C",
+      "range": [
+        102.33,
+        1.0
+      ],
+      "recognized": "照片",
+      "parsed_text": "照片",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "20850062",
+      "range": [
+        103.33,
+        0.97
+      ],
+      "recognized": "原来你的",
+      "parsed_text": "原来你的",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3B2C7738",
+      "range": [
+        104.3,
+        1.27
+      ],
+      "recognized": "离开不是",
+      "parsed_text": "离开不是",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D0847952",
+      "range": [
+        105.57,
+        1.2
+      ],
+      "recognized": "突然",
+      "parsed_text": "突然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "2A2FA2A3",
+      "range": [
+        106.77,
+        1.03
+      ],
+      "recognized": "是",
+      "parsed_text": "是",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5603D55C",
+      "range": [
+        107.07,
+        0.73
+      ],
+      "recognized": "你早就算",
+      "parsed_text": "你早就算",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "EFE4E04A",
+      "range": [
+        107.8,
+        2.47
+      ],
+      "recognized": "好",
+      "parsed_text": "好",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "C43C4E4D",
+      "range": [
+        108.5,
+        1.77
+      ],
+      "recognized": "的句点",
+      "parsed_text": "的句点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "35ADDF3B",
+      "range": [
+        110.27,
+        3.23
+      ],
+      "recognized": "我还",
+      "parsed_text": "我还",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "C13493F3",
+      "range": [
+        110.8,
+        2.7
+      ],
+      "recognized": "留着你的伞",
+      "parsed_text": "留着你的伞",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "34B5F151",
+      "range": [
+        113.5,
+        3.37
+      ],
+      "recognized": "和那",
+      "parsed_text": "和那",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "F6E1A501",
+      "range": [
+        114.07,
+        2.8
+      ],
+      "recognized": "句没寄出的晚安",
+      "parsed_text": "句没寄出的晚安",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FAC32A1F",
+      "range": [
+        116.87,
+        3.0
+      ],
+      "recognized": "可",
+      "parsed_text": "可",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5D13A527",
+      "range": [
+        117.3,
+        2.57
+      ],
+      "recognized": "流星划过",
+      "parsed_text": "流星划过",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "AD0BA77C",
+      "range": [
+        118.0,
+        1.87
+      ],
+      "recognized": "了那个时间",
+      "parsed_text": "了那个时间",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D1DB1BDB",
+      "range": [
+        119.87,
+        1.03
+      ],
+      "recognized": "就再也没人",
+      "parsed_text": "就再也没人",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "E56DF0E9",
+      "range": [
+        120.9,
+        2.5
+      ],
+      "recognized": "想听我说完",
+      "parsed_text": "想听我说完",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DA27D656",
+      "range": [
+        123.4,
+        2.6
+      ],
+      "recognized": "原来",
+      "parsed_text": "原来",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "55FE5EF3",
+      "range": [
+        124.33,
+        1.67
+      ],
+      "recognized": "再见不是下次",
+      "parsed_text": "再见不是下次",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "356CD43B",
+      "range": [
+        126.0,
+        0.67
+      ],
+      "recognized": "再见",
+      "parsed_text": "再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "19B26FE7",
+      "range": [
+        126.67,
+        1.0
+      ],
+      "recognized": "把聊天框",
+      "parsed_text": "把聊天框",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "018004B7",
+      "range": [
+        127.7,
+        1.57
+      ],
+      "recognized": "清空的那",
+      "parsed_text": "清空的那",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "96DB18EA",
+      "range": [
+        129.27,
+        1.2
+      ],
+      "recognized": "一晚",
+      "parsed_text": "一晚",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FCC05FBB",
+      "range": [
+        130.87,
+        1.07
+      ],
+      "recognized": "不",
+      "parsed_text": "不",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "08DA2C59",
+      "range": [
+        130.97,
+        0.97
+      ],
+      "recognized": "做没事烦",
+      "parsed_text": "做没事烦",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "77D0F36E",
+      "range": [
+        131.93,
+        1.47
+      ],
+      "recognized": "你",
+      "parsed_text": "你",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "A6464448",
+      "range": [
+        132.2,
+        1.2
+      ],
+      "recognized": "的空间",
+      "parsed_text": "的空间",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "0EE8C009",
+      "range": [
+        133.4,
+        3.57
+      ],
+      "recognized": "怕看到",
+      "parsed_text": "怕看到",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "AB6AD7C2",
+      "range": [
+        134.1,
+        2.87
+      ],
+      "recognized": "你身边有新欢",
+      "parsed_text": "你身边有新欢",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "0A6FC467",
+      "range": [
+        136.97,
+        3.33
+      ],
+      "recognized": "原来",
+      "parsed_text": "原来",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "50478E6C",
+      "range": [
+        137.8,
+        2.5
+      ],
+      "recognized": "再见而是",
+      "parsed_text": "再见而是",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DE4C6D8F",
+      "range": [
+        139.13,
+        1.17
+      ],
+      "recognized": "再也不见",
+      "parsed_text": "再也不见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "3A353E5D",
+      "range": [
+        140.3,
+        3.6
+      ],
+      "recognized": "那些没",
+      "parsed_text": "那些没",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "5FEF73EB",
+      "range": [
+        141.7,
+        2.2
+      ],
+      "recognized": "寄出的晚安",
+      "parsed_text": "寄出的晚安",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "4F5098E9",
+      "range": [
+        144.3,
+        0.8
+      ],
+      "recognized": "耗尽我留",
+      "parsed_text": "耗尽我留",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "311BE132",
+      "range": [
+        145.1,
+        1.43
+      ],
+      "recognized": "你的那点",
+      "parsed_text": "你的那点",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "9230B037",
+      "range": [
+        146.53,
+        0.83
+      ],
+      "recognized": "暖",
+      "parsed_text": "暖",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "EA51BB13",
+      "range": [
+        147.37,
+        0.97
+      ],
+      "recognized": "连想你都",
+      "parsed_text": "连想你都",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "B235BD72",
+      "range": [
+        148.33,
+        2.53
+      ],
+      "recognized": "不敢太明显",
+      "parsed_text": "不敢太明显",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "31A17387",
+      "range": [
+        151.93,
+        1.67
+      ],
+      "recognized": "其实你",
+      "parsed_text": "其实你",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "35240937",
+      "range": [
+        152.67,
+        0.93
+      ],
+      "recognized": "说再见",
+      "parsed_text": "说再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "003F57BB",
+      "range": [
+        153.6,
+        1.6
+      ],
+      "recognized": "那晚",
+      "parsed_text": "那晚",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "BAE3AE64",
+      "range": [
+        154.37,
+        0.83
+      ],
+      "recognized": "我早听",
+      "parsed_text": "我早听",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1BA4A147",
+      "range": [
+        155.2,
+        2.3
+      ],
+      "recognized": "出",
+      "parsed_text": "出",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "990D7225",
+      "range": [
+        155.57,
+        1.93
+      ],
+      "recognized": "你声音发展",
+      "parsed_text": "你声音发展",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1D4F9567",
+      "range": [
+        157.5,
+        2.07
+      ],
+      "recognized": "只是我不敢",
+      "parsed_text": "只是我不敢",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "A25007C6",
+      "range": [
+        159.57,
+        1.23
+      ],
+      "recognized": "拆穿",
+      "parsed_text": "拆穿",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "54987C31",
+      "range": [
+        160.8,
+        0.97
+      ],
+      "recognized": "怕拆穿了",
+      "parsed_text": "怕拆穿了",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "7D36E680",
+      "range": [
+        161.77,
+        1.6
+      ],
+      "recognized": "就真的算",
+      "parsed_text": "就真的算",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "64E68A6F",
+      "range": [
+        163.37,
+        1.2
+      ],
+      "recognized": "完",
+      "parsed_text": "完",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "64883637",
+      "range": [
+        165.33,
+        0.8
+      ],
+      "recognized": "哎哎",
+      "parsed_text": "哎哎",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "E1AD7938",
+      "range": [
+        167.4,
+        3.17
+      ],
+      "recognized": "原来再见",
+      "parsed_text": "原来再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "61859F57",
+      "range": [
+        169.1,
+        1.47
+      ],
+      "recognized": "不是下次再见",
+      "parsed_text": "不是下次再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1F46761B",
+      "range": [
+        170.57,
+        3.9
+      ],
+      "recognized": "把",
+      "parsed_text": "把",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FF5BE1EE",
+      "range": [
+        170.8,
+        3.67
+      ],
+      "recognized": "从前都",
+      "parsed_text": "从前都",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "39DFFDC6",
+      "range": [
+        172.0,
+        2.47
+      ],
+      "recognized": "收进箱里边",
+      "parsed_text": "收进箱里边",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "67CE93CF",
+      "range": [
+        174.53,
+        3.0
+      ],
+      "recognized": "故作释然",
+      "parsed_text": "故作释然",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "C7C4BCA9",
+      "range": [
+        175.5,
+        2.03
+      ],
+      "recognized": "说句别想念",
+      "parsed_text": "说句别想念",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "35B695ED",
+      "range": [
+        177.53,
+        2.73
+      ],
+      "recognized": "怕",
+      "parsed_text": "怕",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "CA387F5C",
+      "range": [
+        177.8,
+        2.47
+      ],
+      "recognized": "再多",
+      "parsed_text": "再多",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "AB63A7A6",
+      "range": [
+        178.27,
+        2.0
+      ],
+      "recognized": "说就红着",
+      "parsed_text": "说就红着",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "684C8879",
+      "range": [
+        180.27,
+        0.67
+      ],
+      "recognized": "眼",
+      "parsed_text": "眼",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "8A20E934",
+      "range": [
+        180.93,
+        2.53
+      ],
+      "recognized": "原来",
+      "parsed_text": "原来",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FF75F595",
+      "range": [
+        181.73,
+        1.73
+      ],
+      "recognized": "再见而是再也",
+      "parsed_text": "再见而是再也",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "FF704337",
+      "range": [
+        183.47,
+        0.83
+      ],
+      "recognized": "不见",
+      "parsed_text": "不见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "7A455EAC",
+      "range": [
+        184.3,
+        3.87
+      ],
+      "recognized": "那场",
+      "parsed_text": "那场",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "9F0E664F",
+      "range": [
+        185.13,
+        3.03
+      ],
+      "recognized": "雨淋湿",
+      "parsed_text": "雨淋湿",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1EC252A1",
+      "range": [
+        186.27,
+        1.9
+      ],
+      "recognized": "的那天",
+      "parsed_text": "的那天",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "1F3D0E72",
+      "range": [
+        188.17,
+        1.8
+      ],
+      "recognized": "把欠",
+      "parsed_text": "把欠",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "636EABE0",
+      "range": [
+        188.57,
+        1.4
+      ],
+      "recognized": "你的那点甜",
+      "parsed_text": "你的那点甜",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "54342DF7",
+      "range": [
+        189.97,
+        1.4
+      ],
+      "recognized": "算完",
+      "parsed_text": "算完",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "DD8158FD",
+      "range": [
+        191.37,
+        5.67
+      ],
+      "recognized": "这",
+      "parsed_text": "这",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "D57A9CD1",
+      "range": [
+        191.73,
+        5.3
+      ],
+      "recognized": "一次换",
+      "parsed_text": "一次换",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    },
+    {
+      "id": "2C342D43",
+      "range": [
+        192.93,
+        4.1
+      ],
+      "recognized": "我先说再见",
+      "parsed_text": "我先说再见",
+      "content_type": "str",
+      "content_head": "{\"styles\":[{\"bold\":false,\"effectStyle\":null,\"fill\":{\"alpha\":1,\"content\":{\"solid\"",
+      "has_words": true,
+      "styles": 1
+    }
+  ]
+}

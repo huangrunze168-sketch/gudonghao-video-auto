@@ -59,14 +59,18 @@ def run(args, cwd, timeout=600, read_write=(), read_only=(), allow_dev_app=None)
 def _result(envelope):
     """解包官方 envelope。
 
-    ``err_code`` 必须是 0（与 ``draftediting_runtime`` 上游判定一致）；缺失或非 0 一律
-    报错，避免把"命令失败"当成成功。``result`` 字段原样返回，保留 ``[]`` / ``None``
-    这类合法空值（旧实现用 ``or {}`` 会把空列表改成空字典，破坏类型契约）。
+    ``err_code`` 存在时必须为 0；**缺失不算失败**——官方有些命令直接输出业务结果
+    （例如 ``lyrics recognize`` 返回 ``{"asr": {...}}``），并没有 err_code 字段。
+    旧实现要求 err_code 必须存在且为 0，于是把这些命令误判成
+    ``官方命令失败（err_code=None）``，实测卡住了整条识别流程。
+    只有当真的出现非 0 的 err_code 时才报错。``result`` 字段原样返回，
+    保留 ``[]`` / ``None`` 这类合法空值。
     """
     body = envelope.get("result") if isinstance(envelope, dict) else None
     require(isinstance(body, dict), "官方命令没有返回结果")
-    require(body.get("err_code") == 0,
-            f"官方命令失败（err_code={body.get('err_code')}）: {body.get('err_msg')}")
+    if "err_code" in body:
+        require(body.get("err_code") == 0,
+                f"官方命令失败（err_code={body.get('err_code')}）: {body.get('err_msg')}")
     if "result" not in body:
         return {}
     return body["result"]

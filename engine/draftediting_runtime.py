@@ -69,30 +69,39 @@ def _powershell_json(script, values=None, timeout=30):
 
 
 def _parse_lyra_stdout(payload):
-    """从 lyra-cli 的 stdout 里解析 JSON，容忍前面夹带的日志行。
+    """从 lyra-cli 的 stdout 里解析 JSON，容忍日志行与多段 JSON。
 
-    剪映的 EffectSDK 有时会在真正的 JSON 之前打印 WARNING 行，例如：
-        ## 2026-10-14 22:29:26 [tid,AMGGpuProgramAssetManager.cpp,331] WARNING ## ...
-        {"err_code":0,"err_msg":"success","result":{...}}
-    原来的实现直接 ``json.loads(整段)``，遇到这种前缀就抛 JSONDecodeError，
-    于是被当成 {"output": 原文}，最终 require(err_code==0) 判定失败——
-    **命令其实成功了却被报成失败**（实测 sticker translate / audio volume 都踩过）。
-    这里从第一个 '{' 开始尝试解析，取第一段能解析成 dict 的 JSON。
+    剪映的输出有两种干扰，实测都踩过：
+    1. EffectSDK 会在真正结果**之前**打印 WARNING 行（如
+       ``## ... AMGGpuProgramAssetManager.cpp,331] WARNING ##``），
+       旧实现直接 ``json.loads(整段)`` 就失败，随后被当成"没有 err_code"，
+       于是**命令成功却报失败**（sticker translate / audio volume / effect add 都中招）；
+    2. 有些命令（如 ``lyrics recognize``）会先输出**中间进度 JSON**
+       （形如 ``{"duration_us":..,"text":"把"}``），真正的结果在后面，
+       取第一个会把进度当成结果。
+
+    所以扫描整段输出里**所有** JSON 对象，优先返回**最后一个带 err_code 的**。
     """
     if not payload:
         return None
     text = payload.lstrip("\ufeff")
     decoder = json.JSONDecoder()
+    found = []
     start = text.find("{")
     while start != -1:
         try:
-            parsed, _end = decoder.raw_decode(text[start:])
+            parsed, end = decoder.raw_decode(text[start:])
             if isinstance(parsed, dict):
-                return parsed
+                found.append(parsed)
+                start = text.find("{", start + max(1, end))
+                continue
         except json.JSONDecodeError:
             pass
         start = text.find("{", start + 1)
-    return None
+    if not found:
+        return None
+    coded = [item for item in found if "err_code" in item]
+    return coded[-1] if coded else found[-1]
 
 
 def _win32_process_list():
@@ -402,7 +411,12 @@ def run_lyra(args, cwd, timeout=600, read_write_paths=(), read_only_paths=(),
     parsed = _parse_lyra_stdout(payload)
     if parsed is None:
         parsed = {"output": payload}
-    require(parsed.get("err_code") == 0, "lyra-cli 返回错误: " + json.dumps(parsed, ensure_ascii=False)[:800])
+    # **没有 err_code 不代表失败**：官方有的命令直接输出业务结果
+    # （例如 `lyrics recognize` 输出 {"asr": {...}}，`sticker translate` 的进度对象
+    # 形如 {"duration_us":..,"text":"把"}）。只有当出现 err_code 且非 0 才算失败。
+    if "err_code" in parsed:
+        require(parsed.get("err_code") == 0,
+                "lyra-cli 返回错误: " + json.dumps(parsed, ensure_ascii=False)[:800])
     return {"command": list(args), "result": parsed, "stdout": result.get("stdout", ""),
             "stderr": result.get("stderr", ""), "host_pid": parent_pid,
             "duration_ms": result.get("durationMs")}
